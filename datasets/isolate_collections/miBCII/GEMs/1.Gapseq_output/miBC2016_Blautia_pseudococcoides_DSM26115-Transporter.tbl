@@ -1,0 +1,743 @@
+id	tc	sub	exid	rea	qseqid	pident	evalue	bitscore	qcovs	stitle	sstart	send
+658118070	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|658118070|3.a.1.15.16	28.125	6.19e-22	90.9	99	CP022713.1 Blautia coccoides strain YL58 genome	1635478	1634921
+a1jlh0	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|a1jlh0|3.a.1.10.5	38.699	3.70e-50	177	80	CP022713.1 Blautia coccoides strain YL58 genome	590510	591361
+a1jlh0	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|a1jlh0|3.a.1.10.5	38.699	3.70e-50	177	80	CP022713.1 Blautia coccoides strain YL58 genome	590510	591361
+a2rka5	3.a.1	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn09864	gnl|tc-db|a2rka5|3.a.1.2.17	30.128	7.85e-25	102	94	CP022713.1 Blautia coccoides strain YL58 genome	2799815	2798910
+a2rka6	3.a.1	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn09864	gnl|tc-db|a2rka6|3.a.1.2.17	30.421	3.85e-26	107	85	CP022713.1 Blautia coccoides strain YL58 genome	2800873	2799980
+a2rka7	3.a.1	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn09864	gnl|tc-db|a2rka7|3.a.1.2.17	44.511	1.89e-133	424	99	CP022713.1 Blautia coccoides strain YL58 genome	2802455	2800974
+a2rl86	2.a.49	chloride		rxn08233,rxn30474	gnl|tc-db|a2rl86|2.a.49.9.4	52.356	7.66e-118	375	95	CP022713.1 Blautia coccoides strain YL58 genome	2216893	2215748
+a2spe9	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|a2spe9|3.a.1.26.2	30.544	9.53e-19	83.2	88	CP022713.1 Blautia coccoides strain YL58 genome	2006157	2005468
+a3ffk5	2.a.38	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|a3ffk5|2.a.38.3.4	21.806	2.8	28.1	81	CP022713.1 Blautia coccoides strain YL58 genome	4630972	4632117
+a3ffk5	2.a.38	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|a3ffk5|2.a.38.3.4	21.806	2.8	28.1	81	CP022713.1 Blautia coccoides strain YL58 genome	4630972	4632117
+a3t2g5	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|a3t2g5|3.a.3.6.22	34.929	4.77e-89	303	83	CP022713.1 Blautia coccoides strain YL58 genome	3604889	3603294
+a5fgv9	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|a5fgv9|3.a.3.27.7	24.274	2.07e-48	184	88	CP022713.1 Blautia coccoides strain YL58 genome	3605733	3607964
+a6l2m4	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|a6l2m4|3.a.10.1.10	50.000	1.49e-159	509	98	CP022713.1 Blautia coccoides strain YL58 genome	491190	489256
+a6l2m4	3.a.10	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|a6l2m4|3.a.10.1.10	50.000	1.49e-159	509	98	CP022713.1 Blautia coccoides strain YL58 genome	491190	489256
+a6lw11	3.a.1	xylose		rxn05167,rxn09383	gnl|tc-db|a6lw11|3.a.1.2.26	37.897	4.39e-103	338	97	CP022713.1 Blautia coccoides strain YL58 genome	5047422	5048894
+a6tly6	2.a.59	arsenite		rxn05507	gnl|tc-db|a6tly6|2.a.59.1.6	22.857	0.72	28.9	78	CP022713.1 Blautia coccoides strain YL58 genome	836014	836682
+a7vnh8	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|a7vnh8|3.a.10.1.13	55.172	0.0	583	99	CP022713.1 Blautia coccoides strain YL58 genome	491193	489238
+a7vnh8	3.a.10	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|a7vnh8|3.a.10.1.13	55.172	0.0	583	99	CP022713.1 Blautia coccoides strain YL58 genome	491193	489238
+a7zuz0	2.a.2	melibiose	EX_cpd03198_e0	rxn05612,rxn08906,rxn08907,rxn29106	gnl|tc-db|a7zuz0|2.a.2.1.1	28.008	1.64e-37	144	99	CP022713.1 Blautia coccoides strain YL58 genome	78640	80022
+a9bjx0	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|a9bjx0|3.a.3.2.21	50.000	0.0	754	97	CP022713.1 Blautia coccoides strain YL58 genome	3381916	3379484
+a9ci32	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|a9ci32|3.a.1.12.13	34.082	1.18e-42	155	82	CP022713.1 Blautia coccoides strain YL58 genome	4362810	4363577
+a9ci32	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|a9ci32|3.a.1.12.13	34.082	1.18e-42	155	82	CP022713.1 Blautia coccoides strain YL58 genome	4362810	4363577
+a9ci32	3.a.1	proline	EX_cpd00129_e0	rxn05165,rxn09187	gnl|tc-db|a9ci32|3.a.1.12.13	34.082	1.18e-42	155	82	CP022713.1 Blautia coccoides strain YL58 genome	4362810	4363577
+a9wga9	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|a9wga9|3.a.1.26.1	26.638	4.12e-09	53.5	88	CP022713.1 Blautia coccoides strain YL58 genome	2006118	2005444
+b0m926	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|b0m926|3.a.10.1.5	68.285	0.0	763	97	CP022713.1 Blautia coccoides strain YL58 genome	491214	489238
+b0m926	3.a.10	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|b0m926|3.a.10.1.5	68.285	0.0	763	97	CP022713.1 Blautia coccoides strain YL58 genome	491214	489238
+b0r9x2	2.a.35	arginine	EX_cpd00051_e0	rxn05303,rxn08154,rxn09783,rxn12437,rxn13228,rxn30457,rxn10840,rxn33718	gnl|tc-db|b0r9x2|2.a.35.1.4	36.585	6.16e-79	266	97	CP022713.1 Blautia coccoides strain YL58 genome	4723069	4724517
+b0r9x2	2.a.35	ornithine	EX_cpd00064_e0	rxn05628,rxn09731,rxn29084,rxn29085	gnl|tc-db|b0r9x2|2.a.35.1.4	36.585	6.16e-79	266	97	CP022713.1 Blautia coccoides strain YL58 genome	4723069	4724517
+b0smv3	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|b0smv3|3.a.3.1.5	32.306	5.33e-126	423	82	CP022713.1 Blautia coccoides strain YL58 genome	3381997	3379526
+b0smv3	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|b0smv3|3.a.3.1.5	32.306	5.33e-126	423	82	CP022713.1 Blautia coccoides strain YL58 genome	3381997	3379526
+b0str2	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|b0str2|3.a.3.27.2	26.579	4.62e-70	250	87	CP022713.1 Blautia coccoides strain YL58 genome	3605736	3607982
+b1l5g5	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|b1l5g5|3.a.10.1.15	44.257	4.93e-122	398	98	CP022713.1 Blautia coccoides strain YL58 genome	491112	489256
+b2uhn5	2.a.49	chloride		rxn08233,rxn30474	gnl|tc-db|b2uhn5|2.a.49.9.2	35.208	2.41e-40	151	95	CP022713.1 Blautia coccoides strain YL58 genome	2216941	2215748
+b2ul32	2.a.5	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|b2ul32|2.a.5.5.5	29.032	7.77e-17	77.8	87	CP022713.1 Blautia coccoides strain YL58 genome	2343800	2343114
+b3ecg6	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|b3ecg6|3.a.10.1.6	53.419	0.0	598	99	CP022713.1 Blautia coccoides strain YL58 genome	491196	489241
+b3ecg6	3.a.10	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|b3ecg6|3.a.10.1.6	53.419	0.0	598	99	CP022713.1 Blautia coccoides strain YL58 genome	491196	489241
+b3ecg7	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|b3ecg7|3.a.10.3.2	30.909	2.72e-64	233	87	CP022713.1 Blautia coccoides strain YL58 genome	491169	489268
+b3et62	3.a.23	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|b3et62|3.a.23.6.1	47.478	1.50e-90	293	99	CP022713.1 Blautia coccoides strain YL58 genome	511820	512818
+b3si05	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|b3si05|3.a.3.1.9	33.190	1.97e-86	299	84	CP022713.1 Blautia coccoides strain YL58 genome	4130292	4132244
+b3w8u5	2.a.2	melibiose	EX_cpd03198_e0	rxn05612,rxn08906,rxn08907,rxn29106	gnl|tc-db|b3w8u5|2.a.2.1.2	23.991	7.06e-16	78.2	88	CP022713.1 Blautia coccoides strain YL58 genome	2577263	2576019
+b4ey22	2.a.15	carnitine	EX_cpd00266_e0	rxn08262,rxn09691,rxn12364,rxn12605,rxn09773,rxn09858	gnl|tc-db|b4ey22|2.a.15.2.2	33.030	5.20e-75	256	87	CP022713.1 Blautia coccoides strain YL58 genome	2375172	2373859
+b5jqt8	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|b5jqt8|3.a.10.1.12	53.824	2.63e-159	508	95	CP022713.1 Blautia coccoides strain YL58 genome	491124	489256
+b5jqt8	3.a.10	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|b5jqt8|3.a.10.1.12	53.824	2.63e-159	508	95	CP022713.1 Blautia coccoides strain YL58 genome	491124	489256
+b6yqj7	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|b6yqj7|3.a.10.3.4	31.124	7.91e-69	246	86	CP022713.1 Blautia coccoides strain YL58 genome	491118	489244
+b7l6n0	3.a.1	sulfate	EX_cpd00681_e0	rxn05153,rxn09276,rxn29239	gnl|tc-db|b7l6n0|3.a.1.19.4	33.838	6.03e-27	105	99	CP022713.1 Blautia coccoides strain YL58 genome	3339966	3340544
+b7l6n0	3.a.1	thiosulfate		rxn05176,rxn09329,rxn34412,rxn34536	gnl|tc-db|b7l6n0|3.a.1.19.4	33.838	6.03e-27	105	99	CP022713.1 Blautia coccoides strain YL58 genome	3339966	3340544
+b9tsn0	2.a.56	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|b9tsn0|2.a.56.1.6	26.582	8.50e-12	60.1	88	CP022713.1 Blautia coccoides strain YL58 genome	2092491	2092033
+b9tsn0	2.a.56	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|b9tsn0|2.a.56.1.6	26.582	8.50e-12	60.1	88	CP022713.1 Blautia coccoides strain YL58 genome	2092491	2092033
+b9tsn0	2.a.56	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|b9tsn0|2.a.56.1.6	26.582	8.50e-12	60.1	88	CP022713.1 Blautia coccoides strain YL58 genome	2092491	2092033
+b9tsn0	2.a.56	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|b9tsn0|2.a.56.1.6	26.582	8.50e-12	60.1	88	CP022713.1 Blautia coccoides strain YL58 genome	2092491	2092033
+c0h3v2	4.a.2	mannitol	EX_cpd00314_e0	rxn05617,rxn08949,rxn13934,rxn13944,rxn27343	gnl|tc-db|c0h3v2|4.a.2.1.5	30.405	8.55e-15	67.8	99	CP022713.1 Blautia coccoides strain YL58 genome	4221396	4221830
+c1p5z7	4.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05226,rxn08612	gnl|tc-db|c1p5z7|4.a.1.1.1	34.146	9.8	20.4	91	CP022713.1 Blautia coccoides strain YL58 genome	1525695	1525573
+c9mz78	4.a.5	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|c9mz78|4.a.5.1.6	26.316	6.4	23.1	76	CP022713.1 Blautia coccoides strain YL58 genome	3342954	3343181
+c9mz78	4.a.5	lactose	EX_cpd00208_e0	rxn10865	gnl|tc-db|c9mz78|4.a.5.1.6	26.316	6.4	23.1	76	CP022713.1 Blautia coccoides strain YL58 genome	3342954	3343181
+d2rxa8	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|d2rxa8|4.a.2.1.14	37.340	2.07e-44	162	94	CP022713.1 Blautia coccoides strain YL58 genome	4222275	4223396
+d3ewm9	2.a.87	riboflavin		rxn05224,rxn05645,rxn09715,rxn33018,rxn34403,rxn38697	gnl|tc-db|d3ewm9|2.a.87.1.3	40.000	3.31e-30	113	99	CP022713.1 Blautia coccoides strain YL58 genome	4628063	4628632
+d3r797	3.a.1	raffinose	EX_cpd00382_e0,EX_cpd00382_e0	rxn18495	gnl|tc-db|d3r797|3.a.1.1.53	50.916	1.39e-84	275	92	CP022713.1 Blautia coccoides strain YL58 genome	3249901	3249083
+d3r798	3.a.1	raffinose	EX_cpd00382_e0,EX_cpd00382_e0	rxn18495	gnl|tc-db|d3r798|3.a.1.1.53	49.084	3.30e-86	281	99	CP022713.1 Blautia coccoides strain YL58 genome	3250804	3249986
+d3r799	3.a.1	raffinose	EX_cpd00382_e0,EX_cpd00382_e0	rxn18495	gnl|tc-db|d3r799|3.a.1.1.53	30.789	2.29e-54	193	88	CP022713.1 Blautia coccoides strain YL58 genome	3251913	3250792
+d5al45	3.a.1	heme		rxn05148,rxn09115,rxn27591	gnl|tc-db|d5al45|3.a.1.210.15	34.732	2.41e-88	298	95	CP022713.1 Blautia coccoides strain YL58 genome	4647235	4648962
+d5al45	3.a.1	heme		rxn90020	gnl|tc-db|d5al45|3.a.1.210.15	34.732	2.41e-88	298	95	CP022713.1 Blautia coccoides strain YL58 genome	4647235	4648962
+d5aqy6	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|d5aqy6|3.a.1.23.7	34.928	3.44e-37	136	86	CP022713.1 Blautia coccoides strain YL58 genome	874158	873553
+d5arg8	2.a.88,3.a.1	biotin		rxn09693	gnl|tc-db|d5arg8|3.a.1.25.7	32.544	2.16e-09	53.5	88	CP022713.1 Blautia coccoides strain YL58 genome	27269	27739
+d5arh0	3.a.1	biotin		rxn05223	gnl|tc-db|d5arh0|3.a.1.25.7	31.633	2.91e-22	92.8	100	CP022713.1 Blautia coccoides strain YL58 genome	2007742	2007155
+d5auz9	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|d5auz9|3.a.1.23.8	55.814	4.71e-58	195	97	CP022713.1 Blautia coccoides strain YL58 genome	875966	875331
+d6tjq1	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|d6tjq1|3.a.1.26.11	35.065	5.37e-39	142	84	CP022713.1 Blautia coccoides strain YL58 genome	2006178	2005495
+d7ae10	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|d7ae10|3.a.1.23.3	36.879	8.37e-50	174	99	CP022713.1 Blautia coccoides strain YL58 genome	2007029	2006187
+d7ae11	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|d7ae11|3.a.1.23.3	26.906	1.02e-05	43.9	84	CP022713.1 Blautia coccoides strain YL58 genome	2006142	2005489
+e7rs29	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|e7rs29|3.a.10.1.11	48.834	1.28e-156	501	99	CP022713.1 Blautia coccoides strain YL58 genome	491190	489244
+e7rs29	3.a.10	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|e7rs29|3.a.10.1.11	48.834	1.28e-156	501	99	CP022713.1 Blautia coccoides strain YL58 genome	491190	489244
+f4h4x4	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|f4h4x4|3.a.10.3.3	29.769	5.69e-49	186	78	CP022713.1 Blautia coccoides strain YL58 genome	491118	489268
+f8g8a9	2.a.118	arginine	EX_cpd00051_e0	rxn05303,rxn08154,rxn09783,rxn12437,rxn13228,rxn30457,rxn10840,rxn33718	gnl|tc-db|f8g8a9|2.a.118.1.5	31.277	1.21e-53	192	98	CP022713.1 Blautia coccoides strain YL58 genome	3140031	3141383
+f8g8a9	2.a.118	ornithine	EX_cpd00064_e0	rxn05628,rxn09731,rxn29084,rxn29085	gnl|tc-db|f8g8a9|2.a.118.1.5	31.277	1.21e-53	192	98	CP022713.1 Blautia coccoides strain YL58 genome	3140031	3141383
+f8y3b4	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|f8y3b4|4.a.2.1.21	29.861	2.67e-20	83.6	97	CP022713.1 Blautia coccoides strain YL58 genome	4221396	4221824
+f8y3b5	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|f8y3b5|4.a.2.1.21	44.206	2.38e-93	307	98	CP022713.1 Blautia coccoides strain YL58 genome	4221894	4223279
+f9vn10	3.d.10	succinate	EX_cpd00036_e0,EX_cpd00036_e0	rxn10138	gnl|tc-db|f9vn10|3.d.10.1.4	35.129	3.21e-58	208	75	CP022713.1 Blautia coccoides strain YL58 genome	4872743	4873951
+f9vn12	3.d.10	succinate	EX_cpd00036_e0,EX_cpd00036_e0	rxn10138	gnl|tc-db|f9vn12|3.d.10.1.4	33.829	3.77e-45	160	92	CP022713.1 Blautia coccoides strain YL58 genome	3236072	3235299
+f9z4g3	2.a.118	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|f9z4g3|2.a.118.1.3	28.291	2.74e-54	196	95	CP022713.1 Blautia coccoides strain YL58 genome	1971143	1969836
+f9z4g3	2.a.118	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|f9z4g3|2.a.118.1.3	28.291	2.74e-54	196	95	CP022713.1 Blautia coccoides strain YL58 genome	1971143	1969836
+f9z4g3	2.a.118	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|f9z4g3|2.a.118.1.3	28.291	2.74e-54	196	95	CP022713.1 Blautia coccoides strain YL58 genome	1971143	1969836
+f9z4g3	2.a.118	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|f9z4g3|2.a.118.1.3	28.291	2.74e-54	196	95	CP022713.1 Blautia coccoides strain YL58 genome	1971143	1969836
+g5eb95	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|g5eb95|3.a.1.5.40	30.702	1.24e-28	111	100	CP022713.1 Blautia coccoides strain YL58 genome	4767401	4768066
+g8rd42	2.a.38	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|g8rd42|2.a.38.4.6	30.963	1.77e-43	161	94	CP022713.1 Blautia coccoides strain YL58 genome	3737209	3735911
+g8v089	2.a.38	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|g8v089|2.a.38.4.6	39.906	2.33e-47	164	97	CP022713.1 Blautia coccoides strain YL58 genome	4632295	4632933
+g8v0i4	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|g8v0i4|3.a.1.5.33	28.256	2.30e-45	169	89	CP022713.1 Blautia coccoides strain YL58 genome	1819839	1818577
+gad20700.1	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|gad20700.1|3.a.1.103.7	26.667	1.62e-21	91.3	99	CP022713.1 Blautia coccoides strain YL58 genome	164544	165323
+h7c6b2	2.a.8	gluconate		rxn05571,rxn08609,rxn12363	gnl|tc-db|h7c6b2|2.a.8.1.15	30.476	4.85e-28	115	89	CP022713.1 Blautia coccoides strain YL58 genome	2614279	2615499
+i4g6g7	3.a.3	magnesium		rxn08924,rxn10571	gnl|tc-db|i4g6g7|3.a.3.4.5	29.079	3.03e-82	289	80	CP022713.1 Blautia coccoides strain YL58 genome	3382051	3379868
+j7jie8	2.a.21	proline	EX_cpd00129_e0	rxn05221,rxn05638,rxn09191,rxn09192,rxn12451,rxn34526,rxn34527	gnl|tc-db|j7jie8|2.a.21.2.4	26.914	5.84e-25	106	86	CP022713.1 Blautia coccoides strain YL58 genome	3101385	3100135
+k1m2k1	2.a.3	serine	EX_cpd00054_e0	rxn05307,rxn09246,rxn09247,rxn09714,rxn10185,rxn34404,rxn34405,rxn34530	gnl|tc-db|k1m2k1|2.a.3.8.28	22.410	6.65e-07	49.3	90	CP022713.1 Blautia coccoides strain YL58 genome	3108238	3107033
+k1m2k1	2.a.3	threonine	EX_cpd00161_e0,EX_cpd00161_e0	rxn05300,rxn09304,rxn09305,rxn09306,rxn09710,rxn10186,rxn12456,rxn13747,rxn34409,rxn34410,rxn34535	gnl|tc-db|k1m2k1|2.a.3.8.28	22.410	6.65e-07	49.3	90	CP022713.1 Blautia coccoides strain YL58 genome	3108238	3107033
+l0sav1	2.a.118	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|l0sav1|2.a.118.1.6	28.743	2.36e-40	153	96	CP022713.1 Blautia coccoides strain YL58 genome	1971170	1969839
+l0sav1	2.a.118	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|l0sav1|2.a.118.1.6	28.743	2.36e-40	153	96	CP022713.1 Blautia coccoides strain YL58 genome	1971170	1969839
+l0sav1	2.a.118	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|l0sav1|2.a.118.1.6	28.743	2.36e-40	153	96	CP022713.1 Blautia coccoides strain YL58 genome	1971170	1969839
+l0sav1	2.a.118	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|l0sav1|2.a.118.1.6	28.743	2.36e-40	153	96	CP022713.1 Blautia coccoides strain YL58 genome	1971170	1969839
+m1tz79	2.a.21	proline	EX_cpd00129_e0	rxn05221,rxn05638,rxn09191,rxn09192,rxn12451,rxn34526,rxn34527	gnl|tc-db|m1tz79|2.a.21.2.5	29.139	5.98e-32	128	88	CP022713.1 Blautia coccoides strain YL58 genome	3101427	3100105
+m7akz4	2.a.58	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|m7akz4|2.a.58.2.2	31.418	1.14e-63	223	97	CP022713.1 Blautia coccoides strain YL58 genome	4880888	4882495
+m7akz4	2.a.58	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|m7akz4|2.a.58.2.2	31.418	1.14e-63	223	97	CP022713.1 Blautia coccoides strain YL58 genome	4880888	4882495
+m7pf02	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|m7pf02|4.a.2.1.19	43.384	2.08e-102	333	96	CP022713.1 Blautia coccoides strain YL58 genome	4221894	4223276
+nant_alif1	2.a.21	n-acetylneuraminate		rxn05487,rxn08050	sp|q5e733|nant_alif1|2.a.21.3.7	29.801	7.62e-54	193	89	CP022713.1 Blautia coccoides strain YL58 genome	3867550	3866192
+o07620	2.a.88	biotin		rxn09693	gnl|tc-db|o07620|2.a.88.1.9	31.250	3.32e-07	47.0	83	CP022713.1 Blautia coccoides strain YL58 genome	27275	27733
+o30085	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|o30085|3.a.3.5.10	41.531	3.17e-132	429	87	CP022713.1 Blautia coccoides strain YL58 genome	2341114	2339276
+o30144	3.a.1	molybdate		rxn05619,rxn08955	gnl|tc-db|o30144|3.a.1.6.8	44.131	9.56e-46	160	100	CP022713.1 Blautia coccoides strain YL58 genome	4005367	4006002
+o30506	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|o30506|3.a.1.3.11	49.600	2.98e-68	226	100	CP022713.1 Blautia coccoides strain YL58 genome	519632	520348
+o30506	3.a.1	ornithine	EX_cpd00064_e0	rxn05156,rxn09046,rxn27636	gnl|tc-db|o30506|3.a.1.3.11	49.600	2.98e-68	226	100	CP022713.1 Blautia coccoides strain YL58 genome	519632	520348
+o30831	3.a.1	sorbitol	EX_cpd00588_e0	rxn29779	gnl|tc-db|o30831|3.a.1.1.5	24.776	1.70e-10	60.8	79	CP022713.1 Blautia coccoides strain YL58 genome	2201008	2200079
+o30832	3.a.1	mannitol	EX_cpd00314_e0	rxn13853	gnl|tc-db|o30832|3.a.1.1.5	33.202	2.58e-30	117	99	CP022713.1 Blautia coccoides strain YL58 genome	344751	345509
+o30832	3.a.1	sorbitol	EX_cpd00588_e0	rxn29779	gnl|tc-db|o30832|3.a.1.1.5	33.202	2.58e-30	117	99	CP022713.1 Blautia coccoides strain YL58 genome	344751	345509
+o30833	3.a.1	mannitol	EX_cpd00314_e0	rxn13853	gnl|tc-db|o30833|3.a.1.1.5	33.716	2.67e-34	129	100	CP022713.1 Blautia coccoides strain YL58 genome	2586751	2585978
+o30833	3.a.1	sorbitol	EX_cpd00588_e0	rxn29779	gnl|tc-db|o30833|3.a.1.1.5	33.716	2.67e-34	129	100	CP022713.1 Blautia coccoides strain YL58 genome	2586751	2585978
+o31199	2.a.3	histidine	EX_cpd00119_e0	rxn05299,rxn08719,rxn09744,rxn13314,rxn34384	gnl|tc-db|o31199|2.a.3.1.9	23.926	6.72e-17	81.6	99	CP022713.1 Blautia coccoides strain YL58 genome	3108250	3106910
+o32139	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05497	gnl|tc-db|o32139|2.a.40.3.2	36.946	6.07e-28	115	88	CP022713.1 Blautia coccoides strain YL58 genome	3988154	3986961
+o32139	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05471	gnl|tc-db|o32139|2.a.40.3.2	36.946	6.07e-28	115	88	CP022713.1 Blautia coccoides strain YL58 genome	3988154	3986961
+o32139	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn29869	gnl|tc-db|o32139|2.a.40.3.2	36.946	6.07e-28	115	88	CP022713.1 Blautia coccoides strain YL58 genome	3988154	3986961
+o32139	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn38756	gnl|tc-db|o32139|2.a.40.3.2	36.946	6.07e-28	115	88	CP022713.1 Blautia coccoides strain YL58 genome	3988154	3986961
+o32220	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|o32220|3.a.3.5.18	44.895	0.0	607	91	CP022713.1 Blautia coccoides strain YL58 genome	3605709	3607991
+o34362	3.a.1	thiamine		rxn05177,rxn09297	gnl|tc-db|o34362|3.a.1.30.1	26.755	3.06e-45	169	93	CP022713.1 Blautia coccoides strain YL58 genome	2407188	2405707
+o34572	3.a.1	thiamine		rxn05177,rxn09297	gnl|tc-db|o34572|3.a.1.30.1	26.087	4.63e-14	69.3	94	CP022713.1 Blautia coccoides strain YL58 genome	2006127	2005402
+o34742	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|o34742|3.a.1.12.4	29.949	1.44e-15	72.8	91	CP022713.1 Blautia coccoides strain YL58 genome	4082031	4082618
+o34742	3.a.1	carnitine	EX_cpd00266_e0	rxn05180,rxn08253	gnl|tc-db|o34742|3.a.1.12.4	29.949	1.44e-15	72.8	91	CP022713.1 Blautia coccoides strain YL58 genome	4082031	4082618
+o34742	3.a.1	choline		rxn05159,rxn08212	gnl|tc-db|o34742|3.a.1.12.4	29.949	1.44e-15	72.8	91	CP022713.1 Blautia coccoides strain YL58 genome	4082031	4082618
+o34742	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|o34742|3.a.1.12.4	29.949	1.44e-15	72.8	91	CP022713.1 Blautia coccoides strain YL58 genome	4082031	4082618
+o34900.2	3.a.1	cysteine	EX_cpd00084_e0	rxn05237,rxn08280,rxn08281,rxn30473	gnl|tc-db|o34900.2|3.a.1.3.13	50.413	6.24e-66	219	100	CP022713.1 Blautia coccoides strain YL58 genome	519629	520345
+o34931.2	3.a.1	cysteine	EX_cpd00084_e0	rxn05237,rxn08280,rxn08281,rxn30473	gnl|tc-db|o34931.2|3.a.1.3.13	32.579	1.73e-22	93.2	91	CP022713.1 Blautia coccoides strain YL58 genome	518995	519600
+o34946	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|o34946|3.a.1.15.11	30.544	8.47e-28	108	100	CP022713.1 Blautia coccoides strain YL58 genome	4182470	4183138
+o34992	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|o34992|3.a.1.12.4	37.457	4.39e-55	193	79	CP022713.1 Blautia coccoides strain YL58 genome	590507	591352
+o34992	3.a.1	carnitine	EX_cpd00266_e0	rxn05180,rxn08253	gnl|tc-db|o34992|3.a.1.12.4	37.457	4.39e-55	193	79	CP022713.1 Blautia coccoides strain YL58 genome	590507	591352
+o34992	3.a.1	choline		rxn05159,rxn08212	gnl|tc-db|o34992|3.a.1.12.4	37.457	4.39e-55	193	79	CP022713.1 Blautia coccoides strain YL58 genome	590507	591352
+o34992	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|o34992|3.a.1.12.4	37.457	4.39e-55	193	79	CP022713.1 Blautia coccoides strain YL58 genome	590507	591352
+o50980	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|o50980|4.a.3.2.3	25.229	7.88e-14	71.6	95	CP022713.1 Blautia coccoides strain YL58 genome	1787952	1786759
+o51234	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|o51234|3.a.1.7.5	42.017	3.62e-49	173	79	CP022713.1 Blautia coccoides strain YL58 genome	4240578	4239880
+o51236	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|o51236|3.a.1.7.5	62.348	7.48e-108	340	100	CP022713.1 Blautia coccoides strain YL58 genome	4238933	4238196
+o51923	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|o51923|3.a.1.1.7	29.367	2.30e-41	155	95	CP022713.1 Blautia coccoides strain YL58 genome	3833715	3832642
+o51923	3.a.1	trehalose	EX_cpd00794_e0	rxn10839	gnl|tc-db|o51923|3.a.1.1.7	29.367	2.30e-41	155	95	CP022713.1 Blautia coccoides strain YL58 genome	3833715	3832642
+o51925	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|o51925|3.a.1.1.7	35.938	9.97e-44	156	99	CP022713.1 Blautia coccoides strain YL58 genome	3831187	3830432
+o51925	3.a.1	trehalose	EX_cpd00794_e0	rxn10839	gnl|tc-db|o51925|3.a.1.1.7	35.938	9.97e-44	156	99	CP022713.1 Blautia coccoides strain YL58 genome	3831187	3830432
+o54368	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|o54368|3.a.1.20.1	27.407	2.56e-13	68.6	77	CP022713.1 Blautia coccoides strain YL58 genome	3342315	3343070
+o54368	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|o54368|3.a.1.20.1	27.407	2.56e-13	68.6	77	CP022713.1 Blautia coccoides strain YL58 genome	3342315	3343070
+o59868	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|o59868|3.a.3.2.34	37.627	1.64e-150	489	98	CP022713.1 Blautia coccoides strain YL58 genome	3381973	3379436
+o68106	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|o68106|3.a.1.23.8	40.659	1.30e-59	202	100	CP022713.1 Blautia coccoides strain YL58 genome	874182	873364
+o68460	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|o68460|3.a.10.2.1	47.400	5.31e-165	524	95	CP022713.1 Blautia coccoides strain YL58 genome	491127	489268
+o75185	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|o75185|3.a.3.2.9	35.412	1.36e-143	471	89	CP022713.1 Blautia coccoides strain YL58 genome	3381949	3379508
+o81108	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|o81108|3.a.3.2.12	32.147	1.05e-98	341	86	CP022713.1 Blautia coccoides strain YL58 genome	4130133	4132646
+o83341	3.a.1	galactose	EX_cpd00108_e0	rxn05162,rxn08573	gnl|tc-db|o83341|3.a.1.2.10	39.464	4.69e-116	375	98	CP022713.1 Blautia coccoides strain YL58 genome	2802449	2800962
+o83341	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|o83341|3.a.1.2.10	39.464	4.69e-116	375	98	CP022713.1 Blautia coccoides strain YL58 genome	2802449	2800962
+o83343	3.a.1	galactose	EX_cpd00108_e0	rxn05162,rxn08573	gnl|tc-db|o83343|3.a.1.2.10	28.440	1.11e-25	105	99	CP022713.1 Blautia coccoides strain YL58 genome	2799860	2798907
+o83343	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|o83343|3.a.1.2.10	28.440	1.11e-25	105	99	CP022713.1 Blautia coccoides strain YL58 genome	2799860	2798907
+o87918	2.a.58	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|o87918|2.a.58.1.2	27.213	4.79e-10	58.9	77	CP022713.1 Blautia coccoides strain YL58 genome	4880900	4881631
+o87918	2.a.58	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|o87918|2.a.58.1.2	27.213	4.79e-10	58.9	77	CP022713.1 Blautia coccoides strain YL58 genome	4880900	4881631
+ols20019	3.a.1	maltodextrin		rxn11140	gnl|tc-db|ols20019|3.a.1.19.6	35.048	3.44e-59	204	96	CP022713.1 Blautia coccoides strain YL58 genome	590510	591427
+ols20019	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|ols20019|3.a.1.19.6	35.048	3.44e-59	204	96	CP022713.1 Blautia coccoides strain YL58 genome	590510	591427
+ols20029	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|ols20029|3.a.1.1.54	47.520	2.55e-114	363	100	CP022713.1 Blautia coccoides strain YL58 genome	4362753	4363859
+ols20029	3.a.1	trehalose	EX_cpd00794_e0	rxn10839	gnl|tc-db|ols20029|3.a.1.1.54	47.520	2.55e-114	363	100	CP022713.1 Blautia coccoides strain YL58 genome	4362753	4363859
+ols24538	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|ols24538|3.a.1.2.30	36.330	1.78e-93	311	96	CP022713.1 Blautia coccoides strain YL58 genome	2802446	2800974
+ols25602	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|ols25602|3.a.1.3.30	50.207	6.73e-66	219	100	CP022713.1 Blautia coccoides strain YL58 genome	519629	520348
+ols30722	3.d.7	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|ols30722|3.d.7.1.5	43.161	2.74e-166	483	75	CP022713.1 Blautia coccoides strain YL58 genome	3234873	3232906
+ols30722	3.d.7	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|ols30722|3.d.7.1.5	43.161	2.74e-166	483	75	CP022713.1 Blautia coccoides strain YL58 genome	3234873	3232906
+ols30725	3.d.7	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|ols30725|3.d.7.1.5	47.879	7.92e-180	565	98	CP022713.1 Blautia coccoides strain YL58 genome	3234876	3232906
+ols30725	3.d.7	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|ols30725|3.d.7.1.5	47.879	7.92e-180	565	98	CP022713.1 Blautia coccoides strain YL58 genome	3234876	3232906
+p02915	3.a.1	histidine	EX_cpd00119_e0	rxn05164,rxn08718	gnl|tc-db|p02915|3.a.1.3.1	50.775	3.29e-72	237	100	CP022713.1 Blautia coccoides strain YL58 genome	519611	520348
+p02925	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|p02925|3.a.1.2.1	26.740	1.19e-11	62.8	93	CP022713.1 Blautia coccoides strain YL58 genome	5099570	5100337
+p03959	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p03959|3.a.3.7.1	46.226	5.13e-112	365	93	CP022713.1 Blautia coccoides strain YL58 genome	4839270	4840853
+p03960	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p03960|3.a.3.7.1	58.712	0.0	650	99	CP022713.1 Blautia coccoides strain YL58 genome	4840896	4842932
+p03961	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p03961|3.a.3.7.1	36.946	1.89e-28	108	97	CP022713.1 Blautia coccoides strain YL58 genome	4842997	4843605
+p04191	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p04191|3.a.3.2.43	34.248	5.13e-138	457	98	CP022713.1 Blautia coccoides strain YL58 genome	3381961	3379433
+p04983	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|p04983|3.a.1.2.1	41.803	8.89e-123	394	97	CP022713.1 Blautia coccoides strain YL58 genome	5047422	5048882
+p05023	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p05023|3.a.3.1.1	34.956	2.38e-111	379	80	CP022713.1 Blautia coccoides strain YL58 genome	4130160	4132346
+p05023	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p05023|3.a.3.1.1	34.956	2.38e-111	379	80	CP022713.1 Blautia coccoides strain YL58 genome	4130160	4132346
+p05425	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|p05425|3.a.3.5.2	35.180	2.61e-104	349	87	CP022713.1 Blautia coccoides strain YL58 genome	3606003	3607982
+p06609	3.a.1	vitamin b12		rxn05187	gnl|tc-db|p06609|3.a.1.13.1	34.050	6.35e-21	91.3	87	CP022713.1 Blautia coccoides strain YL58 genome	2362777	2361944
+p06611	3.a.1	vitamin b12		rxn05187	gnl|tc-db|p06611|3.a.1.13.1	31.760	3.52e-20	87.0	98	CP022713.1 Blautia coccoides strain YL58 genome	2361888	2361211
+p07109	3.a.1	histidine	EX_cpd00119_e0	rxn05164,rxn08718	gnl|tc-db|p07109|3.a.1.3.29	50.388	3.07e-71	234	100	CP022713.1 Blautia coccoides strain YL58 genome	519611	520348
+p07117	2.a.121,2.a.21	proline	EX_cpd00129_e0	rxn05221,rxn05638,rxn09191,rxn09192,rxn12451,rxn34526,rxn34527	gnl|tc-db|p07117|2.a.21.2.1	27.460	2.51e-24	105	83	CP022713.1 Blautia coccoides strain YL58 genome	3101415	3100135
+p07117	2.a.121,2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p07117|2.a.21.2.1	27.460	2.51e-24	105	83	CP022713.1 Blautia coccoides strain YL58 genome	3101415	3100135
+p07821	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|p07821|3.a.1.14.3	42.412	4.22e-62	208	100	CP022713.1 Blautia coccoides strain YL58 genome	2361930	2361160
+p08194	2.a.1	glycerol-3-phosphate		rxn05578	gnl|tc-db|p08194|2.a.1.4.3	23.575	1.70e-12	67.4	84	CP022713.1 Blautia coccoides strain YL58 genome	4487765	4488844
+p0a2i7	3.a.1	histidine	EX_cpd00119_e0	rxn05164,rxn08718	gnl|tc-db|p0a2i7|3.a.1.3.1	29.208	1.11e-18	82.4	83	CP022713.1 Blautia coccoides strain YL58 genome	518941	519513
+p0a2u6	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|p0a2u6|3.a.1.15.3	28.444	3.08e-28	110	100	CP022713.1 Blautia coccoides strain YL58 genome	4005316	4005951
+p0a4w2	3.a.1	sulfate	EX_cpd00681_e0	rxn05153,rxn09276,rxn29239	gnl|tc-db|p0a4w2|3.a.1.6.3	31.273	2.30e-31	123	76	CP022713.1 Blautia coccoides strain YL58 genome	2802461	2801658
+p0a4w2	3.a.1	thiosulfate		rxn05176,rxn09329,rxn34412,rxn34536	gnl|tc-db|p0a4w2|3.a.1.6.3	31.273	2.30e-31	123	76	CP022713.1 Blautia coccoides strain YL58 genome	2802461	2801658
+p0a8h3	2.a.5	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|p0a8h3|2.a.5.5.1	28.700	1.64e-12	64.7	81	CP022713.1 Blautia coccoides strain YL58 genome	2343764	2343123
+p0a9x1	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|p0a9x1|3.a.1.15.5	33.047	4.57e-26	104	99	CP022713.1 Blautia coccoides strain YL58 genome	2278822	2279517
+p0aa47	2.a.3	putrescine		rxn05687,rxn09215,rxn13392,rxn34402,rxn34528,rxn11263	gnl|tc-db|p0aa47|2.a.3.1.14	23.707	3.44e-11	63.2	97	CP022713.1 Blautia coccoides strain YL58 genome	3108262	3106934
+p0aae2	2.a.3	proline	EX_cpd00129_e0	rxn05221,rxn05638,rxn09191,rxn09192,rxn12451,rxn34526,rxn34527	gnl|tc-db|p0aae2|2.a.3.1.23	25.000	6.24e-15	75.1	79	CP022713.1 Blautia coccoides strain YL58 genome	3108250	3107174
+p0aaf1	2.a.3	ornithine	EX_cpd00064_e0	rxn05628,rxn09731,rxn29084,rxn29085	gnl|tc-db|p0aaf1|2.a.3.2.1	21.991	2.60e-06	47.4	90	CP022713.1 Blautia coccoides strain YL58 genome	3108136	3106937
+p0aaf1	2.a.3	putrescine		rxn05687,rxn09215,rxn13392,rxn34402,rxn34528,rxn11263	gnl|tc-db|p0aaf1|2.a.3.2.1	21.991	2.60e-06	47.4	90	CP022713.1 Blautia coccoides strain YL58 genome	3108136	3106937
+p0aaf3	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn05173,rxn08139,rxn11063	gnl|tc-db|p0aaf3|3.a.1.2.2	37.602	3.06e-106	346	97	CP022713.1 Blautia coccoides strain YL58 genome	5047425	5048891
+p0aaf3	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn10822	gnl|tc-db|p0aaf3|3.a.1.2.2	37.602	3.06e-106	346	97	CP022713.1 Blautia coccoides strain YL58 genome	5047425	5048891
+p0aaf6	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|p0aaf6|3.a.1.3.3	43.154	4.01e-58	196	100	CP022713.1 Blautia coccoides strain YL58 genome	519632	520342
+p0aag3	3.a.1	aspartate	EX_cpd00041_e0,EX_cpd00041_e0	rxn05152,rxn08165	gnl|tc-db|p0aag3|3.a.1.3.4	52.083	2.93e-73	239	100	CP022713.1 Blautia coccoides strain YL58 genome	519629	520348
+p0aag3	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|p0aag3|3.a.1.3.4	52.083	2.93e-73	239	100	CP022713.1 Blautia coccoides strain YL58 genome	519629	520348
+p0aag8	3.a.1	galactose	EX_cpd00108_e0	rxn05162,rxn08573	gnl|tc-db|p0aag8|3.a.1.2.3	51.919	4.93e-163	509	99	CP022713.1 Blautia coccoides strain YL58 genome	5047422	5048903
+p0aah0	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|p0aah0|3.a.1.7.1	61.290	1.07e-95	305	100	CP022713.1 Blautia coccoides strain YL58 genome	4238936	4238196
+p0ac94	2.a.8	gluconate		rxn05571,rxn08609,rxn12363	gnl|tc-db|p0ac94|2.a.8.1.3	25.587	9.93e-31	123	93	CP022713.1 Blautia coccoides strain YL58 genome	2614252	2615499
+p0ac96	2.a.8	gluconate		rxn05571,rxn08609,rxn12363	gnl|tc-db|p0ac96|2.a.8.1.8	27.053	2.15e-28	116	95	CP022713.1 Blautia coccoides strain YL58 genome	4042857	4044077
+p0ae30	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|p0ae30|3.a.1.3.3	26.923	1.06e-13	67.4	81	CP022713.1 Blautia coccoides strain YL58 genome	519109	519618
+p0ae34	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|p0ae34|3.a.1.3.3	26.842	1.96e-14	69.7	76	CP022713.1 Blautia coccoides strain YL58 genome	519022	519507
+p0aeb0	3.a.1	sulfate	EX_cpd00681_e0	rxn05153,rxn09276,rxn29239	gnl|tc-db|p0aeb0|3.a.1.6.1	21.262	2.43e-04	40.0	92	CP022713.1 Blautia coccoides strain YL58 genome	3300322	3299441
+p0aee5	3.a.1	d-galactose		rxn05162,rxn08573	gnl|tc-db|p0aee5|3.a.1.2.3	42.471	2.36e-53	186	77	CP022713.1 Blautia coccoides strain YL58 genome	5055603	5056370
+p0aeq6	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|p0aeq6|3.a.1.3.2	34.524	2.05e-19	84.0	77	CP022713.1 Blautia coccoides strain YL58 genome	519112	519606
+p0aer3	3.a.1	aspartate	EX_cpd00041_e0,EX_cpd00041_e0	rxn05152,rxn08165	gnl|tc-db|p0aer3|3.a.1.3.4	21.296	3.9	26.2	87	CP022713.1 Blautia coccoides strain YL58 genome	4765733	4766323
+p0aer3	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|p0aer3|3.a.1.3.4	21.296	3.9	26.2	87	CP022713.1 Blautia coccoides strain YL58 genome	4765733	4766323
+p0aer5	3.a.1	aspartate	EX_cpd00041_e0,EX_cpd00041_e0	rxn05152,rxn08165	gnl|tc-db|p0aer5|3.a.1.3.4	34.807	3.50e-25	100	79	CP022713.1 Blautia coccoides strain YL58 genome	518989	519504
+p0aer5	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|p0aer5|3.a.1.3.4	34.807	3.50e-25	100	79	CP022713.1 Blautia coccoides strain YL58 genome	518989	519504
+p0aex9	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|p0aex9|3.a.1.1.1	23.810	1.61e-11	63.9	98	CP022713.1 Blautia coccoides strain YL58 genome	1893924	1892812
+p0afa9	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|p0afa9|3.a.1.5.3	39.918	1.20e-57	196	89	CP022713.1 Blautia coccoides strain YL58 genome	2409586	2408858
+p0afk4	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|p0afk4|3.a.1.11.1	41.313	1.96e-64	216	99	CP022713.1 Blautia coccoides strain YL58 genome	591643	592419
+p0afk4	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|p0afk4|3.a.1.11.1	41.313	1.96e-64	216	99	CP022713.1 Blautia coccoides strain YL58 genome	591643	592419
+p0afk6	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|p0afk6|3.a.1.11.1	37.872	6.17e-51	176	89	CP022713.1 Blautia coccoides strain YL58 genome	592521	593222
+p0afk6	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|p0afk6|3.a.1.11.1	37.872	6.17e-51	176	89	CP022713.1 Blautia coccoides strain YL58 genome	592521	593222
+p0afk9	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|p0afk9|3.a.1.11.1	40.683	1.20e-67	228	93	CP022713.1 Blautia coccoides strain YL58 genome	2281594	2282553
+p0afk9	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|p0afk9|3.a.1.11.1	40.683	1.20e-67	228	93	CP022713.1 Blautia coccoides strain YL58 genome	2281594	2282553
+p0afl1	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|p0afl1|3.a.1.11.2	40.562	5.62e-48	168	98	CP022713.1 Blautia coccoides strain YL58 genome	592488	593213
+p0afz7	2.a.38	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|p0afz7|2.a.38.1.1	38.525	4.71e-75	254	100	CP022713.1 Blautia coccoides strain YL58 genome	4889427	4887991
+p0ag80	3.a.1	glycerol-3-phosphate		rxn05158,rxn08641	gnl|tc-db|p0ag80|3.a.1.1.3	22.087	3.90e-13	69.3	92	CP022713.1 Blautia coccoides strain YL58 genome	4496054	4497136
+p0agh8	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|p0agh8|3.a.1.7.1	33.594	1.69e-29	116	80	CP022713.1 Blautia coccoides strain YL58 genome	4240587	4239883
+p0agi8	2.a.38	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|p0agi8|2.a.38.1.1	28.795	2.68e-48	176	96	CP022713.1 Blautia coccoides strain YL58 genome	4890804	4889482
+p0agm7	2.a.40	uracil		rxn05197,rxn09365,rxn12368	gnl|tc-db|p0agm7|2.a.40.1.1	55.690	3.32e-137	432	96	CP022713.1 Blautia coccoides strain YL58 genome	2089070	2087841
+p0agm9	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05497	gnl|tc-db|p0agm9|2.a.40.4.2	31.840	1.17e-52	189	91	CP022713.1 Blautia coccoides strain YL58 genome	3988187	3986970
+p0agm9	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05471	gnl|tc-db|p0agm9|2.a.40.4.2	31.840	1.17e-52	189	91	CP022713.1 Blautia coccoides strain YL58 genome	3988187	3986970
+p0agm9	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn29869	gnl|tc-db|p0agm9|2.a.40.4.2	31.840	1.17e-52	189	91	CP022713.1 Blautia coccoides strain YL58 genome	3988187	3986970
+p0agm9	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn38756	gnl|tc-db|p0agm9|2.a.40.4.2	31.840	1.17e-52	189	91	CP022713.1 Blautia coccoides strain YL58 genome	3988187	3986970
+p0c560	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|p0c560|3.a.1.7.2	58.755	7.35e-93	296	100	CP022713.1 Blautia coccoides strain YL58 genome	4238942	4238196
+p0cw78	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|p0cw78|3.a.3.6.20	33.063	2.90e-87	300	92	CP022713.1 Blautia coccoides strain YL58 genome	405181	406983
+p0cw78	3.a.3	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|p0cw78|3.a.3.6.20	33.063	2.90e-87	300	92	CP022713.1 Blautia coccoides strain YL58 genome	405181	406983
+p10346	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|p10346|3.a.1.3.2	55.649	1.20e-78	255	100	CP022713.1 Blautia coccoides strain YL58 genome	519629	520345
+p10905	3.a.1	glycerol-3-phosphate		rxn05158,rxn08641	gnl|tc-db|p10905|3.a.1.1.3	31.359	5.35e-43	155	100	CP022713.1 Blautia coccoides strain YL58 genome	2255642	2254788
+p10906	3.a.1	glycerol-3-phosphate		rxn05158,rxn08641	gnl|tc-db|p10906|3.a.1.1.3	34.082	6.03e-39	142	100	CP022713.1 Blautia coccoides strain YL58 genome	1891791	1891012
+p10907	3.a.1	glycerol-3-phosphate		rxn05158,rxn08641	gnl|tc-db|p10907|3.a.1.1.3	49.185	2.01e-109	348	100	CP022713.1 Blautia coccoides strain YL58 genome	4362753	4363856
+p11162	4.a.3	lactose	EX_cpd00208_e0	rxn10865	gnl|tc-db|p11162|4.a.3.1.1	24.336	3.60e-19	89.7	75	CP022713.1 Blautia coccoides strain YL58 genome	1787997	1786720
+p12012	2.a.8	gluconate		rxn05571,rxn08609,rxn12363	gnl|tc-db|p12012|2.a.8.1.1	30.324	4.06e-30	121	95	CP022713.1 Blautia coccoides strain YL58 genome	4042857	4044131
+p13511	2.a.6	cadmium		rxn08196,rxn13814,rxn08198,rxn29670	gnl|tc-db|p13511|2.a.6.1.2	24.909	3.53e-47	182	76	CP022713.1 Blautia coccoides strain YL58 genome	1812467	1810092
+p13511	2.a.6	cobalt		rxn08240,rxn13681,rxn08242,rxn10474	gnl|tc-db|p13511|2.a.6.1.2	24.909	3.53e-47	182	76	CP022713.1 Blautia coccoides strain YL58 genome	1812467	1810092
+p13511	2.a.6	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|p13511|2.a.6.1.2	24.909	3.53e-47	182	76	CP022713.1 Blautia coccoides strain YL58 genome	1812467	1810092
+p13586	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p13586|3.a.3.2.3	36.613	2.35e-157	511	92	CP022713.1 Blautia coccoides strain YL58 genome	3381973	3379508
+p13587	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p13587|3.a.3.9.1	29.832	1.27e-113	387	92	CP022713.1 Blautia coccoides strain YL58 genome	3381973	3379499
+p13637	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p13637|3.a.3.1.1	33.733	2.02e-113	385	82	CP022713.1 Blautia coccoides strain YL58 genome	4130067	4132346
+p13637	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p13637|3.a.3.1.1	33.733	2.02e-113	385	82	CP022713.1 Blautia coccoides strain YL58 genome	4130067	4132346
+p15029	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p15029|3.a.1.14.1	36.913	2.35e-28	113	87	CP022713.1 Blautia coccoides strain YL58 genome	2362807	2361953
+p15029	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p15029|3.a.1.14.1	36.913	2.35e-28	113	87	CP022713.1 Blautia coccoides strain YL58 genome	2362807	2361953
+p15030	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p15030|3.a.1.14.1	34.967	4.02e-26	107	91	CP022713.1 Blautia coccoides strain YL58 genome	2363864	2362962
+p15030	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p15030|3.a.1.14.1	34.967	4.02e-26	107	91	CP022713.1 Blautia coccoides strain YL58 genome	2363864	2362962
+p16256	2.a.21	pantothenate		rxn05308,rxn09165,rxn10180	gnl|tc-db|p16256|2.a.21.1.1	27.556	5.95e-27	112	89	CP022713.1 Blautia coccoides strain YL58 genome	3101430	3100105
+p16256	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p16256|2.a.21.1.1	27.556	5.95e-27	112	89	CP022713.1 Blautia coccoides strain YL58 genome	3101430	3100105
+p16615	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p16615|3.a.3.2.7	34.940	5.08e-151	496	95	CP022713.1 Blautia coccoides strain YL58 genome	3381937	3379364
+p16676	3.a.1	sulfate	EX_cpd00681_e0	rxn05153,rxn09276,rxn29239	gnl|tc-db|p16676|3.a.1.6.1	41.608	7.23e-68	229	95	CP022713.1 Blautia coccoides strain YL58 genome	2278828	2279667
+p20021	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|p20021|3.a.3.6.1	33.752	1.33e-123	405	98	CP022713.1 Blautia coccoides strain YL58 genome	404869	406974
+p20648	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p20648|3.a.3.1.2	31.707	5.08e-120	405	91	CP022713.1 Blautia coccoides strain YL58 genome	4130067	4132553
+p20966	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p20966|4.a.2.1.1	41.604	1.96e-93	311	91	CP022713.1 Blautia coccoides strain YL58 genome	4221732	4223282
+p21410	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p21410|3.a.1.10.1	38.141	1.50e-57	199	88	CP022713.1 Blautia coccoides strain YL58 genome	590510	591409
+p21410	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p21410|3.a.1.10.1	38.141	1.50e-57	199	88	CP022713.1 Blautia coccoides strain YL58 genome	590510	591409
+p21616	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|p21616|3.a.10.1.8	48.641	1.70e-172	548	91	CP022713.1 Blautia coccoides strain YL58 genome	491124	489241
+p21903	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p21903|3.a.2.1.2	32.579	9.63e-35	130	76	CP022713.1 Blautia coccoides strain YL58 genome	1541207	1540593
+p21904	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p21904|3.a.2.1.2	31.056	3.71e-16	72.4	94	CP022713.1 Blautia coccoides strain YL58 genome	1540311	1539841
+p22189	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p22189|3.a.3.9.2	34.118	1.17e-132	442	88	CP022713.1 Blautia coccoides strain YL58 genome	3381949	3379478
+p23849	2.a.38	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|p23849|2.a.38.1.6	33.195	5.47e-58	205	99	CP022713.1 Blautia coccoides strain YL58 genome	4889415	4887991
+p23975	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p23975|2.a.22.1.2	23.589	4.40e-25	108	78	CP022713.1 Blautia coccoides strain YL58 genome	2714319	2715638
+p27611	2.a.35	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p27611|2.a.35.1.1	34.826	1.31e-60	212	86	CP022713.1 Blautia coccoides strain YL58 genome	4723159	4724355
+p28572	2.a.22	chloride		rxn08233,rxn30474	gnl|tc-db|p28572|2.a.22.2.2	22.091	9.84e-16	79.0	77	CP022713.1 Blautia coccoides strain YL58 genome	4267960	4269246
+p28572	2.a.22	glycine	EX_cpd00033_e0	rxn05582,rxn08660,rxn08661,rxn09748,rxn10537,rxn12379,rxn34381,rxn34382,rxn34466,rxn34502	gnl|tc-db|p28572|2.a.22.2.2	22.091	9.84e-16	79.0	77	CP022713.1 Blautia coccoides strain YL58 genome	4267960	4269246
+p28572	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p28572|2.a.22.2.2	22.091	9.84e-16	79.0	77	CP022713.1 Blautia coccoides strain YL58 genome	4267960	4269246
+p29706	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p29706|3.a.2.1.2	56.942	0.0	565	99	CP022713.1 Blautia coccoides strain YL58 genome	1539318	1537828
+p29707	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p29707|3.a.2.1.2	68.122	0.0	598	98	CP022713.1 Blautia coccoides strain YL58 genome	1536864	1535494
+p29710	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p29710|3.a.2.1.2	34.228	1.69e-52	181	99	CP022713.1 Blautia coccoides strain YL58 genome	1537814	1536933
+p29822	3.a.1	lactose	EX_cpd00208_e0	rxn05598	gnl|tc-db|p29822|3.a.1.1.4	36.340	6.04e-77	258	92	CP022713.1 Blautia coccoides strain YL58 genome	5086997	5088157
+p29823	3.a.1	lactose	EX_cpd00208_e0	rxn05598	gnl|tc-db|p29823|3.a.1.1.4	51.034	2.21e-94	303	100	CP022713.1 Blautia coccoides strain YL58 genome	5088363	5089220
+p29824	3.a.1	lactose	EX_cpd00208_e0	rxn05598	gnl|tc-db|p29824|3.a.1.1.4	42.586	1.42e-74	244	100	CP022713.1 Blautia coccoides strain YL58 genome	5089235	5090023
+p30145	2.a.25	alanine	EX_cpd00035_e0	rxn05215,rxn05496,rxn08101,rxn08102,rxn34464,rxn34465,rxn34485,rxn34486	gnl|tc-db|p30145|2.a.25.1.2	39.171	4.29e-66	227	96	CP022713.1 Blautia coccoides strain YL58 genome	913755	914999
+p30145	2.a.25	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p30145|2.a.25.1.2	39.171	4.29e-66	227	96	CP022713.1 Blautia coccoides strain YL58 genome	913755	914999
+p30531	2.a.22	chloride		rxn08233,rxn30474	gnl|tc-db|p30531|2.a.22.3.2	27.655	1.28e-35	141	81	CP022713.1 Blautia coccoides strain YL58 genome	2796694	2795366
+p30531	2.a.22	gaba		rxn05564,rxn08027,rxn12377,rxn34350,rxn34477	gnl|tc-db|p30531|2.a.22.3.2	27.655	1.28e-35	141	81	CP022713.1 Blautia coccoides strain YL58 genome	2796694	2795366
+p30531	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p30531|2.a.22.3.2	27.655	1.28e-35	141	81	CP022713.1 Blautia coccoides strain YL58 genome	2796694	2795366
+p30750	3.a.1	d-methionine		rxn05183,rxn08910	gnl|tc-db|p30750|3.a.1.24.1	33.681	9.44e-43	155	84	CP022713.1 Blautia coccoides strain YL58 genome	590507	591322
+p30963	3.a.1	heme		rxn05148,rxn09115,rxn27591	gnl|tc-db|p30963|3.a.1.107.1	26.923	4.35e-17	76.3	100	CP022713.1 Blautia coccoides strain YL58 genome	2811890	2812351
+p30963	3.a.1	heme		rxn90020	gnl|tc-db|p30963|3.a.1.107.1	26.923	4.35e-17	76.3	100	CP022713.1 Blautia coccoides strain YL58 genome	2811890	2812351
+p31133	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|p31133|3.a.1.11.2	29.248	8.10e-47	168	98	CP022713.1 Blautia coccoides strain YL58 genome	2281531	2282553
+p31134	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|p31134|3.a.1.11.2	44.937	4.65e-83	273	87	CP022713.1 Blautia coccoides strain YL58 genome	590438	591367
+p31414	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|p31414|3.a.10.1.1	48.000	2.33e-170	542	91	CP022713.1 Blautia coccoides strain YL58 genome	491124	489241
+p31548	3.a.1	thiamine		rxn05177,rxn09297	gnl|tc-db|p31548|3.a.1.19.1	38.265	1.06e-40	145	100	CP022713.1 Blautia coccoides strain YL58 genome	2278879	2279466
+p31549	3.a.1	thiamine		rxn05177,rxn09297	gnl|tc-db|p31549|3.a.1.19.1	17.333	1.61e-04	42.0	81	CP022713.1 Blautia coccoides strain YL58 genome	3340878	3342167
+p31553	2.a.15	carnitine	EX_cpd00266_e0	rxn08262,rxn09691,rxn12364,rxn12605,rxn09773,rxn09858	gnl|tc-db|p31553|2.a.15.2.1	30.752	4.69e-70	241	89	CP022713.1 Blautia coccoides strain YL58 genome	2375172	2373859
+p31641	2.a.22	chloride		rxn08233,rxn30474	gnl|tc-db|p31641|2.a.22.3.3	24.902	2.78e-27	115	80	CP022713.1 Blautia coccoides strain YL58 genome	2714295	2715638
+p31641	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p31641|2.a.22.3.3	24.902	2.78e-27	115	80	CP022713.1 Blautia coccoides strain YL58 genome	2714295	2715638
+p31641	2.a.22	taurine		rxn12554	gnl|tc-db|p31641|2.a.22.3.3	24.902	2.78e-27	115	80	CP022713.1 Blautia coccoides strain YL58 genome	2714295	2715638
+p31649	2.a.22	chloride		rxn08233,rxn30474	gnl|tc-db|p31649|2.a.22.3.8	26.471	5.23e-39	152	78	CP022713.1 Blautia coccoides strain YL58 genome	2714268	2715545
+p31649	2.a.22	gaba		rxn05564,rxn08027,rxn12377,rxn34350,rxn34477	gnl|tc-db|p31649|2.a.22.3.8	26.471	5.23e-39	152	78	CP022713.1 Blautia coccoides strain YL58 genome	2714268	2715545
+p31649	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p31649|2.a.22.3.8	26.471	5.23e-39	152	78	CP022713.1 Blautia coccoides strain YL58 genome	2714268	2715545
+p31661	2.a.22	chloride		rxn08233,rxn30474	gnl|tc-db|p31661|2.a.22.3.4	23.033	1.46e-24	107	80	CP022713.1 Blautia coccoides strain YL58 genome	2714325	2715656
+p31661	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p31661|2.a.22.3.4	23.033	1.46e-24	107	80	CP022713.1 Blautia coccoides strain YL58 genome	2714325	2715656
+p32113	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|p32113|3.a.3.5.1	44.712	0.0	583	97	CP022713.1 Blautia coccoides strain YL58 genome	3605718	3607943
+p32154	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p32154|4.a.2.1.25	35.570	9.59e-63	219	89	CP022713.1 Blautia coccoides strain YL58 genome	4221894	4223204
+p32155	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p32155|4.a.2.1.25	24.648	7.83e-12	59.3	95	CP022713.1 Blautia coccoides strain YL58 genome	4221399	4221824
+p32672	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p32672|4.a.2.1.10	37.855	4.96e-49	174	85	CP022713.1 Blautia coccoides strain YL58 genome	4222275	4223222
+p33590	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|p33590|3.a.1.5.3	27.500	1.02e-40	155	93	CP022713.1 Blautia coccoides strain YL58 genome	1819833	1818577
+p33591	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|p33591|3.a.1.5.3	38.924	4.36e-71	236	100	CP022713.1 Blautia coccoides strain YL58 genome	2410611	2409667
+p33593	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|p33593|3.a.1.5.3	42.308	5.11e-50	173	100	CP022713.1 Blautia coccoides strain YL58 genome	1816296	1815595
+p33594	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|p33594|3.a.1.5.3	38.333	1.38e-49	172	99	CP022713.1 Blautia coccoides strain YL58 genome	1815278	1814568
+p33950	3.a.1	heme		rxn05148,rxn09115,rxn27591	gnl|tc-db|p33950|3.a.1.5.27	28.977	9.47e-70	241	96	CP022713.1 Blautia coccoides strain YL58 genome	1819989	1818517
+p33950	3.a.1	heme		rxn90020	gnl|tc-db|p33950|3.a.1.5.27	28.977	9.47e-70	241	96	CP022713.1 Blautia coccoides strain YL58 genome	1819989	1818517
+p37019	2.a.49	chloride		rxn08233,rxn30474	gnl|tc-db|p37019|2.a.49.5.1	35.821	8.36e-29	118	83	CP022713.1 Blautia coccoides strain YL58 genome	2105483	2104326
+p37329	3.a.1	molybdate		rxn05619,rxn08955	gnl|tc-db|p37329|3.a.1.8.1	39.655	9.37e-35	129	88	CP022713.1 Blautia coccoides strain YL58 genome	732187	732864
+p37388	3.a.1	xylose		rxn05167,rxn09383	gnl|tc-db|p37388|3.a.1.2.4	37.649	4.28e-108	352	98	CP022713.1 Blautia coccoides strain YL58 genome	5047422	5048897
+p37460	2.a.3	proline	EX_cpd00129_e0	rxn05221,rxn05638,rxn09191,rxn09192,rxn12451,rxn34526,rxn34527	gnl|tc-db|p37460|2.a.3.1.6	25.966	2.31e-22	98.2	98	CP022713.1 Blautia coccoides strain YL58 genome	3108250	3106943
+p37617	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|p37617|3.a.3.6.2	34.728	4.01e-89	304	94	CP022713.1 Blautia coccoides strain YL58 genome	404845	406971
+p37617	3.a.3	lead		rxn10344	gnl|tc-db|p37617|3.a.3.6.2	34.728	4.01e-89	304	94	CP022713.1 Blautia coccoides strain YL58 genome	404845	406971
+p37617	3.a.3	mercury		rxn08715,rxn10343	gnl|tc-db|p37617|3.a.3.6.2	34.728	4.01e-89	304	94	CP022713.1 Blautia coccoides strain YL58 genome	404845	406971
+p37617	3.a.3	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|p37617|3.a.3.6.2	34.728	4.01e-89	304	94	CP022713.1 Blautia coccoides strain YL58 genome	404845	406971
+p37735	2.a.56	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|p37735|2.a.56.1.1	33.103	2.88e-50	177	88	CP022713.1 Blautia coccoides strain YL58 genome	2312130	2311282
+p37735	2.a.56	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|p37735|2.a.56.1.1	33.103	2.88e-50	177	88	CP022713.1 Blautia coccoides strain YL58 genome	2312130	2311282
+p37735	2.a.56	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|p37735|2.a.56.1.1	33.103	2.88e-50	177	88	CP022713.1 Blautia coccoides strain YL58 genome	2312130	2311282
+p37735	2.a.56	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|p37735|2.a.56.1.1	33.103	2.88e-50	177	88	CP022713.1 Blautia coccoides strain YL58 genome	2312130	2311282
+p38044	3.a.1	nitrate		rxn05171	gnl|tc-db|p38044|3.a.1.16.1	22.747	8.37e-07	47.8	82	CP022713.1 Blautia coccoides strain YL58 genome	1776747	1776100
+p38046	3.a.1	nitrate		rxn05171	gnl|tc-db|p38046|3.a.1.16.1	35.808	5.37e-48	168	96	CP022713.1 Blautia coccoides strain YL58 genome	4082630	4083295
+p39344	2.a.8	l-idonate		rxn08742,rxn10167	gnl|tc-db|p39344|2.a.8.1.2	25.240	1.53e-26	110	93	CP022713.1 Blautia coccoides strain YL58 genome	4042857	4044077
+p39766	2.a.40	uracil		rxn05197,rxn09365,rxn12368	gnl|tc-db|p39766|2.a.40.1.4	46.585	2.14e-98	320	94	CP022713.1 Blautia coccoides strain YL58 genome	2089052	2087862
+p39775	3.a.1	choline		rxn05159,rxn08212	gnl|tc-db|p39775|3.a.1.12.3	29.146	2.62e-14	69.3	94	CP022713.1 Blautia coccoides strain YL58 genome	4082031	4082624
+p39835	2.a.8	gluconate		rxn05571,rxn08609,rxn12363	gnl|tc-db|p39835|2.a.8.1.4	29.684	1.36e-29	120	94	CP022713.1 Blautia coccoides strain YL58 genome	4042857	4044077
+p40409	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p40409|3.a.1.14.15	26.429	1.37e-11	63.2	84	CP022713.1 Blautia coccoides strain YL58 genome	2364838	2364053
+p40409	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p40409|3.a.1.14.15	26.429	1.37e-11	63.2	84	CP022713.1 Blautia coccoides strain YL58 genome	2364838	2364053
+p40410	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p40410|3.a.1.14.15	37.874	2.56e-43	157	90	CP022713.1 Blautia coccoides strain YL58 genome	2363864	2362962
+p40410	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p40410|3.a.1.14.15	37.874	2.56e-43	157	90	CP022713.1 Blautia coccoides strain YL58 genome	2363864	2362962
+p40411	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p40411|3.a.1.14.15	34.122	3.19e-33	127	92	CP022713.1 Blautia coccoides strain YL58 genome	2362822	2361950
+p40411	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p40411|3.a.1.14.15	34.122	3.19e-33	127	92	CP022713.1 Blautia coccoides strain YL58 genome	2362822	2361950
+p40812	2.a.3	l-asparagine		rxn05508,rxn08161,rxn09782,rxn13229,rxn13230,rxn34455,rxn34491	gnl|tc-db|p40812|2.a.3.1.8	25.791	1.68e-08	54.7	78	CP022713.1 Blautia coccoides strain YL58 genome	2854530	2853391
+p42086	2.a.40	xanthine		rxn05202,rxn09377,rxn12440	gnl|tc-db|p42086|2.a.40.3.1	33.747	1.13e-49	179	90	CP022713.1 Blautia coccoides strain YL58 genome	3988160	3986961
+p43435	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p43435|3.a.2.2.2	49.490	2.09e-57	193	87	CP022713.1 Blautia coccoides strain YL58 genome	4380940	4381527
+p43438	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p43438|3.a.2.2.2	31.373	6.1	21.9	97	CP022713.1 Blautia coccoides strain YL58 genome	2707520	2707660
+p43439	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p43439|3.a.2.2.2	27.479	1.28e-62	224	99	CP022713.1 Blautia coccoides strain YL58 genome	4373123	4375147
+p43440	2.a.38	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p43440|2.a.38.4.1	38.173	1.90e-67	231	93	CP022713.1 Blautia coccoides strain YL58 genome	4631002	4632261
+p43455	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p43455|3.a.2.2.2	44.554	3.73e-22	87.0	98	CP022713.1 Blautia coccoides strain YL58 genome	4377304	4377606
+p43456	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p43456|3.a.2.2.2	21.184	7.69e-14	70.1	97	CP022713.1 Blautia coccoides strain YL58 genome	4376367	4377302
+p43457	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p43457|3.a.2.2.2	48.485	9.52e-30	110	81	CP022713.1 Blautia coccoides strain YL58 genome	4375225	4375620
+p44542	2.a.56	sialic acid	EX_cpd00232_e0	rxn05487,rxn08050	gnl|tc-db|p44542|2.a.56.1.3	34.432	2.41e-46	166	97	CP022713.1 Blautia coccoides strain YL58 genome	409503	410315
+p44543	2.a.56	sialic acid	EX_cpd00232_e0	rxn05487,rxn08050	gnl|tc-db|p44543|2.a.56.1.3	27.603	2.70e-55	201	95	CP022713.1 Blautia coccoides strain YL58 genome	2712561	2710867
+p45428	2.a.61	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|p45428|2.a.61.1.2	30.184	2.09e-34	134	81	CP022713.1 Blautia coccoides strain YL58 genome	2163548	2162436
+p45428	2.a.61	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|p45428|2.a.61.1.2	30.184	2.09e-34	134	81	CP022713.1 Blautia coccoides strain YL58 genome	2163548	2162436
+p45428	2.a.61	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|p45428|2.a.61.1.2	30.184	2.09e-34	134	81	CP022713.1 Blautia coccoides strain YL58 genome	2163548	2162436
+p45428	2.a.61	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|p45428|2.a.61.1.2	30.184	2.09e-34	134	81	CP022713.1 Blautia coccoides strain YL58 genome	2163548	2162436
+p46317	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|p46317|4.a.3.2.2	27.130	7.60e-30	120	94	CP022713.1 Blautia coccoides strain YL58 genome	1787973	1786717
+p48065	2.a.22	betaine	EX_cpd08306_e0	rxn05579,rxn08638,rxn12375,rxn11216	gnl|tc-db|p48065|2.a.22.3.1	25.208	6.79e-38	148	79	CP022713.1 Blautia coccoides strain YL58 genome	2714277	2715545
+p48065	2.a.22	chloride		rxn08233,rxn30474	gnl|tc-db|p48065|2.a.22.3.1	25.208	6.79e-38	148	79	CP022713.1 Blautia coccoides strain YL58 genome	2714277	2715545
+p48065	2.a.22	gaba		rxn05564,rxn08027,rxn12377,rxn34350,rxn34477	gnl|tc-db|p48065|2.a.22.3.1	25.208	6.79e-38	148	79	CP022713.1 Blautia coccoides strain YL58 genome	2714277	2715545
+p48065	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p48065|2.a.22.3.1	25.208	6.79e-38	148	79	CP022713.1 Blautia coccoides strain YL58 genome	2714277	2715545
+p48066	2.a.22	chloride		rxn08233,rxn30474	gnl|tc-db|p48066|2.a.22.3.9	23.640	3.39e-23	102	75	CP022713.1 Blautia coccoides strain YL58 genome	4267972	4269210
+p48066	2.a.22	gaba		rxn05564,rxn08027,rxn12377,rxn34350,rxn34477	gnl|tc-db|p48066|2.a.22.3.9	23.640	3.39e-23	102	75	CP022713.1 Blautia coccoides strain YL58 genome	4267972	4269210
+p48066	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p48066|2.a.22.3.9	23.640	3.39e-23	102	75	CP022713.1 Blautia coccoides strain YL58 genome	4267972	4269210
+p48243	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|p48243|3.a.1.3.9	52.917	7.25e-79	255	99	CP022713.1 Blautia coccoides strain YL58 genome	519629	520348
+p48244	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|p48244|3.a.1.3.9	29.864	1.90e-15	72.4	93	CP022713.1 Blautia coccoides strain YL58 genome	518992	519603
+p48245	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|p48245|3.a.1.3.9	30.088	1.67e-22	94.7	80	CP022713.1 Blautia coccoides strain YL58 genome	518956	519609
+p50000	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p50000|3.a.2.1.5	57.344	0.0	573	98	CP022713.1 Blautia coccoides strain YL58 genome	1539321	1537834
+p50002	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p50002|3.a.2.1.5	70.742	0.0	663	99	CP022713.1 Blautia coccoides strain YL58 genome	1536861	1535494
+p50005	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p50005|3.a.2.1.5	34.437	4.85e-54	187	98	CP022713.1 Blautia coccoides strain YL58 genome	1537802	1536933
+p50009	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p50009|3.a.2.1.5	27.778	2.73e-10	54.3	80	CP022713.1 Blautia coccoides strain YL58 genome	1535448	1535125
+p50993	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p50993|3.a.3.1.1	35.985	1.99e-124	417	80	CP022713.1 Blautia coccoides strain YL58 genome	4130112	4132346
+p50993	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p50993|3.a.3.1.1	35.985	1.99e-124	417	80	CP022713.1 Blautia coccoides strain YL58 genome	4130112	4132346
+p51905	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p51905|2.a.22.1.9	24.219	1.14e-31	129	80	CP022713.1 Blautia coccoides strain YL58 genome	2714271	2715638
+p54417	2.a.15	betaine	EX_cpd08306_e0	rxn05579,rxn08638,rxn12375,rxn11216	gnl|tc-db|p54417|2.a.15.1.1	34.205	2.48e-69	239	99	CP022713.1 Blautia coccoides strain YL58 genome	2375109	2373634
+p54417	2.a.15	glycine	EX_cpd00033_e0	rxn05582,rxn08660,rxn08661,rxn09748,rxn10537,rxn12379,rxn34381,rxn34382,rxn34466,rxn34502	gnl|tc-db|p54417|2.a.15.1.1	34.205	2.48e-69	239	99	CP022713.1 Blautia coccoides strain YL58 genome	2375109	2373634
+p54582	2.a.15	betaine	EX_cpd08306_e0	rxn05579,rxn08638,rxn12375,rxn11216	gnl|tc-db|p54582|2.a.15.1.10	27.137	3.41e-45	170	76	CP022713.1 Blautia coccoides strain YL58 genome	1904483	1903095
+p54582	2.a.15	glycine	EX_cpd00033_e0	rxn05582,rxn08660,rxn08661,rxn09748,rxn10537,rxn12379,rxn34381,rxn34382,rxn34466,rxn34502	gnl|tc-db|p54582|2.a.15.1.10	27.137	3.41e-45	170	76	CP022713.1 Blautia coccoides strain YL58 genome	1904483	1903095
+p54707	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p54707|3.a.3.1.13	33.082	5.96e-117	396	86	CP022713.1 Blautia coccoides strain YL58 genome	3381952	3379787
+p54708	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p54708|3.a.3.1.4	33.501	1.65e-117	397	84	CP022713.1 Blautia coccoides strain YL58 genome	3381964	3379799
+p58300	3.a.1	maltodextrin		rxn11140	gnl|tc-db|p58300|3.a.1.1.16	23.398	2.21e-19	89.0	88	CP022713.1 Blautia coccoides strain YL58 genome	2200966	2199974
+p60061	2.a.3	arginine	EX_cpd00051_e0	rxn05303,rxn08154,rxn09783,rxn12437,rxn13228,rxn30457,rxn10840,rxn33718	gnl|tc-db|p60061|2.a.3.2.5	23.370	7.90e-06	45.8	75	CP022713.1 Blautia coccoides strain YL58 genome	3108250	3107225
+p67444	2.a.40	xanthine		rxn05202,rxn09377,rxn12440	gnl|tc-db|p67444|2.a.40.4.3	31.382	8.35e-43	160	89	CP022713.1 Blautia coccoides strain YL58 genome	3988199	3986970
+p68183	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|p68183|3.a.1.1.1	26.316	4.48e-24	99.8	89	CP022713.1 Blautia coccoides strain YL58 genome	5104958	5105638
+p68187	3.a.1	maltodextrin		rxn11140	gnl|tc-db|p68187|3.a.1.1.1	48.238	3.07e-102	328	98	CP022713.1 Blautia coccoides strain YL58 genome	4362753	4363841
+p68187	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|p68187|3.a.1.1.1	48.238	3.07e-102	328	98	CP022713.1 Blautia coccoides strain YL58 genome	4362753	4363841
+p69380	2.a.4	iron	EX_cpd10516_e0	rxn08473,rxn08474,rxn12504,rxn29259,rxn08476,rxn10963,rxn13286,rxn33142,rxn34369	gnl|tc-db|p69380|2.a.4.7.1	27.203	1.07e-25	104	87	CP022713.1 Blautia coccoides strain YL58 genome	658419	657640
+p69380	2.a.4	iron	EX_cpd10516_e0	rxn29260	gnl|tc-db|p69380|2.a.4.7.1	27.203	1.07e-25	104	87	CP022713.1 Blautia coccoides strain YL58 genome	658419	657640
+p69808	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p69808|4.a.2.1.11	41.667	5.21e-13	61.2	88	CP022713.1 Blautia coccoides strain YL58 genome	4221894	4222175
+p69816	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p69816|4.a.2.1.10	49.474	1.11e-19	80.1	90	CP022713.1 Blautia coccoides strain YL58 genome	4221894	4222175
+p69874	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|p69874|3.a.1.11.1	46.089	1.46e-91	298	98	CP022713.1 Blautia coccoides strain YL58 genome	590477	591523
+p69874	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|p69874|3.a.1.11.1	46.089	1.46e-91	298	98	CP022713.1 Blautia coccoides strain YL58 genome	590477	591523
+p71012	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p71012|4.a.2.1.4	49.689	2.93e-170	536	99	CP022713.1 Blautia coccoides strain YL58 genome	4221381	4223291
+p71746	3.a.1	sulfate	EX_cpd00681_e0	rxn05153,rxn09276,rxn29239	gnl|tc-db|p71746|3.a.1.6.3	20.082	1.21e-10	59.3	86	CP022713.1 Blautia coccoides strain YL58 genome	2280709	2281395
+p72590	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p72590|3.a.1.14.24	44.840	7.59e-54	188	87	CP022713.1 Blautia coccoides strain YL58 genome	2363795	2362956
+p72590	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p72590|3.a.1.14.24	44.840	7.59e-54	188	87	CP022713.1 Blautia coccoides strain YL58 genome	2363795	2362956
+p72591	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p72591|3.a.1.14.24	40.214	1.82e-40	149	81	CP022713.1 Blautia coccoides strain YL58 genome	2362792	2361950
+p72591	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p72591|3.a.1.14.24	40.214	1.82e-40	149	81	CP022713.1 Blautia coccoides strain YL58 genome	2362792	2361950
+p72592	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p72592|3.a.1.14.24	50.193	8.39e-81	262	99	CP022713.1 Blautia coccoides strain YL58 genome	2361942	2361166
+p72592	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p72592|3.a.1.14.24	50.193	8.39e-81	262	99	CP022713.1 Blautia coccoides strain YL58 genome	2361942	2361166
+p72593	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p72593|3.a.1.14.24	26.255	2.94e-10	58.9	78	CP022713.1 Blautia coccoides strain YL58 genome	2364778	2364056
+p72593	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p72593|3.a.1.14.24	26.255	2.94e-10	58.9	78	CP022713.1 Blautia coccoides strain YL58 genome	2364778	2364056
+p75757	2.a.4	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|p75757|2.a.4.1.4	21.912	3.34e-04	39.7	79	CP022713.1 Blautia coccoides strain YL58 genome	658359	657613
+p75892	2.a.40	pyrimidine	EX_cpd00046_e0,EX_cpd00091_e0	rxn05525	gnl|tc-db|p75892|2.a.40.1.3	37.150	8.34e-69	235	88	CP022713.1 Blautia coccoides strain YL58 genome	2089091	2087952
+p75892	2.a.40	pyrimidine	EX_cpd00046_e0,EX_cpd00091_e0	rxn05665	gnl|tc-db|p75892|2.a.40.1.3	37.150	8.34e-69	235	88	CP022713.1 Blautia coccoides strain YL58 genome	2089091	2087952
+p76037	2.a.3	putrescine		rxn05687,rxn09215,rxn13392,rxn34402,rxn34528,rxn11263	gnl|tc-db|p76037|2.a.3.1.13	22.388	5.38e-17	81.6	98	CP022713.1 Blautia coccoides strain YL58 genome	3108262	3106895
+p77279	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p77279|3.a.1.139.2	36.019	1.33e-28	110	100	CP022713.1 Blautia coccoides strain YL58 genome	4005313	4005921
+p77279	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p77279|3.a.1.139.2	36.019	1.33e-28	110	100	CP022713.1 Blautia coccoides strain YL58 genome	4005313	4005921
+p77579	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p77579|4.a.2.1.11	27.513	6.32e-28	114	90	CP022713.1 Blautia coccoides strain YL58 genome	4222242	4223279
+p77610	2.a.3	l-asparagine		rxn05508,rxn08161,rxn09782,rxn13229,rxn13230,rxn34455,rxn34491	gnl|tc-db|p77610|2.a.3.1.24	21.498	8.64e-06	45.8	81	CP022713.1 Blautia coccoides strain YL58 genome	3108253	3107075
+p92939	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p92939|3.a.3.2.13	32.157	2.15e-143	474	96	CP022713.1 Blautia coccoides strain YL58 genome	3381952	3379403
+p94528	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn05173,rxn08139,rxn11063	gnl|tc-db|p94528|3.a.1.1.34	34.216	2.41e-79	265	100	CP022713.1 Blautia coccoides strain YL58 genome	3134607	3133267
+p94528	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn10822	gnl|tc-db|p94528|3.a.1.1.34	34.216	2.41e-79	265	100	CP022713.1 Blautia coccoides strain YL58 genome	3134607	3133267
+p94529	3.a.1	l-arabinose		rxn05173,rxn08139,rxn11063	gnl|tc-db|p94529|3.a.1.1.34	50.936	7.34e-83	270	91	CP022713.1 Blautia coccoides strain YL58 genome	3133098	3132298
+p94530	3.a.1	l-arabinose		rxn05173,rxn08139,rxn11063	gnl|tc-db|p94530|3.a.1.1.34	53.815	5.56e-70	232	88	CP022713.1 Blautia coccoides strain YL58 genome	3132076	3131330
+p95302	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|p95302|3.a.1.7.4	47.521	1.11e-74	245	91	CP022713.1 Blautia coccoides strain YL58 genome	4238921	4238196
+p96117	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|p96117|3.a.1.15.8	33.778	4.76e-22	93.2	97	CP022713.1 Blautia coccoides strain YL58 genome	2361906	2361238
+p96169	2.a.21	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|p96169|2.a.21.3.2	27.273	2.63e-27	115	87	CP022713.1 Blautia coccoides strain YL58 genome	3867544	3866168
+p96169	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p96169|2.a.21.3.2	27.273	2.63e-27	115	87	CP022713.1 Blautia coccoides strain YL58 genome	3867544	3866168
+p96792	2.a.2	xylose		rxn05671,rxn09384	gnl|tc-db|p96792|2.a.2.3.3	32.088	1.17e-66	230	99	CP022713.1 Blautia coccoides strain YL58 genome	4112530	4113864
+p98194	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p98194|3.a.3.2.5	36.710	8.08e-155	503	90	CP022713.1 Blautia coccoides strain YL58 genome	3381919	3379508
+q01937	3.a.1	lactose	EX_cpd00208_e0	rxn05598	gnl|tc-db|q01937|3.a.1.1.4	54.192	7.86e-106	338	88	CP022713.1 Blautia coccoides strain YL58 genome	4362753	4363733
+q01959	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q01959|2.a.22.1.3	22.353	3.94e-25	108	80	CP022713.1 Blautia coccoides strain YL58 genome	2796706	2795384
+q03614	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q03614|2.a.22.1.4	23.185	5.71e-17	82.8	79	CP022713.1 Blautia coccoides strain YL58 genome	4267942	4269195
+q03nm0.2	3.a.1	folate		rxn90019	gnl|tc-db|q03nm0.2|3.a.1.28.2	25.595	7.12e-07	45.4	98	CP022713.1 Blautia coccoides strain YL58 genome	2419799	2420293
+q03py5.2	3.a.1	folate		rxn90019	gnl|tc-db|q03py5.2|3.a.1.28.2	43.273	1.30e-72	239	99	CP022713.1 Blautia coccoides strain YL58 genome	2007847	2007023
+q03py6.2	3.a.1	folate		rxn90019	gnl|tc-db|q03py6.2|3.a.1.28.2	49.451	6.60e-81	263	98	CP022713.1 Blautia coccoides strain YL58 genome	2007029	2006217
+q03py7.2	3.a.1	folate		rxn90019	gnl|tc-db|q03py7.2|3.a.1.28.2	40.840	1.42e-61	207	98	CP022713.1 Blautia coccoides strain YL58 genome	2006166	2005387
+q05596	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q05596|3.a.1.23.6	36.546	4.37e-53	183	97	CP022713.1 Blautia coccoides strain YL58 genome	874182	873436
+q05598	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q05598|3.a.1.23.6	25.664	8.03e-26	102	100	CP022713.1 Blautia coccoides strain YL58 genome	874970	874296
+q07307	2.a.40	xanthine		rxn05202,rxn09377,rxn12440	gnl|tc-db|q07307|2.a.40.4.1	27.455	5.59e-23	101	76	CP022713.1 Blautia coccoides strain YL58 genome	3988175	3986949
+q08636	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|q08636|3.a.2.2.2	62.917	0.0	728	96	CP022713.1 Blautia coccoides strain YL58 genome	4377716	4379413
+q08637	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|q08637|3.a.2.2.2	71.965	0.0	688	99	CP022713.1 Blautia coccoides strain YL58 genome	4379482	4380840
+q0phv8	2.a.35	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q0phv8|2.a.35.2.3	37.093	2.19e-74	254	89	CP022713.1 Blautia coccoides strain YL58 genome	2071927	2070614
+q0s1n2	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q0s1n2|4.a.2.1.13	36.505	2.44e-84	289	90	CP022713.1 Blautia coccoides strain YL58 genome	4221438	4223219
+q0w3w9	2.a.58	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|q0w3w9|2.a.58.2.6	27.202	8.03e-63	221	90	CP022713.1 Blautia coccoides strain YL58 genome	1580966	1579446
+q11g42	2.a.118	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|q11g42|2.a.118.1.2	33.333	2.27e-69	238	95	CP022713.1 Blautia coccoides strain YL58 genome	1971164	1969827
+q11g42	2.a.118	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|q11g42|2.a.118.1.2	33.333	2.27e-69	238	95	CP022713.1 Blautia coccoides strain YL58 genome	1971164	1969827
+q11g42	2.a.118	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|q11g42|2.a.118.1.2	33.333	2.27e-69	238	95	CP022713.1 Blautia coccoides strain YL58 genome	1971164	1969827
+q11g42	2.a.118	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|q11g42|2.a.118.1.2	33.333	2.27e-69	238	95	CP022713.1 Blautia coccoides strain YL58 genome	1971164	1969827
+q1lz59	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q1lz59|4.a.2.1.7	42.749	4.21e-144	461	99	CP022713.1 Blautia coccoides strain YL58 genome	4221381	4223279
+q1lz68	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q1lz68|4.a.2.1.8	28.788	1.36e-18	79.0	88	CP022713.1 Blautia coccoides strain YL58 genome	4221396	4221788
+q1m605	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|q1m605|3.a.3.7.2	44.211	3.59e-121	392	98	CP022713.1 Blautia coccoides strain YL58 genome	4839156	4840856
+q1m606	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|q1m606|3.a.3.7.2	58.876	0.0	686	98	CP022713.1 Blautia coccoides strain YL58 genome	4840938	4842941
+q1m607	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|q1m607|3.a.3.7.2	36.946	1.08e-32	120	95	CP022713.1 Blautia coccoides strain YL58 genome	4842988	4843590
+q1m7q2	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|q1m7q2|3.a.1.11.6	31.579	2.33e-25	102	79	CP022713.1 Blautia coccoides strain YL58 genome	592497	593120
+q1m7q2	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|q1m7q2|3.a.1.11.6	31.579	2.33e-25	102	79	CP022713.1 Blautia coccoides strain YL58 genome	592497	593120
+q1r4s9	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q1r4s9|4.a.2.1.9	32.836	8.12e-17	73.9	86	CP022713.1 Blautia coccoides strain YL58 genome	4221381	4221779
+q1r4t1	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q1r4t1|4.a.2.1.9	35.196	9.54e-50	177	94	CP022713.1 Blautia coccoides strain YL58 genome	4222254	4223327
+q2bm70	3.a.1	taurine		rxn05172,rxn09285	gnl|tc-db|q2bm70|3.a.1.17.4	33.333	1.79e-31	122	81	CP022713.1 Blautia coccoides strain YL58 genome	4081105	4081851
+q2fve9	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|q2fve9|3.a.1.5.43	36.900	2.73e-54	187	98	CP022713.1 Blautia coccoides strain YL58 genome	1817197	1816385
+q32ay2	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q32ay2|3.a.1.14.18	34.589	5.51e-35	132	95	CP022713.1 Blautia coccoides strain YL58 genome	2363807	2362956
+q32ay2	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q32ay2|3.a.1.14.18	34.589	5.51e-35	132	95	CP022713.1 Blautia coccoides strain YL58 genome	2363807	2362956
+q37145	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q37145|3.a.3.2.11	31.987	6.53e-101	347	88	CP022713.1 Blautia coccoides strain YL58 genome	4130082	4132646
+q38cw7	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q38cw7|3.a.3.9.7	32.175	6.33e-109	372	86	CP022713.1 Blautia coccoides strain YL58 genome	4130154	4132571
+q3ivi6	2.a.56	dctp	EX_cpd00356_e0	rxn29860	gnl|tc-db|q3ivi6|2.a.56.1.4	33.083	4.25e-41	151	87	CP022713.1 Blautia coccoides strain YL58 genome	409452	410246
+q3jze2	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q3jze2|4.a.2.1.22	42.268	9.00e-13	60.1	94	CP022713.1 Blautia coccoides strain YL58 genome	4221894	4222181
+q3jze3	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q3jze3|4.a.2.1.22	32.432	4.14e-19	80.5	98	CP022713.1 Blautia coccoides strain YL58 genome	4221381	4221812
+q3jze4	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q3jze4|4.a.2.1.22	28.152	4.51e-21	92.8	90	CP022713.1 Blautia coccoides strain YL58 genome	4222275	4223282
+q3k0g6	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q3k0g6|4.a.2.1.20	46.003	3.50e-151	482	99	CP022713.1 Blautia coccoides strain YL58 genome	4221381	4223279
+q3mar5	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|q3mar5|3.a.1.11.10	49.477	7.87e-92	299	83	CP022713.1 Blautia coccoides strain YL58 genome	590510	591361
+q3mar5	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|q3mar5|3.a.1.11.10	49.477	7.87e-92	299	83	CP022713.1 Blautia coccoides strain YL58 genome	590510	591361
+q3mb44	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|q3mb44|3.a.1.2.29	37.652	7.01e-107	348	96	CP022713.1 Blautia coccoides strain YL58 genome	5047422	5048891
+q44586	2.a.6	cadmium		rxn08196,rxn13814,rxn08198,rxn29670	gnl|tc-db|q44586|2.a.6.1.12	24.396	8.56e-46	178	76	CP022713.1 Blautia coccoides strain YL58 genome	1812434	1810020
+q44586	2.a.6	cobalt		rxn08240,rxn13681,rxn08242,rxn10474	gnl|tc-db|q44586|2.a.6.1.12	24.396	8.56e-46	178	76	CP022713.1 Blautia coccoides strain YL58 genome	1812434	1810020
+q44586	2.a.6	nickel		rxn08990,rxn08992,rxn10581,rxn13730	gnl|tc-db|q44586|2.a.6.1.12	24.396	8.56e-46	178	76	CP022713.1 Blautia coccoides strain YL58 genome	1812434	1810020
+q46821	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05497	gnl|tc-db|q46821|2.a.40.3.3	30.549	5.44e-41	155	84	CP022713.1 Blautia coccoides strain YL58 genome	3988181	3986937
+q46821	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05471	gnl|tc-db|q46821|2.a.40.3.3	30.549	5.44e-41	155	84	CP022713.1 Blautia coccoides strain YL58 genome	3988181	3986937
+q46821	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn29869	gnl|tc-db|q46821|2.a.40.3.3	30.549	5.44e-41	155	84	CP022713.1 Blautia coccoides strain YL58 genome	3988181	3986937
+q46821	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn38756	gnl|tc-db|q46821|2.a.40.3.3	30.549	5.44e-41	155	84	CP022713.1 Blautia coccoides strain YL58 genome	3988181	3986937
+q47538	3.a.1	taurine		rxn05172,rxn09285	gnl|tc-db|q47538|3.a.1.17.1	41.228	2.75e-51	177	98	CP022713.1 Blautia coccoides strain YL58 genome	4082684	4083334
+q47539	3.a.1	taurine		rxn05172,rxn09285	gnl|tc-db|q47539|3.a.1.17.1	35.714	3.93e-43	154	99	CP022713.1 Blautia coccoides strain YL58 genome	4081021	4081851
+q48797	2.a.69	malate	EX_cpd00130_e0	rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|q48797|2.a.69.4.5	24.662	3.15e-16	77.0	94	CP022713.1 Blautia coccoides strain YL58 genome	2852758	2851901
+q51330	2.a.1	formate	EX_cpd00047_e0	rxn05559,rxn08524,rxn10860,rxn12422,rxn34214,rxn34215,rxn34216,rxn34459	gnl|tc-db|q51330|2.a.1.11.1	26.683	2.59e-16	79.0	92	CP022713.1 Blautia coccoides strain YL58 genome	4711244	4712413
+q52666	3.a.1	asparagine	EX_cpd00132_e0	rxn08160,rxn10144	gnl|tc-db|q52666|3.a.1.3.7	48.971	1.83e-80	261	99	CP022713.1 Blautia coccoides strain YL58 genome	519620	520348
+q52666	3.a.1	aspartate	EX_cpd00041_e0,EX_cpd00041_e0	rxn05152,rxn08165	gnl|tc-db|q52666|3.a.1.3.7	48.971	1.83e-80	261	99	CP022713.1 Blautia coccoides strain YL58 genome	519620	520348
+q52666	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|q52666|3.a.1.3.7	48.971	1.83e-80	261	99	CP022713.1 Blautia coccoides strain YL58 genome	519620	520348
+q52666	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|q52666|3.a.1.3.7	48.971	1.83e-80	261	99	CP022713.1 Blautia coccoides strain YL58 genome	519620	520348
+q52716	3.d.6	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q52716|3.d.6.1.1	37.442	3.40e-78	265	83	CP022713.1 Blautia coccoides strain YL58 genome	1038831	1040096
+q52716	3.d.6	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q52716|3.d.6.1.1	37.442	3.40e-78	265	83	CP022713.1 Blautia coccoides strain YL58 genome	1038831	1040096
+q52983	2.a.63	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|q52983|2.a.63.1.1	28.750	0.61	26.2	87	CP022713.1 Blautia coccoides strain YL58 genome	1943929	1943711
+q55281	3.a.1	manganese		rxn05149	gnl|tc-db|q55281|3.a.1.15.1	32.000	1.67e-28	111	98	CP022713.1 Blautia coccoides strain YL58 genome	4525659	4526375
+q56953	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q56953|3.a.1.15.4	30.213	8.34e-24	99.0	98	CP022713.1 Blautia coccoides strain YL58 genome	4899149	4899817
+q56953	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q56953|3.a.1.15.4	30.213	8.34e-24	99.0	98	CP022713.1 Blautia coccoides strain YL58 genome	4899149	4899817
+q56zn6	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|q56zn6|3.a.10.2.3	43.089	7.61e-136	443	92	CP022713.1 Blautia coccoides strain YL58 genome	491190	489238
+q58762	3.a.1	molybdate		rxn05619,rxn08955	gnl|tc-db|q58762|3.a.1.6.9	41.423	8.62e-44	157	97	CP022713.1 Blautia coccoides strain YL58 genome	590504	591220
+q58763	3.a.1	molybdate		rxn05619,rxn08955	gnl|tc-db|q58763|3.a.1.6.9	27.317	5.72e-15	71.6	84	CP022713.1 Blautia coccoides strain YL58 genome	592593	593165
+q59385	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|q59385|3.a.3.5.5	39.687	8.35e-147	476	99	CP022713.1 Blautia coccoides strain YL58 genome	3605742	3608000
+q59465	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q59465|3.a.3.6.3	39.776	2.02e-152	487	99	CP022713.1 Blautia coccoides strain YL58 genome	404863	406971
+q59465	3.a.3	cobalt		rxn05166,rxn08239	gnl|tc-db|q59465|3.a.3.6.3	39.776	2.02e-152	487	99	CP022713.1 Blautia coccoides strain YL58 genome	404863	406971
+q59465	3.a.3	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|q59465|3.a.3.6.3	39.776	2.02e-152	487	99	CP022713.1 Blautia coccoides strain YL58 genome	404863	406971
+q5e733	2.a.21	galactose	EX_cpd00108_e0	rxn05566,rxn08584,rxn34374	sp|q5e733|nant_alif1|2.a.21.3.7	29.801	7.62e-54	193	89	CP022713.1 Blautia coccoides strain YL58 genome	3867550	3866192
+q5e733	2.a.21	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	sp|q5e733|nant_alif1|2.a.21.3.7	29.801	7.62e-54	193	89	CP022713.1 Blautia coccoides strain YL58 genome	3867550	3866192
+q5e733	2.a.21	n-acetylneuraminate		rxn05487,rxn08050	sp|q5e733|nant_alif1|2.a.21.3.7	29.801	7.62e-54	193	89	CP022713.1 Blautia coccoides strain YL58 genome	3867550	3866192
+q5e733	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	sp|q5e733|nant_alif1|2.a.21.3.7	29.801	7.62e-54	193	89	CP022713.1 Blautia coccoides strain YL58 genome	3867550	3866192
+q5hgy5	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|q5hgy5|3.a.1.11.8	55.620	2.52e-110	352	98	CP022713.1 Blautia coccoides strain YL58 genome	2278825	2279862
+q5hgy5	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|q5hgy5|3.a.1.11.8	55.620	2.52e-110	352	98	CP022713.1 Blautia coccoides strain YL58 genome	2278825	2279862
+q5ih90	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q5ih90|3.a.3.2.36	34.562	6.32e-137	456	91	CP022713.1 Blautia coccoides strain YL58 genome	3381916	3379445
+q5m0a4	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q5m0a4|3.a.3.2.22	28.100	8.40e-73	259	86	CP022713.1 Blautia coccoides strain YL58 genome	3381916	3379802
+q5shv0	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q5shv0|3.a.1.10.6	26.557	2.96e-14	71.6	75	CP022713.1 Blautia coccoides strain YL58 genome	2386670	2385768
+q5shv0	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q5shv0|3.a.1.10.6	26.557	2.96e-14	71.6	75	CP022713.1 Blautia coccoides strain YL58 genome	2386670	2385768
+q5ska0	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q5ska0|3.a.1.14.26	39.906	8.85e-33	123	91	CP022713.1 Blautia coccoides strain YL58 genome	2361870	2361232
+q5ska0	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q5ska0|3.a.1.14.26	39.906	8.85e-33	123	91	CP022713.1 Blautia coccoides strain YL58 genome	2361870	2361232
+q5ska1	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q5ska1|3.a.1.14.26	35.943	2.63e-09	56.2	82	CP022713.1 Blautia coccoides strain YL58 genome	2362777	2361953
+q5ska1	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q5ska1|3.a.1.14.26	35.943	2.63e-09	56.2	82	CP022713.1 Blautia coccoides strain YL58 genome	2362777	2361953
+q5skc6	3.a.1	molybdate		rxn05619,rxn08955	gnl|tc-db|q5skc6|3.a.1.8.3	23.636	8.41e-10	57.0	92	CP022713.1 Blautia coccoides strain YL58 genome	732187	732861
+q60048	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q60048|3.a.3.6.8	35.027	5.91e-118	388	99	CP022713.1 Blautia coccoides strain YL58 genome	404860	406974
+q6lx42	2.a.25	alanine	EX_cpd00035_e0	rxn05215,rxn05496,rxn08101,rxn08102,rxn34464,rxn34465,rxn34485,rxn34486	gnl|tc-db|q6lx42|2.a.25.1.3	52.146	2.46e-131	416	99	CP022713.1 Blautia coccoides strain YL58 genome	3040869	3039481
+q6lx42	2.a.25	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q6lx42|2.a.25.1.3	52.146	2.46e-131	416	99	CP022713.1 Blautia coccoides strain YL58 genome	3040869	3039481
+q6mi08	3.a.1	manganese		rxn05149	gnl|tc-db|q6mi08|3.a.1.15.17	31.609	4.14e-05	40.8	99	CP022713.1 Blautia coccoides strain YL58 genome	4817651	4818148
+q6mi08	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|q6mi08|3.a.1.15.17	31.609	4.14e-05	40.8	99	CP022713.1 Blautia coccoides strain YL58 genome	4817651	4818148
+q6mnm0	3.a.1	maltodextrin		rxn11140	gnl|tc-db|q6mnm0|3.a.1.1.51	20.670	7.66e-24	105	92	CP022713.1 Blautia coccoides strain YL58 genome	2201056	2199083
+q6mnm0	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q6mnm0|3.a.1.1.51	20.670	7.66e-24	105	92	CP022713.1 Blautia coccoides strain YL58 genome	2201056	2199083
+q6n8w8	2.a.56	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|q6n8w8|2.a.56.1.10	32.333	2.36e-48	175	100	CP022713.1 Blautia coccoides strain YL58 genome	410855	412126
+q6n8w8	2.a.56	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|q6n8w8|2.a.56.1.10	32.333	2.36e-48	175	100	CP022713.1 Blautia coccoides strain YL58 genome	410855	412126
+q6n8w8	2.a.56	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|q6n8w8|2.a.56.1.10	32.333	2.36e-48	175	100	CP022713.1 Blautia coccoides strain YL58 genome	410855	412126
+q6n8w8	2.a.56	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|q6n8w8|2.a.56.1.10	32.333	2.36e-48	175	100	CP022713.1 Blautia coccoides strain YL58 genome	410855	412126
+q6n8x0	2.a.56	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|q6n8x0|2.a.56.1.10	20.930	2.22e-10	59.7	84	CP022713.1 Blautia coccoides strain YL58 genome	2312133	2311288
+q6n8x0	2.a.56	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|q6n8x0|2.a.56.1.10	20.930	2.22e-10	59.7	84	CP022713.1 Blautia coccoides strain YL58 genome	2312133	2311288
+q6n8x0	2.a.56	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|q6n8x0|2.a.56.1.10	20.930	2.22e-10	59.7	84	CP022713.1 Blautia coccoides strain YL58 genome	2312133	2311288
+q6n8x0	2.a.56	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|q6n8x0|2.a.56.1.10	20.930	2.22e-10	59.7	84	CP022713.1 Blautia coccoides strain YL58 genome	2312133	2311288
+q6n8x0	2.a.56	dctp	EX_cpd00356_e0	rxn29860	gnl|tc-db|q6n8x0|2.a.56.1.10	20.930	2.22e-10	59.7	84	CP022713.1 Blautia coccoides strain YL58 genome	2312133	2311288
+q72h66	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q72h66|3.a.1.1.25	33.865	4.27e-27	108	99	CP022713.1 Blautia coccoides strain YL58 genome	3831175	3830432
+q72h67	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q72h67|3.a.1.1.25	44.269	6.33e-55	189	99	CP022713.1 Blautia coccoides strain YL58 genome	3832036	3831281
+q72h68	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q72h68|3.a.1.1.25	25.587	3.37e-30	121	86	CP022713.1 Blautia coccoides strain YL58 genome	3833673	3832642
+q72h68	3.a.1	trehalose	EX_cpd00794_e0	rxn10839	gnl|tc-db|q72h68|3.a.1.1.25	25.587	3.37e-30	121	86	CP022713.1 Blautia coccoides strain YL58 genome	3833673	3832642
+q72kx2	3.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05147,rxn08606	gnl|tc-db|q72kx2|3.a.1.1.24	23.188	1.37e-07	51.2	78	CP022713.1 Blautia coccoides strain YL58 genome	2823646	2822699
+q72kx3	3.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05147,rxn08606	gnl|tc-db|q72kx3|3.a.1.1.24	23.529	9.53e-10	57.8	78	CP022713.1 Blautia coccoides strain YL58 genome	4619739	4620356
+q72rn5	3.a.3	magnesium		rxn08924,rxn10571	gnl|tc-db|q72rn5|3.a.3.4.2	30.694	8.81e-98	333	84	CP022713.1 Blautia coccoides strain YL58 genome	3381940	3379796
+q72xq0	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|q72xq0|4.a.3.2.8	27.273	1.99e-21	95.1	99	CP022713.1 Blautia coccoides strain YL58 genome	1787985	1786759
+q73lw8	2.a.51	chromate	EX_cpd11595_e0	rxn05526,rxn13686	gnl|tc-db|q73lw8|2.a.51.1.6	47.753	2.30e-49	169	91	CP022713.1 Blautia coccoides strain YL58 genome	5097495	5098025
+q73lw9	2.a.51	chromate	EX_cpd11595_e0	rxn05526,rxn13686	gnl|tc-db|q73lw9|2.a.51.1.6	35.099	4.97e-21	87.4	98	CP022713.1 Blautia coccoides strain YL58 genome	5098055	5098507
+q73re4	3.a.1	thiamine		rxn05177,rxn09297	gnl|tc-db|q73re4|3.a.1.19.2	44.878	4.74e-51	174	100	CP022713.1 Blautia coccoides strain YL58 genome	590507	591121
+q73re6	3.a.1	thiamine		rxn05177,rxn09297	gnl|tc-db|q73re6|3.a.1.19.2	22.924	0.075	32.3	84	CP022713.1 Blautia coccoides strain YL58 genome	593238	594101
+q79ci9	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|q79ci9|3.a.1.23.1	36.937	2.39e-37	136	99	CP022713.1 Blautia coccoides strain YL58 genome	874143	873487
+q7a3e6	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|q7a3e6|3.a.3.5.19	47.266	0.0	635	99	CP022713.1 Blautia coccoides strain YL58 genome	3605706	3607982
+q7a4q7	2.a.21	proline	EX_cpd00129_e0	rxn05221,rxn05638,rxn09191,rxn09192,rxn12451,rxn34526,rxn34527	gnl|tc-db|q7a4q7|2.a.21.2.2	29.797	5.00e-26	110	81	CP022713.1 Blautia coccoides strain YL58 genome	3101400	3100135
+q7a4q7	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q7a4q7|2.a.21.2.2	29.797	5.00e-26	110	81	CP022713.1 Blautia coccoides strain YL58 genome	3101400	3100135
+q7akp1	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q7akp1|3.a.1.1.44	26.087	4.97e-17	81.3	92	CP022713.1 Blautia coccoides strain YL58 genome	3925227	3926345
+q7cq74	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|q7cq74|3.a.1.5.24	27.701	1.33e-29	118	99	CP022713.1 Blautia coccoides strain YL58 genome	2410611	2409691
+q7uq83	3.a.1	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|q7uq83|3.a.1.115.2	37.668	1.08e-40	146	99	CP022713.1 Blautia coccoides strain YL58 genome	2692825	2692163
+q7vj33	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|q7vj33|3.a.1.5.40	25.463	4.12e-28	117	85	CP022713.1 Blautia coccoides strain YL58 genome	1819833	1818661
+q7vj34	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|q7vj34|3.a.1.5.40	37.354	1.49e-56	194	93	CP022713.1 Blautia coccoides strain YL58 genome	2410446	2409676
+q7z8r3	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05497	gnl|tc-db|q7z8r3|2.a.40.7.1	32.568	6.14e-49	181	86	CP022713.1 Blautia coccoides strain YL58 genome	3729661	3730953
+q7z8r3	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05471	gnl|tc-db|q7z8r3|2.a.40.7.1	32.568	6.14e-49	181	86	CP022713.1 Blautia coccoides strain YL58 genome	3729661	3730953
+q7z8r3	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn29869	gnl|tc-db|q7z8r3|2.a.40.7.1	32.568	6.14e-49	181	86	CP022713.1 Blautia coccoides strain YL58 genome	3729661	3730953
+q7z8r3	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn38756	gnl|tc-db|q7z8r3|2.a.40.7.1	32.568	6.14e-49	181	86	CP022713.1 Blautia coccoides strain YL58 genome	3729661	3730953
+q82vn5	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q82vn5|3.a.1.10.4	37.260	5.20e-66	224	99	CP022713.1 Blautia coccoides strain YL58 genome	590507	591550
+q82vn5	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q82vn5|3.a.1.10.4	37.260	5.20e-66	224	99	CP022713.1 Blautia coccoides strain YL58 genome	590507	591550
+q830z1	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q830z1|3.a.3.25.3	31.229	6.23e-90	302	96	CP022713.1 Blautia coccoides strain YL58 genome	405241	406974
+q839d3	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q839d3|3.a.1.26.7	45.935	1.17e-68	227	93	CP022713.1 Blautia coccoides strain YL58 genome	2006175	2005441
+q839d4	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q839d4|3.a.1.26.7	45.230	2.92e-80	262	100	CP022713.1 Blautia coccoides strain YL58 genome	2007029	2006187
+q839d5	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q839d5|3.a.1.26.7	47.860	3.51e-75	246	97	CP022713.1 Blautia coccoides strain YL58 genome	2007799	2007029
+q87tn7	2.a.38	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|q87tn7|2.a.38.1.5	35.307	1.55e-58	207	96	CP022713.1 Blautia coccoides strain YL58 genome	4889427	4888042
+q87wh4	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|q87wh4|3.a.1.12.10	24.865	7.85e-07	46.6	85	CP022713.1 Blautia coccoides strain YL58 genome	4082064	4082603
+q87wh4	3.a.1	choline		rxn05159,rxn08212	gnl|tc-db|q87wh4|3.a.1.12.10	24.865	7.85e-07	46.6	85	CP022713.1 Blautia coccoides strain YL58 genome	4082064	4082603
+q87wh4	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|q87wh4|3.a.1.12.10	24.865	7.85e-07	46.6	85	CP022713.1 Blautia coccoides strain YL58 genome	4082064	4082603
+q88cp1	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q88cp1|3.a.3.6.12	39.100	4.26e-101	340	93	CP022713.1 Blautia coccoides strain YL58 genome	3604886	3603195
+q88rt6	2.a.6	cadmium		rxn08196,rxn13814,rxn08198,rxn29670	gnl|tc-db|q88rt6|2.a.6.1.5	26.122	1.49e-55	209	81	CP022713.1 Blautia coccoides strain YL58 genome	1812503	1809999
+q88rt6	2.a.6	cobalt		rxn08240,rxn13681,rxn08242,rxn10474	gnl|tc-db|q88rt6|2.a.6.1.5	26.122	1.49e-55	209	81	CP022713.1 Blautia coccoides strain YL58 genome	1812503	1809999
+q88rt6	2.a.6	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|q88rt6|2.a.6.1.5	26.122	1.49e-55	209	81	CP022713.1 Blautia coccoides strain YL58 genome	1812503	1809999
+q88rt8	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q88rt8|3.a.3.6.11	36.096	2.09e-91	309	91	CP022713.1 Blautia coccoides strain YL58 genome	2340835	2339279
+q898q9	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|q898q9|3.a.10.1.7	64.910	0.0	708	98	CP022713.1 Blautia coccoides strain YL58 genome	491199	489238
+q898q9	3.a.10	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|q898q9|3.a.10.1.7	64.910	0.0	708	98	CP022713.1 Blautia coccoides strain YL58 genome	491199	489238
+q8aav7	2.a.21	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q8aav7|2.a.21.3.19	23.982	2.67e-05	44.7	77	CP022713.1 Blautia coccoides strain YL58 genome	3867466	3866216
+q8dqh7	3.a.1	branched chain amino acid		rxn05179,rxn08745	gnl|tc-db|q8dqh7|3.a.1.4.10	33.491	2.04e-25	102	100	CP022713.1 Blautia coccoides strain YL58 genome	3339966	3340592
+q8dqh7	3.a.1	branched chain amino acid		rxn05161,rxn08784	gnl|tc-db|q8dqh7|3.a.1.4.10	33.491	2.04e-25	102	100	CP022713.1 Blautia coccoides strain YL58 genome	3339966	3340592
+q8dqh7	3.a.1	branched chain amino acid		rxn05168,rxn09373	gnl|tc-db|q8dqh7|3.a.1.4.10	33.491	2.04e-25	102	100	CP022713.1 Blautia coccoides strain YL58 genome	3339966	3340592
+q8dqh7	3.a.1	branched chain amino acid		rxn05169,rxn09301,rxn34122	gnl|tc-db|q8dqh7|3.a.1.4.10	33.491	2.04e-25	102	100	CP022713.1 Blautia coccoides strain YL58 genome	3339966	3340592
+q8dqh8	3.a.1	branched chain amino acid		rxn05179,rxn08745	gnl|tc-db|q8dqh8|3.a.1.4.10	34.061	3.78e-35	130	100	CP022713.1 Blautia coccoides strain YL58 genome	2802446	2801811
+q8dqh8	3.a.1	branched chain amino acid		rxn05161,rxn08784	gnl|tc-db|q8dqh8|3.a.1.4.10	34.061	3.78e-35	130	100	CP022713.1 Blautia coccoides strain YL58 genome	2802446	2801811
+q8dqh8	3.a.1	branched chain amino acid		rxn05168,rxn09373	gnl|tc-db|q8dqh8|3.a.1.4.10	34.061	3.78e-35	130	100	CP022713.1 Blautia coccoides strain YL58 genome	2802446	2801811
+q8dqh8	3.a.1	branched chain amino acid		rxn05169,rxn09301,rxn34122	gnl|tc-db|q8dqh8|3.a.1.4.10	34.061	3.78e-35	130	100	CP022713.1 Blautia coccoides strain YL58 genome	2802446	2801811
+q8dt26	3.a.1	maltodextrin		rxn11140	gnl|tc-db|q8dt26|3.a.1.1.27	35.000	6.89e-40	145	100	CP022713.1 Blautia coccoides strain YL58 genome	2586802	2585978
+q8dt26	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q8dt26|3.a.1.1.27	35.000	6.89e-40	145	100	CP022713.1 Blautia coccoides strain YL58 genome	2586802	2585978
+q8dvp6	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|q8dvp6|3.a.3.5.40	49.081	0.0	694	99	CP022713.1 Blautia coccoides strain YL58 genome	3605715	3607991
+q8dw86	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q8dw86|3.a.1.15.20	34.764	1.37e-31	119	100	CP022713.1 Blautia coccoides strain YL58 genome	2361912	2361220
+q8dw86	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q8dw86|3.a.1.15.20	34.764	1.37e-31	119	100	CP022713.1 Blautia coccoides strain YL58 genome	2361912	2361220
+q8dw86	3.a.1	manganese		rxn05149	gnl|tc-db|q8dw86|3.a.1.15.20	34.764	1.37e-31	119	100	CP022713.1 Blautia coccoides strain YL58 genome	2361912	2361220
+q8dwe7	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q8dwe7|4.a.2.1.8	46.861	6.04e-103	335	94	CP022713.1 Blautia coccoides strain YL58 genome	4221894	4223225
+q8e919	2.a.4	cadmium		rxn08196,rxn13814,rxn08198,rxn29670	gnl|tc-db|q8e919|2.a.4.7.5	23.828	1.39e-17	80.9	86	CP022713.1 Blautia coccoides strain YL58 genome	4398694	4399461
+q8e919	2.a.4	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|q8e919|2.a.4.7.5	23.828	1.39e-17	80.9	86	CP022713.1 Blautia coccoides strain YL58 genome	4398694	4399461
+q8e9e5	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q8e9e5|2.a.22.5.5	33.987	1.08e-59	209	99	CP022713.1 Blautia coccoides strain YL58 genome	2796685	2795378
+q8eii1	2.a.25	alanine	EX_cpd00035_e0	rxn05215,rxn05496,rxn08101,rxn08102,rxn34464,rxn34465,rxn34485,rxn34486	gnl|tc-db|q8eii1|2.a.25.1.4	53.968	1.18e-124	397	97	CP022713.1 Blautia coccoides strain YL58 genome	5125836	5127158
+q8eii1	2.a.25	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q8eii1|2.a.25.1.4	53.968	1.18e-124	397	97	CP022713.1 Blautia coccoides strain YL58 genome	5125836	5127158
+q8fa78	2.a.56	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|q8fa78|2.a.56.1.8	30.830	4.81e-38	139	99	CP022713.1 Blautia coccoides strain YL58 genome	2312037	2311282
+q8fa78	2.a.56	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|q8fa78|2.a.56.1.8	30.830	4.81e-38	139	99	CP022713.1 Blautia coccoides strain YL58 genome	2312037	2311282
+q8fa78	2.a.56	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|q8fa78|2.a.56.1.8	30.830	4.81e-38	139	99	CP022713.1 Blautia coccoides strain YL58 genome	2312037	2311282
+q8fa78	2.a.56	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|q8fa78|2.a.56.1.8	30.830	4.81e-38	139	99	CP022713.1 Blautia coccoides strain YL58 genome	2312037	2311282
+q8fc73	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q8fc73|4.a.2.1.9	38.298	3.92e-14	63.9	90	CP022713.1 Blautia coccoides strain YL58 genome	4221897	4222175
+q8k8k8	3.a.1	methionine	EX_cpd00060_e0,EX_cpd00017_e0,EX_cpd11576_e0	rxn05219,rxn08909,rxn11151	gnl|tc-db|q8k8k8|3.a.1.24.3	33.564	1.72e-41	152	92	CP022713.1 Blautia coccoides strain YL58 genome	1816356	1815502
+q8ncc5	2.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|q8ncc5|2.a.1.4.9	18.814	1.05e-05	45.8	78	CP022713.1 Blautia coccoides strain YL58 genome	3005441	3006499
+q8nn75	2.a.15	betaine	EX_cpd08306_e0	rxn05579,rxn08638,rxn12375,rxn11216	gnl|tc-db|q8nn75|2.a.15.1.7	26.654	8.57e-30	124	80	CP022713.1 Blautia coccoides strain YL58 genome	2139239	2137725
+q8nn75	2.a.15	choline		rxn08213,rxn09692,rxn12380,rxn19034	gnl|tc-db|q8nn75|2.a.15.1.7	26.654	8.57e-30	124	80	CP022713.1 Blautia coccoides strain YL58 genome	2139239	2137725
+q8nn75	2.a.15	glycine	EX_cpd00033_e0	rxn05582,rxn08660,rxn08661,rxn09748,rxn10537,rxn12379,rxn34381,rxn34382,rxn34466,rxn34502	gnl|tc-db|q8nn75|2.a.15.1.7	26.654	8.57e-30	124	80	CP022713.1 Blautia coccoides strain YL58 genome	2139239	2137725
+q8nsn2	3.a.1	methionine	EX_cpd00060_e0,EX_cpd00017_e0,EX_cpd11576_e0	rxn05219,rxn08909,rxn11151	gnl|tc-db|q8nsn2|3.a.1.24.4	31.757	8.19e-37	139	88	CP022713.1 Blautia coccoides strain YL58 genome	4767380	4768258
+q8pxa6	2.a.21	proline	EX_cpd00129_e0	rxn05221,rxn05638,rxn09191,rxn09192,rxn12451,rxn34526,rxn34527	gnl|tc-db|q8pxa6|2.a.21.2.7	27.793	2.80e-22	97.8	82	CP022713.1 Blautia coccoides strain YL58 genome	3101217	3100135
+q8pxa6	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q8pxa6|2.a.21.2.7	27.793	2.80e-22	97.8	82	CP022713.1 Blautia coccoides strain YL58 genome	3101217	3100135
+q8pyz7	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|q8pyz7|3.a.10.2.4	52.324	0.0	596	99	CP022713.1 Blautia coccoides strain YL58 genome	491199	489238
+q8pyz8	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|q8pyz8|3.a.10.1.14	54.801	0.0	580	100	CP022713.1 Blautia coccoides strain YL58 genome	491199	489238
+q8pyz8	3.a.10	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|q8pyz8|3.a.10.1.14	54.801	0.0	580	100	CP022713.1 Blautia coccoides strain YL58 genome	491199	489238
+q8q042	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|q8q042|3.a.1.12.11	26.425	4.16e-04	38.5	87	CP022713.1 Blautia coccoides strain YL58 genome	4082037	4082597
+q8q042	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|q8q042|3.a.1.12.11	26.425	4.16e-04	38.5	87	CP022713.1 Blautia coccoides strain YL58 genome	4082037	4082597
+q8r9l9	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q8r9l9|3.a.1.33.1	28.631	2.97e-20	87.4	90	CP022713.1 Blautia coccoides strain YL58 genome	2006148	2005441
+q8rhm5	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q8rhm5|2.a.22.5.2	58.904	1.92e-144	453	100	CP022713.1 Blautia coccoides strain YL58 genome	4267993	4269303
+q8rhm5	2.a.22	tyrosine	EX_cpd00069_e0	rxn05301,rxn09338,rxn09708,rxn09831,rxn12459,rxn13411,rxn13412,rxn34413	gnl|tc-db|q8rhm5|2.a.22.5.2	58.904	1.92e-144	453	100	CP022713.1 Blautia coccoides strain YL58 genome	4267993	4269303
+q8thy0	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|q8thy0|3.a.3.1.10	35.113	1.45e-128	427	89	CP022713.1 Blautia coccoides strain YL58 genome	3381925	3379595
+q8thy0	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|q8thy0|3.a.3.1.10	35.113	1.45e-128	427	89	CP022713.1 Blautia coccoides strain YL58 genome	3381925	3379595
+q8tjz4	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q8tjz4|3.a.3.6.16	38.314	1.42e-97	326	79	CP022713.1 Blautia coccoides strain YL58 genome	2340835	2339279
+q8tpa6	2.a.19	calcium		rxn05514,rxn08185,rxn08188,rxn10448,rxn29257,rxn29824	gnl|tc-db|q8tpa6|2.a.19.5.4	34.347	2.37e-33	129	92	CP022713.1 Blautia coccoides strain YL58 genome	2884412	2883534
+q8tpa6	2.a.19	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q8tpa6|2.a.19.5.4	34.347	2.37e-33	129	92	CP022713.1 Blautia coccoides strain YL58 genome	2884412	2883534
+q8u1g8	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05497	gnl|tc-db|q8u1g8|2.a.40.2.3	30.931	4.55e-32	127	86	CP022713.1 Blautia coccoides strain YL58 genome	3988034	3987054
+q8u1g8	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05471	gnl|tc-db|q8u1g8|2.a.40.2.3	30.931	4.55e-32	127	86	CP022713.1 Blautia coccoides strain YL58 genome	3988034	3987054
+q8u1g8	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn29869	gnl|tc-db|q8u1g8|2.a.40.2.3	30.931	4.55e-32	127	86	CP022713.1 Blautia coccoides strain YL58 genome	3988034	3987054
+q8u1g8	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn38756	gnl|tc-db|q8u1g8|2.a.40.2.3	30.931	4.55e-32	127	86	CP022713.1 Blautia coccoides strain YL58 genome	3988034	3987054
+q8u4k4	3.a.1	sulfate	EX_cpd00681_e0	rxn05153,rxn09276,rxn29239	gnl|tc-db|q8u4k4|3.a.1.6.5	27.434	6.27e-10	56.6	85	CP022713.1 Blautia coccoides strain YL58 genome	2821249	2820596
+q8u4k4	3.a.1	thiosulfate		rxn05176,rxn09329,rxn34412,rxn34536	gnl|tc-db|q8u4k4|3.a.1.6.5	27.434	6.27e-10	56.6	85	CP022713.1 Blautia coccoides strain YL58 genome	2821249	2820596
+q8y5w0	2.a.87,3.a.1	riboflavin		rxn05224,rxn05645,rxn09715,rxn33018,rxn34403,rxn38697	gnl|tc-db|q8y5w0|3.a.1.25.8	36.788	1.27e-29	112	99	CP022713.1 Blautia coccoides strain YL58 genome	4628045	4628620
+q8yrv7	3.a.1	nitrate		rxn05171	gnl|tc-db|q8yrv7|3.a.1.16.4	25.207	8.73e-11	59.7	86	CP022713.1 Blautia coccoides strain YL58 genome	1776747	1776067
+q8yrv8	3.a.1	nitrate		rxn05171	gnl|tc-db|q8yrv8|3.a.1.16.4	40.928	8.07e-49	170	92	CP022713.1 Blautia coccoides strain YL58 genome	590507	591196
+q8zkr9	2.a.56	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|q8zkr9|2.a.56.1.5	38.312	3.09e-35	127	100	CP022713.1 Blautia coccoides strain YL58 genome	2092491	2092030
+q8zkr9	2.a.56	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|q8zkr9|2.a.56.1.5	38.312	3.09e-35	127	100	CP022713.1 Blautia coccoides strain YL58 genome	2092491	2092030
+q8zkr9	2.a.56	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|q8zkr9|2.a.56.1.5	38.312	3.09e-35	127	100	CP022713.1 Blautia coccoides strain YL58 genome	2092491	2092030
+q8zkr9	2.a.56	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|q8zkr9|2.a.56.1.5	38.312	3.09e-35	127	100	CP022713.1 Blautia coccoides strain YL58 genome	2092491	2092030
+q8zks0	2.a.56	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|q8zks0|2.a.56.1.5	52.184	6.79e-110	353	98	CP022713.1 Blautia coccoides strain YL58 genome	2091913	2090678
+q8zks0	2.a.56	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|q8zks0|2.a.56.1.5	52.184	6.79e-110	353	98	CP022713.1 Blautia coccoides strain YL58 genome	2091913	2090678
+q8zks0	2.a.56	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|q8zks0|2.a.56.1.5	52.184	6.79e-110	353	98	CP022713.1 Blautia coccoides strain YL58 genome	2091913	2090678
+q8zks0	2.a.56	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|q8zks0|2.a.56.1.5	52.184	6.79e-110	353	98	CP022713.1 Blautia coccoides strain YL58 genome	2091913	2090678
+q8zq35	2.a.21	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q8zq35|2.a.21.3.10	32.522	1.85e-61	216	90	CP022713.1 Blautia coccoides strain YL58 genome	3867544	3866189
+q8zq35	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q8zq35|2.a.21.3.10	32.522	1.85e-61	216	90	CP022713.1 Blautia coccoides strain YL58 genome	3867544	3866189
+q8zwi8	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|q8zwi8|3.a.10.3.1	42.693	1.76e-133	433	96	CP022713.1 Blautia coccoides strain YL58 genome	491172	489250
+q91wn3	2.a.3	aspartate	EX_cpd00041_e0,EX_cpd00041_e0	rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|q91wn3|2.a.3.8.8	20.551	1.37e-09	58.2	81	CP022713.1 Blautia coccoides strain YL58 genome	3108235	3107084
+q91wn3	2.a.3	glutamate	EX_cpd00023_e0	rxn05297,rxn05298,rxn08631,rxn08632,rxn09751,rxn09813,rxn12370,rxn13303,rxn29048,rxn29068,rxn34103,rxn34377,rxn34378,rxn34501,rxn10917,rxn11235,rxn13304,rxn29088,rxn31191	gnl|tc-db|q91wn3|2.a.3.8.8	20.551	1.37e-09	58.2	81	CP022713.1 Blautia coccoides strain YL58 genome	3108235	3107084
+q92ll4	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q92ll4|3.a.1.15.9	27.801	5.28e-25	103	84	CP022713.1 Blautia coccoides strain YL58 genome	2461454	2462158
+q92ll4	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q92ll4|3.a.1.15.9	27.801	5.28e-25	103	84	CP022713.1 Blautia coccoides strain YL58 genome	2461454	2462158
+q92n35	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|q92n35|3.a.1.12.7	35.227	6.30e-42	154	80	CP022713.1 Blautia coccoides strain YL58 genome	4362822	4363577
+q92n35	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|q92n35|3.a.1.12.7	35.227	6.30e-42	154	80	CP022713.1 Blautia coccoides strain YL58 genome	4362822	4363577
+q93k64	2.a.118	arginine	EX_cpd00051_e0	rxn05303,rxn08154,rxn09783,rxn12437,rxn13228,rxn30457,rxn10840,rxn33718	gnl|tc-db|q93k64|2.a.118.1.1	29.268	2.17e-39	150	83	CP022713.1 Blautia coccoides strain YL58 genome	1970963	1969839
+q97jb8	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q97jb8|3.a.1.23.2	38.494	4.62e-56	192	97	CP022713.1 Blautia coccoides strain YL58 genome	2007790	2007077
+q97jb9	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q97jb9|3.a.1.23.2	23.445	1.20e-11	62.0	79	CP022713.1 Blautia coccoides strain YL58 genome	874931	874314
+q97pg9	3.a.1	manganese		rxn05149	gnl|tc-db|q97pg9|3.a.1.15.14	33.333	2.18e-23	96.3	100	CP022713.1 Blautia coccoides strain YL58 genome	4005313	4006014
+q97q42	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|q97q42|3.a.1.11.7	51.841	8.51e-111	354	92	CP022713.1 Blautia coccoides strain YL58 genome	2278813	2279862
+q97q42	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|q97q42|3.a.1.11.7	51.841	8.51e-111	354	92	CP022713.1 Blautia coccoides strain YL58 genome	2278813	2279862
+q97q43	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|q97q43|3.a.1.11.7	36.000	6.48e-53	182	99	CP022713.1 Blautia coccoides strain YL58 genome	2279855	2280670
+q97q43	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|q97q43|3.a.1.11.7	36.000	6.48e-53	182	99	CP022713.1 Blautia coccoides strain YL58 genome	2279855	2280670
+q97q44	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|q97q44|3.a.1.11.7	39.496	4.63e-55	188	93	CP022713.1 Blautia coccoides strain YL58 genome	2280751	2281464
+q97q44	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|q97q44|3.a.1.11.7	39.496	4.63e-55	188	93	CP022713.1 Blautia coccoides strain YL58 genome	2280751	2281464
+q97q45	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|q97q45|3.a.1.11.7	39.306	6.33e-77	255	99	CP022713.1 Blautia coccoides strain YL58 genome	2281516	2282550
+q97q45	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|q97q45|3.a.1.11.7	39.306	6.33e-77	255	99	CP022713.1 Blautia coccoides strain YL58 genome	2281516	2282550
+q97uf2	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn05173,rxn08139,rxn11063	gnl|tc-db|q97uf2|3.a.1.1.14	36.034	1.03e-57	200	94	CP022713.1 Blautia coccoides strain YL58 genome	1510675	1509626
+q97uf2	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn10822	gnl|tc-db|q97uf2|3.a.1.1.14	36.034	1.03e-57	200	94	CP022713.1 Blautia coccoides strain YL58 genome	1510675	1509626
+q97uf3	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn05173,rxn08139,rxn11063	gnl|tc-db|q97uf3|3.a.1.1.14	27.826	8.03e-19	84.3	96	CP022713.1 Blautia coccoides strain YL58 genome	2586730	2586065
+q97uf3	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn10822	gnl|tc-db|q97uf3|3.a.1.1.14	27.826	8.03e-19	84.3	96	CP022713.1 Blautia coccoides strain YL58 genome	2586730	2586065
+q97uf4	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn05173,rxn08139,rxn11063	gnl|tc-db|q97uf4|3.a.1.1.14	26.991	1.53e-13	68.2	80	CP022713.1 Blautia coccoides strain YL58 genome	2255537	2254887
+q97uf4	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn10822	gnl|tc-db|q97uf4|3.a.1.1.14	26.991	1.53e-13	68.2	80	CP022713.1 Blautia coccoides strain YL58 genome	2255537	2254887
+q97ug3	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q97ug3|3.a.1.5.8	29.730	2.57e-19	86.7	87	CP022713.1 Blautia coccoides strain YL58 genome	1490182	1489442
+q97ug4	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q97ug4|3.a.1.5.8	23.988	3.19e-26	107	99	CP022713.1 Blautia coccoides strain YL58 genome	4764531	4765418
+q97ug5	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q97ug5|3.a.1.5.8	30.964	7.51e-80	273	96	CP022713.1 Blautia coccoides strain YL58 genome	1487682	1486069
+q97uu7	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|q97uu7|3.a.3.5.13	28.947	1.23e-71	251	98	CP022713.1 Blautia coccoides strain YL58 genome	3605727	3607958
+q97uy8	3.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05147,rxn08606	gnl|tc-db|q97uy8|3.a.1.1.13	37.394	1.96e-59	204	99	CP022713.1 Blautia coccoides strain YL58 genome	1510645	1509629
+q97uy9	3.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05147,rxn08606	gnl|tc-db|q97uy9|3.a.1.1.13	25.267	1.32e-26	107	97	CP022713.1 Blautia coccoides strain YL58 genome	5104805	5105623
+q97uz0	3.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05147,rxn08606	gnl|tc-db|q97uz0|3.a.1.1.13	29.032	4.99e-22	93.6	90	CP022713.1 Blautia coccoides strain YL58 genome	5039999	5040733
+q97zc2	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q97zc2|3.a.1.1.15	30.000	5.36e-21	90.1	100	CP022713.1 Blautia coccoides strain YL58 genome	4497362	4498051
+q99884	2.a.22	proline	EX_cpd00129_e0	rxn05221,rxn05638,rxn09191,rxn09192,rxn12451,rxn34526,rxn34527	gnl|tc-db|q99884|2.a.22.2.11	23.046	1.45e-23	103	76	CP022713.1 Blautia coccoides strain YL58 genome	2714322	2715638
+q99884	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q99884|2.a.22.2.11	23.046	1.45e-23	103	76	CP022713.1 Blautia coccoides strain YL58 genome	2714322	2715638
+q99ya3	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|q99ya3|3.a.1.14.10	32.130	1.37e-21	93.6	87	CP022713.1 Blautia coccoides strain YL58 genome	2362777	2361950
+q9a197	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|q9a197|3.a.1.14.14	52.529	3.58e-86	277	100	CP022713.1 Blautia coccoides strain YL58 genome	2361921	2361151
+q9a198	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|q9a198|3.a.1.14.14	28.794	3.09e-23	97.8	81	CP022713.1 Blautia coccoides strain YL58 genome	2364748	2363990
+q9a199	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|q9a199|3.a.1.14.14	38.819	2.35e-23	98.2	84	CP022713.1 Blautia coccoides strain YL58 genome	2363786	2363076
+q9ces4	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|q9ces4|3.a.1.3.25	64.050	7.95e-98	310	100	CP022713.1 Blautia coccoides strain YL58 genome	519623	520348
+q9cf78	2.a.40	uracil		rxn05197,rxn09365,rxn12368	gnl|tc-db|q9cf78|2.a.40.1.2	40.758	1.92e-70	239	98	CP022713.1 Blautia coccoides strain YL58 genome	2089073	2087862
+q9chu5	2.a.72	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|q9chu5|2.a.72.1.3	52.141	0.0	577	97	CP022713.1 Blautia coccoides strain YL58 genome	686930	688882
+q9hq19	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9hq19|3.a.1.14.9	31.373	7.31e-19	86.3	81	CP022713.1 Blautia coccoides strain YL58 genome	2363858	2362959
+q9hq19	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9hq19|3.a.1.14.9	31.373	7.31e-19	86.3	81	CP022713.1 Blautia coccoides strain YL58 genome	2363858	2362959
+q9ht70	3.a.1	methionine	EX_cpd00060_e0,EX_cpd00017_e0,EX_cpd11576_e0	rxn05219,rxn08909,rxn11151	gnl|tc-db|q9ht70|3.a.1.24.5	31.801	4.31e-36	136	80	CP022713.1 Blautia coccoides strain YL58 genome	1816356	1815574
+q9hu29	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|q9hu29|3.a.1.3.23	32.386	8.49e-22	91.3	77	CP022713.1 Blautia coccoides strain YL58 genome	519115	519612
+q9hu29	3.a.1	histidine	EX_cpd00119_e0	rxn05164,rxn08718	gnl|tc-db|q9hu29|3.a.1.3.23	32.386	8.49e-22	91.3	77	CP022713.1 Blautia coccoides strain YL58 genome	519115	519612
+q9hu29	3.a.1	lysine	EX_cpd00039_e0	rxn05151,rxn08853	gnl|tc-db|q9hu29|3.a.1.3.23	32.386	8.49e-22	91.3	77	CP022713.1 Blautia coccoides strain YL58 genome	519115	519612
+q9hu29	3.a.1	ornithine	EX_cpd00064_e0	rxn05156,rxn09046,rxn27636	gnl|tc-db|q9hu29|3.a.1.3.23	32.386	8.49e-22	91.3	77	CP022713.1 Blautia coccoides strain YL58 genome	519115	519612
+q9hy57	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q9hy57|4.a.2.1.17	43.129	1.82e-71	248	77	CP022713.1 Blautia coccoides strain YL58 genome	4221870	4223279
+q9i5f5	2.a.21	proline	EX_cpd00129_e0	rxn05221,rxn05638,rxn09191,rxn09192,rxn12451,rxn34526,rxn34527	gnl|tc-db|q9i5f5|2.a.21.2.3	29.705	6.35e-33	131	82	CP022713.1 Blautia coccoides strain YL58 genome	3101403	3100135
+q9i5f5	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q9i5f5|2.a.21.2.3	29.705	6.35e-33	131	82	CP022713.1 Blautia coccoides strain YL58 genome	3101403	3100135
+q9kr64	2.a.56	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|q9kr64|2.a.56.1.6	31.985	2.34e-43	157	93	CP022713.1 Blautia coccoides strain YL58 genome	409437	410249
+q9kr64	2.a.56	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|q9kr64|2.a.56.1.6	31.985	2.34e-43	157	93	CP022713.1 Blautia coccoides strain YL58 genome	409437	410249
+q9kr64	2.a.56	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|q9kr64|2.a.56.1.6	31.985	2.34e-43	157	93	CP022713.1 Blautia coccoides strain YL58 genome	409437	410249
+q9kr64	2.a.56	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|q9kr64|2.a.56.1.6	31.985	2.34e-43	157	93	CP022713.1 Blautia coccoides strain YL58 genome	409437	410249
+q9ksh4	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|q9ksh4|4.a.3.2.6	26.410	1.73e-26	110	83	CP022713.1 Blautia coccoides strain YL58 genome	1787952	1786864
+q9kz07	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q9kz07|3.a.1.1.44	31.179	3.45e-26	107	96	CP022713.1 Blautia coccoides strain YL58 genome	4497443	4498201
+q9kz08	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q9kz08|3.a.1.1.44	31.908	4.60e-47	167	99	CP022713.1 Blautia coccoides strain YL58 genome	2586886	2585978
+q9lf79	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q9lf79|3.a.3.2.10	30.078	1.70e-84	299	80	CP022713.1 Blautia coccoides strain YL58 genome	3382069	3379571
+q9lu41	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q9lu41|3.a.3.2.14	29.920	1.38e-92	324	79	CP022713.1 Blautia coccoides strain YL58 genome	4130055	4132427
+q9ly77	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q9ly77|3.a.3.2.42	31.544	1.12e-103	356	86	CP022713.1 Blautia coccoides strain YL58 genome	4130079	4132646
+q9m3h5	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q9m3h5|3.a.3.6.6	28.281	2.19e-57	212	77	CP022713.1 Blautia coccoides strain YL58 genome	405241	406977
+q9m3h5	3.a.3	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|q9m3h5|3.a.3.6.6	28.281	2.19e-57	212	77	CP022713.1 Blautia coccoides strain YL58 genome	405241	406977
+q9njc6	1.c.47	potassium		rxn05206,rxn27350	gnl|tc-db|q9njc6|1.c.47.3.2	29.268	3.7	23.9	87	CP022713.1 Blautia coccoides strain YL58 genome	4569069	4569305
+q9nsd5	2.a.22	chloride		rxn08233,rxn30474	gnl|tc-db|q9nsd5|2.a.22.3.10	26.582	6.62e-35	139	77	CP022713.1 Blautia coccoides strain YL58 genome	2714292	2715545
+q9nsd5	2.a.22	gaba		rxn05564,rxn08027,rxn12377,rxn34350,rxn34477	gnl|tc-db|q9nsd5|2.a.22.3.10	26.582	6.62e-35	139	77	CP022713.1 Blautia coccoides strain YL58 genome	2714292	2715545
+q9nsd5	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q9nsd5|2.a.22.3.10	26.582	6.62e-35	139	77	CP022713.1 Blautia coccoides strain YL58 genome	2714292	2715545
+q9rk09	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9rk09|3.a.1.14.13	42.199	4.09e-32	125	80	CP022713.1 Blautia coccoides strain YL58 genome	2363804	2362983
+q9rk09	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9rk09|3.a.1.14.13	42.199	4.09e-32	125	80	CP022713.1 Blautia coccoides strain YL58 genome	2363804	2362983
+q9rk10	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9rk10|3.a.1.14.13	33.228	1.19e-18	85.5	84	CP022713.1 Blautia coccoides strain YL58 genome	2362870	2361941
+q9rk10	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9rk10|3.a.1.14.13	33.228	1.19e-18	85.5	84	CP022713.1 Blautia coccoides strain YL58 genome	2362870	2361941
+q9rk11	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9rk11|3.a.1.14.13	50.000	1.05e-57	197	96	CP022713.1 Blautia coccoides strain YL58 genome	2361921	2361166
+q9rk11	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9rk11|3.a.1.14.13	50.000	1.05e-57	197	96	CP022713.1 Blautia coccoides strain YL58 genome	2361921	2361166
+q9rmf5	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q9rmf5|4.a.2.1.16	34.722	1.72e-81	280	92	CP022713.1 Blautia coccoides strain YL58 genome	4221381	4223201
+q9rzp7	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q9rzp7|4.a.2.1.18	46.452	1.11e-67	237	77	CP022713.1 Blautia coccoides strain YL58 genome	4221885	4223252
+q9s213	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9s213|3.a.1.14.22	30.693	1.59e-24	102	85	CP022713.1 Blautia coccoides strain YL58 genome	2362858	2361953
+q9s213	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9s213|3.a.1.14.22	30.693	1.59e-24	102	85	CP022713.1 Blautia coccoides strain YL58 genome	2362858	2361953
+q9s215	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9s215|3.a.1.14.22	48.649	8.35e-76	249	86	CP022713.1 Blautia coccoides strain YL58 genome	2361921	2361145
+q9s215	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9s215|3.a.1.14.22	48.649	8.35e-76	249	86	CP022713.1 Blautia coccoides strain YL58 genome	2361921	2361145
+q9s409	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q9s409|3.a.1.22.1	35.912	6.65e-23	93.6	100	CP022713.1 Blautia coccoides strain YL58 genome	2006963	2006424
+q9s5x0	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|q9s5x0|3.a.10.1.4	43.377	1.35e-144	466	94	CP022713.1 Blautia coccoides strain YL58 genome	491118	489286
+q9s5y1	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q9s5y1|3.a.1.1.22	26.398	5.85e-14	71.2	95	CP022713.1 Blautia coccoides strain YL58 genome	3925224	3926165
+q9s7j8	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|q9s7j8|3.a.3.5.32	39.950	1.23e-156	511	77	CP022713.1 Blautia coccoides strain YL58 genome	3605772	3608012
+q9sy55	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q9sy55|3.a.3.2.19	34.536	9.25e-139	459	98	CP022713.1 Blautia coccoides strain YL58 genome	4130112	4132658
+q9szc9	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|q9szc9|3.a.3.5.11	32.718	1.21e-104	357	83	CP022713.1 Blautia coccoides strain YL58 genome	2341552	2339210
+q9uux9	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q9uux9|3.a.3.2.6	34.773	7.24e-139	460	93	CP022713.1 Blautia coccoides strain YL58 genome	3381967	3379508
+q9wyq2	3.a.1	glycerol-3-phosphate		rxn05158,rxn08641	gnl|tc-db|q9wyq2|3.a.1.1.38	46.724	6.94e-96	310	99	CP022713.1 Blautia coccoides strain YL58 genome	1510657	1509620
+q9x051	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|q9x051|3.a.1.2.19	41.071	4.36e-116	375	97	CP022713.1 Blautia coccoides strain YL58 genome	5047404	5048891
+q9x0h4	2.a.38	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|q9x0h4|2.a.38.1.4	28.773	1.12e-40	154	96	CP022713.1 Blautia coccoides strain YL58 genome	4889439	4888006
+q9x0t1	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q9x0t1|3.a.1.1.22	25.890	2.23e-13	69.7	96	CP022713.1 Blautia coccoides strain YL58 genome	4496264	4497139
+q9x4a5	2.a.15	betaine	EX_cpd08306_e0	rxn05579,rxn08638,rxn12375,rxn11216	gnl|tc-db|q9x4a5|2.a.15.1.11	32.193	8.24e-67	231	95	CP022713.1 Blautia coccoides strain YL58 genome	2375103	2373625
+q9x4a5	2.a.15	glycine	EX_cpd00033_e0	rxn05582,rxn08660,rxn08661,rxn09748,rxn10537,rxn12379,rxn34381,rxn34382,rxn34466,rxn34502	gnl|tc-db|q9x4a5|2.a.15.1.11	32.193	8.24e-67	231	95	CP022713.1 Blautia coccoides strain YL58 genome	2375103	2373625
+q9x664	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|q9x664|3.a.1.14.7	42.857	7.21e-46	165	77	CP022713.1 Blautia coccoides strain YL58 genome	2363750	2362953
+q9x665	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|q9x665|3.a.1.14.7	56.757	4.41e-97	309	99	CP022713.1 Blautia coccoides strain YL58 genome	2361921	2361145
+q9x6g0	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q9x6g0|3.a.3.3.3	24.815	6.36e-44	169	79	CP022713.1 Blautia coccoides strain YL58 genome	3381826	3379802
+q9x6g0	3.a.3	manganese		rxn05149	gnl|tc-db|q9x6g0|3.a.3.3.3	24.815	6.36e-44	169	79	CP022713.1 Blautia coccoides strain YL58 genome	3381826	3379802
+q9x761	2.a.2	galactose	EX_cpd00108_e0	rxn05566,rxn08584,rxn34374	gnl|tc-db|q9x761|2.a.2.2.3	23.383	1.05e-13	71.2	98	CP022713.1 Blautia coccoides strain YL58 genome	78829	79974
+q9xcs1	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9xcs1|3.a.1.15.7	31.535	2.51e-26	105	99	CP022713.1 Blautia coccoides strain YL58 genome	2361927	2361217
+q9xcs1	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9xcs1|3.a.1.15.7	31.535	2.51e-26	105	99	CP022713.1 Blautia coccoides strain YL58 genome	2361927	2361217
+q9z4r9	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9z4r9|3.a.1.20.1	27.758	1.74e-16	78.2	81	CP022713.1 Blautia coccoides strain YL58 genome	3342324	3343127
+q9z4r9	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9z4r9|3.a.1.20.1	27.758	1.74e-16	78.2	81	CP022713.1 Blautia coccoides strain YL58 genome	3342324	3343127
+q9z7n9	2.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|q9z7n9|2.a.1.4.6	23.005	1.67e-17	83.2	90	CP022713.1 Blautia coccoides strain YL58 genome	3005261	3006457
+r4jtf7	2.a.56	dctp	EX_cpd00356_e0	rxn29860	gnl|tc-db|r4jtf7|2.a.56.1.9	34.395	7.40e-62	211	99	CP022713.1 Blautia coccoides strain YL58 genome	2312154	2311243
+r4jxq3	2.a.3	butyrate		rxn05683,rxn08183	gnl|tc-db|r4jxq3|2.a.3.1.4	21.939	1.71e-10	61.2	77	CP022713.1 Blautia coccoides strain YL58 genome	3108232	3107108
+r4jxq3	2.a.3	gaba		rxn05564,rxn08027,rxn12377,rxn34350,rxn34477	gnl|tc-db|r4jxq3|2.a.3.1.4	21.939	1.71e-10	61.2	77	CP022713.1 Blautia coccoides strain YL58 genome	3108232	3107108
+s5xte7	2.a.80	citrate	EX_cpd00137_e0	rxn05211,rxn12371,rxn12792,rxn30467	gnl|tc-db|s5xte7|2.a.80.1.4	25.839	1.81e-20	90.1	87	CP022713.1 Blautia coccoides strain YL58 genome	4681716	4682594
+s5y5n9	2.a.80	citrate	EX_cpd00137_e0	rxn05211,rxn12371,rxn12792,rxn30467	gnl|tc-db|s5y5n9|2.a.80.1.4	33.797	2.93e-68	236	98	CP022713.1 Blautia coccoides strain YL58 genome	4683092	4684582
+t5hn74	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|t5hn74|4.a.2.1.23	46.072	4.22e-117	375	99	CP022713.1 Blautia coccoides strain YL58 genome	4221894	4223300
+t5hnp5	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|t5hnp5|4.a.2.1.23	31.250	1.52e-16	73.2	95	CP022713.1 Blautia coccoides strain YL58 genome	4221381	4221809
+w0wfc6	2.a.25	alanine	EX_cpd00035_e0	rxn05215,rxn05496,rxn08101,rxn08102,rxn34464,rxn34465,rxn34485,rxn34486	gnl|tc-db|w0wfc6|2.a.25.1.9	45.815	2.42e-99	323	100	CP022713.1 Blautia coccoides strain YL58 genome	3040842	3039481
+w0wfc6	2.a.25	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|w0wfc6|2.a.25.1.9	45.815	2.42e-99	323	100	CP022713.1 Blautia coccoides strain YL58 genome	3040842	3039481
+wp_022543180.1	3.a.1	glycerol-3-phosphate		rxn05158,rxn08641	gnl|tc-db|wp_022543180.1|3.a.1.1.53	52.083	1.00e-115	368	99	CP022713.1 Blautia coccoides strain YL58 genome	4362753	4363847
+wp_089030044.1	2.a.107	manganese		rxn05618,rxn08946,rxn08951,rxn05149,rxn08947	gnl|tc-db|wp_089030044.1|2.a.107.1.5	26.316	1.18e-07	48.5	91	CP022713.1 Blautia coccoides strain YL58 genome	4546100	4546612
+wp_100324686.1	2.a.107	manganese		rxn05618,rxn08946,rxn08951,rxn05149,rxn08947	gnl|tc-db|wp_100324686.1|2.a.107.1.4	27.389	7.70e-09	52.0	84	CP022713.1 Blautia coccoides strain YL58 genome	4546085	4546555
+xp_005656685.1	1.a.27	potassium		rxn05206,rxn27350	gnl|tc-db|xp_005656685.1	21.538	4.9	22.3	98	CP022713.1 Blautia coccoides strain YL58 genome	2615259	2615447
+xp_005656685.1	1.a.27	sodium		rxn34393,rxn34515,rxn10899	gnl|tc-db|xp_005656685.1	21.538	4.9	22.3	98	CP022713.1 Blautia coccoides strain YL58 genome	2615259	2615447
+yiho_ecoli	2.a.2	sulfoquinovose	EX_cpd22614_e0	rxn90101	sp|p32136|yiho_ecoli|2.a.2.3.15	30.085	1.87e-43	162	99	CP022713.1 Blautia coccoides strain YL58 genome	4014168	4015565
+yihp_ecoli	2.a.2	2,3-dihydroxypropane-1-sulfonate	EX_cpd31356_e0	rxn90102	sp|p32137|yihp_ecoli|2.a.2.3.9	31.470	6.22e-40	151	100	CP022713.1 Blautia coccoides strain YL58 genome	4014126	4015535
+yihp_salty	2.a.2	2,3-dihydroxypropane-1-sulfonate	EX_cpd31356_e0	rxn90102	sp|q9l7r5|yihp_salty|2.a.2.3.9	31.250	3.14e-40	152	99	CP022713.1 Blautia coccoides strain YL58 genome	4014126	4015529
+o66515|p54146	alternative	ammonia	cpd00013[e0]	rxn05466,rxn08986,rxn08987,rxn09736,rxn09835,rxn11158,rxn13364,rxn29187,rxn29241,rxn29242	gnl|tc-db|o66515|1.a.11.1.5	34.005	6.85e-45	164	89	CP022713.1 Blautia coccoides strain YL58 genome	3937738	3936581
+f2ms25	alternative	beta-carotene	cpd01420[e0]	rxn31999	gnl|tc-db|f2ms25|2.a.115.2.3	30.508	5.14e-12	61.6	88	CP022713.1 Blautia coccoides strain YL58 genome	886292	886816
+p31552|p69451|q42524|q57079|q57111|q57286|q9v0a4|q9v0a7|q9zaa6	alternative	coa	cpd00010[e0]	rxn10832,rxn13243,rxn13244,rxn31203,rxn32206,rxn32207,rxn32211	gnl|tc-db|q9zaa6|3.b.1.1.3	61.173	1.08e-127	402	93	CP022713.1 Blautia coccoides strain YL58 genome	933216	934289
+p31552	alternative	crotonobetaine	cpd08305[e0]	rxn05192,rxn08268,rxn08270	gnl|tc-db|p31552|4.c.1.1.6	24.681	2.55e-27	114	99	CP022713.1 Blautia coccoides strain YL58 genome	2570268	2568958
+a2rka5|a2rka6|a2rka7	alternative	cytidine	cpd00367[e0]	rxn05198,rxn08289,rxn08290,rxn10857,rxn10997,rxn12413,rxn13338	gnl|tc-db|a2rka7|3.a.1.2.17	44.511	1.89e-133	424	99	CP022713.1 Blautia coccoides strain YL58 genome	2802455	2800974
+q46863	alternative	deoxycholate	cpd02733[e0]	rxn43262	gnl|tc-db|q46863|3.a.1.5.41	26.957	8.69e-49	179	95	CP022713.1 Blautia coccoides strain YL58 genome	4762963	4764330
+t2gb49	alternative	fumarate	cpd00106[e0]	rxn05561,rxn08542,rxn08543,rxn08544,rxn10152,rxn10158,rxn10901,rxn11013,rxn12423,rxn30673,rxn33661,rxn33665	gnl|tc-db|t2gb49|3.d.10.1.8	26.598	1.47e-35	141	77	CP022713.1 Blautia coccoides strain YL58 genome	4872743	4874020
+b4ey22	alternative	gamma-butyrobetaine	cpd00870[e0]	rxn05570,rxn08595	gnl|tc-db|b4ey22|2.a.15.2.2	33.030	5.20e-75	256	87	CP022713.1 Blautia coccoides strain YL58 genome	2375172	2373859
+b8h229	alternative	inositol	cpd00121[e0]	rxn05593,rxn08752,rxn08755,rxn29918	gnl|tc-db|b8h229|3.a.1.2.21	34.731	2.16e-94	312	98	CP022713.1 Blautia coccoides strain YL58 genome	5047422	5048882
+f0ptd8|k6jrx1|p0ac26|q186b7	alternative	nitrite	cpd00075[e0]	rxn05625,rxn05626,rxn08998,rxn08999,rxn10823,rxn29054,rxn29093,rxn29236,rxn33542,rxn33543	gnl|tc-db|q186b7|1.a.16.3.3	42.969	2.28e-54	186	99	CP022713.1 Blautia coccoides strain YL58 genome	4644498	4645262

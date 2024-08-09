@@ -1,0 +1,429 @@
+id	tc	sub	exid	rea	qseqid	pident	evalue	bitscore	qcovs	stitle	sstart	send
+509169.3.peg.801	4.a.1	n-acetyl-d-glucosamine		rxn05485,rxn08041	fig|rast|509169.3.peg.801|4.a.1.1.15	27.139	1.18e-20	92.0	92	gnl|DSMZ|unitig_0|quiver_consensus	3520376	3519189
+658118070	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|658118070|3.a.1.15.16	25.281	3.49e-15	70.9	100	gnl|DSMZ|unitig_0|quiver_consensus	1976617	1977144
+a0pjk1	2.a.21	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|a0pjk1|2.a.21.3.15	35.506	9.38e-80	272	97	gnl|DSMZ|unitig_0|quiver_consensus	549225	547552
+a0pjk1	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|a0pjk1|2.a.21.3.15	35.506	9.38e-80	272	97	gnl|DSMZ|unitig_0|quiver_consensus	549225	547552
+a0qqh3	2.a.4	cadmium		rxn08196,rxn13814,rxn08198,rxn29670	gnl|tc-db|a0qqh3|2.a.4.1.5	31.970	9.75e-29	113	90	gnl|DSMZ|unitig_0|quiver_consensus	2016098	2016889
+a0qqh3	2.a.4	cobalt		rxn08240,rxn13681,rxn08242,rxn10474	gnl|tc-db|a0qqh3|2.a.4.1.5	31.970	9.75e-29	113	90	gnl|DSMZ|unitig_0|quiver_consensus	2016098	2016889
+a0qqh3	2.a.4	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|a0qqh3|2.a.4.1.5	31.970	9.75e-29	113	90	gnl|DSMZ|unitig_0|quiver_consensus	2016098	2016889
+a0qzx3	2.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn05500,rxn08140,rxn08141	gnl|tc-db|a0qzx3|2.a.1.1.65	35.491	3.52e-52	188	88	gnl|DSMZ|unitig_0|quiver_consensus	2360896	2359532
+a0qzx3	2.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn12574	gnl|tc-db|a0qzx3|2.a.1.1.65	35.491	3.52e-52	188	88	gnl|DSMZ|unitig_0|quiver_consensus	2360896	2359532
+a1jlh0	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|a1jlh0|3.a.1.10.5	23.311	7.33e-08	51.2	76	gnl|DSMZ|unitig_0|quiver_consensus	877342	876497
+a1jlh0	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|a1jlh0|3.a.1.10.5	23.311	7.33e-08	51.2	76	gnl|DSMZ|unitig_0|quiver_consensus	877342	876497
+a1s297	2.a.1	galactose	EX_cpd00108_e0	rxn05566,rxn08584,rxn34374	gnl|tc-db|a1s297|2.a.1.7.11	30.456	2.14e-43	159	100	gnl|DSMZ|unitig_0|quiver_consensus	3520415	3519189
+a1s297	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|a1s297|2.a.1.7.11	30.456	2.14e-43	159	100	gnl|DSMZ|unitig_0|quiver_consensus	3520415	3519189
+a1s5f4	2.a.1	galactose	EX_cpd00108_e0	rxn05566,rxn08584,rxn34374	gnl|tc-db|a1s5f4|2.a.1.7.10	29.017	1.46e-34	133	93	gnl|DSMZ|unitig_0|quiver_consensus	3520415	3519180
+a1s5f4	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|a1s5f4|2.a.1.7.10	29.017	1.46e-34	133	93	gnl|DSMZ|unitig_0|quiver_consensus	3520415	3519180
+a2rka7	3.a.1	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn09864	gnl|tc-db|a2rka7|3.a.1.2.17	24.721	4.11e-25	107	97	gnl|DSMZ|unitig_0|quiver_consensus	1975696	1977234
+a3m0n3	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|a3m0n3|2.a.1.1.68	25.336	1.49e-19	90.1	77	gnl|DSMZ|unitig_0|quiver_consensus	358395	359603
+a5h2u6	2.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|a5h2u6|2.a.1.9.6	22.753	2.56e-08	53.9	93	gnl|DSMZ|unitig_0|quiver_consensus	2360956	2359529
+a5lgm7	2.a.1	trehalose	EX_cpd00794_e0	rxn09655,rxn09870	gnl|tc-db|a5lgm7|2.a.1.1.129	27.913	1.99e-38	147	76	gnl|DSMZ|unitig_0|quiver_consensus	358434	359615
+a6l2m4	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|a6l2m4|3.a.10.1.10	72.268	0.0	840	99	gnl|DSMZ|unitig_0|quiver_consensus	1171870	1174047
+a6l2m4	3.a.10	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|a6l2m4|3.a.10.1.10	72.268	0.0	840	99	gnl|DSMZ|unitig_0|quiver_consensus	1171870	1174047
+a6lw11	3.a.1	xylose		rxn05167,rxn09383	gnl|tc-db|a6lw11|3.a.1.2.26	23.270	6.04e-06	46.2	91	gnl|DSMZ|unitig_0|quiver_consensus	561318	559939
+a7vnh8	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|a7vnh8|3.a.10.1.13	59.178	0.0	721	99	gnl|DSMZ|unitig_0|quiver_consensus	1171876	1174047
+a7vnh8	3.a.10	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|a7vnh8|3.a.10.1.13	59.178	0.0	721	99	gnl|DSMZ|unitig_0|quiver_consensus	1171876	1174047
+a8h019	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|a8h019|2.a.21.3.9	26.386	5.68e-36	139	87	gnl|DSMZ|unitig_0|quiver_consensus	549195	547861
+a8n031	2.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|a8n031|2.a.1.9.10	22.709	1.26e-10	61.2	93	gnl|DSMZ|unitig_0|quiver_consensus	358251	359615
+a9bjx0	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|a9bjx0|3.a.3.2.21	31.894	5.69e-111	373	98	gnl|DSMZ|unitig_0|quiver_consensus	2757685	2760270
+agg19156.1	2.a.1	sorbitol	EX_cpd00588_e0	rxn05648	gnl|tc-db|agg19156.1|2.a.1.1.122	30.380	6.80e-48	175	93	gnl|DSMZ|unitig_0|quiver_consensus	358269	359597
+aiu34725.1	2.a.1	inositol	EX_cpd00121_e0	rxn05593,rxn08752	gnl|tc-db|aiu34725.1|2.a.1.1.131	27.061	1.39e-41	157	90	gnl|DSMZ|unitig_0|quiver_consensus	358278	359606
+aiu41385.1	2.a.1	sorbitol	EX_cpd00588_e0	rxn05648	gnl|tc-db|aiu41385.1|2.a.1.1.123	28.463	7.63e-47	172	93	gnl|DSMZ|unitig_0|quiver_consensus	2360971	2359514
+akm77924	2.a.76	lysine	EX_cpd00039_e0	rxn05305,rxn08854,rxn08855,rxn09674,rxn09740,rxn12378,rxn13343,rxn10834,rxn33297	gnl|tc-db|akm77924|2.a.76.1.12	25.773	1.08e-06	45.4	92	gnl|DSMZ|unitig_0|quiver_consensus	234755	235327
+aku75155.2	2.a.1	glycerol		rxn12529,rxn34380	gnl|tc-db|aku75155.2|2.a.1.1.137	25.545	1.04e-26	112	82	gnl|DSMZ|unitig_0|quiver_consensus	2360953	2359514
+b0m926	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|b0m926|3.a.10.1.5	50.759	7.89e-166	525	95	gnl|DSMZ|unitig_0|quiver_consensus	1171873	1174035
+b0m926	3.a.10	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|b0m926|3.a.10.1.5	50.759	7.89e-166	525	95	gnl|DSMZ|unitig_0|quiver_consensus	1171873	1174035
+b1l5g5	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|b1l5g5|3.a.10.1.15	42.368	6.37e-116	380	98	gnl|DSMZ|unitig_0|quiver_consensus	1171951	1174026
+b2ul32	2.a.5	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|b2ul32|2.a.5.5.5	31.707	1.83e-20	88.2	88	gnl|DSMZ|unitig_0|quiver_consensus	1909668	1910360
+b3ecg6	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|b3ecg6|3.a.10.1.6	47.248	1.05e-169	536	99	gnl|DSMZ|unitig_0|quiver_consensus	1171870	1174035
+b3ecg6	3.a.10	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|b3ecg6|3.a.10.1.6	47.248	1.05e-169	536	99	gnl|DSMZ|unitig_0|quiver_consensus	1171870	1174035
+b3ecg7	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|b3ecg7|3.a.10.3.2	29.167	2.13e-58	214	84	gnl|DSMZ|unitig_0|quiver_consensus	1171963	1174011
+b3ee21	2.a.37	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|b3ee21|2.a.37.2.5	35.593	3.59e-118	389	88	gnl|DSMZ|unitig_0|quiver_consensus	2241015	2242943
+b3et62	3.a.23	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|b3et62|3.a.23.6.1	46.567	3.27e-96	309	99	gnl|DSMZ|unitig_0|quiver_consensus	274722	275717
+b3si05	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|b3si05|3.a.3.1.9	27.098	1.01e-49	187	81	gnl|DSMZ|unitig_0|quiver_consensus	2757892	2759862
+b5jqt8	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|b5jqt8|3.a.10.1.12	63.151	0.0	704	99	gnl|DSMZ|unitig_0|quiver_consensus	1171861	1174047
+b5jqt8	3.a.10	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|b5jqt8|3.a.10.1.12	63.151	0.0	704	99	gnl|DSMZ|unitig_0|quiver_consensus	1171861	1174047
+b6yqj7	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|b6yqj7|3.a.10.3.4	27.595	1.82e-53	199	88	gnl|DSMZ|unitig_0|quiver_consensus	1171903	1174041
+b7l6n0	3.a.1	sulfate	EX_cpd00681_e0	rxn05153,rxn09276,rxn29239	gnl|tc-db|b7l6n0|3.a.1.19.4	34.946	4.13e-17	76.6	93	gnl|DSMZ|unitig_0|quiver_consensus	2331346	2331894
+b7l6n0	3.a.1	thiosulfate		rxn05176,rxn09329,rxn34412,rxn34536	gnl|tc-db|b7l6n0|3.a.1.19.4	34.946	4.13e-17	76.6	93	gnl|DSMZ|unitig_0|quiver_consensus	2331346	2331894
+b8f5k7	4.d.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05226,rxn08612	gnl|tc-db|b8f5k7|4.d.1.3.2	28.996	2.68e-28	110	97	gnl|DSMZ|unitig_0|quiver_consensus	1369281	1368490
+b8gze9	2.a.6	cadmium		rxn08196,rxn13814,rxn08198,rxn29670	gnl|tc-db|b8gze9|2.a.6.1.16	32.510	3.73e-135	449	98	gnl|DSMZ|unitig_0|quiver_consensus	2030507	2027433
+b8gze9	2.a.6	cobalt		rxn08240,rxn13681,rxn08242,rxn10474	gnl|tc-db|b8gze9|2.a.6.1.16	32.510	3.73e-135	449	98	gnl|DSMZ|unitig_0|quiver_consensus	2030507	2027433
+b8gze9	2.a.6	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|b8gze9|2.a.6.1.16	32.510	3.73e-135	449	98	gnl|DSMZ|unitig_0|quiver_consensus	2030507	2027433
+c1p5z7	4.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05226,rxn08612	gnl|tc-db|c1p5z7|4.a.1.1.1	27.027	1.2	22.7	98	gnl|DSMZ|unitig_0|quiver_consensus	3519719	3519618
+c4b4v9	2.a.1	l-arabinose		rxn05500,rxn08140,rxn08141	gnl|tc-db|c4b4v9|2.a.1.1.116	31.687	6.91e-58	204	98	gnl|DSMZ|unitig_0|quiver_consensus	358179	359594
+c4qvv9	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|c4qvv9|2.a.1.1.125	24.506	1.82e-28	117	86	gnl|DSMZ|unitig_0|quiver_consensus	2360953	2359514
+c4qvv9	2.a.1	glycerol		rxn12529,rxn34380	gnl|tc-db|c4qvv9|2.a.1.1.125	24.506	1.82e-28	117	86	gnl|DSMZ|unitig_0|quiver_consensus	2360953	2359514
+d5aqy6	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|d5aqy6|3.a.1.23.7	32.870	1.58e-22	93.6	86	gnl|DSMZ|unitig_0|quiver_consensus	2243119	2243739
+d5arh0	3.a.1	biotin		rxn05223	gnl|tc-db|d5arh0|3.a.1.25.7	26.484	7.19e-11	58.5	97	gnl|DSMZ|unitig_0|quiver_consensus	2328874	2329494
+d7ae10	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|d7ae10|3.a.1.23.3	29.864	1.34e-18	82.8	86	gnl|DSMZ|unitig_0|quiver_consensus	2756315	2756974
+e1wav3	2.a.1	inositol	EX_cpd00121_e0	rxn05593,rxn08752	gnl|tc-db|e1wav3|2.a.1.1.120	32.773	6.00e-81	270	96	gnl|DSMZ|unitig_0|quiver_consensus	2360917	2359523
+e1wav4	2.a.1	inositol	EX_cpd00121_e0	rxn05593,rxn08752	gnl|tc-db|e1wav4|2.a.1.1.121	30.252	1.34e-62	218	97	gnl|DSMZ|unitig_0|quiver_consensus	358221	359606
+e7rs29	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|e7rs29|3.a.10.1.11	84.720	0.0	999	100	gnl|DSMZ|unitig_0|quiver_consensus	1171852	1174050
+e7rs29	3.a.10	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|e7rs29|3.a.10.1.11	84.720	0.0	999	100	gnl|DSMZ|unitig_0|quiver_consensus	1171852	1174050
+f9vn10	3.d.10	succinate	EX_cpd00036_e0,EX_cpd00036_e0	rxn10138	gnl|tc-db|f9vn10|3.d.10.1.4	34.011	5.19e-74	254	93	gnl|DSMZ|unitig_0|quiver_consensus	1878927	1877374
+g4n740	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|g4n740|2.a.1.1.117	27.220	1.13e-39	152	85	gnl|DSMZ|unitig_0|quiver_consensus	2360968	2359514
+g5eb95	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|g5eb95|3.a.1.5.40	31.193	5.78e-20	85.5	100	gnl|DSMZ|unitig_0|quiver_consensus	2243152	2243772
+i1m280	2.a.1	glycine	EX_cpd00033_e0	rxn05582,rxn08660,rxn08661,rxn09748,rxn10537,rxn12379,rxn34381,rxn34382,rxn34466,rxn34502	gnl|tc-db|i1m280|2.a.1.1.132	27.916	3.80e-40	153	88	gnl|DSMZ|unitig_0|quiver_consensus	2360977	2359517
+i4g6g7	3.a.3	magnesium		rxn08924,rxn10571	gnl|tc-db|i4g6g7|3.a.3.4.5	24.485	9.31e-51	192	79	gnl|DSMZ|unitig_0|quiver_consensus	2758012	2760264
+j0hub5	2.a.37	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|j0hub5|2.a.37.1.9	26.791	1.55e-21	94.7	76	gnl|DSMZ|unitig_0|quiver_consensus	1481480	1480521
+j7jie8	2.a.21	proline	EX_cpd00129_e0	rxn05221,rxn05638,rxn09191,rxn09192,rxn12451,rxn34526,rxn34527	gnl|tc-db|j7jie8|2.a.21.2.4	25.145	1.07e-12	67.8	95	gnl|DSMZ|unitig_0|quiver_consensus	549162	547684
+k4hty2	2.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|k4hty2|2.a.1.9.11	23.722	1.57e-15	77.4	89	gnl|DSMZ|unitig_0|quiver_consensus	358251	359594
+m1tz79	2.a.21	proline	EX_cpd00129_e0	rxn05221,rxn05638,rxn09191,rxn09192,rxn12451,rxn34526,rxn34527	gnl|tc-db|m1tz79|2.a.21.2.5	24.051	2.05e-06	47.4	86	gnl|DSMZ|unitig_0|quiver_consensus	549213	547858
+m5ugy9	2.a.7	l-rhamnose		rxn05646,rxn09230	gnl|tc-db|m5ugy9|2.a.7.6.2	40.062	2.33e-53	186	92	gnl|DSMZ|unitig_0|quiver_consensus	2194775	2195722
+m7akz4	2.a.58	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|m7akz4|2.a.58.2.2	30.686	2.07e-54	196	96	gnl|DSMZ|unitig_0|quiver_consensus	2642446	2644065
+m7akz4	2.a.58	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|m7akz4|2.a.58.2.2	30.686	2.07e-54	196	96	gnl|DSMZ|unitig_0|quiver_consensus	2642446	2644065
+n0a4a7	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|n0a4a7|2.a.1.1.133	27.170	6.43e-34	134	95	gnl|DSMZ|unitig_0|quiver_consensus	2360977	2359514
+o06930	3.b.1	biotin		rxn05223	gnl|tc-db|o06930|3.b.1.1.4	36.364	1.41e-11	54.7	97	gnl|DSMZ|unitig_0|quiver_consensus	892838	893035
+o07488	2.a.53	sulfate	EX_cpd00681_e0	rxn05651,rxn12369,rxn12811,rxn13116,rxn34447,rxn34531,rxn05238,rxn31171,rxn31183,rxn32972,rxn32975,rxn34545	gnl|tc-db|o07488|2.a.53.3.1	26.930	2.84e-51	185	97	gnl|DSMZ|unitig_0|quiver_consensus	356805	355228
+o25788	2.a.1	galactose	EX_cpd00108_e0	rxn05566,rxn08584,rxn34374	gnl|tc-db|o25788|2.a.1.7.7	26.303	2.86e-23	99.8	99	gnl|DSMZ|unitig_0|quiver_consensus	3520415	3519171
+o25788	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|o25788|2.a.1.7.7	26.303	2.86e-23	99.8	99	gnl|DSMZ|unitig_0|quiver_consensus	3520415	3519171
+o30144	3.a.1	molybdate		rxn05619,rxn08955	gnl|tc-db|o30144|3.a.1.6.8	28.959	1.43e-26	104	97	gnl|DSMZ|unitig_0|quiver_consensus	3387284	3386625
+o30506	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|o30506|3.a.1.3.11	40.351	4.56e-34	127	99	gnl|DSMZ|unitig_0|quiver_consensus	2331298	2331948
+o30506	3.a.1	ornithine	EX_cpd00064_e0	rxn05156,rxn09046,rxn27636	gnl|tc-db|o30506|3.a.1.3.11	40.351	4.56e-34	127	99	gnl|DSMZ|unitig_0|quiver_consensus	2331298	2331948
+o34362	3.a.1	thiamine		rxn05177,rxn09297	gnl|tc-db|o34362|3.a.1.30.1	24.691	1.32e-32	130	93	gnl|DSMZ|unitig_0|quiver_consensus	1975633	1977234
+o34900.2	3.a.1	cysteine	EX_cpd00084_e0	rxn05237,rxn08280,rxn08281,rxn30473	gnl|tc-db|o34900.2|3.a.1.3.13	40.000	1.82e-42	151	94	gnl|DSMZ|unitig_0|quiver_consensus	2243116	2243766
+o34946	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|o34946|3.a.1.15.11	31.579	2.07e-25	101	99	gnl|DSMZ|unitig_0|quiver_consensus	1975627	1976259
+o51236	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|o51236|3.a.1.7.5	31.429	1.03e-22	94.4	99	gnl|DSMZ|unitig_0|quiver_consensus	2243104	2243784
+o52733	2.a.1	xylose		rxn05671,rxn09384	gnl|tc-db|o52733|2.a.1.1.41	32.347	2.69e-58	204	93	gnl|DSMZ|unitig_0|quiver_consensus	2360896	2359529
+o59868	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|o59868|3.a.3.2.34	30.425	2.77e-93	321	96	gnl|DSMZ|unitig_0|quiver_consensus	2757682	2760270
+o68106	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|o68106|3.a.1.23.8	36.652	9.88e-24	97.8	94	gnl|DSMZ|unitig_0|quiver_consensus	2243116	2243766
+o68460	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|o68460|3.a.10.2.1	43.820	3.88e-138	446	95	gnl|DSMZ|unitig_0|quiver_consensus	1171927	1174011
+o74849	2.a.1	fructose	EX_cpd00082_e0	rxn09681	gnl|tc-db|o74849|2.a.1.1.22	25.049	1.78e-35	139	87	gnl|DSMZ|unitig_0|quiver_consensus	2360944	2359520
+o74969	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|o74969|2.a.1.1.21	23.346	7.29e-31	125	88	gnl|DSMZ|unitig_0|quiver_consensus	2360953	2359520
+o75185	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|o75185|3.a.3.2.9	30.344	1.90e-89	311	82	gnl|DSMZ|unitig_0|quiver_consensus	2757619	2759925
+o81108	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|o81108|3.a.3.2.12	34.854	1.12e-111	379	75	gnl|DSMZ|unitig_0|quiver_consensus	2757982	2760204
+o83341	3.a.1	galactose	EX_cpd00108_e0	rxn05162,rxn08573	gnl|tc-db|o83341|3.a.1.2.10	22.766	6.10e-09	55.8	84	gnl|DSMZ|unitig_0|quiver_consensus	877381	876050
+o83341	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|o83341|3.a.1.2.10	22.766	6.10e-09	55.8	84	gnl|DSMZ|unitig_0|quiver_consensus	877381	876050
+ols24538	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|ols24538|3.a.1.2.30	21.218	3.84e-11	63.2	86	gnl|DSMZ|unitig_0|quiver_consensus	561348	559897
+ols25602	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|ols25602|3.a.1.3.30	35.102	1.55e-38	139	98	gnl|DSMZ|unitig_0|quiver_consensus	3387374	3386643
+p02915	3.a.1	histidine	EX_cpd00119_e0	rxn05164,rxn08718	gnl|tc-db|p02915|3.a.1.3.1	39.749	2.40e-33	125	99	gnl|DSMZ|unitig_0|quiver_consensus	2331289	2331972
+p02925	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|p02925|3.a.1.2.1	23.372	6.56e-10	57.0	85	gnl|DSMZ|unitig_0|quiver_consensus	2207112	2206366
+p04191	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p04191|3.a.3.2.43	33.572	2.11e-98	339	81	gnl|DSMZ|unitig_0|quiver_consensus	2757682	2759883
+p04983	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|p04983|3.a.1.2.1	21.074	9.50e-14	71.2	96	gnl|DSMZ|unitig_0|quiver_consensus	1097763	1096405
+p05023	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p05023|3.a.3.1.1	28.196	1.58e-68	249	82	gnl|DSMZ|unitig_0|quiver_consensus	2757652	2759976
+p05023	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p05023|3.a.3.1.1	28.196	1.58e-68	249	82	gnl|DSMZ|unitig_0|quiver_consensus	2757652	2759976
+p06609	3.a.1	vitamin b12		rxn05187	gnl|tc-db|p06609|3.a.1.13.1	31.469	1.99e-22	95.5	85	gnl|DSMZ|unitig_0|quiver_consensus	1652734	1653591
+p06611	3.a.1	vitamin b12		rxn05187	gnl|tc-db|p06611|3.a.1.13.1	28.099	2.70e-15	72.4	96	gnl|DSMZ|unitig_0|quiver_consensus	3390578	3391276
+p07109	3.a.1	histidine	EX_cpd00119_e0	rxn05164,rxn08718	gnl|tc-db|p07109|3.a.1.3.29	39.407	1.09e-32	123	93	gnl|DSMZ|unitig_0|quiver_consensus	2331289	2331963
+p07117	2.a.121,2.a.21	proline	EX_cpd00129_e0	rxn05221,rxn05638,rxn09191,rxn09192,rxn12451,rxn34526,rxn34527	gnl|tc-db|p07117|2.a.21.2.1	24.736	1.24e-08	54.7	84	gnl|DSMZ|unitig_0|quiver_consensus	549207	547858
+p07117	2.a.121,2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p07117|2.a.21.2.1	24.736	1.24e-08	54.7	84	gnl|DSMZ|unitig_0|quiver_consensus	549207	547858
+p07821	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|p07821|3.a.1.14.3	36.000	1.75e-38	140	91	gnl|DSMZ|unitig_0|quiver_consensus	2756375	2756974
+p0a2u6	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|p0a2u6|3.a.1.15.3	31.250	6.25e-19	82.4	97	gnl|DSMZ|unitig_0|quiver_consensus	2756357	2756917
+p0a9x1	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|p0a9x1|3.a.1.15.5	28.700	1.17e-20	88.2	94	gnl|DSMZ|unitig_0|quiver_consensus	2243113	2243766
+p0aaf3	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn05173,rxn08139,rxn11063	gnl|tc-db|p0aaf3|3.a.1.2.2	22.575	1.26e-10	61.2	94	gnl|DSMZ|unitig_0|quiver_consensus	793280	794767
+p0aaf3	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn10822	gnl|tc-db|p0aaf3|3.a.1.2.2	22.575	1.26e-10	61.2	94	gnl|DSMZ|unitig_0|quiver_consensus	793280	794767
+p0aaf6	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|p0aaf6|3.a.1.3.3	37.850	2.23e-33	124	99	gnl|DSMZ|unitig_0|quiver_consensus	2331322	2331948
+p0aag3	3.a.1	aspartate	EX_cpd00041_e0,EX_cpd00041_e0	rxn05152,rxn08165	gnl|tc-db|p0aag3|3.a.1.3.4	37.500	1.85e-34	127	99	gnl|DSMZ|unitig_0|quiver_consensus	2243116	2243781
+p0aag3	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|p0aag3|3.a.1.3.4	37.500	1.85e-34	127	99	gnl|DSMZ|unitig_0|quiver_consensus	2243116	2243781
+p0aag8	3.a.1	galactose	EX_cpd00108_e0	rxn05162,rxn08573	gnl|tc-db|p0aag8|3.a.1.2.3	22.659	1.82e-18	86.3	95	gnl|DSMZ|unitig_0|quiver_consensus	1975678	1977198
+p0aah0	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|p0aah0|3.a.1.7.1	27.642	2.71e-21	90.1	96	gnl|DSMZ|unitig_0|quiver_consensus	3387350	3386643
+p0ae24	2.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn05500,rxn08140,rxn08141	gnl|tc-db|p0ae24|2.a.1.1.2	30.464	2.91e-51	184	91	gnl|DSMZ|unitig_0|quiver_consensus	358275	359597
+p0ae24	2.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn12574	gnl|tc-db|p0ae24|2.a.1.1.2	30.464	2.91e-51	184	91	gnl|DSMZ|unitig_0|quiver_consensus	358275	359597
+p0aep1	2.a.1	galactose	EX_cpd00108_e0	rxn05566,rxn08584,rxn34374	gnl|tc-db|p0aep1|2.a.1.1.1	33.117	2.83e-61	213	95	gnl|DSMZ|unitig_0|quiver_consensus	358230	359597
+p0afr2	2.a.53	sulfate	EX_cpd00681_e0	rxn05651,rxn12369,rxn12811,rxn13116,rxn34447,rxn34531,rxn05238,rxn31171,rxn31183,rxn32972,rxn32975,rxn34545	gnl|tc-db|p0afr2|2.a.53.3.11	34.312	2.53e-58	208	94	gnl|DSMZ|unitig_0|quiver_consensus	356790	355216
+p0afz7	2.a.38	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|p0afz7|2.a.38.1.1	35.141	7.77e-82	274	100	gnl|DSMZ|unitig_0|quiver_consensus	2033283	2031835
+p0agf4	2.a.1	xylose		rxn05671,rxn09384	gnl|tc-db|p0agf4|2.a.1.1.3	48.290	1.46e-112	363	99	gnl|DSMZ|unitig_0|quiver_consensus	2360968	2359517
+p0agi8	2.a.38	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|p0agi8|2.a.38.1.1	28.261	2.47e-43	160	98	gnl|DSMZ|unitig_0|quiver_consensus	2034620	2033283
+p0c105	2.a.1	galactose	EX_cpd00108_e0	rxn05566,rxn08584,rxn34374	gnl|tc-db|p0c105|2.a.1.7.2	28.899	1.10e-45	166	99	gnl|DSMZ|unitig_0|quiver_consensus	3520481	3519195
+p0c105	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|p0c105|2.a.1.7.2	28.899	1.10e-45	166	99	gnl|DSMZ|unitig_0|quiver_consensus	3520481	3519195
+p0c560	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|p0c560|3.a.1.7.2	28.899	5.14e-17	77.4	94	gnl|DSMZ|unitig_0|quiver_consensus	3387350	3386724
+p10346	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|p10346|3.a.1.3.2	42.929	1.52e-40	145	98	gnl|DSMZ|unitig_0|quiver_consensus	2243116	2243706
+p11166	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|p11166|2.a.1.1.28	27.843	2.00e-44	165	95	gnl|DSMZ|unitig_0|quiver_consensus	2360977	2359514
+p11168	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|p11168|2.a.1.1.29	28.702	6.44e-46	170	95	gnl|DSMZ|unitig_0|quiver_consensus	2360974	2359514
+p11169	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|p11169|2.a.1.1.91	26.772	5.14e-40	152	93	gnl|DSMZ|unitig_0|quiver_consensus	2360944	2359517
+p11551	2.a.1	l-fucose		rxn05691,rxn08541	gnl|tc-db|p11551|2.a.1.7.1	33.165	3.15e-51	183	97	gnl|DSMZ|unitig_0|quiver_consensus	3520511	3519345
+p13181	2.a.1	galactose	EX_cpd00108_e0	rxn05566,rxn08584,rxn34374	gnl|tc-db|p13181|2.a.1.1.6	26.990	3.22e-37	145	81	gnl|DSMZ|unitig_0|quiver_consensus	2360935	2359514
+p13511	2.a.6	cadmium		rxn08196,rxn13814,rxn08198,rxn29670	gnl|tc-db|p13511|2.a.6.1.2	32.923	7.63e-154	504	98	gnl|DSMZ|unitig_0|quiver_consensus	2030495	2027406
+p13511	2.a.6	cobalt		rxn08240,rxn13681,rxn08242,rxn10474	gnl|tc-db|p13511|2.a.6.1.2	32.923	7.63e-154	504	98	gnl|DSMZ|unitig_0|quiver_consensus	2030495	2027406
+p13511	2.a.6	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|p13511|2.a.6.1.2	32.923	7.63e-154	504	98	gnl|DSMZ|unitig_0|quiver_consensus	2030495	2027406
+p13512	2.a.4	cadmium		rxn08196,rxn13814,rxn08198,rxn29670	gnl|tc-db|p13512|2.a.4.1.1	32.857	1.01e-26	107	89	gnl|DSMZ|unitig_0|quiver_consensus	2016077	2016910
+p13512	2.a.4	cobalt		rxn08240,rxn13681,rxn08242,rxn10474	gnl|tc-db|p13512|2.a.4.1.1	32.857	1.01e-26	107	89	gnl|DSMZ|unitig_0|quiver_consensus	2016077	2016910
+p13512	2.a.4	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|p13512|2.a.4.1.1	32.857	1.01e-26	107	89	gnl|DSMZ|unitig_0|quiver_consensus	2016077	2016910
+p13586	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p13586|3.a.3.2.3	29.512	6.02e-101	345	94	gnl|DSMZ|unitig_0|quiver_consensus	2757631	2760273
+p13637	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p13637|3.a.3.1.1	29.881	4.03e-74	266	79	gnl|DSMZ|unitig_0|quiver_consensus	2757685	2759922
+p13637	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p13637|3.a.3.1.1	29.881	4.03e-74	266	79	gnl|DSMZ|unitig_0|quiver_consensus	2757685	2759922
+p13738	2.a.33	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p13738|2.a.33.1.1	36.557	1.39e-56	197	97	gnl|DSMZ|unitig_0|quiver_consensus	432285	433547
+p13866	2.a.21	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|p13866|2.a.21.3.1	34.532	6.46e-63	224	83	gnl|DSMZ|unitig_0|quiver_consensus	549225	547621
+p13866	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p13866|2.a.21.3.1	34.532	6.46e-63	224	83	gnl|DSMZ|unitig_0|quiver_consensus	549225	547621
+p14175	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|p14175|3.a.1.12.1	27.164	3.16e-17	81.3	81	gnl|DSMZ|unitig_0|quiver_consensus	2172407	2171535
+p14175	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|p14175|3.a.1.12.1	27.164	3.16e-17	81.3	81	gnl|DSMZ|unitig_0|quiver_consensus	2172407	2171535
+p14175	3.a.1	l-proline		rxn05165,rxn09187	gnl|tc-db|p14175|3.a.1.12.1	27.164	3.16e-17	81.3	81	gnl|DSMZ|unitig_0|quiver_consensus	2172407	2171535
+p14672	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|p14672|2.a.1.1.80	27.692	9.39e-33	130	93	gnl|DSMZ|unitig_0|quiver_consensus	2360974	2359514
+p15729	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|p15729|2.a.1.1.32	37.395	2.18e-63	220	93	gnl|DSMZ|unitig_0|quiver_consensus	2360893	2359532
+p16256	2.a.21	pantothenate		rxn05308,rxn09165,rxn10180	gnl|tc-db|p16256|2.a.21.1.1	24.946	1.77e-12	67.0	87	gnl|DSMZ|unitig_0|quiver_consensus	549186	547861
+p16256	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p16256|2.a.21.1.1	24.946	1.77e-12	67.0	87	gnl|DSMZ|unitig_0|quiver_consensus	549186	547861
+p16615	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p16615|3.a.3.2.7	32.212	5.41e-100	345	78	gnl|DSMZ|unitig_0|quiver_consensus	2757682	2759883
+p17694	3.d.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p17694|3.d.1.6.1	35.844	7.57e-79	265	83	gnl|DSMZ|unitig_0|quiver_consensus	408276	409355
+p17694	3.d.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p17694|3.d.1.6.1	35.844	7.57e-79	265	83	gnl|DSMZ|unitig_0|quiver_consensus	408276	409355
+p21616	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|p21616|3.a.10.1.8	44.533	2.77e-150	483	91	gnl|DSMZ|unitig_0|quiver_consensus	1171933	1174029
+p21904	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p21904|3.a.2.1.2	28.659	8.69e-13	62.4	96	gnl|DSMZ|unitig_0|quiver_consensus	833532	834023
+p21906	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|p21906|2.a.1.1.4	33.758	2.39e-67	231	95	gnl|DSMZ|unitig_0|quiver_consensus	2360902	2359514
+p21912	3.d.10	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p21912|3.d.10.1.7	22.709	1.92e-07	49.3	84	gnl|DSMZ|unitig_0|quiver_consensus	2875624	2876349
+p21912	3.d.10	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p21912|3.d.10.1.7	22.709	1.92e-07	49.3	84	gnl|DSMZ|unitig_0|quiver_consensus	2875624	2876349
+p21912	3.d.10	succinate	EX_cpd00036_e0,EX_cpd00036_e0	rxn10138	gnl|tc-db|p21912|3.d.10.1.7	22.709	1.92e-07	49.3	84	gnl|DSMZ|unitig_0|quiver_consensus	2875624	2876349
+p22189	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p22189|3.a.3.9.2	27.667	3.78e-71	257	80	gnl|DSMZ|unitig_0|quiver_consensus	2757682	2759955
+p22732	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|p22732|2.a.1.1.13	28.478	5.98e-30	122	89	gnl|DSMZ|unitig_0|quiver_consensus	358284	359597
+p23585	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|p23585|2.a.1.1.111	28.599	5.48e-40	153	86	gnl|DSMZ|unitig_0|quiver_consensus	2360944	2359520
+p23849	2.a.38	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|p23849|2.a.38.1.6	32.106	1.55e-63	221	99	gnl|DSMZ|unitig_0|quiver_consensus	2033280	2031838
+p23975	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p23975|2.a.22.1.2	25.202	2.86e-24	105	77	gnl|DSMZ|unitig_0|quiver_consensus	3167556	3168875
+p25297	2.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|p25297|2.a.1.9.1	22.917	3.51e-09	57.0	80	gnl|DSMZ|unitig_0|quiver_consensus	358326	359606
+p26430	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p26430|2.a.21.3.3	35.478	1.17e-77	268	80	gnl|DSMZ|unitig_0|quiver_consensus	549225	547663
+p27125	2.a.7	l-rhamnose		rxn05646,rxn09230	gnl|tc-db|p27125|2.a.7.6.1	27.576	3.74e-28	112	92	gnl|DSMZ|unitig_0|quiver_consensus	2194760	2195728
+p29706	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p29706|3.a.2.1.2	57.741	9.62e-174	540	91	gnl|DSMZ|unitig_0|quiver_consensus	834675	836108
+p29707	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p29707|3.a.2.1.2	64.542	0.0	604	99	gnl|DSMZ|unitig_0|quiver_consensus	829829	831334
+p29710	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p29710|3.a.2.1.2	32.812	2.06e-46	164	99	gnl|DSMZ|unitig_0|quiver_consensus	836259	837215
+p30605	2.a.1	inositol	EX_cpd00121_e0	rxn05593,rxn08752	gnl|tc-db|p30605|2.a.1.1.8	27.255	1.33e-40	155	82	gnl|DSMZ|unitig_0|quiver_consensus	2360968	2359514
+p30606	2.a.1	inositol	EX_cpd00121_e0	rxn05593,rxn08752	gnl|tc-db|p30606|2.a.1.1.104	26.316	3.13e-39	152	78	gnl|DSMZ|unitig_0|quiver_consensus	2360947	2359517
+p30963	3.a.1	heme		rxn05148,rxn09115,rxn27591	gnl|tc-db|p30963|3.a.1.107.1	25.668	5.52e-13	63.9	94	gnl|DSMZ|unitig_0|quiver_consensus	2328874	2329413
+p30963	3.a.1	heme		rxn90020	gnl|tc-db|p30963|3.a.1.107.1	25.668	5.52e-13	63.9	94	gnl|DSMZ|unitig_0|quiver_consensus	2328874	2329413
+p31040	3.d.10	succinate	EX_cpd00036_e0,EX_cpd00036_e0	rxn10138	gnl|tc-db|p31040|3.d.10.1.7	30.871	1.07e-53	197	78	gnl|DSMZ|unitig_0|quiver_consensus	1878837	1877377
+p31414	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|p31414|3.a.10.1.1	45.727	1.18e-143	464	79	gnl|DSMZ|unitig_0|quiver_consensus	1172113	1174029
+p31548	3.a.1	thiamine		rxn05177,rxn09297	gnl|tc-db|p31548|3.a.1.19.1	31.944	2.32e-28	109	93	gnl|DSMZ|unitig_0|quiver_consensus	2243116	2243760
+p31639	2.a.21	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|p31639|2.a.21.3.16	35.053	6.07e-77	266	83	gnl|DSMZ|unitig_0|quiver_consensus	549225	547612
+p31639	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p31639|2.a.21.3.16	35.053	6.07e-77	266	83	gnl|DSMZ|unitig_0|quiver_consensus	549225	547612
+p32465	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|p32465|2.a.1.1.108	28.627	6.61e-39	150	82	gnl|DSMZ|unitig_0|quiver_consensus	2360941	2359514
+p32467	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|p32467|2.a.1.1.30	27.573	9.31e-35	137	81	gnl|DSMZ|unitig_0|quiver_consensus	2360941	2359514
+p33593	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|p33593|3.a.1.5.3	26.587	1.47e-17	79.0	96	gnl|DSMZ|unitig_0|quiver_consensus	2780460	2781146
+p33594	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|p33594|3.a.1.5.3	33.659	2.26e-27	108	89	gnl|DSMZ|unitig_0|quiver_consensus	598175	597576
+p37388	3.a.1	xylose		rxn05167,rxn09383	gnl|tc-db|p37388|3.a.1.2.4	22.661	5.61e-12	65.5	87	gnl|DSMZ|unitig_0|quiver_consensus	877327	875939
+p37972	2.a.6	cobalt		rxn08240,rxn13681,rxn08242,rxn10474	gnl|tc-db|p37972|2.a.6.1.1	30.352	1.84e-116	395	96	gnl|DSMZ|unitig_0|quiver_consensus	2030495	2027502
+p37972	2.a.6	nickel		rxn08990,rxn08992,rxn10581,rxn13730	gnl|tc-db|p37972|2.a.6.1.1	30.352	1.84e-116	395	96	gnl|DSMZ|unitig_0|quiver_consensus	2030495	2027502
+p38046	3.a.1	nitrate		rxn05171	gnl|tc-db|p38046|3.a.1.16.1	33.761	6.28e-31	118	91	gnl|DSMZ|unitig_0|quiver_consensus	2331274	2331963
+p40410	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p40410|3.a.1.14.15	27.778	2.29e-13	68.2	94	gnl|DSMZ|unitig_0|quiver_consensus	1652620	1653591
+p40410	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p40410|3.a.1.14.15	27.778	2.29e-13	68.2	94	gnl|DSMZ|unitig_0|quiver_consensus	1652620	1653591
+p43438	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p43438|3.a.2.2.2	30.612	0.83	23.9	84	gnl|DSMZ|unitig_0|quiver_consensus	3028240	3028368
+p45380	2.a.53	sulfate	EX_cpd00681_e0	rxn05651,rxn12369,rxn12811,rxn13116,rxn34447,rxn34531,rxn05238,rxn31171,rxn31183,rxn32972,rxn32975,rxn34545	gnl|tc-db|p45380|2.a.53.2.2	22.488	2.20e-22	100	86	gnl|DSMZ|unitig_0|quiver_consensus	356793	355234
+p45562	2.a.1	xanthosine		rxn05680,rxn09381	gnl|tc-db|p45562|2.a.1.10.2	44.844	2.86e-94	307	98	gnl|DSMZ|unitig_0|quiver_consensus	902006	903247
+p48243	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|p48243|3.a.1.3.9	39.367	3.21e-40	144	98	gnl|DSMZ|unitig_0|quiver_consensus	2331343	2331987
+p49374	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|p49374|2.a.1.1.39	27.898	3.20e-40	154	85	gnl|DSMZ|unitig_0|quiver_consensus	2360926	2359520
+p50000	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p50000|3.a.2.1.5	54.962	2.25e-170	530	98	gnl|DSMZ|unitig_0|quiver_consensus	834678	836246
+p50002	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p50002|3.a.2.1.5	66.132	0.0	630	98	gnl|DSMZ|unitig_0|quiver_consensus	829829	831319
+p50005	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p50005|3.a.2.1.5	29.814	1.01e-37	139	98	gnl|DSMZ|unitig_0|quiver_consensus	836265	837215
+p50993	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p50993|3.a.3.1.1	28.733	2.01e-75	270	81	gnl|DSMZ|unitig_0|quiver_consensus	2757685	2760057
+p50993	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p50993|3.a.3.1.1	28.733	2.01e-75	270	81	gnl|DSMZ|unitig_0|quiver_consensus	2757685	2760057
+p51905	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p51905|2.a.22.1.9	25.761	1.30e-27	116	77	gnl|DSMZ|unitig_0|quiver_consensus	3167541	3168881
+p54678	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p54678|3.a.3.2.17	34.362	3.17e-111	380	82	gnl|DSMZ|unitig_0|quiver_consensus	2757679	2760252
+p54707	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p54707|3.a.3.1.13	28.709	1.03e-77	277	76	gnl|DSMZ|unitig_0|quiver_consensus	2757685	2759895
+p54708	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p54708|3.a.3.1.4	28.473	6.32e-75	269	79	gnl|DSMZ|unitig_0|quiver_consensus	2757685	2760030
+p69213	2.a.7	spermidine		rxn05652,rxn09660,rxn29135,rxn34532,rxn34533,rxn11262	gnl|tc-db|p69213|2.a.7.1.9	31.915	3.29e-05	38.9	78	gnl|DSMZ|unitig_0|quiver_consensus	427804	427550
+p71997	2.a.53	sulfate	EX_cpd00681_e0	rxn05651,rxn12369,rxn12811,rxn13116,rxn34447,rxn34531,rxn05238,rxn31171,rxn31183,rxn32972,rxn32975,rxn34545	gnl|tc-db|p71997|2.a.53.4.2	22.164	1.16e-18	87.4	99	gnl|DSMZ|unitig_0|quiver_consensus	356832	355168
+p72590	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p72590|3.a.1.14.24	30.284	2.78e-22	95.5	87	gnl|DSMZ|unitig_0|quiver_consensus	1652647	1653579
+p72590	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p72590|3.a.1.14.24	30.284	2.78e-22	95.5	87	gnl|DSMZ|unitig_0|quiver_consensus	1652647	1653579
+p72591	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p72591|3.a.1.14.24	28.669	5.14e-11	61.2	81	gnl|DSMZ|unitig_0|quiver_consensus	1652719	1653597
+p72591	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p72591|3.a.1.14.24	28.669	5.14e-11	61.2	81	gnl|DSMZ|unitig_0|quiver_consensus	1652719	1653597
+p72592	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p72592|3.a.1.14.24	33.761	2.47e-40	145	90	gnl|DSMZ|unitig_0|quiver_consensus	2756303	2757004
+p72592	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p72592|3.a.1.14.24	33.761	2.47e-40	145	90	gnl|DSMZ|unitig_0|quiver_consensus	2756303	2757004
+p75757	2.a.4	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|p75757|2.a.4.1.4	31.399	6.41e-26	105	94	gnl|DSMZ|unitig_0|quiver_consensus	2016068	2016940
+p77279	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p77279|3.a.1.139.2	30.660	4.71e-24	97.1	98	gnl|DSMZ|unitig_0|quiver_consensus	2243116	2243748
+p77279	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p77279|3.a.1.139.2	30.660	4.71e-24	97.1	98	gnl|DSMZ|unitig_0|quiver_consensus	2243116	2243748
+p92939	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p92939|3.a.3.2.13	29.637	5.03e-96	333	94	gnl|DSMZ|unitig_0|quiver_consensus	2757685	2760264
+p95302	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|p95302|3.a.1.7.4	29.864	1.07e-23	97.8	83	gnl|DSMZ|unitig_0|quiver_consensus	3390575	3391207
+p96117	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|p96117|3.a.1.15.8	29.218	4.10e-16	75.1	92	gnl|DSMZ|unitig_0|quiver_consensus	1975636	1976301
+p96169	2.a.21	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|p96169|2.a.21.3.2	34.316	1.15e-71	246	85	gnl|DSMZ|unitig_0|quiver_consensus	549237	547855
+p96169	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p96169|2.a.21.3.2	34.316	1.15e-71	246	85	gnl|DSMZ|unitig_0|quiver_consensus	549237	547855
+p96710	2.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn05500,rxn08140,rxn08141	gnl|tc-db|p96710|2.a.1.1.55	35.463	2.47e-64	222	95	gnl|DSMZ|unitig_0|quiver_consensus	358242	359591
+p96710	2.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn12574	gnl|tc-db|p96710|2.a.1.1.55	35.463	2.47e-64	222	95	gnl|DSMZ|unitig_0|quiver_consensus	358242	359591
+p96792	2.a.2	xylose		rxn05671,rxn09384	gnl|tc-db|p96792|2.a.2.3.3	29.482	2.95e-54	193	95	gnl|DSMZ|unitig_0|quiver_consensus	2127913	2129406
+p98194	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p98194|3.a.3.2.5	30.671	1.53e-96	331	89	gnl|DSMZ|unitig_0|quiver_consensus	2757679	2760153
+phs53295.1	2.a.20	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|phs53295.1|2.a.20.2.12	37.834	4.16e-130	424	96	gnl|DSMZ|unitig_0|quiver_consensus	1768559	1766409
+phs53295.1	2.a.20	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|phs53295.1|2.a.20.2.12	37.834	4.16e-130	424	96	gnl|DSMZ|unitig_0|quiver_consensus	1768559	1766409
+q01mw8	2.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|q01mw8|2.a.1.9.4	22.462	1.22e-04	42.0	81	gnl|DSMZ|unitig_0|quiver_consensus	2360788	2359529
+q02920	2.a.53	glycine	EX_cpd00033_e0	rxn05582,rxn08660,rxn08661,rxn09748,rxn10537,rxn12379,rxn34381,rxn34382,rxn34466,rxn34502	gnl|tc-db|q02920|2.a.53.1.5	25.459	1.14e-25	108	89	gnl|DSMZ|unitig_0|quiver_consensus	356829	355603
+q03py5.2	3.a.1	folate		rxn90019	gnl|tc-db|q03py5.2|3.a.1.28.2	30.043	4.17e-27	107	84	gnl|DSMZ|unitig_0|quiver_consensus	1975621	1976307
+q03py6.2	3.a.1	folate		rxn90019	gnl|tc-db|q03py6.2|3.a.1.28.2	32.159	2.50e-25	102	97	gnl|DSMZ|unitig_0|quiver_consensus	598238	597576
+q05596	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q05596|3.a.1.23.6	28.151	4.28e-22	92.8	100	gnl|DSMZ|unitig_0|quiver_consensus	3387353	3386667
+q07394	3.d.6	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q07394|3.d.6.1.1	29.730	9.12e-05	39.3	78	gnl|DSMZ|unitig_0|quiver_consensus	718052	718585
+q07394	3.d.6	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q07394|3.d.6.1.1	29.730	9.12e-05	39.3	78	gnl|DSMZ|unitig_0|quiver_consensus	718052	718585
+q07647	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q07647|2.a.1.1.12	27.237	3.98e-41	155	93	gnl|DSMZ|unitig_0|quiver_consensus	2360944	2359517
+q08637	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|q08637|3.a.2.2.2	24.736	8.62e-24	102	97	gnl|DSMZ|unitig_0|quiver_consensus	834780	836135
+q0w3w9	2.a.58	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|q0w3w9|2.a.58.2.6	27.539	7.44e-43	162	96	gnl|DSMZ|unitig_0|quiver_consensus	2642395	2644086
+q0www9	2.a.1	xylose		rxn05671,rxn09384	gnl|tc-db|q0www9|2.a.1.1.103	32.409	1.72e-53	194	81	gnl|DSMZ|unitig_0|quiver_consensus	358266	359594
+q26579	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q26579|2.a.1.1.52	22.199	1.20e-17	84.0	88	gnl|DSMZ|unitig_0|quiver_consensus	358257	359597
+q2a679	2.a.21	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q2a679|2.a.21.3.23	36.673	8.23e-86	292	79	gnl|DSMZ|unitig_0|quiver_consensus	549225	547699
+q2a679	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q2a679|2.a.21.3.23	36.673	8.23e-86	292	79	gnl|DSMZ|unitig_0|quiver_consensus	549225	547699
+q2a687	2.a.21	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q2a687|2.a.21.3.22	35.409	2.12e-87	296	84	gnl|DSMZ|unitig_0|quiver_consensus	549225	547606
+q2a687	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q2a687|2.a.21.3.22	35.409	2.12e-87	296	84	gnl|DSMZ|unitig_0|quiver_consensus	549225	547606
+q2m3m2	2.a.21	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q2m3m2|2.a.21.3.17	36.190	2.16e-67	238	75	gnl|DSMZ|unitig_0|quiver_consensus	549138	547624
+q2m3m2	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q2m3m2|2.a.21.3.17	36.190	2.16e-67	238	75	gnl|DSMZ|unitig_0|quiver_consensus	549138	547624
+q2mdh1	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q2mdh1|2.a.1.1.67	26.196	1.47e-24	105	82	gnl|DSMZ|unitig_0|quiver_consensus	358368	359597
+q2mdh1	2.a.1	xylose		rxn05671,rxn09384	gnl|tc-db|q2mdh1|2.a.1.1.67	26.196	1.47e-24	105	82	gnl|DSMZ|unitig_0|quiver_consensus	358368	359597
+q2mev7	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q2mev7|2.a.1.1.51	26.577	2.62e-42	159	89	gnl|DSMZ|unitig_0|quiver_consensus	2360971	2359514
+q2mev7	2.a.1	xylose		rxn05671,rxn09384	gnl|tc-db|q2mev7|2.a.1.1.51	26.577	2.62e-42	159	89	gnl|DSMZ|unitig_0|quiver_consensus	2360971	2359514
+q32ay2	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q32ay2|3.a.1.14.18	29.592	1.82e-21	92.4	90	gnl|DSMZ|unitig_0|quiver_consensus	1652728	1653597
+q32ay2	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q32ay2|3.a.1.14.18	29.592	1.82e-21	92.4	90	gnl|DSMZ|unitig_0|quiver_consensus	1652728	1653597
+q32sl4	2.a.1	maltose	EX_cpd00179_e0	rxn09673	gnl|tc-db|q32sl4|2.a.1.1.138	21.589	2.36e-04	41.2	79	gnl|DSMZ|unitig_0|quiver_consensus	358197	359603
+q37145	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q37145|3.a.3.2.11	33.591	2.84e-116	393	85	gnl|DSMZ|unitig_0|quiver_consensus	2757691	2760201
+q3mb44	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|q3mb44|3.a.1.2.29	22.976	1.12e-16	80.9	97	gnl|DSMZ|unitig_0|quiver_consensus	1975678	1977189
+q400d8	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q400d8|2.a.1.1.36	26.824	3.24e-43	163	82	gnl|DSMZ|unitig_0|quiver_consensus	2360953	2359520
+q43650	2.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|q43650|2.a.1.9.3	22.737	3.18e-07	50.4	81	gnl|DSMZ|unitig_0|quiver_consensus	2360788	2359541
+q44586	2.a.6	cadmium		rxn08196,rxn13814,rxn08198,rxn29670	gnl|tc-db|q44586|2.a.6.1.12	30.286	9.58e-126	422	99	gnl|DSMZ|unitig_0|quiver_consensus	2030390	2027406
+q44586	2.a.6	cobalt		rxn08240,rxn13681,rxn08242,rxn10474	gnl|tc-db|q44586|2.a.6.1.12	30.286	9.58e-126	422	99	gnl|DSMZ|unitig_0|quiver_consensus	2030390	2027406
+q44586	2.a.6	nickel		rxn08990,rxn08992,rxn10581,rxn13730	gnl|tc-db|q44586|2.a.6.1.12	30.286	9.58e-126	422	99	gnl|DSMZ|unitig_0|quiver_consensus	2030390	2027406
+q47538	3.a.1	taurine		rxn05172,rxn09285	gnl|tc-db|q47538|3.a.1.17.1	29.907	2.46e-26	104	86	gnl|DSMZ|unitig_0|quiver_consensus	3387353	3386712
+q52666	3.a.1	asparagine	EX_cpd00132_e0	rxn08160,rxn10144	gnl|tc-db|q52666|3.a.1.3.7	40.260	8.64e-45	158	92	gnl|DSMZ|unitig_0|quiver_consensus	2331289	2331975
+q52666	3.a.1	aspartate	EX_cpd00041_e0,EX_cpd00041_e0	rxn05152,rxn08165	gnl|tc-db|q52666|3.a.1.3.7	40.260	8.64e-45	158	92	gnl|DSMZ|unitig_0|quiver_consensus	2331289	2331975
+q52666	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|q52666|3.a.1.3.7	40.260	8.64e-45	158	92	gnl|DSMZ|unitig_0|quiver_consensus	2331289	2331975
+q52666	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|q52666|3.a.1.3.7	40.260	8.64e-45	158	92	gnl|DSMZ|unitig_0|quiver_consensus	2331289	2331975
+q52716	3.d.6	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q52716|3.d.6.1.1	37.744	6.01e-77	261	85	gnl|DSMZ|unitig_0|quiver_consensus	718885	720228
+q52716	3.d.6	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q52716|3.d.6.1.1	37.744	6.01e-77	261	85	gnl|DSMZ|unitig_0|quiver_consensus	718885	720228
+q55281	3.a.1	manganese		rxn05149	gnl|tc-db|q55281|3.a.1.15.1	29.907	2.04e-19	84.7	93	gnl|DSMZ|unitig_0|quiver_consensus	1322647	1322030
+q56953	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q56953|3.a.1.15.4	29.258	2.87e-20	88.2	89	gnl|DSMZ|unitig_0|quiver_consensus	2328868	2329506
+q56953	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q56953|3.a.1.15.4	29.258	2.87e-20	88.2	89	gnl|DSMZ|unitig_0|quiver_consensus	2328868	2329506
+q56zn6	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|q56zn6|3.a.10.2.3	40.885	1.74e-124	410	89	gnl|DSMZ|unitig_0|quiver_consensus	1171918	1174029
+q56zz7	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q56zz7|2.a.1.1.102	31.429	3.79e-37	144	81	gnl|DSMZ|unitig_0|quiver_consensus	358239	359588
+q58762	3.a.1	molybdate		rxn05619,rxn08955	gnl|tc-db|q58762|3.a.1.6.9	30.252	9.83e-24	98.6	76	gnl|DSMZ|unitig_0|quiver_consensus	3387353	3386643
+q5erc7	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q5erc7|2.a.1.1.47	25.157	4.15e-29	119	92	gnl|DSMZ|unitig_0|quiver_consensus	358254	359606
+q5ih90	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q5ih90|3.a.3.2.36	30.880	1.32e-90	318	93	gnl|DSMZ|unitig_0|quiver_consensus	2757679	2760273
+q5m0a4	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q5m0a4|3.a.3.2.22	29.966	1.41e-103	351	96	gnl|DSMZ|unitig_0|quiver_consensus	2757685	2760186
+q5ska0	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q5ska0|3.a.1.14.26	30.000	2.18e-18	81.3	88	gnl|DSMZ|unitig_0|quiver_consensus	2243119	2243766
+q5ska0	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q5ska0|3.a.1.14.26	30.000	2.18e-18	81.3	88	gnl|DSMZ|unitig_0|quiver_consensus	2243119	2243766
+q62941	2.a.4	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|q62941|2.a.4.3.1	25.177	1.32e-19	87.8	78	gnl|DSMZ|unitig_0|quiver_consensus	2016083	2016877
+q69jw3	2.a.2	sucrose	EX_cpd00076_e0	rxn09658	gnl|tc-db|q69jw3|2.a.2.4.11	23.956	2.98e-17	82.8	80	gnl|DSMZ|unitig_0|quiver_consensus	2206143	2204983
+q6mi08	3.a.1	manganese		rxn05149	gnl|tc-db|q6mi08|3.a.1.15.17	26.374	2.88e-09	52.8	98	gnl|DSMZ|unitig_0|quiver_consensus	560400	559873
+q6mi08	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|q6mi08|3.a.1.15.17	26.374	2.88e-09	52.8	98	gnl|DSMZ|unitig_0|quiver_consensus	560400	559873
+q6pxp3	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q6pxp3|2.a.1.1.37	28.431	8.50e-29	118	75	gnl|DSMZ|unitig_0|quiver_consensus	358434	359606
+q72rn5	3.a.3	magnesium		rxn08924,rxn10571	gnl|tc-db|q72rn5|3.a.3.4.2	25.367	6.03e-58	213	81	gnl|DSMZ|unitig_0|quiver_consensus	2757676	2759859
+q73lw8	2.a.51	chromate	EX_cpd11595_e0	rxn05526,rxn13686	gnl|tc-db|q73lw8|2.a.51.1.6	39.645	3.80e-34	125	87	gnl|DSMZ|unitig_0|quiver_consensus	2320765	2320259
+q73re4	3.a.1	thiamine		rxn05177,rxn09297	gnl|tc-db|q73re4|3.a.1.19.2	38.318	2.43e-32	120	100	gnl|DSMZ|unitig_0|quiver_consensus	2243107	2243745
+q797e3	2.a.1	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05497	gnl|tc-db|q797e3|2.a.1.2.25	24.808	5.17e-16	77.4	97	gnl|DSMZ|unitig_0|quiver_consensus	2236035	2237159
+q797e3	2.a.1	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05471	gnl|tc-db|q797e3|2.a.1.2.25	24.808	5.17e-16	77.4	97	gnl|DSMZ|unitig_0|quiver_consensus	2236035	2237159
+q797e3	2.a.1	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn29869	gnl|tc-db|q797e3|2.a.1.2.25	24.808	5.17e-16	77.4	97	gnl|DSMZ|unitig_0|quiver_consensus	2236035	2237159
+q797e3	2.a.1	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn38756	gnl|tc-db|q797e3|2.a.1.2.25	24.808	5.17e-16	77.4	97	gnl|DSMZ|unitig_0|quiver_consensus	2236035	2237159
+q79ci9	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|q79ci9|3.a.1.23.1	30.097	8.88e-21	87.8	100	gnl|DSMZ|unitig_0|quiver_consensus	1143931	1144536
+q7bec4	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q7bec4|2.a.1.1.35	33.939	1.78e-57	202	95	gnl|DSMZ|unitig_0|quiver_consensus	2360947	2359532
+q7rvx9	2.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|q7rvx9|2.a.1.9.2	24.845	4.07e-16	79.3	81	gnl|DSMZ|unitig_0|quiver_consensus	358335	359600
+q7u617	2.a.53	sulfate	EX_cpd00681_e0	rxn05651,rxn12369,rxn12811,rxn13116,rxn34447,rxn34531,rxn05238,rxn31171,rxn31183,rxn32972,rxn32975,rxn34545	gnl|tc-db|q7u617|2.a.53.3.2	29.870	5.47e-30	122	92	gnl|DSMZ|unitig_0|quiver_consensus	356793	355258
+q7uq83	3.a.1	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|q7uq83|3.a.1.115.2	34.043	4.47e-37	135	95	gnl|DSMZ|unitig_0|quiver_consensus	1976575	1977264
+q830z1	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q830z1|3.a.3.25.3	21.955	5.77e-14	72.4	81	gnl|DSMZ|unitig_0|quiver_consensus	2757892	2759727
+q839d4	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q839d4|3.a.1.26.7	34.091	4.86e-30	116	97	gnl|DSMZ|unitig_0|quiver_consensus	2331304	2331948
+q839d5	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q839d5|3.a.1.26.7	32.727	2.64e-30	117	85	gnl|DSMZ|unitig_0|quiver_consensus	2331286	2331942
+q87tn7	2.a.38	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|q87tn7|2.a.38.1.5	35.318	1.17e-76	259	99	gnl|DSMZ|unitig_0|quiver_consensus	2033283	2031838
+q88rt5	2.a.6	cadmium		rxn08196,rxn13814,rxn08198,rxn29670	gnl|tc-db|q88rt5|2.a.6.1.5	25.316	4.51e-15	74.7	81	gnl|DSMZ|unitig_0|quiver_consensus	1707624	1708517
+q88rt5	2.a.6	cobalt		rxn08240,rxn13681,rxn08242,rxn10474	gnl|tc-db|q88rt5|2.a.6.1.5	25.316	4.51e-15	74.7	81	gnl|DSMZ|unitig_0|quiver_consensus	1707624	1708517
+q88rt5	2.a.6	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|q88rt5|2.a.6.1.5	25.316	4.51e-15	74.7	81	gnl|DSMZ|unitig_0|quiver_consensus	1707624	1708517
+q88rt6	2.a.6	cadmium		rxn08196,rxn13814,rxn08198,rxn29670	gnl|tc-db|q88rt6|2.a.6.1.5	31.822	2.26e-163	532	99	gnl|DSMZ|unitig_0|quiver_consensus	2030495	2027406
+q88rt6	2.a.6	cobalt		rxn08240,rxn13681,rxn08242,rxn10474	gnl|tc-db|q88rt6|2.a.6.1.5	31.822	2.26e-163	532	99	gnl|DSMZ|unitig_0|quiver_consensus	2030495	2027406
+q88rt6	2.a.6	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|q88rt6|2.a.6.1.5	31.822	2.26e-163	532	99	gnl|DSMZ|unitig_0|quiver_consensus	2030495	2027406
+q898q9	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|q898q9|3.a.10.1.7	50.554	3.77e-163	517	97	gnl|DSMZ|unitig_0|quiver_consensus	1171885	1174047
+q898q9	3.a.10	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|q898q9|3.a.10.1.7	50.554	3.77e-163	517	97	gnl|DSMZ|unitig_0|quiver_consensus	1171885	1174047
+q89ys8	2.a.1	galactose	EX_cpd00108_e0	rxn05566,rxn08584,rxn34374	gnl|tc-db|q89ys8|2.a.1.7.18	25.521	1.05e-25	107	98	gnl|DSMZ|unitig_0|quiver_consensus	2842042	2843118
+q89ys8	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q89ys8|2.a.1.7.18	25.521	1.05e-25	107	98	gnl|DSMZ|unitig_0|quiver_consensus	2842042	2843118
+q8a6w8	2.a.1	galactose	EX_cpd00108_e0	rxn05566,rxn08584,rxn34374	gnl|tc-db|q8a6w8|2.a.1.7.17	69.251	1.93e-173	533	99	gnl|DSMZ|unitig_0|quiver_consensus	2842009	2843166
+q8a6w8	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q8a6w8|2.a.1.7.17	69.251	1.93e-173	533	99	gnl|DSMZ|unitig_0|quiver_consensus	2842009	2843166
+q8aav7	2.a.21	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q8aav7|2.a.21.3.19	90.780	0.0	945	100	gnl|DSMZ|unitig_0|quiver_consensus	549237	547549
+q8dqh7	3.a.1	branched chain amino acid		rxn05179,rxn08745	gnl|tc-db|q8dqh7|3.a.1.4.10	36.017	4.86e-37	135	99	gnl|DSMZ|unitig_0|quiver_consensus	3390548	3391243
+q8dqh7	3.a.1	branched chain amino acid		rxn05161,rxn08784	gnl|tc-db|q8dqh7|3.a.1.4.10	36.017	4.86e-37	135	99	gnl|DSMZ|unitig_0|quiver_consensus	3390548	3391243
+q8dqh7	3.a.1	branched chain amino acid		rxn05168,rxn09373	gnl|tc-db|q8dqh7|3.a.1.4.10	36.017	4.86e-37	135	99	gnl|DSMZ|unitig_0|quiver_consensus	3390548	3391243
+q8dqh7	3.a.1	branched chain amino acid		rxn05169,rxn09301,rxn34122	gnl|tc-db|q8dqh7|3.a.1.4.10	36.017	4.86e-37	135	99	gnl|DSMZ|unitig_0|quiver_consensus	3390548	3391243
+q8dqh8	3.a.1	branched chain amino acid		rxn05179,rxn08745	gnl|tc-db|q8dqh8|3.a.1.4.10	35.484	1.42e-39	142	99	gnl|DSMZ|unitig_0|quiver_consensus	3390548	3391243
+q8dqh8	3.a.1	branched chain amino acid		rxn05161,rxn08784	gnl|tc-db|q8dqh8|3.a.1.4.10	35.484	1.42e-39	142	99	gnl|DSMZ|unitig_0|quiver_consensus	3390548	3391243
+q8dqh8	3.a.1	branched chain amino acid		rxn05168,rxn09373	gnl|tc-db|q8dqh8|3.a.1.4.10	35.484	1.42e-39	142	99	gnl|DSMZ|unitig_0|quiver_consensus	3390548	3391243
+q8dqh8	3.a.1	branched chain amino acid		rxn05169,rxn09301,rxn34122	gnl|tc-db|q8dqh8|3.a.1.4.10	35.484	1.42e-39	142	99	gnl|DSMZ|unitig_0|quiver_consensus	3390548	3391243
+q8dw86	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q8dw86|3.a.1.15.20	27.686	2.56e-20	86.7	99	gnl|DSMZ|unitig_0|quiver_consensus	1975633	1976301
+q8dw86	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q8dw86|3.a.1.15.20	27.686	2.56e-20	86.7	99	gnl|DSMZ|unitig_0|quiver_consensus	1975633	1976301
+q8dw86	3.a.1	manganese		rxn05149	gnl|tc-db|q8dw86|3.a.1.15.20	27.686	2.56e-20	86.7	99	gnl|DSMZ|unitig_0|quiver_consensus	1975633	1976301
+q8e9e5	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q8e9e5|2.a.22.5.5	32.543	2.04e-54	193	98	gnl|DSMZ|unitig_0|quiver_consensus	3167550	3168890
+q8ebl0	2.a.1	galactose	EX_cpd00108_e0	rxn05566,rxn08584,rxn34374	gnl|tc-db|q8ebl0|2.a.1.7.8	22.926	4.47e-21	93.6	97	gnl|DSMZ|unitig_0|quiver_consensus	3520439	3519189
+q8ebl0	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q8ebl0|2.a.1.7.8	22.926	4.47e-21	93.6	97	gnl|DSMZ|unitig_0|quiver_consensus	3520439	3519189
+q8f4z0	3.d.10	succinate	EX_cpd00036_e0,EX_cpd00036_e0	rxn10138	gnl|tc-db|q8f4z0|3.d.10.1.2	26.794	1.03e-09	55.1	90	gnl|DSMZ|unitig_0|quiver_consensus	2872876	2873490
+q8f4z1	3.d.10	succinate	EX_cpd00036_e0,EX_cpd00036_e0	rxn10138	gnl|tc-db|q8f4z1|3.d.10.1.2	63.429	0.0	819	99	gnl|DSMZ|unitig_0|quiver_consensus	2873609	2875585
+q8f4z2	3.d.10	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q8f4z2|3.d.10.1.2	59.336	5.03e-97	307	99	gnl|DSMZ|unitig_0|quiver_consensus	2875618	2876340
+q8f4z2	3.d.10	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q8f4z2|3.d.10.1.2	59.336	5.03e-97	307	99	gnl|DSMZ|unitig_0|quiver_consensus	2875618	2876340
+q8f4z2	3.d.10	succinate	EX_cpd00036_e0,EX_cpd00036_e0	rxn10138	gnl|tc-db|q8f4z2|3.d.10.1.2	59.336	5.03e-97	307	99	gnl|DSMZ|unitig_0|quiver_consensus	2875618	2876340
+q8fc73	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q8fc73|4.a.2.1.9	25.743	3.0	23.9	80	gnl|DSMZ|unitig_0|quiver_consensus	1346964	1346662
+q8g3x1	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q8g3x1|2.a.1.1.42	33.693	2.31e-60	213	86	gnl|DSMZ|unitig_0|quiver_consensus	358248	359606
+q8iwu4	2.a.4	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|q8iwu4|2.a.4.3.5	30.216	1.61e-15	75.5	75	gnl|DSMZ|unitig_0|quiver_consensus	2016083	2016874
+q8ka99	3.d.10	succinate	EX_cpd00036_e0,EX_cpd00036_e0	rxn10138	gnl|tc-db|q8ka99|3.d.10.1.5	28.372	1.23e-05	43.1	87	gnl|DSMZ|unitig_0|quiver_consensus	2872882	2873514
+q8kaa0	3.d.10	succinate	EX_cpd00036_e0,EX_cpd00036_e0	rxn10138	gnl|tc-db|q8kaa0|3.d.10.1.5	64.894	0.0	857	99	gnl|DSMZ|unitig_0|quiver_consensus	2873612	2875585
+q8kaa1	3.d.10	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q8kaa1|3.d.10.1.5	64.898	3.68e-94	300	95	gnl|DSMZ|unitig_0|quiver_consensus	2875618	2876352
+q8kaa1	3.d.10	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q8kaa1|3.d.10.1.5	64.898	3.68e-94	300	95	gnl|DSMZ|unitig_0|quiver_consensus	2875618	2876352
+q8kaa1	3.d.10	succinate	EX_cpd00036_e0,EX_cpd00036_e0	rxn10138	gnl|tc-db|q8kaa1|3.d.10.1.5	64.898	3.68e-94	300	95	gnl|DSMZ|unitig_0|quiver_consensus	2875618	2876352
+q8l6z8	2.a.1	xylose		rxn05671,rxn09384	gnl|tc-db|q8l6z8|2.a.1.1.45	30.211	4.56e-46	170	81	gnl|DSMZ|unitig_0|quiver_consensus	358368	359594
+q8n1s5	2.a.5	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|q8n1s5|2.a.5.5.2	34.337	7.55e-38	141	96	gnl|DSMZ|unitig_0|quiver_consensus	1909611	1910375
+q8pyz7	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|q8pyz7|3.a.10.2.4	46.709	2.48e-136	439	84	gnl|DSMZ|unitig_0|quiver_consensus	1172179	1174041
+q8pyz8	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|q8pyz8|3.a.10.1.14	49.036	1.22e-165	524	99	gnl|DSMZ|unitig_0|quiver_consensus	1171873	1174041
+q8pyz8	3.a.10	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|q8pyz8|3.a.10.1.14	49.036	1.22e-165	524	99	gnl|DSMZ|unitig_0|quiver_consensus	1171873	1174041
+q8rhm5	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q8rhm5|2.a.22.5.2	29.519	9.52e-51	182	94	gnl|DSMZ|unitig_0|quiver_consensus	3167541	3168824
+q8rhm5	2.a.22	tyrosine	EX_cpd00069_e0	rxn05301,rxn09338,rxn09708,rxn09831,rxn12459,rxn13411,rxn13412,rxn34413	gnl|tc-db|q8rhm5|2.a.22.5.2	29.519	9.52e-51	182	94	gnl|DSMZ|unitig_0|quiver_consensus	3167541	3168824
+q8tdb8	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q8tdb8|2.a.1.1.90	26.641	3.12e-37	144	90	gnl|DSMZ|unitig_0|quiver_consensus	2360977	2359517
+q8thy0	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|q8thy0|3.a.3.1.10	31.206	1.07e-104	356	87	gnl|DSMZ|unitig_0|quiver_consensus	2757673	2760039
+q8thy0	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|q8thy0|3.a.3.1.10	31.206	1.07e-104	356	87	gnl|DSMZ|unitig_0|quiver_consensus	2757673	2760039
+q8tjz4	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q8tjz4|3.a.3.6.16	28.704	2.72e-42	162	78	gnl|DSMZ|unitig_0|quiver_consensus	1302444	1303703
+q8vym2	2.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|q8vym2|2.a.1.9.9	24.348	2.40e-08	53.9	87	gnl|DSMZ|unitig_0|quiver_consensus	2360788	2359529
+q8vzr6	2.a.1	inositol	EX_cpd00121_e0	rxn05593,rxn08752	gnl|tc-db|q8vzr6|2.a.1.1.66	29.228	1.09e-32	130	90	gnl|DSMZ|unitig_0|quiver_consensus	358218	359606
+q8xev7	2.a.1	l-fucose		rxn05691,rxn08541	gnl|tc-db|q8xev7|2.a.1.7.5	32.667	3.16e-38	145	99	gnl|DSMZ|unitig_0|quiver_consensus	3520475	3519162
+q8yrv8	3.a.1	nitrate		rxn05171	gnl|tc-db|q8yrv8|3.a.1.16.4	38.095	3.21e-36	133	92	gnl|DSMZ|unitig_0|quiver_consensus	2331286	2331957
+q8zq35	2.a.21	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q8zq35|2.a.21.3.10	24.837	1.95e-15	76.6	85	gnl|DSMZ|unitig_0|quiver_consensus	549165	547837
+q8zq35	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q8zq35|2.a.21.3.10	24.837	1.95e-15	76.6	85	gnl|DSMZ|unitig_0|quiver_consensus	549165	547837
+q8zwi8	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|q8zwi8|3.a.10.3.1	41.193	3.81e-119	391	93	gnl|DSMZ|unitig_0|quiver_consensus	1171933	1174023
+q92339	2.a.1	gluconate		rxn05571,rxn08609,rxn12363	gnl|tc-db|q92339|2.a.1.1.23	26.471	4.89e-39	150	84	gnl|DSMZ|unitig_0|quiver_consensus	2360953	2359520
+q92ll4	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q92ll4|3.a.1.15.9	27.711	6.66e-18	81.6	91	gnl|DSMZ|unitig_0|quiver_consensus	3390572	3391291
+q92ll4	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q92ll4|3.a.1.15.9	27.711	6.66e-18	81.6	91	gnl|DSMZ|unitig_0|quiver_consensus	3390572	3391291
+q97jb8	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q97jb8|3.a.1.23.2	33.203	8.13e-35	130	94	gnl|DSMZ|unitig_0|quiver_consensus	3387356	3386622
+q97pg9	3.a.1	manganese		rxn05149	gnl|tc-db|q97pg9|3.a.1.15.14	30.556	1.16e-16	75.9	98	gnl|DSMZ|unitig_0|quiver_consensus	2756291	2756935
+q97ug5	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q97ug5|3.a.1.5.8	22.203	8.68e-28	117	92	gnl|DSMZ|unitig_0|quiver_consensus	1975672	1977204
+q99726	2.a.4	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|q99726|2.a.4.3.2	27.303	1.04e-23	100	78	gnl|DSMZ|unitig_0|quiver_consensus	2016077	2016889
+q9a197	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|q9a197|3.a.1.14.14	31.579	2.02e-38	139	94	gnl|DSMZ|unitig_0|quiver_consensus	2756288	2757028
+q9byw1	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q9byw1|2.a.1.1.44	25.000	2.50e-24	104	77	gnl|DSMZ|unitig_0|quiver_consensus	358443	359603
+q9c8x2	2.a.2	sucrose	EX_cpd00076_e0	rxn09658	gnl|tc-db|q9c8x2|2.a.2.4.12	24.558	5.46e-18	84.7	85	gnl|DSMZ|unitig_0|quiver_consensus	2206182	2204995
+q9ces4	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|q9ces4|3.a.1.3.25	37.500	2.16e-38	139	97	gnl|DSMZ|unitig_0|quiver_consensus	2243110	2243826
+q9hmc9	2.a.47	arsenite		rxn05507	gnl|tc-db|q9hmc9|2.a.47.4.2	28.302	1.43e-53	195	88	gnl|DSMZ|unitig_0|quiver_consensus	1835923	1837593
+q9i5f5	2.a.21	proline	EX_cpd00129_e0	rxn05221,rxn05638,rxn09191,rxn09192,rxn12451,rxn34526,rxn34527	gnl|tc-db|q9i5f5|2.a.21.2.3	23.582	1.11e-15	77.4	96	gnl|DSMZ|unitig_0|quiver_consensus	549216	547621
+q9i5f5	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q9i5f5|2.a.21.2.3	23.582	1.11e-15	77.4	96	gnl|DSMZ|unitig_0|quiver_consensus	549216	547621
+q9jif3	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q9jif3|2.a.1.1.46	29.639	2.27e-37	143	81	gnl|DSMZ|unitig_0|quiver_consensus	358434	359606
+q9k7h7	2.a.47	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q9k7h7|2.a.47.4.5	26.795	1.45e-34	137	91	gnl|DSMZ|unitig_0|quiver_consensus	1835914	1837593
+q9k7h7	2.a.47	sulfate	EX_cpd00681_e0	rxn05651,rxn12369,rxn12811,rxn13116,rxn34447,rxn34531,rxn05238,rxn31171,rxn31183,rxn32972,rxn32975,rxn34545	gnl|tc-db|q9k7h7|2.a.47.4.5	26.795	1.45e-34	137	91	gnl|DSMZ|unitig_0|quiver_consensus	1835914	1837593
+q9ksh5	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|q9ksh5|4.a.3.2.6	27.160	2.8	23.9	80	gnl|DSMZ|unitig_0|quiver_consensus	2356731	2356925
+q9lf79	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q9lf79|3.a.3.2.10	34.726	1.02e-107	369	75	gnl|DSMZ|unitig_0|quiver_consensus	2757880	2760213
+q9lhq6	2.a.1	carnitine	EX_cpd00266_e0	rxn08262,rxn09691,rxn12364,rxn12605,rxn09773,rxn09858	gnl|tc-db|q9lhq6|2.a.1.19.43	23.007	2.37e-10	60.5	75	gnl|DSMZ|unitig_0|quiver_consensus	358368	359615
+q9lu41	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q9lu41|3.a.3.2.14	35.465	4.22e-112	382	76	gnl|DSMZ|unitig_0|quiver_consensus	2757880	2760246
+q9ly77	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q9ly77|3.a.3.2.42	34.347	6.67e-125	419	83	gnl|DSMZ|unitig_0|quiver_consensus	2757700	2760222
+q9max3	2.a.53	sulfate	EX_cpd00681_e0	rxn05651,rxn12369,rxn12811,rxn13116,rxn34447,rxn34531,rxn05238,rxn31171,rxn31183,rxn32972,rxn32975,rxn34545	gnl|tc-db|q9max3|2.a.53.1.6	24.648	1.30e-22	100	85	gnl|DSMZ|unitig_0|quiver_consensus	356790	355207
+q9nrm0	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q9nrm0|2.a.1.1.72	24.248	2.09e-29	120	87	gnl|DSMZ|unitig_0|quiver_consensus	358185	359606
+q9ny64	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q9ny64|2.a.1.1.89	29.087	8.64e-41	154	81	gnl|DSMZ|unitig_0|quiver_consensus	358434	359606
+q9ny91	2.a.21	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q9ny91|2.a.21.3.18	34.370	9.02e-78	268	86	gnl|DSMZ|unitig_0|quiver_consensus	549255	547606
+q9ny91	2.a.21	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q9ny91|2.a.21.3.18	34.370	9.02e-78	268	86	gnl|DSMZ|unitig_0|quiver_consensus	549255	547606
+q9p3u6	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q9p3u6|2.a.1.1.112	25.145	9.45e-35	137	84	gnl|DSMZ|unitig_0|quiver_consensus	2360956	2359520
+q9rk11	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9rk11|3.a.1.14.13	34.286	9.14e-25	101	85	gnl|DSMZ|unitig_0|quiver_consensus	2756306	2757040
+q9rk11	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9rk11|3.a.1.14.13	34.286	9.14e-25	101	85	gnl|DSMZ|unitig_0|quiver_consensus	2756306	2757040
+q9s213	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9s213|3.a.1.14.22	27.726	4.42e-14	70.5	86	gnl|DSMZ|unitig_0|quiver_consensus	1652662	1653597
+q9s213	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9s213|3.a.1.14.22	27.726	4.42e-14	70.5	86	gnl|DSMZ|unitig_0|quiver_consensus	1652662	1653597
+q9s215	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9s215|3.a.1.14.22	34.764	2.37e-35	132	88	gnl|DSMZ|unitig_0|quiver_consensus	2756345	2757040
+q9s215	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9s215|3.a.1.14.22	34.764	2.37e-35	132	88	gnl|DSMZ|unitig_0|quiver_consensus	2756345	2757040
+q9s409	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q9s409|3.a.1.22.1	29.064	4.68e-16	73.2	99	gnl|DSMZ|unitig_0|quiver_consensus	2331292	2331894
+q9s5x0	3.a.10	pyrophosphate		rxn05635,rxn30297,rxn11268	gnl|tc-db|q9s5x0|3.a.10.1.4	42.382	1.58e-134	436	94	gnl|DSMZ|unitig_0|quiver_consensus	1171939	1173993
+q9sa36	2.a.1	carnitine	EX_cpd00266_e0	rxn08262,rxn09691,rxn12364,rxn12605,rxn09773,rxn09858	gnl|tc-db|q9sa36|2.a.1.19.39	21.413	9.75e-14	71.2	78	gnl|DSMZ|unitig_0|quiver_consensus	358338	359633
+q9sxm0	2.a.2	sucrose	EX_cpd00076_e0	rxn09658	gnl|tc-db|q9sxm0|2.a.2.4.2	24.324	5.00e-17	82.0	82	gnl|DSMZ|unitig_0|quiver_consensus	2206143	2204995
+q9sy55	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q9sy55|3.a.3.2.19	30.162	2.10e-93	324	95	gnl|DSMZ|unitig_0|quiver_consensus	2757685	2760264
+q9ugq3	2.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|q9ugq3|2.a.1.1.88	24.706	1.34e-31	127	90	gnl|DSMZ|unitig_0|quiver_consensus	2360923	2359517
+q9uux9	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q9uux9|3.a.3.2.6	30.082	1.29e-95	331	79	gnl|DSMZ|unitig_0|quiver_consensus	2757979	2760255
+q9x051	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|q9x051|3.a.1.2.19	21.692	3.87e-12	66.2	81	gnl|DSMZ|unitig_0|quiver_consensus	877327	876017
+q9x0h4	2.a.38	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|q9x0h4|2.a.38.1.4	29.448	1.97e-46	171	95	gnl|DSMZ|unitig_0|quiver_consensus	2033280	2031850
+q9x664	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|q9x664|3.a.1.14.7	31.071	4.78e-15	73.6	76	gnl|DSMZ|unitig_0|quiver_consensus	1652776	1653588
+q9x665	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|q9x665|3.a.1.14.7	33.969	2.75e-41	148	98	gnl|DSMZ|unitig_0|quiver_consensus	2756303	2757079
+q9x761	2.a.2	galactose	EX_cpd00108_e0	rxn05566,rxn08584,rxn34374	gnl|tc-db|q9x761|2.a.2.2.3	21.610	0.008	35.8	89	gnl|DSMZ|unitig_0|quiver_consensus	2128045	2129385
+q9xcs1	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9xcs1|3.a.1.15.7	28.638	3.39e-17	78.6	88	gnl|DSMZ|unitig_0|quiver_consensus	3390584	3391201
+q9xcs1	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9xcs1|3.a.1.15.7	28.638	3.39e-17	78.6	88	gnl|DSMZ|unitig_0|quiver_consensus	3390584	3391201
+t2g9x8	3.d.10	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|t2g9x8|3.d.10.1.8	24.427	1.09e-09	55.8	89	gnl|DSMZ|unitig_0|quiver_consensus	2875606	2876340
+t2g9x8	3.d.10	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|t2g9x8|3.d.10.1.8	24.427	1.09e-09	55.8	89	gnl|DSMZ|unitig_0|quiver_consensus	2875606	2876340
+t2g9x8	3.d.10	succinate	EX_cpd00036_e0,EX_cpd00036_e0	rxn10138	gnl|tc-db|t2g9x8|3.d.10.1.8	24.427	1.09e-09	55.8	89	gnl|DSMZ|unitig_0|quiver_consensus	2875606	2876340
+wp_089030044.1	2.a.107	manganese		rxn05618,rxn08946,rxn08951,rxn05149,rxn08947	gnl|tc-db|wp_089030044.1|2.a.107.1.5	32.642	1.93e-15	70.9	97	gnl|DSMZ|unitig_0|quiver_consensus	724730	725302
+wp_100324686.1	2.a.107	manganese		rxn05618,rxn08946,rxn08951,rxn05149,rxn08947	gnl|tc-db|wp_100324686.1|2.a.107.1.4	26.374	1.10e-08	50.8	94	gnl|DSMZ|unitig_0|quiver_consensus	724754	725299
+wp_123898938.1	2.a.131	sulfite		rxn10604	gnl|tc-db|wp_123898938.1|2.a.131.1.5	35.345	4.19e-42	149	96	gnl|DSMZ|unitig_0|quiver_consensus	2489936	2489253
+x5gwn5	3.d.10	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|x5gwn5|3.d.10.1.6	22.439	1.09e-07	49.7	75	gnl|DSMZ|unitig_0|quiver_consensus	2875744	2876343
+x5gwn5	3.d.10	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|x5gwn5|3.d.10.1.6	22.439	1.09e-07	49.7	75	gnl|DSMZ|unitig_0|quiver_consensus	2875744	2876343
+x5gwn5	3.d.10	succinate	EX_cpd00036_e0,EX_cpd00036_e0	rxn10138	gnl|tc-db|x5gwn5|3.d.10.1.6	22.439	1.09e-07	49.7	75	gnl|DSMZ|unitig_0|quiver_consensus	2875744	2876343
+x5h3p0	3.d.10	succinate	EX_cpd00036_e0,EX_cpd00036_e0	rxn10138	gnl|tc-db|x5h3p0|3.d.10.1.6	29.735	2.01e-61	218	92	gnl|DSMZ|unitig_0|quiver_consensus	1878948	1877374
+yiho_ecoli	2.a.2	sulfoquinovose	EX_cpd22614_e0	rxn90101	sp|p32136|yiho_ecoli|2.a.2.3.15	25.145	6.60e-27	112	99	gnl|DSMZ|unitig_0|quiver_consensus	2127898	2129391
+yihp_ecoli	2.a.2	2,3-dihydroxypropane-1-sulfonate	EX_cpd31356_e0	rxn90102	sp|p32137|yihp_ecoli|2.a.2.3.9	25.630	5.66e-31	124	92	gnl|DSMZ|unitig_0|quiver_consensus	2127895	2129295
+yihp_salty	2.a.2	2,3-dihydroxypropane-1-sulfonate	EX_cpd31356_e0	rxn90102	sp|q9l7r5|yihp_salty|2.a.2.3.9	26.395	3.24e-29	119	90	gnl|DSMZ|unitig_0|quiver_consensus	2127925	2129295
+o66515|p69681	alternative	ammonia	cpd00013[e0]	rxn05466,rxn08986,rxn08987,rxn09736,rxn09835,rxn11158,rxn13364,rxn29187,rxn29241,rxn29242	gnl|tc-db|o66515|1.a.11.1.5	34.679	1.18e-46	169	93	gnl|DSMZ|unitig_0|quiver_consensus	3305815	3307041
+o14975|p31552|p39518|p69451|q42524|q57079|q57286|q9v0a4|q9v0a7|q9xia9|q9zaa6	alternative	coa	cpd00010[e0]	rxn10832,rxn13243,rxn13244,rxn31203,rxn32206,rxn32207,rxn32211	gnl|tc-db|q57079|3.b.1.1.2	58.733	0.0	614	100	gnl|DSMZ|unitig_0|quiver_consensus	1180381	1178819
+p31552	alternative	crotonobetaine	cpd08305[e0]	rxn05192,rxn08268,rxn08270	gnl|tc-db|p31552|4.c.1.1.6	22.126	2.10e-19	89.4	80	gnl|DSMZ|unitig_0|quiver_consensus	882279	880936
+a2rka7	alternative	cytidine	cpd00367[e0]	rxn05198,rxn08289,rxn08290,rxn10857,rxn10997,rxn12413,rxn13338	gnl|tc-db|a2rka7|3.a.1.2.17	24.721	4.11e-25	107	97	gnl|DSMZ|unitig_0|quiver_consensus	1975696	1977234
+ols18213|p16431	alternative	formate	cpd00047[e0]	rxn05559,rxn08524,rxn08525,rxn08526,rxn09682,rxn09754,rxn10860,rxn12422,rxn34095,rxn34214,rxn34215,rxn34216,rxn34459	gnl|tc-db|ols18213|3.d.9.1.2	28.485	5.19e-53	192	82	gnl|DSMZ|unitig_0|quiver_consensus	407871	409340
+p17412|q8f4z2|t2gb49|x5gwn5	alternative	fumarate	cpd00106[e0]	rxn05561,rxn08542,rxn08543,rxn08544,rxn10152,rxn10158,rxn10901,rxn11013,rxn12423,rxn30673,rxn33661,rxn33665	gnl|tc-db|q8f4z2|3.d.10.1.2	59.336	5.03e-97	307	99	gnl|DSMZ|unitig_0|quiver_consensus	2875618	2876340
+b3ee21	alternative	hydrogen	cpd11640[e0]	rxn08691,rxn08692,rxn10542,rxn34227,rxn34505	gnl|tc-db|b3ee21|2.a.37.2.5	35.593	3.59e-118	389	88	gnl|DSMZ|unitig_0|quiver_consensus	2241015	2242943
+p0cc32|p26288|p26289|p56751|p56753|q37165|q8djd9|q8dky0|q8dkz4|q8dl32|q8dmr6|q95695	alternative	nad	cpd00003[e0]	rxn13361,rxn24116,rxn30216,rxn33812,rxn33813,rxn33817,rxn33824,rxn33825	gnl|tc-db|q8djd9|3.d.1.8.2	37.047	3.19e-82	271	98	gnl|DSMZ|unitig_0|quiver_consensus	408273	409355
+q837u1	alternative	nicotinamide	cpd00133[e0]	rxn10867,rxn11334,rxn32452,rxn32456	gnl|tc-db|q837u1|4.b.1.1.6	23.697	1.27e-06	45.8	87	gnl|DSMZ|unitig_0|quiver_consensus	1209471	1208863

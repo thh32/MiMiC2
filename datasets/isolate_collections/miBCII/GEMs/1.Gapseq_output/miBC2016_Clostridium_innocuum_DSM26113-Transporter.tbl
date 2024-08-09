@@ -1,0 +1,739 @@
+id	tc	sub	exid	rea	qseqid	pident	evalue	bitscore	qcovs	stitle	sstart	send
+658118070	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|658118070|3.a.1.15.16	31.068	4.94e-25	99.8	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2564654	2564043
+a1jlh0	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|a1jlh0|3.a.1.10.5	35.616	2.26e-44	160	84	CP022722.1 [Clostridium] innocuum strain I46 genome	258521	259354
+a1jlh0	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|a1jlh0|3.a.1.10.5	35.616	2.26e-44	160	84	CP022722.1 [Clostridium] innocuum strain I46 genome	258521	259354
+a1rz69	4.a.6	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|a1rz69|4.a.6.1.24	27.553	4.78e-23	101	76	CP022722.1 [Clostridium] innocuum strain I46 genome	4263011	4264234
+a1rz69	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|a1rz69|4.a.6.1.24	27.553	4.78e-23	101	76	CP022722.1 [Clostridium] innocuum strain I46 genome	4263011	4264234
+a2rka5	3.a.1	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn09864	gnl|tc-db|a2rka5|3.a.1.2.17	38.486	1.55e-51	180	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1076608	1075661
+a2rka6	3.a.1	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn09864	gnl|tc-db|a2rka6|3.a.1.2.17	34.648	2.67e-33	129	96	CP022722.1 [Clostridium] innocuum strain I46 genome	1077658	1076615
+a2rka7	3.a.1	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn09864	gnl|tc-db|a2rka7|3.a.1.2.17	55.110	2.22e-179	556	98	CP022722.1 [Clostridium] innocuum strain I46 genome	1079225	1077729
+a2spe9	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|a2spe9|3.a.1.26.2	29.596	1.55e-15	73.6	84	CP022722.1 [Clostridium] innocuum strain I46 genome	2352246	2351587
+a2spv2	2.a.40	uracil		rxn05197,rxn09365,rxn12368	gnl|tc-db|a2spv2|2.a.40.2.2	29.665	5.88e-24	103	77	CP022722.1 [Clostridium] innocuum strain I46 genome	2690391	2689174
+a2spv2	2.a.40	xanthine		rxn05202,rxn09377,rxn12440	gnl|tc-db|a2spv2|2.a.40.2.2	29.665	5.88e-24	103	77	CP022722.1 [Clostridium] innocuum strain I46 genome	2690391	2689174
+a3n294	3.a.1	fe3	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|a3n294|3.a.1.20.3	24.407	1.36e-19	87.8	80	CP022722.1 [Clostridium] innocuum strain I46 genome	1712509	1711700
+a3t2g5	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|a3t2g5|3.a.3.6.22	33.989	2.49e-93	315	84	CP022722.1 [Clostridium] innocuum strain I46 genome	48326	49912
+a5fgv9	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|a5fgv9|3.a.3.27.7	25.267	2.05e-52	196	89	CP022722.1 [Clostridium] innocuum strain I46 genome	4344873	4347062
+a6lw11	3.a.1	xylose		rxn05167,rxn09383	gnl|tc-db|a6lw11|3.a.1.2.26	34.615	9.65e-89	296	98	CP022722.1 [Clostridium] innocuum strain I46 genome	1079225	1077690
+a9bjx0	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|a9bjx0|3.a.3.2.21	49.493	0.0	801	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1624002	1621432
+a9wga9	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|a9wga9|3.a.1.26.1	24.051	2.21e-09	54.3	94	CP022722.1 [Clostridium] innocuum strain I46 genome	2352216	2351506
+b0r9x2	2.a.35	arginine	EX_cpd00051_e0	rxn05303,rxn08154,rxn09783,rxn12437,rxn13228,rxn30457,rxn10840,rxn33718	gnl|tc-db|b0r9x2|2.a.35.1.4	21.860	1.07e-07	52.0	85	CP022722.1 [Clostridium] innocuum strain I46 genome	3670193	3671341
+b0r9x2	2.a.35	ornithine	EX_cpd00064_e0	rxn05628,rxn09731,rxn29084,rxn29085	gnl|tc-db|b0r9x2|2.a.35.1.4	21.860	1.07e-07	52.0	85	CP022722.1 [Clostridium] innocuum strain I46 genome	3670193	3671341
+b0smv3	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|b0smv3|3.a.3.1.5	33.333	4.81e-132	440	85	CP022722.1 [Clostridium] innocuum strain I46 genome	1623990	1621432
+b0smv3	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|b0smv3|3.a.3.1.5	33.333	4.81e-132	440	85	CP022722.1 [Clostridium] innocuum strain I46 genome	1623990	1621432
+b0str2	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|b0str2|3.a.3.27.2	28.037	4.63e-80	280	87	CP022722.1 [Clostridium] innocuum strain I46 genome	4344873	4347056
+b0w0k4	2.a.23	glutamate	EX_cpd00023_e0	rxn05297,rxn05298,rxn08631,rxn08632,rxn09751,rxn09813,rxn12370,rxn13303,rxn29048,rxn29068,rxn34103,rxn34377,rxn34378,rxn34501,rxn10917,rxn11235,rxn13304,rxn29088,rxn31191	gnl|tc-db|b0w0k4|2.a.23.2.11	24.337	3.94e-11	63.2	84	CP022722.1 [Clostridium] innocuum strain I46 genome	2350231	2349113
+b3et62	3.a.23	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|b3et62|3.a.23.6.1	49.398	4.54e-94	303	98	CP022722.1 [Clostridium] innocuum strain I46 genome	3764889	3765872
+b3si05	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|b3si05|3.a.3.1.9	31.014	4.45e-85	295	82	CP022722.1 [Clostridium] innocuum strain I46 genome	1623762	1621831
+b3wb09	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|b3wb09|4.a.6.1.13	25.786	1.07e-28	114	99	CP022722.1 [Clostridium] innocuum strain I46 genome	433967	434914
+b7l6n0	3.a.1	sulfate	EX_cpd00681_e0	rxn05153,rxn09276,rxn29239	gnl|tc-db|b7l6n0|3.a.1.19.4	32.828	2.17e-26	103	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1711526	1710948
+b7l6n0	3.a.1	thiosulfate		rxn05176,rxn09329,rxn34412,rxn34536	gnl|tc-db|b7l6n0|3.a.1.19.4	32.828	2.17e-26	103	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1711526	1710948
+c0h3v2	4.a.2	mannitol	EX_cpd00314_e0	rxn05617,rxn08949,rxn13934,rxn13944,rxn27343	gnl|tc-db|c0h3v2|4.a.2.1.5	40.000	5.71e-27	102	100	CP022722.1 [Clostridium] innocuum strain I46 genome	4229948	4230334
+c4x744	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|c4x744|4.a.3.2.7	41.935	1.70e-16	70.9	88	CP022722.1 [Clostridium] innocuum strain I46 genome	2748943	2749221
+c4zzu4	2.a.1	d-glucarate		rxn05572,rxn08613	gnl|tc-db|c4zzu4|2.a.1.14.40	22.162	0.004	37.0	82	CP022722.1 [Clostridium] innocuum strain I46 genome	481229	482227
+c6pwg8	4.a.7	ascorbate		rxn08158,rxn13758	gnl|tc-db|c6pwg8|4.a.7.1.3	27.295	1.92e-46	169	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2449877	2448648
+c8x384	4.a.6	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|c8x384|4.a.6.2.2	33.588	1.98e-13	63.2	96	CP022722.1 [Clostridium] innocuum strain I46 genome	3367592	3367984
+c8x4s8	4.a.6	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|c8x4s8|4.a.6.2.2	22.886	4.17e-06	44.7	78	CP022722.1 [Clostridium] innocuum strain I46 genome	3238957	3239517
+c8x4s8	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|c8x4s8|4.a.6.2.2	22.886	4.17e-06	44.7	78	CP022722.1 [Clostridium] innocuum strain I46 genome	3238957	3239517
+c9mz78	4.a.5	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|c9mz78|4.a.5.1.6	52.564	5.94e-23	88.6	86	CP022722.1 [Clostridium] innocuum strain I46 genome	2795836	2795603
+c9mz78	4.a.5	lactose	EX_cpd00208_e0	rxn10865	gnl|tc-db|c9mz78|4.a.5.1.6	52.564	5.94e-23	88.6	86	CP022722.1 [Clostridium] innocuum strain I46 genome	2795836	2795603
+caq67972.1	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|caq67972.1|4.a.6.1.25	44.882	7.58e-56	190	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2543074	2542313
+caq67974.1	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|caq67974.1|4.a.6.1.25	43.925	4.44e-25	97.1	99	CP022722.1 [Clostridium] innocuum strain I46 genome	4265722	4266042
+d1ca99	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|d1ca99|3.a.3.5.38	34.615	2.10e-100	339	82	CP022722.1 [Clostridium] innocuum strain I46 genome	50414	52408
+d2bky7	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|d2bky7|4.a.6.1.11	59.939	4.53e-119	375	99	CP022722.1 [Clostridium] innocuum strain I46 genome	433958	434926
+d2bky8	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|d2bky8|4.a.6.1.11	57.031	2.48e-54	186	100	CP022722.1 [Clostridium] innocuum strain I46 genome	435003	435770
+d2bky9	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|d2bky9|4.a.6.1.11	64.828	6.76e-113	356	93	CP022722.1 [Clostridium] innocuum strain I46 genome	435797	436645
+d2rxa8	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|d2rxa8|4.a.2.1.14	37.363	4.19e-53	187	98	CP022722.1 [Clostridium] innocuum strain I46 genome	2893477	2892437
+d3ewm9	2.a.87	riboflavin		rxn05224,rxn05645,rxn09715,rxn33018,rxn34403,rxn38697	gnl|tc-db|d3ewm9|2.a.87.1.3	27.895	1.58e-25	99.8	97	CP022722.1 [Clostridium] innocuum strain I46 genome	3468197	3468766
+d3r797	3.a.1	raffinose	EX_cpd00382_e0,EX_cpd00382_e0	rxn18495	gnl|tc-db|d3r797|3.a.1.1.53	29.032	4.21e-27	108	92	CP022722.1 [Clostridium] innocuum strain I46 genome	4378676	4379506
+d3r798	3.a.1	raffinose	EX_cpd00382_e0,EX_cpd00382_e0	rxn18495	gnl|tc-db|d3r798|3.a.1.1.53	26.718	3.73e-18	83.2	75	CP022722.1 [Clostridium] innocuum strain I46 genome	4377829	4378590
+d3r799	3.a.1	raffinose	EX_cpd00382_e0,EX_cpd00382_e0	rxn18495	gnl|tc-db|d3r799|3.a.1.1.53	22.905	3.61e-05	43.5	76	CP022722.1 [Clostridium] innocuum strain I46 genome	2208003	2206993
+d5al45	3.a.1	heme		rxn05148,rxn09115,rxn27591	gnl|tc-db|d5al45|3.a.1.210.15	36.498	1.53e-81	278	89	CP022722.1 [Clostridium] innocuum strain I46 genome	3160750	3159359
+d5al45	3.a.1	heme		rxn90020	gnl|tc-db|d5al45|3.a.1.210.15	36.498	1.53e-81	278	89	CP022722.1 [Clostridium] innocuum strain I46 genome	3160750	3159359
+d5aqy6	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|d5aqy6|3.a.1.23.7	37.500	5.70e-35	130	86	CP022722.1 [Clostridium] innocuum strain I46 genome	2353069	2352467
+d5arh0	3.a.1	biotin		rxn05223	gnl|tc-db|d5arh0|3.a.1.25.7	27.313	8.66e-24	97.1	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2353923	2353243
+d6tjq1	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|d6tjq1|3.a.1.26.11	29.825	1.84e-30	117	83	CP022722.1 [Clostridium] innocuum strain I46 genome	2352264	2351587
+d7ae10	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|d7ae10|3.a.1.23.3	31.602	4.17e-35	131	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2353896	2353207
+e1uci0	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|e1uci0|4.a.6.1.15	69.846	3.51e-144	446	99	CP022722.1 [Clostridium] innocuum strain I46 genome	433955	434929
+e1uci1	4.a.6	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|e1uci1|4.a.6.1.15	67.315	1.86e-54	186	96	CP022722.1 [Clostridium] innocuum strain I46 genome	435003	435770
+e1uci1	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|e1uci1|4.a.6.1.15	67.315	1.86e-54	186	96	CP022722.1 [Clostridium] innocuum strain I46 genome	435003	435770
+e1uci2	4.a.6	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|e1uci2|4.a.6.1.15	70.722	1.99e-119	375	90	CP022722.1 [Clostridium] innocuum strain I46 genome	435797	436585
+e1uci2	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|e1uci2|4.a.6.1.15	70.722	1.99e-119	375	90	CP022722.1 [Clostridium] innocuum strain I46 genome	435797	436585
+e3hxw5	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|e3hxw5|3.a.3.6.23	29.283	6.88e-67	243	79	CP022722.1 [Clostridium] innocuum strain I46 genome	4344648	4347053
+esq71096.1	4.a.7	ascorbate		rxn08158,rxn13758	gnl|tc-db|esq71096.1|4.a.7.1.6	33.846	1.24e-26	102	97	CP022722.1 [Clostridium] innocuum strain I46 genome	2450692	2450303
+f8y3b4	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|f8y3b4|4.a.2.1.21	32.624	1.84e-25	98.2	99	CP022722.1 [Clostridium] innocuum strain I46 genome	3447409	3447828
+f8y3b5	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|f8y3b5|4.a.2.1.21	31.567	6.59e-48	174	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2893855	2892527
+g5eb95	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|g5eb95|3.a.1.5.40	32.394	1.97e-29	113	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2084412	2083798
+g8rd42	2.a.38	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|g8rd42|2.a.38.4.6	31.317	3.80e-43	160	98	CP022722.1 [Clostridium] innocuum strain I46 genome	1726098	1724737
+g8v089	2.a.38	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|g8v089|2.a.38.4.6	33.645	1.76e-43	153	96	CP022722.1 [Clostridium] innocuum strain I46 genome	1724703	1724062
+gad20700.1	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|gad20700.1|3.a.1.103.7	22.266	3.93e-11	60.5	94	CP022722.1 [Clostridium] innocuum strain I46 genome	3702783	3703532
+h1xum6	4.a.6	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|h1xum6|4.a.6.1.20	24.812	0.095	29.3	98	CP022722.1 [Clostridium] innocuum strain I46 genome	433943	434332
+i4g6g7	3.a.3	magnesium		rxn08924,rxn10571	gnl|tc-db|i4g6g7|3.a.3.4.5	29.200	6.73e-81	285	86	CP022722.1 [Clostridium] innocuum strain I46 genome	3809546	3811705
+m7akz4	2.a.58	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|m7akz4|2.a.58.2.2	29.301	2.64e-32	130	96	CP022722.1 [Clostridium] innocuum strain I46 genome	888410	886860
+m7akz4	2.a.58	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|m7akz4|2.a.58.2.2	29.301	2.64e-32	130	96	CP022722.1 [Clostridium] innocuum strain I46 genome	888410	886860
+m7pf02	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|m7pf02|4.a.2.1.19	31.622	4.84e-58	204	98	CP022722.1 [Clostridium] innocuum strain I46 genome	3445918	3447357
+o30085	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|o30085|3.a.3.5.10	37.600	8.95e-122	398	88	CP022722.1 [Clostridium] innocuum strain I46 genome	50525	52387
+o30144	3.a.1	molybdate		rxn05619,rxn08955	gnl|tc-db|o30144|3.a.1.6.8	42.453	2.45e-46	162	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2344539	2343907
+o30506	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|o30506|3.a.1.3.11	50.407	3.78e-63	211	100	CP022722.1 [Clostridium] innocuum strain I46 genome	282092	282796
+o30506	3.a.1	ornithine	EX_cpd00064_e0	rxn05156,rxn09046,rxn27636	gnl|tc-db|o30506|3.a.1.3.11	50.407	3.78e-63	211	100	CP022722.1 [Clostridium] innocuum strain I46 genome	282092	282796
+o30513	2.a.1	benzoate		rxn12435	gnl|tc-db|o30513|2.a.1.15.5	23.168	2.21e-12	67.0	90	CP022722.1 [Clostridium] innocuum strain I46 genome	481241	482395
+o30832	3.a.1	mannitol	EX_cpd00314_e0	rxn13853	gnl|tc-db|o30832|3.a.1.1.5	26.641	2.84e-13	67.4	88	CP022722.1 [Clostridium] innocuum strain I46 genome	4377799	4378572
+o30832	3.a.1	sorbitol	EX_cpd00588_e0	rxn29779	gnl|tc-db|o30832|3.a.1.1.5	26.641	2.84e-13	67.4	88	CP022722.1 [Clostridium] innocuum strain I46 genome	4377799	4378572
+o30833	3.a.1	mannitol	EX_cpd00314_e0	rxn13853	gnl|tc-db|o30833|3.a.1.1.5	25.952	7.91e-18	80.9	100	CP022722.1 [Clostridium] innocuum strain I46 genome	4315197	4316057
+o30833	3.a.1	sorbitol	EX_cpd00588_e0	rxn29779	gnl|tc-db|o30833|3.a.1.1.5	25.952	7.91e-18	80.9	100	CP022722.1 [Clostridium] innocuum strain I46 genome	4315197	4316057
+o31645	4.a.2	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|o31645|4.a.2.1.6	32.889	1.24e-81	280	99	CP022722.1 [Clostridium] innocuum strain I46 genome	3445921	3447843
+o32139	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05497	gnl|tc-db|o32139|2.a.40.3.2	35.492	2.32e-32	128	92	CP022722.1 [Clostridium] innocuum strain I46 genome	2690349	2689129
+o32139	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05471	gnl|tc-db|o32139|2.a.40.3.2	35.492	2.32e-32	128	92	CP022722.1 [Clostridium] innocuum strain I46 genome	2690349	2689129
+o32139	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn29869	gnl|tc-db|o32139|2.a.40.3.2	35.492	2.32e-32	128	92	CP022722.1 [Clostridium] innocuum strain I46 genome	2690349	2689129
+o32139	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn38756	gnl|tc-db|o32139|2.a.40.3.2	35.492	2.32e-32	128	92	CP022722.1 [Clostridium] innocuum strain I46 genome	2690349	2689129
+o32220	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|o32220|3.a.3.5.18	42.086	0.0	584	99	CP022722.1 [Clostridium] innocuum strain I46 genome	4344654	4347059
+o32243	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|o32243|3.a.1.12.4	33.700	2.11e-44	159	91	CP022722.1 [Clostridium] innocuum strain I46 genome	3268564	3267752
+o32243	3.a.1	carnitine	EX_cpd00266_e0	rxn05180,rxn08253	gnl|tc-db|o32243|3.a.1.12.4	33.700	2.11e-44	159	91	CP022722.1 [Clostridium] innocuum strain I46 genome	3268564	3267752
+o32243	3.a.1	choline		rxn05159,rxn08212	gnl|tc-db|o32243|3.a.1.12.4	33.700	2.11e-44	159	91	CP022722.1 [Clostridium] innocuum strain I46 genome	3268564	3267752
+o32243	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|o32243|3.a.1.12.4	33.700	2.11e-44	159	91	CP022722.1 [Clostridium] innocuum strain I46 genome	3268564	3267752
+o32332	4.a.4	sorbitol	EX_cpd00588_e0	rxn09242,rxn10184,rxn29070	gnl|tc-db|o32332|4.a.4.1.2	44.134	2.85e-45	156	97	CP022722.1 [Clostridium] innocuum strain I46 genome	2611492	2610956
+o32333	4.a.4	sorbitol	EX_cpd00588_e0	rxn09242,rxn10184,rxn29070	gnl|tc-db|o32333|4.a.4.1.2	50.746	1.17e-104	334	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2610943	2609951
+o34315.2	3.a.1	cysteine	EX_cpd00084_e0	rxn05237,rxn08280,rxn08281,rxn30473	gnl|tc-db|o34315.2|3.a.1.3.13	31.111	6.88e-18	79.7	94	CP022722.1 [Clostridium] innocuum strain I46 genome	441697	442353
+o34362	3.a.1	thiamine		rxn05177,rxn09297	gnl|tc-db|o34362|3.a.1.30.1	25.731	2.16e-31	127	93	CP022722.1 [Clostridium] innocuum strain I46 genome	1079165	1077741
+o34406	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|o34406|3.a.1.3.13	22.727	1.60e-05	43.1	86	CP022722.1 [Clostridium] innocuum strain I46 genome	443180	443863
+o34521	4.a.1	n-acetylglucosamine		rxn05485,rxn08041	gnl|tc-db|o34521|4.a.1.1.7	35.152	5.19e-73	247	99	CP022722.1 [Clostridium] innocuum strain I46 genome	437388	438866
+o34572	3.a.1	thiamine		rxn05177,rxn09297	gnl|tc-db|o34572|3.a.1.30.1	25.969	8.96e-17	77.0	94	CP022722.1 [Clostridium] innocuum strain I46 genome	2352222	2351494
+o34742	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|o34742|3.a.1.12.4	42.857	6.00e-42	149	93	CP022722.1 [Clostridium] innocuum strain I46 genome	557473	558057
+o34742	3.a.1	carnitine	EX_cpd00266_e0	rxn05180,rxn08253	gnl|tc-db|o34742|3.a.1.12.4	42.857	6.00e-42	149	93	CP022722.1 [Clostridium] innocuum strain I46 genome	557473	558057
+o34742	3.a.1	choline		rxn05159,rxn08212	gnl|tc-db|o34742|3.a.1.12.4	42.857	6.00e-42	149	93	CP022722.1 [Clostridium] innocuum strain I46 genome	557473	558057
+o34742	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|o34742|3.a.1.12.4	42.857	6.00e-42	149	93	CP022722.1 [Clostridium] innocuum strain I46 genome	557473	558057
+o34852.2	3.a.1	cysteine	EX_cpd00084_e0	rxn05237,rxn08280,rxn08281,rxn30473	gnl|tc-db|o34852.2|3.a.1.3.13	23.774	9.10e-12	62.4	95	CP022722.1 [Clostridium] innocuum strain I46 genome	443105	443863
+o34878	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|o34878|3.a.1.12.4	44.762	6.34e-39	139	97	CP022722.1 [Clostridium] innocuum strain I46 genome	557437	558066
+o34878	3.a.1	carnitine	EX_cpd00266_e0	rxn05180,rxn08253	gnl|tc-db|o34878|3.a.1.12.4	44.762	6.34e-39	139	97	CP022722.1 [Clostridium] innocuum strain I46 genome	557437	558066
+o34878	3.a.1	choline		rxn05159,rxn08212	gnl|tc-db|o34878|3.a.1.12.4	44.762	6.34e-39	139	97	CP022722.1 [Clostridium] innocuum strain I46 genome	557437	558066
+o34878	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|o34878|3.a.1.12.4	44.762	6.34e-39	139	97	CP022722.1 [Clostridium] innocuum strain I46 genome	557437	558066
+o34900.2	3.a.1	cysteine	EX_cpd00084_e0	rxn05237,rxn08280,rxn08281,rxn30473	gnl|tc-db|o34900.2|3.a.1.3.13	53.942	1.58e-71	235	99	CP022722.1 [Clostridium] innocuum strain I46 genome	282089	282802
+o34931.2	3.a.1	cysteine	EX_cpd00084_e0	rxn05237,rxn08280,rxn08281,rxn30473	gnl|tc-db|o34931.2|3.a.1.3.13	32.000	1.11e-27	108	98	CP022722.1 [Clostridium] innocuum strain I46 genome	3872083	3872715
+o34946	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|o34946|3.a.1.15.11	33.182	5.19e-29	112	100	CP022722.1 [Clostridium] innocuum strain I46 genome	1005489	1004845
+o34992	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|o34992|3.a.1.12.4	48.077	5.70e-102	328	95	CP022722.1 [Clostridium] innocuum strain I46 genome	556307	557392
+o34992	3.a.1	carnitine	EX_cpd00266_e0	rxn05180,rxn08253	gnl|tc-db|o34992|3.a.1.12.4	48.077	5.70e-102	328	95	CP022722.1 [Clostridium] innocuum strain I46 genome	556307	557392
+o34992	3.a.1	choline		rxn05159,rxn08212	gnl|tc-db|o34992|3.a.1.12.4	48.077	5.70e-102	328	95	CP022722.1 [Clostridium] innocuum strain I46 genome	556307	557392
+o34992	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|o34992|3.a.1.12.4	48.077	5.70e-102	328	95	CP022722.1 [Clostridium] innocuum strain I46 genome	556307	557392
+o50181	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|o50181|3.a.1.3.11	29.060	9.65e-21	89.0	89	CP022722.1 [Clostridium] innocuum strain I46 genome	3871387	3872067
+o50181	3.a.1	ornithine	EX_cpd00064_e0	rxn05156,rxn09046,rxn27636	gnl|tc-db|o50181|3.a.1.3.11	29.060	9.65e-21	89.0	89	CP022722.1 [Clostridium] innocuum strain I46 genome	3871387	3872067
+o50183	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|o50183|3.a.1.3.11	34.054	6.33e-24	97.1	78	CP022722.1 [Clostridium] innocuum strain I46 genome	3872191	3872700
+o50183	3.a.1	ornithine	EX_cpd00064_e0	rxn05156,rxn09046,rxn27636	gnl|tc-db|o50183|3.a.1.3.11	34.054	6.33e-24	97.1	78	CP022722.1 [Clostridium] innocuum strain I46 genome	3872191	3872700
+o50980	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|o50980|4.a.3.2.3	33.409	6.37e-50	180	100	CP022722.1 [Clostridium] innocuum strain I46 genome	4239760	4241037
+o50981	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|o50981|4.a.3.2.3	33.010	1.32e-14	65.9	95	CP022722.1 [Clostridium] innocuum strain I46 genome	3282704	3283009
+o50982	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|o50982|4.a.3.2.3	45.263	4.15e-22	86.7	95	CP022722.1 [Clostridium] innocuum strain I46 genome	4132769	4133047
+o51234	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|o51234|3.a.1.7.5	36.000	3.78e-23	97.1	79	CP022722.1 [Clostridium] innocuum strain I46 genome	883094	883822
+o51236	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|o51236|3.a.1.7.5	61.111	5.02e-104	328	99	CP022722.1 [Clostridium] innocuum strain I46 genome	885151	885906
+o51925	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|o51925|3.a.1.1.7	26.772	3.99e-21	90.5	91	CP022722.1 [Clostridium] innocuum strain I46 genome	4378760	4379506
+o51925	3.a.1	trehalose	EX_cpd00794_e0	rxn10839	gnl|tc-db|o51925|3.a.1.1.7	26.772	3.99e-21	90.5	91	CP022722.1 [Clostridium] innocuum strain I46 genome	4378760	4379506
+o59010	2.a.23	glutamate	EX_cpd00023_e0	rxn05297,rxn05298,rxn08631,rxn08632,rxn09751,rxn09813,rxn12370,rxn13303,rxn29048,rxn29068,rxn34103,rxn34377,rxn34378,rxn34501,rxn10917,rxn11235,rxn13304,rxn29088,rxn31191	gnl|tc-db|o59010|2.a.23.1.5	27.919	7.47e-31	123	91	CP022722.1 [Clostridium] innocuum strain I46 genome	2350231	2349101
+o59666	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|o59666|3.a.3.5.29	35.333	1.29e-112	379	91	CP022722.1 [Clostridium] innocuum strain I46 genome	50189	52324
+o59868	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|o59868|3.a.3.2.34	36.031	2.21e-143	469	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1623990	1621405
+o68106	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|o68106|3.a.1.23.8	38.462	2.78e-41	149	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2353072	2352269
+o75185	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|o75185|3.a.3.2.9	37.308	1.95e-156	508	88	CP022722.1 [Clostridium] innocuum strain I46 genome	1623954	1621528
+o81108	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|o81108|3.a.3.2.12	34.311	5.93e-98	338	87	CP022722.1 [Clostridium] innocuum strain I46 genome	3809576	3811765
+o83341	3.a.1	galactose	EX_cpd00108_e0	rxn05162,rxn08573	gnl|tc-db|o83341|3.a.1.2.10	50.672	1.77e-167	523	98	CP022722.1 [Clostridium] innocuum strain I46 genome	1079228	1077720
+o83341	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|o83341|3.a.1.2.10	50.672	1.77e-167	523	98	CP022722.1 [Clostridium] innocuum strain I46 genome	1079228	1077720
+o83342	3.a.1	galactose	EX_cpd00108_e0	rxn05162,rxn08573	gnl|tc-db|o83342|3.a.1.2.10	30.189	1.94e-21	94.4	91	CP022722.1 [Clostridium] innocuum strain I46 genome	1077772	1076735
+o83342	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|o83342|3.a.1.2.10	30.189	1.94e-21	94.4	91	CP022722.1 [Clostridium] innocuum strain I46 genome	1077772	1076735
+o83343	3.a.1	galactose	EX_cpd00108_e0	rxn05162,rxn08573	gnl|tc-db|o83343|3.a.1.2.10	35.423	8.44e-56	192	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1076608	1075658
+o83343	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|o83343|3.a.1.2.10	35.423	8.44e-56	192	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1076608	1075658
+ols20019	3.a.1	maltodextrin		rxn11140	gnl|tc-db|ols20019|3.a.1.19.6	34.557	2.57e-57	199	88	CP022722.1 [Clostridium] innocuum strain I46 genome	258521	259456
+ols20019	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|ols20019|3.a.1.19.6	34.557	2.57e-57	199	88	CP022722.1 [Clostridium] innocuum strain I46 genome	258521	259456
+ols20029	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|ols20029|3.a.1.1.54	47.872	6.54e-114	362	99	CP022722.1 [Clostridium] innocuum strain I46 genome	4379522	4380601
+ols20029	3.a.1	trehalose	EX_cpd00794_e0	rxn10839	gnl|tc-db|ols20029|3.a.1.1.54	47.872	6.54e-114	362	99	CP022722.1 [Clostridium] innocuum strain I46 genome	4379522	4380601
+ols24538	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|ols24538|3.a.1.2.30	41.002	6.98e-113	367	96	CP022722.1 [Clostridium] innocuum strain I46 genome	1079219	1077714
+ols25602	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|ols25602|3.a.1.3.30	45.267	1.12e-58	198	100	CP022722.1 [Clostridium] innocuum strain I46 genome	282071	282796
+p02915	3.a.1	histidine	EX_cpd00119_e0	rxn05164,rxn08718	gnl|tc-db|p02915|3.a.1.3.1	51.852	1.14e-66	221	100	CP022722.1 [Clostridium] innocuum strain I46 genome	282107	282799
+p02925	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|p02925|3.a.1.2.1	28.897	6.21e-23	96.3	88	CP022722.1 [Clostridium] innocuum strain I46 genome	2210970	2210191
+p03959	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p03959|3.a.3.7.1	50.179	7.69e-148	468	98	CP022722.1 [Clostridium] innocuum strain I46 genome	1546714	1545050
+p03960	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p03960|3.a.3.7.1	65.770	0.0	740	97	CP022722.1 [Clostridium] innocuum strain I46 genome	1544965	1542959
+p03961	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p03961|3.a.3.7.1	37.297	1.48e-25	100	95	CP022722.1 [Clostridium] innocuum strain I46 genome	1542911	1542387
+p04191	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p04191|3.a.3.2.43	36.066	4.02e-145	477	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1623942	1621438
+p04816	3.a.1	leucine	EX_cpd00107_e0,EX_cpd00107_e0	rxn05161,rxn08784	gnl|tc-db|p04816|3.a.1.4.1	28.869	3.27e-32	125	87	CP022722.1 [Clostridium] innocuum strain I46 genome	2487755	2486760
+p04983	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|p04983|3.a.1.2.1	34.059	7.50e-84	281	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1079228	1077723
+p05023	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p05023|3.a.3.1.1	30.824	4.64e-113	384	96	CP022722.1 [Clostridium] innocuum strain I46 genome	1623996	1621432
+p05023	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p05023|3.a.3.1.1	30.824	4.64e-113	384	96	CP022722.1 [Clostridium] innocuum strain I46 genome	1623996	1621432
+p05306	4.a.1	sucrose	EX_cpd00076_e0	rxn05655,rxn09274	gnl|tc-db|p05306|4.a.1.2.9	34.703	8.03e-67	230	95	CP022722.1 [Clostridium] innocuum strain I46 genome	2999415	3000725
+p05425	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|p05425|3.a.3.5.2	36.090	2.07e-109	364	86	CP022722.1 [Clostridium] innocuum strain I46 genome	50414	52387
+p05706	4.a.4	sorbitol	EX_cpd00588_e0	rxn09242,rxn10184,rxn29070	gnl|tc-db|p05706|4.a.4.1.1	29.825	1.49e-14	65.9	94	CP022722.1 [Clostridium] innocuum strain I46 genome	2952618	2952277
+p06609	3.a.1	vitamin b12		rxn05187	gnl|tc-db|p06609|3.a.1.13.1	33.910	1.88e-18	84.0	87	CP022722.1 [Clostridium] innocuum strain I46 genome	1007355	1006510
+p06611	3.a.1	vitamin b12		rxn05187	gnl|tc-db|p06611|3.a.1.13.1	31.933	9.91e-20	85.5	98	CP022722.1 [Clostridium] innocuum strain I46 genome	1005438	1004746
+p07109	3.a.1	histidine	EX_cpd00119_e0	rxn05164,rxn08718	gnl|tc-db|p07109|3.a.1.3.29	52.439	3.96e-67	222	100	CP022722.1 [Clostridium] innocuum strain I46 genome	282107	282799
+p07821	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|p07821|3.a.1.14.3	38.672	3.11e-55	189	100	CP022722.1 [Clostridium] innocuum strain I46 genome	1005489	1004722
+p08470	4.a.1	sucrose	EX_cpd00076_e0	rxn05655,rxn09274	gnl|tc-db|p08470|4.a.1.2.1	33.691	6.18e-61	213	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2999412	3000800
+p09551	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|p09551|3.a.1.3.29	28.148	8.06e-24	97.8	96	CP022722.1 [Clostridium] innocuum strain I46 genome	443111	443863
+p09551	3.a.1	lysine	EX_cpd00039_e0	rxn05151,rxn08853	gnl|tc-db|p09551|3.a.1.3.29	28.148	8.06e-24	97.8	96	CP022722.1 [Clostridium] innocuum strain I46 genome	443111	443863
+p09551	3.a.1	ornithine	EX_cpd00064_e0	rxn05156,rxn09046,rxn27636	gnl|tc-db|p09551|3.a.1.3.29	28.148	8.06e-24	97.8	96	CP022722.1 [Clostridium] innocuum strain I46 genome	443111	443863
+p0a0d6	4.a.3	lactose	EX_cpd00208_e0	rxn10865	gnl|tc-db|p0a0d6|4.a.3.1.1	37.755	1.87e-12	59.3	99	CP022722.1 [Clostridium] innocuum strain I46 genome	3282701	3282994
+p0a2i7	3.a.1	histidine	EX_cpd00119_e0	rxn05164,rxn08718	gnl|tc-db|p0a2i7|3.a.1.3.1	33.155	1.14e-20	87.8	87	CP022722.1 [Clostridium] innocuum strain I46 genome	3872116	3872643
+p0a2i9	3.a.1	histidine	EX_cpd00119_e0	rxn05164,rxn08718	gnl|tc-db|p0a2i9|3.a.1.3.1	31.492	4.99e-20	85.9	82	CP022722.1 [Clostridium] innocuum strain I46 genome	3872200	3872700
+p0a2u6	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|p0a2u6|3.a.1.15.3	30.374	9.11e-30	114	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1005483	1004860
+p0a9x1	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|p0a9x1|3.a.1.15.5	30.131	2.37e-24	99.0	100	CP022722.1 [Clostridium] innocuum strain I46 genome	1005492	1004809
+p0aaf3	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn05173,rxn08139,rxn11063	gnl|tc-db|p0aaf3|3.a.1.2.2	34.086	3.86e-73	249	93	CP022722.1 [Clostridium] innocuum strain I46 genome	1079201	1077777
+p0aaf3	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn10822	gnl|tc-db|p0aaf3|3.a.1.2.2	34.086	3.86e-73	249	93	CP022722.1 [Clostridium] innocuum strain I46 genome	1079201	1077777
+p0aaf6	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|p0aaf6|3.a.1.3.3	42.982	1.28e-51	177	100	CP022722.1 [Clostridium] innocuum strain I46 genome	442385	443056
+p0aag3	3.a.1	aspartate	EX_cpd00041_e0,EX_cpd00041_e0	rxn05152,rxn08165	gnl|tc-db|p0aag3|3.a.1.3.4	51.037	4.35e-71	233	100	CP022722.1 [Clostridium] innocuum strain I46 genome	442340	443062
+p0aag3	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|p0aag3|3.a.1.3.4	51.037	4.35e-71	233	100	CP022722.1 [Clostridium] innocuum strain I46 genome	442340	443062
+p0aag8	3.a.1	galactose	EX_cpd00108_e0	rxn05162,rxn08573	gnl|tc-db|p0aag8|3.a.1.2.3	33.806	1.14e-82	278	97	CP022722.1 [Clostridium] innocuum strain I46 genome	1079225	1077747
+p0aah0	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|p0aah0|3.a.1.7.1	57.317	4.17e-88	283	100	CP022722.1 [Clostridium] innocuum strain I46 genome	885169	885906
+p0abp3	2.a.61	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|p0abp3|2.a.61.1.1	33.656	1.74e-33	132	85	CP022722.1 [Clostridium] innocuum strain I46 genome	3743390	3742155
+p0abp3	2.a.61	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|p0abp3|2.a.61.1.1	33.656	1.74e-33	132	85	CP022722.1 [Clostridium] innocuum strain I46 genome	3743390	3742155
+p0abp3	2.a.61	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|p0abp3|2.a.61.1.1	33.656	1.74e-33	132	85	CP022722.1 [Clostridium] innocuum strain I46 genome	3743390	3742155
+p0abp3	2.a.61	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|p0abp3|2.a.61.1.1	33.656	1.74e-33	132	85	CP022722.1 [Clostridium] innocuum strain I46 genome	3743390	3742155
+p0ae30	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|p0ae30|3.a.1.3.3	33.714	3.07e-22	92.0	95	CP022722.1 [Clostridium] innocuum strain I46 genome	441847	442332
+p0ae34	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|p0ae34|3.a.1.3.3	24.599	4.40e-14	68.6	79	CP022722.1 [Clostridium] innocuum strain I46 genome	441853	442344
+p0aeq3	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|p0aeq3|3.a.1.3.2	29.075	2.15e-27	107	90	CP022722.1 [Clostridium] innocuum strain I46 genome	3871399	3872067
+p0aeq6	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|p0aeq6|3.a.1.3.2	34.466	7.81e-24	96.7	99	CP022722.1 [Clostridium] innocuum strain I46 genome	3872098	3872706
+p0aer3	3.a.1	aspartate	EX_cpd00041_e0,EX_cpd00041_e0	rxn05152,rxn08165	gnl|tc-db|p0aer3|3.a.1.3.4	28.037	2.23e-13	66.6	94	CP022722.1 [Clostridium] innocuum strain I46 genome	281353	281928
+p0aer3	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|p0aer3|3.a.1.3.4	28.037	2.23e-13	66.6	94	CP022722.1 [Clostridium] innocuum strain I46 genome	281353	281928
+p0aer5	3.a.1	aspartate	EX_cpd00041_e0,EX_cpd00041_e0	rxn05152,rxn08165	gnl|tc-db|p0aer5|3.a.1.3.4	32.381	1.30e-25	101	98	CP022722.1 [Clostridium] innocuum strain I46 genome	3872098	3872700
+p0aer5	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|p0aer5|3.a.1.3.4	32.381	1.30e-25	101	98	CP022722.1 [Clostridium] innocuum strain I46 genome	3872098	3872700
+p0aeu0	3.a.1	histidine	EX_cpd00119_e0	rxn05164,rxn08718	gnl|tc-db|p0aeu0|3.a.1.3.29	28.448	1.41e-22	94.4	88	CP022722.1 [Clostridium] innocuum strain I46 genome	443195	443863
+p0afa9	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|p0afa9|3.a.1.5.3	38.983	6.91e-47	165	86	CP022722.1 [Clostridium] innocuum strain I46 genome	2481409	2480708
+p0afk4	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|p0afk4|3.a.1.11.1	35.227	4.25e-46	162	99	CP022722.1 [Clostridium] innocuum strain I46 genome	260121	260885
+p0afk4	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|p0afk4|3.a.1.11.1	35.227	4.25e-46	162	99	CP022722.1 [Clostridium] innocuum strain I46 genome	260121	260885
+p0afk6	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|p0afk6|3.a.1.11.1	32.051	4.60e-42	150	88	CP022722.1 [Clostridium] innocuum strain I46 genome	261014	261712
+p0afk6	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|p0afk6|3.a.1.11.1	32.051	4.60e-42	150	88	CP022722.1 [Clostridium] innocuum strain I46 genome	261014	261712
+p0afk9	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|p0afk9|3.a.1.11.1	35.587	6.14e-45	162	78	CP022722.1 [Clostridium] innocuum strain I46 genome	261842	262660
+p0afk9	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|p0afk9|3.a.1.11.1	35.587	6.14e-45	162	78	CP022722.1 [Clostridium] innocuum strain I46 genome	261842	262660
+p0afl1	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|p0afl1|3.a.1.11.2	37.238	5.20e-36	134	85	CP022722.1 [Clostridium] innocuum strain I46 genome	260948	261640
+p0ag80	3.a.1	glycerol-3-phosphate		rxn05158,rxn08641	gnl|tc-db|p0ag80|3.a.1.1.3	20.278	0.077	32.7	78	CP022722.1 [Clostridium] innocuum strain I46 genome	2208042	2207119
+p0agm7	2.a.40	uracil		rxn05197,rxn09365,rxn12368	gnl|tc-db|p0agm7|2.a.40.1.1	43.437	1.13e-97	318	94	CP022722.1 [Clostridium] innocuum strain I46 genome	1621244	1620000
+p0agm9	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05497	gnl|tc-db|p0agm9|2.a.40.4.2	32.739	4.48e-61	213	97	CP022722.1 [Clostridium] innocuum strain I46 genome	2690415	2689120
+p0agm9	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05471	gnl|tc-db|p0agm9|2.a.40.4.2	32.739	4.48e-61	213	97	CP022722.1 [Clostridium] innocuum strain I46 genome	2690415	2689120
+p0agm9	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn29869	gnl|tc-db|p0agm9|2.a.40.4.2	32.739	4.48e-61	213	97	CP022722.1 [Clostridium] innocuum strain I46 genome	2690415	2689120
+p0agm9	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn38756	gnl|tc-db|p0agm9|2.a.40.4.2	32.739	4.48e-61	213	97	CP022722.1 [Clostridium] innocuum strain I46 genome	2690415	2689120
+p0c0l7	2.a.1	betaine	EX_cpd08306_e0	rxn05579,rxn08638,rxn12375,rxn11216	gnl|tc-db|p0c0l7|2.a.1.6.4	25.814	6.78e-15	75.1	84	CP022722.1 [Clostridium] innocuum strain I46 genome	481256	482404
+p0c0l7	2.a.1	proline	EX_cpd00129_e0	rxn05221,rxn05638,rxn09191,rxn09192,rxn12451,rxn34526,rxn34527	gnl|tc-db|p0c0l7|2.a.1.6.4	25.814	6.78e-15	75.1	84	CP022722.1 [Clostridium] innocuum strain I46 genome	481256	482404
+p0c560	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|p0c560|3.a.1.7.2	58.661	2.49e-91	292	100	CP022722.1 [Clostridium] innocuum strain I46 genome	885166	885906
+p0cw78	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|p0cw78|3.a.3.6.20	35.511	3.85e-95	323	93	CP022722.1 [Clostridium] innocuum strain I46 genome	48290	50026
+p0cw78	3.a.3	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|p0cw78|3.a.3.6.20	35.511	3.85e-95	323	93	CP022722.1 [Clostridium] innocuum strain I46 genome	48290	50026
+p10346	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|p10346|3.a.1.3.2	48.333	4.41e-69	227	100	CP022722.1 [Clostridium] innocuum strain I46 genome	442340	443059
+p10905	3.a.1	glycerol-3-phosphate		rxn05158,rxn08641	gnl|tc-db|p10905|3.a.1.1.3	29.389	8.13e-25	102	98	CP022722.1 [Clostridium] innocuum strain I46 genome	4314324	4315079
+p10906	3.a.1	glycerol-3-phosphate		rxn05158,rxn08641	gnl|tc-db|p10906|3.a.1.1.3	25.630	2.10e-19	85.5	98	CP022722.1 [Clostridium] innocuum strain I46 genome	4378799	4379488
+p10907	3.a.1	glycerol-3-phosphate		rxn05158,rxn08641	gnl|tc-db|p10907|3.a.1.1.3	48.634	8.72e-112	355	100	CP022722.1 [Clostridium] innocuum strain I46 genome	4318434	4319519
+p11162	4.a.3	lactose	EX_cpd00208_e0	rxn10865	gnl|tc-db|p11162|4.a.3.1.1	31.195	2.10e-37	146	79	CP022722.1 [Clostridium] innocuum strain I46 genome	4239784	4241100
+p13586	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p13586|3.a.3.2.3	35.580	2.04e-154	503	95	CP022722.1 [Clostridium] innocuum strain I46 genome	1623990	1621435
+p13587	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p13587|3.a.3.9.1	30.339	6.49e-117	397	91	CP022722.1 [Clostridium] innocuum strain I46 genome	1623996	1621543
+p13637	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p13637|3.a.3.1.1	31.237	5.99e-122	410	98	CP022722.1 [Clostridium] innocuum strain I46 genome	1623996	1621435
+p13637	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p13637|3.a.3.1.1	31.237	5.99e-122	410	98	CP022722.1 [Clostridium] innocuum strain I46 genome	1623996	1621435
+p14175	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|p14175|3.a.1.12.1	32.021	9.38e-63	216	94	CP022722.1 [Clostridium] innocuum strain I46 genome	556316	557410
+p14175	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|p14175|3.a.1.12.1	32.021	9.38e-63	216	94	CP022722.1 [Clostridium] innocuum strain I46 genome	556316	557410
+p14175	3.a.1	l-proline		rxn05165,rxn09187	gnl|tc-db|p14175|3.a.1.12.1	32.021	9.38e-63	216	94	CP022722.1 [Clostridium] innocuum strain I46 genome	556316	557410
+p15029	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p15029|3.a.1.14.1	37.500	1.03e-24	102	90	CP022722.1 [Clostridium] innocuum strain I46 genome	1006366	1005503
+p15029	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p15029|3.a.1.14.1	37.500	1.03e-24	102	90	CP022722.1 [Clostridium] innocuum strain I46 genome	1006366	1005503
+p15030	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p15030|3.a.1.14.1	36.140	7.86e-30	117	93	CP022722.1 [Clostridium] innocuum strain I46 genome	1007352	1006507
+p15030	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p15030|3.a.1.14.1	36.140	7.86e-30	117	93	CP022722.1 [Clostridium] innocuum strain I46 genome	1007352	1006507
+p16615	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p16615|3.a.3.2.7	34.919	7.18e-152	498	95	CP022722.1 [Clostridium] innocuum strain I46 genome	3809540	3812134
+p16676	3.a.1	sulfate	EX_cpd00681_e0	rxn05153,rxn09276,rxn29239	gnl|tc-db|p16676|3.a.1.6.1	42.160	8.80e-70	234	82	CP022722.1 [Clostridium] innocuum strain I46 genome	258521	259363
+p17334	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|p17334|4.a.3.2.1	34.252	4.67e-71	242	100	CP022722.1 [Clostridium] innocuum strain I46 genome	4133158	4134639
+p19072	2.a.26	branched chain amino acid		rxn05241,rxn05244,rxn08746,rxn13321,rxn13322,rxn29051,rxn34385,rxn34507	gnl|tc-db|p19072|2.a.26.1.1	36.620	1.60e-63	219	95	CP022722.1 [Clostridium] innocuum strain I46 genome	2407278	2406010
+p19072	2.a.26	branched chain amino acid		rxn05240,rxn05243,rxn08785,rxn13339,rxn13340,rxn29053,rxn29140,rxn34387,rxn34508	gnl|tc-db|p19072|2.a.26.1.1	36.620	1.60e-63	219	95	CP022722.1 [Clostridium] innocuum strain I46 genome	2407278	2406010
+p19072	2.a.26	branched chain amino acid		rxn05242,rxn05669,rxn09374,rxn09707,rxn29052,rxn34418,rxn05245,rxn29139,rxn33518,rxn33520	gnl|tc-db|p19072|2.a.26.1.1	36.620	1.60e-63	219	95	CP022722.1 [Clostridium] innocuum strain I46 genome	2407278	2406010
+p19072	2.a.26	branched chain amino acid		rxn05300,rxn09304,rxn09305,rxn09306,rxn09710,rxn10186,rxn12456,rxn13747,rxn34409,rxn34410,rxn34535	gnl|tc-db|p19072|2.a.26.1.1	36.620	1.60e-63	219	95	CP022722.1 [Clostridium] innocuum strain I46 genome	2407278	2406010
+p19642	4.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05226,rxn08612	gnl|tc-db|p19642|4.a.1.1.3	42.586	1.05e-106	348	99	CP022722.1 [Clostridium] innocuum strain I46 genome	3220500	3222059
+p19642	4.a.1	maltose	EX_cpd00179_e0	rxn05607,rxn08872	gnl|tc-db|p19642|4.a.1.1.3	42.586	1.05e-106	348	99	CP022722.1 [Clostridium] innocuum strain I46 genome	3220500	3222059
+p20021	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|p20021|3.a.3.6.1	34.958	4.34e-130	424	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1989181	1987112
+p20648	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p20648|3.a.3.1.2	31.271	9.03e-120	404	93	CP022722.1 [Clostridium] innocuum strain I46 genome	1623729	1621450
+p20966	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p20966|4.a.2.1.1	35.041	2.75e-60	214	81	CP022722.1 [Clostridium] innocuum strain I46 genome	3445918	3447372
+p21175	3.a.1	alanine	EX_cpd00035_e0	rxn08097,rxn10170	gnl|tc-db|p21175|3.a.1.4.8	26.984	3.31e-29	117	94	CP022722.1 [Clostridium] innocuum strain I46 genome	2487887	2486760
+p21175	3.a.1	isoleucine	EX_cpd00322_e0,EX_cpd00322_e0	rxn05179,rxn08745	gnl|tc-db|p21175|3.a.1.4.8	26.984	3.31e-29	117	94	CP022722.1 [Clostridium] innocuum strain I46 genome	2487887	2486760
+p21175	3.a.1	leucine	EX_cpd00107_e0,EX_cpd00107_e0	rxn05161,rxn08784	gnl|tc-db|p21175|3.a.1.4.8	26.984	3.31e-29	117	94	CP022722.1 [Clostridium] innocuum strain I46 genome	2487887	2486760
+p21175	3.a.1	threonine	EX_cpd00161_e0,EX_cpd00161_e0	rxn05169,rxn09301,rxn34122	gnl|tc-db|p21175|3.a.1.4.8	26.984	3.31e-29	117	94	CP022722.1 [Clostridium] innocuum strain I46 genome	2487887	2486760
+p21175	3.a.1	valine	EX_cpd00156_e0,EX_cpd00156_e0	rxn05168,rxn09373	gnl|tc-db|p21175|3.a.1.4.8	26.984	3.31e-29	117	94	CP022722.1 [Clostridium] innocuum strain I46 genome	2487887	2486760
+p21345	2.a.23	aspartate	EX_cpd00041_e0,EX_cpd00041_e0	rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|p21345|2.a.23.1.1	24.939	3.90e-15	75.5	89	CP022722.1 [Clostridium] innocuum strain I46 genome	2350339	2349161
+p21345	2.a.23	glutamate	EX_cpd00023_e0	rxn05297,rxn05298,rxn08631,rxn08632,rxn09751,rxn09813,rxn12370,rxn13303,rxn29048,rxn29068,rxn34103,rxn34377,rxn34378,rxn34501,rxn10917,rxn11235,rxn13304,rxn29088,rxn31191	gnl|tc-db|p21345|2.a.23.1.1	24.939	3.90e-15	75.5	89	CP022722.1 [Clostridium] innocuum strain I46 genome	2350339	2349161
+p21410	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p21410|3.a.1.10.1	34.146	1.07e-51	181	81	CP022722.1 [Clostridium] innocuum strain I46 genome	258521	259354
+p21410	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p21410|3.a.1.10.1	34.146	1.07e-51	181	81	CP022722.1 [Clostridium] innocuum strain I46 genome	258521	259354
+p21904	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p21904|3.a.2.1.2	28.313	6.66e-11	57.4	92	CP022722.1 [Clostridium] innocuum strain I46 genome	2883256	2882792
+p22189	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p22189|3.a.3.9.2	34.226	8.26e-139	460	95	CP022722.1 [Clostridium] innocuum strain I46 genome	1623996	1621750
+p23975	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p23975|2.a.22.1.2	21.713	3.73e-20	92.8	78	CP022722.1 [Clostridium] innocuum strain I46 genome	2947010	2948341
+p24241	4.a.1	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|p24241|4.a.1.2.3	33.261	7.99e-67	231	99	CP022722.1 [Clostridium] innocuum strain I46 genome	4256412	4255042
+p24241	4.a.1	salicin		rxn05647,rxn29062	gnl|tc-db|p24241|4.a.1.2.3	33.261	7.99e-67	231	99	CP022722.1 [Clostridium] innocuum strain I46 genome	4256412	4255042
+p24942	2.a.23	aspartate	EX_cpd00041_e0,EX_cpd00041_e0	rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|p24942|2.a.23.2.1	23.967	1.97e-06	48.1	86	CP022722.1 [Clostridium] innocuum strain I46 genome	2350342	2349086
+p24942	2.a.23	glutamate	EX_cpd00023_e0	rxn05297,rxn05298,rxn08631,rxn08632,rxn09751,rxn09813,rxn12370,rxn13303,rxn29048,rxn29068,rxn34103,rxn34377,rxn34378,rxn34501,rxn10917,rxn11235,rxn13304,rxn29088,rxn31191	gnl|tc-db|p24942|2.a.23.2.1	23.967	1.97e-06	48.1	86	CP022722.1 [Clostridium] innocuum strain I46 genome	2350342	2349086
+p24942	2.a.23	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p24942|2.a.23.2.1	23.967	1.97e-06	48.1	86	CP022722.1 [Clostridium] innocuum strain I46 genome	2350342	2349086
+p25185	2.a.26	branched chain amino acid		rxn05241,rxn05244,rxn08746,rxn13321,rxn13322,rxn29051,rxn34385,rxn34507	gnl|tc-db|p25185|2.a.26.1.2	35.198	5.60e-66	226	95	CP022722.1 [Clostridium] innocuum strain I46 genome	2407278	2406001
+p25185	2.a.26	branched chain amino acid		rxn05240,rxn05243,rxn08785,rxn13339,rxn13340,rxn29053,rxn29140,rxn34387,rxn34508	gnl|tc-db|p25185|2.a.26.1.2	35.198	5.60e-66	226	95	CP022722.1 [Clostridium] innocuum strain I46 genome	2407278	2406001
+p25185	2.a.26	branched chain amino acid		rxn05242,rxn05669,rxn09374,rxn09707,rxn29052,rxn34418,rxn05245,rxn29139,rxn33518,rxn33520	gnl|tc-db|p25185|2.a.26.1.2	35.198	5.60e-66	226	95	CP022722.1 [Clostridium] innocuum strain I46 genome	2407278	2406001
+p25185	2.a.26	branched chain amino acid		rxn05300,rxn09304,rxn09305,rxn09306,rxn09710,rxn10186,rxn12456,rxn13747,rxn34409,rxn34410,rxn34535	gnl|tc-db|p25185|2.a.26.1.2	35.198	5.60e-66	226	95	CP022722.1 [Clostridium] innocuum strain I46 genome	2407278	2406001
+p26379	4.a.6	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p26379|4.a.6.1.2	25.874	1.47e-14	67.0	98	CP022722.1 [Clostridium] innocuum strain I46 genome	3092680	3092294
+p26380	4.a.6	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p26380|4.a.6.1.2	43.871	8.81e-32	117	98	CP022722.1 [Clostridium] innocuum strain I46 genome	434447	434911
+p26381	4.a.6	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p26381|4.a.6.1.2	44.976	1.19e-32	124	84	CP022722.1 [Clostridium] innocuum strain I46 genome	435012	435638
+p26382	4.a.6	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p26382|4.a.6.1.2	45.151	7.40e-59	199	100	CP022722.1 [Clostridium] innocuum strain I46 genome	435809	436705
+p28635	3.a.1	d-methionine		rxn05183,rxn08910	gnl|tc-db|p28635|3.a.1.24.1	34.182	4.75e-30	116	97	CP022722.1 [Clostridium] innocuum strain I46 genome	1448073	1447270
+p29706	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p29706|3.a.2.1.2	62.000	0.0	635	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2882225	2880726
+p29707	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p29707|3.a.2.1.2	69.913	0.0	625	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2879844	2878459
+p29708	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p29708|3.a.2.1.2	25.899	1.24e-06	45.1	78	CP022722.1 [Clostridium] innocuum strain I46 genome	2882774	2882367
+p29709	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p29709|3.a.2.1.2	28.682	1.51e-10	55.1	94	CP022722.1 [Clostridium] innocuum strain I46 genome	2878453	2878067
+p29710	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p29710|3.a.2.1.2	36.842	9.58e-52	179	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2880701	2879868
+p29822	3.a.1	lactose	EX_cpd00208_e0	rxn05598	gnl|tc-db|p29822|3.a.1.1.4	24.408	1.69e-07	50.8	93	CP022722.1 [Clostridium] innocuum strain I46 genome	4376555	4377733
+p29823	3.a.1	lactose	EX_cpd00208_e0	rxn05598	gnl|tc-db|p29823|3.a.1.1.4	34.432	1.72e-37	139	92	CP022722.1 [Clostridium] innocuum strain I46 genome	4377853	4378653
+p29824	3.a.1	lactose	EX_cpd00208_e0	rxn05598	gnl|tc-db|p29824|3.a.1.1.4	31.579	9.82e-34	127	96	CP022722.1 [Clostridium] innocuum strain I46 genome	4378706	4379488
+p30145	2.a.25	alanine	EX_cpd00035_e0	rxn05215,rxn05496,rxn08101,rxn08102,rxn34464,rxn34465,rxn34485,rxn34486	gnl|tc-db|p30145|2.a.25.1.2	37.079	1.28e-67	231	99	CP022722.1 [Clostridium] innocuum strain I46 genome	3845680	3846957
+p30145	2.a.25	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p30145|2.a.25.1.2	37.079	1.28e-67	231	99	CP022722.1 [Clostridium] innocuum strain I46 genome	3845680	3846957
+p30531	2.a.22	chloride		rxn08233,rxn30474	gnl|tc-db|p30531|2.a.22.3.2	26.667	2.23e-28	119	81	CP022722.1 [Clostridium] innocuum strain I46 genome	2946989	2948344
+p30531	2.a.22	gaba		rxn05564,rxn08027,rxn12377,rxn34350,rxn34477	gnl|tc-db|p30531|2.a.22.3.2	26.667	2.23e-28	119	81	CP022722.1 [Clostridium] innocuum strain I46 genome	2946989	2948344
+p30531	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p30531|2.a.22.3.2	26.667	2.23e-28	119	81	CP022722.1 [Clostridium] innocuum strain I46 genome	2946989	2948344
+p30750	3.a.1	d-methionine		rxn05183,rxn08910	gnl|tc-db|p30750|3.a.1.24.1	47.093	3.60e-101	324	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1449952	1448930
+p30859	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|p30859|3.a.1.3.3	28.261	7.23e-24	97.4	94	CP022722.1 [Clostridium] innocuum strain I46 genome	3871393	3872070
+p30860	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|p30860|3.a.1.3.3	30.544	1.18e-22	94.0	99	CP022722.1 [Clostridium] innocuum strain I46 genome	3871363	3872067
+p30963	3.a.1	heme		rxn05148,rxn09115,rxn27591	gnl|tc-db|p30963|3.a.1.107.1	31.098	2.81e-16	73.9	93	CP022722.1 [Clostridium] innocuum strain I46 genome	1711493	1711002
+p30963	3.a.1	heme		rxn90020	gnl|tc-db|p30963|3.a.1.107.1	31.098	2.81e-16	73.9	93	CP022722.1 [Clostridium] innocuum strain I46 genome	1711493	1711002
+p31133	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|p31133|3.a.1.11.2	28.947	2.21e-30	120	97	CP022722.1 [Clostridium] innocuum strain I46 genome	261764	262819
+p31134	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|p31134|3.a.1.11.2	45.172	8.53e-80	264	98	CP022722.1 [Clostridium] innocuum strain I46 genome	258518	259363
+p31548	3.a.1	thiamine		rxn05177,rxn09297	gnl|tc-db|p31548|3.a.1.19.1	38.660	1.70e-39	142	100	CP022722.1 [Clostridium] innocuum strain I46 genome	258578	259159
+p31641	2.a.22	chloride		rxn08233,rxn30474	gnl|tc-db|p31641|2.a.22.3.3	23.684	1.09e-17	85.1	78	CP022722.1 [Clostridium] innocuum strain I46 genome	2947013	2948344
+p31641	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p31641|2.a.22.3.3	23.684	1.09e-17	85.1	78	CP022722.1 [Clostridium] innocuum strain I46 genome	2947013	2948344
+p31641	2.a.22	taurine		rxn12554	gnl|tc-db|p31641|2.a.22.3.3	23.684	1.09e-17	85.1	78	CP022722.1 [Clostridium] innocuum strain I46 genome	2947013	2948344
+p31649	2.a.22	chloride		rxn08233,rxn30474	gnl|tc-db|p31649|2.a.22.3.8	25.738	9.50e-28	117	76	CP022722.1 [Clostridium] innocuum strain I46 genome	2947013	2948281
+p31649	2.a.22	gaba		rxn05564,rxn08027,rxn12377,rxn34350,rxn34477	gnl|tc-db|p31649|2.a.22.3.8	25.738	9.50e-28	117	76	CP022722.1 [Clostridium] innocuum strain I46 genome	2947013	2948281
+p31649	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p31649|2.a.22.3.8	25.738	9.50e-28	117	76	CP022722.1 [Clostridium] innocuum strain I46 genome	2947013	2948281
+p32113	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|p32113|3.a.3.5.1	43.432	2.60e-178	563	97	CP022722.1 [Clostridium] innocuum strain I46 genome	50138	52348
+p32154	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p32154|4.a.2.1.25	36.730	3.82e-64	223	92	CP022722.1 [Clostridium] innocuum strain I46 genome	3445915	3447261
+p32155	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p32155|4.a.2.1.25	32.653	5.59e-28	105	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2455266	2454826
+p32672	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p32672|4.a.2.1.10	40.127	2.13e-56	196	88	CP022722.1 [Clostridium] innocuum strain I46 genome	2893501	2892560
+p32676	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p32676|4.a.2.1.10	38.000	7.14e-19	77.8	91	CP022722.1 [Clostridium] innocuum strain I46 genome	3291330	3291629
+p33590	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|p33590|3.a.1.5.3	21.129	1.54e-15	77.4	96	CP022722.1 [Clostridium] innocuum strain I46 genome	2465292	2463748
+p33591	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|p33591|3.a.1.5.3	35.275	4.87e-49	172	98	CP022722.1 [Clostridium] innocuum strain I46 genome	2482558	2481650
+p33593	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|p33593|3.a.1.5.3	38.750	3.09e-45	159	98	CP022722.1 [Clostridium] innocuum strain I46 genome	2480611	2479892
+p33594	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|p33594|3.a.1.5.3	37.692	8.64e-52	179	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2479655	2478885
+p33950	3.a.1	heme		rxn05148,rxn09115,rxn27591	gnl|tc-db|p33950|3.a.1.5.27	25.232	1.14e-25	109	93	CP022722.1 [Clostridium] innocuum strain I46 genome	2089186	2087618
+p33950	3.a.1	heme		rxn90020	gnl|tc-db|p33950|3.a.1.5.27	25.232	1.14e-25	109	93	CP022722.1 [Clostridium] innocuum strain I46 genome	2089186	2087618
+p36672	4.a.1	trehalose	EX_cpd00794_e0	rxn02005,rxn09322	gnl|tc-db|p36672|4.a.1.2.4	49.682	1.68e-133	423	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2999403	3000809
+p37019	2.a.49	chloride		rxn08233,rxn30474	gnl|tc-db|p37019|2.a.49.5.1	34.817	2.66e-22	98.2	78	CP022722.1 [Clostridium] innocuum strain I46 genome	209419	210513
+p37388	3.a.1	xylose		rxn05167,rxn09383	gnl|tc-db|p37388|3.a.1.2.4	37.271	5.69e-88	293	95	CP022722.1 [Clostridium] innocuum strain I46 genome	1079228	1077777
+p37617	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|p37617|3.a.3.6.2	35.581	4.15e-90	307	95	CP022722.1 [Clostridium] innocuum strain I46 genome	1989181	1987112
+p37617	3.a.3	lead		rxn10344	gnl|tc-db|p37617|3.a.3.6.2	35.581	4.15e-90	307	95	CP022722.1 [Clostridium] innocuum strain I46 genome	1989181	1987112
+p37617	3.a.3	mercury		rxn08715,rxn10343	gnl|tc-db|p37617|3.a.3.6.2	35.581	4.15e-90	307	95	CP022722.1 [Clostridium] innocuum strain I46 genome	1989181	1987112
+p37617	3.a.3	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|p37617|3.a.3.6.2	35.581	4.15e-90	307	95	CP022722.1 [Clostridium] innocuum strain I46 genome	1989181	1987112
+p37735	2.a.56	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|p37735|2.a.56.1.1	29.831	4.38e-29	115	86	CP022722.1 [Clostridium] innocuum strain I46 genome	975891	975028
+p37735	2.a.56	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|p37735|2.a.56.1.1	29.831	4.38e-29	115	86	CP022722.1 [Clostridium] innocuum strain I46 genome	975891	975028
+p37735	2.a.56	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|p37735|2.a.56.1.1	29.831	4.38e-29	115	86	CP022722.1 [Clostridium] innocuum strain I46 genome	975891	975028
+p37735	2.a.56	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|p37735|2.a.56.1.1	29.831	4.38e-29	115	86	CP022722.1 [Clostridium] innocuum strain I46 genome	975891	975028
+p38044	3.a.1	nitrate		rxn05171	gnl|tc-db|p38044|3.a.1.16.1	23.148	3.06e-13	67.0	77	CP022722.1 [Clostridium] innocuum strain I46 genome	477202	476585
+p38046	3.a.1	nitrate		rxn05171	gnl|tc-db|p38046|3.a.1.16.1	42.667	8.39e-52	179	99	CP022722.1 [Clostridium] innocuum strain I46 genome	479691	479041
+p38995	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|p38995|3.a.3.5.17	29.738	9.43e-110	373	93	CP022722.1 [Clostridium] innocuum strain I46 genome	4344459	4347017
+p39618	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05497	gnl|tc-db|p39618|2.a.40.5.2	23.836	0.008	35.8	80	CP022722.1 [Clostridium] innocuum strain I46 genome	2690238	2689222
+p39618	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05471	gnl|tc-db|p39618|2.a.40.5.2	23.836	0.008	35.8	80	CP022722.1 [Clostridium] innocuum strain I46 genome	2690238	2689222
+p39618	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn29869	gnl|tc-db|p39618|2.a.40.5.2	23.836	0.008	35.8	80	CP022722.1 [Clostridium] innocuum strain I46 genome	2690238	2689222
+p39618	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn38756	gnl|tc-db|p39618|2.a.40.5.2	23.836	0.008	35.8	80	CP022722.1 [Clostridium] innocuum strain I46 genome	2690238	2689222
+p39766	2.a.40	uracil		rxn05197,rxn09365,rxn12368	gnl|tc-db|p39766|2.a.40.1.4	49.188	2.20e-110	355	97	CP022722.1 [Clostridium] innocuum strain I46 genome	1621229	1619985
+p39775	3.a.1	choline		rxn05159,rxn08212	gnl|tc-db|p39775|3.a.1.12.3	43.085	1.64e-40	144	98	CP022722.1 [Clostridium] innocuum strain I46 genome	557497	558057
+p39794	4.a.1	trehalose	EX_cpd00794_e0	rxn02005,rxn09322	gnl|tc-db|p39794|4.a.1.2.8	39.746	1.02e-89	296	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2999406	3000803
+p40410	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p40410|3.a.1.14.15	33.333	5.05e-32	124	89	CP022722.1 [Clostridium] innocuum strain I46 genome	1007397	1006501
+p40410	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p40410|3.a.1.14.15	33.333	5.05e-32	124	89	CP022722.1 [Clostridium] innocuum strain I46 genome	1007397	1006501
+p40411	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p40411|3.a.1.14.15	34.268	2.38e-39	145	95	CP022722.1 [Clostridium] innocuum strain I46 genome	1006435	1005482
+p40411	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p40411|3.a.1.14.15	34.268	2.38e-39	145	95	CP022722.1 [Clostridium] innocuum strain I46 genome	1006435	1005482
+p42086	2.a.40	xanthine		rxn05202,rxn09377,rxn12440	gnl|tc-db|p42086|2.a.40.3.1	38.164	9.07e-63	217	93	CP022722.1 [Clostridium] innocuum strain I46 genome	2690349	2689126
+p42909	4.a.6	n-acetylgalactosamine		rxn90046	gnl|tc-db|p42909|4.a.6.1.5	68.627	1.40e-65	213	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2549662	2549204
+p42911	4.a.6	n-acetylgalactosamine		rxn90046	gnl|tc-db|p42911|4.a.6.1.5	65.000	2.11e-100	318	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2548364	2547585
+p42956	4.a.2	mannitol	EX_cpd00314_e0	rxn05617,rxn08949,rxn13934,rxn13944,rxn27343	gnl|tc-db|p42956|4.a.2.1.5	54.095	1.92e-139	440	97	CP022722.1 [Clostridium] innocuum strain I46 genome	4226080	4227423
+p43435	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p43435|3.a.2.2.2	31.282	2.62e-19	83.6	85	CP022722.1 [Clostridium] innocuum strain I46 genome	150187	150753
+p43438	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p43438|3.a.2.2.2	28.571	9.2	21.2	89	CP022722.1 [Clostridium] innocuum strain I46 genome	841194	841006
+p43439	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p43439|3.a.2.2.2	23.209	7.87e-24	105	98	CP022722.1 [Clostridium] innocuum strain I46 genome	143614	145530
+p43440	2.a.38	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p43440|2.a.38.4.1	39.301	1.14e-65	226	98	CP022722.1 [Clostridium] innocuum strain I46 genome	1726098	1724737
+p43455	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p43455|3.a.2.2.2	22.892	4.6	23.9	78	CP022722.1 [Clostridium] innocuum strain I46 genome	2551179	2550934
+p44542	2.a.56	sialic acid	EX_cpd00232_e0	rxn05487,rxn08050	gnl|tc-db|p44542|2.a.56.1.3	32.117	1.98e-39	145	82	CP022722.1 [Clostridium] innocuum strain I46 genome	975846	975028
+p44658	3.a.1	thiamine		rxn05177,rxn09297	gnl|tc-db|p44658|3.a.1.17.3	26.613	1.73e-12	65.5	75	CP022722.1 [Clostridium] innocuum strain I46 genome	2398808	2398095
+p45428	2.a.61	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|p45428|2.a.61.1.2	30.968	1.43e-40	152	99	CP022722.1 [Clostridium] innocuum strain I46 genome	3743480	3742101
+p45428	2.a.61	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|p45428|2.a.61.1.2	30.968	1.43e-40	152	99	CP022722.1 [Clostridium] innocuum strain I46 genome	3743480	3742101
+p45428	2.a.61	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|p45428|2.a.61.1.2	30.968	1.43e-40	152	99	CP022722.1 [Clostridium] innocuum strain I46 genome	3743480	3742101
+p45428	2.a.61	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|p45428|2.a.61.1.2	30.968	1.43e-40	152	99	CP022722.1 [Clostridium] innocuum strain I46 genome	3743480	3742101
+p46317	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|p46317|4.a.3.2.2	35.763	1.99e-75	254	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2739346	2740641
+p46318	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|p46318|4.a.3.2.2	50.515	9.41e-26	97.1	96	CP022722.1 [Clostridium] innocuum strain I46 genome	4132769	4133053
+p46319	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|p46319|4.a.3.2.2	44.898	2.90e-22	87.4	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2763894	2764187
+p46920	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|p46920|3.a.1.12.2	39.205	2.08e-71	241	82	CP022722.1 [Clostridium] innocuum strain I46 genome	556367	557404
+p46920	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|p46920|3.a.1.12.2	39.205	2.08e-71	241	82	CP022722.1 [Clostridium] innocuum strain I46 genome	556367	557404
+p48065	2.a.22	betaine	EX_cpd08306_e0	rxn05579,rxn08638,rxn12375,rxn11216	gnl|tc-db|p48065|2.a.22.3.1	23.305	5.76e-27	114	75	CP022722.1 [Clostridium] innocuum strain I46 genome	2947007	2948281
+p48065	2.a.22	chloride		rxn08233,rxn30474	gnl|tc-db|p48065|2.a.22.3.1	23.305	5.76e-27	114	75	CP022722.1 [Clostridium] innocuum strain I46 genome	2947007	2948281
+p48065	2.a.22	gaba		rxn05564,rxn08027,rxn12377,rxn34350,rxn34477	gnl|tc-db|p48065|2.a.22.3.1	23.305	5.76e-27	114	75	CP022722.1 [Clostridium] innocuum strain I46 genome	2947007	2948281
+p48065	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p48065|2.a.22.3.1	23.305	5.76e-27	114	75	CP022722.1 [Clostridium] innocuum strain I46 genome	2947007	2948281
+p48066	2.a.22	chloride		rxn08233,rxn30474	gnl|tc-db|p48066|2.a.22.3.9	24.248	6.31e-30	124	77	CP022722.1 [Clostridium] innocuum strain I46 genome	2158135	2156792
+p48066	2.a.22	gaba		rxn05564,rxn08027,rxn12377,rxn34350,rxn34477	gnl|tc-db|p48066|2.a.22.3.9	24.248	6.31e-30	124	77	CP022722.1 [Clostridium] innocuum strain I46 genome	2158135	2156792
+p48066	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|p48066|2.a.22.3.9	24.248	6.31e-30	124	77	CP022722.1 [Clostridium] innocuum strain I46 genome	2158135	2156792
+p48243	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|p48243|3.a.1.3.9	49.160	2.65e-68	225	100	CP022722.1 [Clostridium] innocuum strain I46 genome	282089	282802
+p48244	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|p48244|3.a.1.3.9	32.301	2.17e-23	95.5	97	CP022722.1 [Clostridium] innocuum strain I46 genome	3872080	3872715
+p48245	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|p48245|3.a.1.3.9	31.050	2.73e-17	79.0	88	CP022722.1 [Clostridium] innocuum strain I46 genome	441721	442362
+p50000	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p50000|3.a.2.1.5	62.970	0.0	649	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2882225	2880714
+p50002	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p50002|3.a.2.1.5	71.734	0.0	680	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2879850	2878456
+p50005	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p50005|3.a.2.1.5	34.021	1.07e-45	162	96	CP022722.1 [Clostridium] innocuum strain I46 genome	2880671	2879868
+p50009	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p50009|3.a.2.1.5	34.314	3.03e-13	62.8	77	CP022722.1 [Clostridium] innocuum strain I46 genome	2878444	2878142
+p50993	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p50993|3.a.3.1.1	31.206	2.80e-125	420	96	CP022722.1 [Clostridium] innocuum strain I46 genome	1623996	1621435
+p50993	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|p50993|3.a.3.1.1	31.206	2.80e-125	420	96	CP022722.1 [Clostridium] innocuum strain I46 genome	1623996	1621435
+p52094	3.a.1	histidine	EX_cpd00119_e0	rxn05164,rxn08718	gnl|tc-db|p52094|3.a.1.3.29	30.556	3.01e-19	83.6	82	CP022722.1 [Clostridium] innocuum strain I46 genome	3872203	3872700
+p54707	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p54707|3.a.3.1.13	32.754	1.18e-115	392	77	CP022722.1 [Clostridium] innocuum strain I46 genome	1623996	1621828
+p54708	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|p54708|3.a.3.1.4	30.739	1.24e-120	406	94	CP022722.1 [Clostridium] innocuum strain I46 genome	1623996	1621372
+p54710	1.a.27	potassium		rxn05206,rxn27350	gnl|tc-db|p54710|1.a.27.2.1	23.636	6.3	21.9	80	CP022722.1 [Clostridium] innocuum strain I46 genome	1038242	1038406
+p54710	1.a.27	sodium		rxn34393,rxn34515,rxn10899	gnl|tc-db|p54710|1.a.27.2.1	23.636	6.3	21.9	80	CP022722.1 [Clostridium] innocuum strain I46 genome	1038242	1038406
+p56579	4.a.4	sorbitol	EX_cpd00588_e0	rxn09242,rxn10184,rxn29070	gnl|tc-db|p56579|4.a.4.1.1	47.205	7.67e-38	135	92	CP022722.1 [Clostridium] innocuum strain I46 genome	2611492	2611010
+p56580	4.a.4	sorbitol	EX_cpd00588_e0	rxn09242,rxn10184,rxn29070	gnl|tc-db|p56580|4.a.4.1.1	50.157	1.30e-83	273	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2606141	2605194
+p67444	2.a.40	xanthine		rxn05202,rxn09377,rxn12440	gnl|tc-db|p67444|2.a.40.4.3	33.632	4.19e-58	204	95	CP022722.1 [Clostridium] innocuum strain I46 genome	2690406	2689120
+p68187	3.a.1	maltodextrin		rxn11140	gnl|tc-db|p68187|3.a.1.1.1	51.235	1.09e-97	315	86	CP022722.1 [Clostridium] innocuum strain I46 genome	4318434	4319387
+p68187	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|p68187|3.a.1.1.1	51.235	1.09e-97	315	86	CP022722.1 [Clostridium] innocuum strain I46 genome	4318434	4319387
+p69380	2.a.4	iron	EX_cpd10516_e0	rxn08473,rxn08474,rxn12504,rxn29259,rxn08476,rxn10963,rxn13286,rxn33142,rxn34369	gnl|tc-db|p69380|2.a.4.7.1	28.679	1.71e-26	107	88	CP022722.1 [Clostridium] innocuum strain I46 genome	328047	328835
+p69380	2.a.4	iron	EX_cpd10516_e0	rxn29260	gnl|tc-db|p69380|2.a.4.7.1	28.679	1.71e-26	107	88	CP022722.1 [Clostridium] innocuum strain I46 genome	328047	328835
+p69783	4.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05226,rxn08612	gnl|tc-db|p69783|4.a.1.1.1	37.584	1.37e-32	119	88	CP022722.1 [Clostridium] innocuum strain I46 genome	4257798	4257352
+p69786	4.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05226,rxn08612	gnl|tc-db|p69786|4.a.1.1.1	37.266	1.91e-95	313	99	CP022722.1 [Clostridium] innocuum strain I46 genome	437379	438977
+p69797	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|p69797|4.a.6.1.1	38.871	1.00e-66	224	99	CP022722.1 [Clostridium] innocuum strain I46 genome	433958	434914
+p69801	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|p69801|4.a.6.1.1	47.414	3.45e-44	157	100	CP022722.1 [Clostridium] innocuum strain I46 genome	435003	435695
+p69805	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|p69805|4.a.6.1.1	49.638	6.39e-81	263	100	CP022722.1 [Clostridium] innocuum strain I46 genome	435821	436645
+p69808	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p69808|4.a.2.1.11	41.935	6.14e-19	77.8	95	CP022722.1 [Clostridium] innocuum strain I46 genome	2224916	2224638
+p69816	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p69816|4.a.2.1.10	47.368	2.73e-24	92.8	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2224916	2224632
+p69820	4.a.7	ascorbate		rxn08158,rxn13758	gnl|tc-db|p69820|4.a.7.1.1	33.566	2.97e-27	103	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2139173	2138748
+p69822	4.a.7	ascorbate		rxn08158,rxn13758	gnl|tc-db|p69822|4.a.7.1.1	28.723	7.38e-07	43.1	91	CP022722.1 [Clostridium] innocuum strain I46 genome	2597177	2596899
+p69824	4.a.2	mannitol	EX_cpd00314_e0	rxn05617,rxn08949,rxn13934,rxn13944,rxn27343	gnl|tc-db|p69824|4.a.2.1.24	37.410	1.98e-20	84.0	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2139164	2138748
+p69826	4.a.2	mannitol	EX_cpd00314_e0	rxn05617,rxn08949,rxn13934,rxn13944,rxn27343	gnl|tc-db|p69826|4.a.2.1.24	50.881	6.60e-125	398	99	CP022722.1 [Clostridium] innocuum strain I46 genome	4226065	4227420
+p69874	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|p69874|3.a.1.11.1	48.923	2.60e-88	288	86	CP022722.1 [Clostridium] innocuum strain I46 genome	258518	259462
+p69874	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|p69874|3.a.1.11.1	48.923	2.60e-88	288	86	CP022722.1 [Clostridium] innocuum strain I46 genome	258518	259462
+p71746	3.a.1	sulfate	EX_cpd00681_e0	rxn05153,rxn09276,rxn29239	gnl|tc-db|p71746|3.a.1.6.3	23.276	1.50e-09	55.8	82	CP022722.1 [Clostridium] innocuum strain I46 genome	260942	261601
+p72590	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p72590|3.a.1.14.24	35.855	1.47e-43	158	88	CP022722.1 [Clostridium] innocuum strain I46 genome	1007409	1006507
+p72590	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p72590|3.a.1.14.24	35.855	1.47e-43	158	88	CP022722.1 [Clostridium] innocuum strain I46 genome	1007409	1006507
+p72591	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p72591|3.a.1.14.24	34.202	3.17e-33	128	86	CP022722.1 [Clostridium] innocuum strain I46 genome	1006423	1005506
+p72591	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p72591|3.a.1.14.24	34.202	3.17e-33	128	86	CP022722.1 [Clostridium] innocuum strain I46 genome	1006423	1005506
+p72592	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p72592|3.a.1.14.24	46.304	5.54e-74	243	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1005483	1004713
+p72592	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p72592|3.a.1.14.24	46.304	5.54e-74	243	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1005483	1004713
+p73544	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|p73544|3.a.1.3.12	31.004	3.62e-47	174	84	CP022722.1 [Clostridium] innocuum strain I46 genome	3871390	3872610
+p75892	2.a.40	pyrimidine	EX_cpd00046_e0,EX_cpd00091_e0	rxn05525	gnl|tc-db|p75892|2.a.40.1.3	34.826	3.07e-62	216	89	CP022722.1 [Clostridium] innocuum strain I46 genome	1621268	1620084
+p75892	2.a.40	pyrimidine	EX_cpd00046_e0,EX_cpd00091_e0	rxn05665	gnl|tc-db|p75892|2.a.40.1.3	34.826	3.07e-62	216	89	CP022722.1 [Clostridium] innocuum strain I46 genome	1621268	1620084
+p77279	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|p77279|3.a.1.139.2	33.333	1.32e-31	119	99	CP022722.1 [Clostridium] innocuum strain I46 genome	258506	259156
+p77279	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|p77279|3.a.1.139.2	33.333	1.32e-31	119	99	CP022722.1 [Clostridium] innocuum strain I46 genome	258506	259156
+p77579	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|p77579|4.a.2.1.11	27.704	5.23e-29	117	93	CP022722.1 [Clostridium] innocuum strain I46 genome	2893498	2892479
+p92939	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p92939|3.a.3.2.13	33.300	8.83e-153	502	96	CP022722.1 [Clostridium] innocuum strain I46 genome	1623948	1621438
+p94529	3.a.1	l-arabinose		rxn05173,rxn08139,rxn11063	gnl|tc-db|p94529|3.a.1.1.34	33.202	1.14e-35	134	83	CP022722.1 [Clostridium] innocuum strain I46 genome	4377832	4378590
+p94530	3.a.1	l-arabinose		rxn05173,rxn08139,rxn11063	gnl|tc-db|p94530|3.a.1.1.34	36.667	1.06e-29	115	75	CP022722.1 [Clostridium] innocuum strain I46 genome	4378877	4379506
+p95302	3.a.1	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05145,rxn09122	gnl|tc-db|p95302|3.a.1.7.4	45.267	2.27e-70	233	99	CP022722.1 [Clostridium] innocuum strain I46 genome	885178	885906
+p96117	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|p96117|3.a.1.15.8	32.381	4.47e-22	92.8	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2344587	2343988
+p96603	2.a.23	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|p96603|2.a.23.1.6	21.094	6.00e-07	49.3	88	CP022722.1 [Clostridium] innocuum strain I46 genome	2350198	2349095
+p96603	2.a.23	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|p96603|2.a.23.1.6	21.094	6.00e-07	49.3	88	CP022722.1 [Clostridium] innocuum strain I46 genome	2350198	2349095
+p96603	2.a.23	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|p96603|2.a.23.1.6	21.094	6.00e-07	49.3	88	CP022722.1 [Clostridium] innocuum strain I46 genome	2350198	2349095
+p96603	2.a.23	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|p96603|2.a.23.1.6	21.094	6.00e-07	49.3	88	CP022722.1 [Clostridium] innocuum strain I46 genome	2350198	2349095
+p98194	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|p98194|3.a.3.2.5	35.851	5.08e-160	518	97	CP022722.1 [Clostridium] innocuum strain I46 genome	1623990	1621432
+pnq00486	4.a.7	ascorbate		rxn08158,rxn13758	gnl|tc-db|pnq00486|4.a.7.1.6	33.550	2.65e-84	285	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2598698	2596878
+q01937	3.a.1	lactose	EX_cpd00208_e0	rxn05598	gnl|tc-db|q01937|3.a.1.1.4	54.403	1.05e-105	338	89	CP022722.1 [Clostridium] innocuum strain I46 genome	4318434	4319372
+q01959	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q01959|2.a.22.1.3	24.800	1.87e-22	100	77	CP022722.1 [Clostridium] innocuum strain I46 genome	1568766	1567447
+q03nm0.2	3.a.1	folate		rxn90019	gnl|tc-db|q03nm0.2|3.a.1.28.2	30.357	3.77e-09	52.0	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1270631	1271122
+q03py5.2	3.a.1	folate		rxn90019	gnl|tc-db|q03py5.2|3.a.1.28.2	46.614	1.00e-79	259	97	CP022722.1 [Clostridium] innocuum strain I46 genome	2353914	2353165
+q03py6.2	3.a.1	folate		rxn90019	gnl|tc-db|q03py6.2|3.a.1.28.2	49.648	5.87e-86	278	98	CP022722.1 [Clostridium] innocuum strain I46 genome	2353120	2352269
+q03py7.2	3.a.1	folate		rxn90019	gnl|tc-db|q03py7.2|3.a.1.28.2	39.464	2.48e-57	194	98	CP022722.1 [Clostridium] innocuum strain I46 genome	2352267	2351488
+q03yi6	2.a.87	pantothenate		rxn05308,rxn09165,rxn10180	gnl|tc-db|q03yi6|2.a.87.2.1	29.167	7.86e-13	63.9	98	CP022722.1 [Clostridium] innocuum strain I46 genome	4389760	4390371
+q045h4	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|q045h4|4.a.3.1.3	32.979	3.36e-14	64.7	97	CP022722.1 [Clostridium] innocuum strain I46 genome	3282725	3283006
+q045x4	4.a.3	lactose	EX_cpd00208_e0	rxn10865	gnl|tc-db|q045x4|4.a.3.1.2	32.323	2.28e-16	70.9	97	CP022722.1 [Clostridium] innocuum strain I46 genome	4134658	4134954
+q04gk0	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|q04gk0|4.a.6.1.10	63.406	1.54e-79	259	100	CP022722.1 [Clostridium] innocuum strain I46 genome	434955	435770
+q04gk1	4.a.6	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q04gk1|4.a.6.1.10	64.526	6.17e-149	461	99	CP022722.1 [Clostridium] innocuum strain I46 genome	433955	434932
+q04gk1	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|q04gk1|4.a.6.1.10	64.526	6.17e-149	461	99	CP022722.1 [Clostridium] innocuum strain I46 genome	433955	434932
+q05596	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q05596|3.a.1.23.6	34.538	3.31e-38	140	93	CP022722.1 [Clostridium] innocuum strain I46 genome	2353084	2352350
+q07307	2.a.40	xanthine		rxn05202,rxn09377,rxn12440	gnl|tc-db|q07307|2.a.40.4.1	28.320	4.48e-38	148	86	CP022722.1 [Clostridium] innocuum strain I46 genome	2690439	2689120
+q08636	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|q08636|3.a.2.2.2	47.965	3.76e-169	531	95	CP022722.1 [Clostridium] innocuum strain I46 genome	146978	148657
+q08637	3.a.2	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|q08637|3.a.2.2.2	55.066	3.13e-174	539	99	CP022722.1 [Clostridium] innocuum strain I46 genome	148727	150088
+q0w3w9	2.a.58	phosphate	EX_cpd00016_e0,EX_cpd00079_e0,EX_cpd00080_e0,EX_cpd00235_e0,EX_cpd00793_e0,EX_cpd01912_e0	rxn05210,rxn05312,rxn05313,rxn09120,rxn09723,rxn09811,rxn09833,rxn09872,rxn12450,rxn34261,rxn34397,rxn34522	gnl|tc-db|q0w3w9|2.a.58.2.6	30.137	2.20e-58	208	92	CP022722.1 [Clostridium] innocuum strain I46 genome	1729567	1730880
+q1cy66	4.a.6	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q1cy66|4.a.6.1.12	35.252	1.53e-19	80.9	99	CP022722.1 [Clostridium] innocuum strain I46 genome	433955	434359
+q1cy66	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|q1cy66|4.a.6.1.12	35.252	1.53e-19	80.9	99	CP022722.1 [Clostridium] innocuum strain I46 genome	433955	434359
+q1cy67	4.a.6	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q1cy67|4.a.6.1.12	32.258	3.45e-21	86.7	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2712051	2711593
+q1cy67	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|q1cy67|4.a.6.1.12	32.258	3.45e-21	86.7	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2712051	2711593
+q1j1h5	2.a.23	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|q1j1h5|2.a.23.1.9	21.041	1.43e-09	57.8	94	CP022722.1 [Clostridium] innocuum strain I46 genome	2350351	2349062
+q1j1h5	2.a.23	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|q1j1h5|2.a.23.1.9	21.041	1.43e-09	57.8	94	CP022722.1 [Clostridium] innocuum strain I46 genome	2350351	2349062
+q1j1h5	2.a.23	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|q1j1h5|2.a.23.1.9	21.041	1.43e-09	57.8	94	CP022722.1 [Clostridium] innocuum strain I46 genome	2350351	2349062
+q1j1h5	2.a.23	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|q1j1h5|2.a.23.1.9	21.041	1.43e-09	57.8	94	CP022722.1 [Clostridium] innocuum strain I46 genome	2350351	2349062
+q1k314	4.a.6	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q1k314|4.a.6.1.21	32.000	1.38e-13	63.9	94	CP022722.1 [Clostridium] innocuum strain I46 genome	3240523	3240894
+q1lz59	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q1lz59|4.a.2.1.7	30.140	1.64e-44	169	75	CP022722.1 [Clostridium] innocuum strain I46 genome	3291315	3292673
+q1lz68	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q1lz68|4.a.2.1.8	31.538	2.97e-23	92.0	88	CP022722.1 [Clostridium] innocuum strain I46 genome	3447409	3447795
+q1m605	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|q1m605|3.a.3.7.2	51.167	1.56e-146	464	97	CP022722.1 [Clostridium] innocuum strain I46 genome	1546729	1545059
+q1m606	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|q1m606|3.a.3.7.2	62.894	0.0	727	100	CP022722.1 [Clostridium] innocuum strain I46 genome	1545010	1542956
+q1m607	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|q1m607|3.a.3.7.2	42.541	1.05e-39	140	94	CP022722.1 [Clostridium] innocuum strain I46 genome	1542911	1542387
+q1r4s9	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q1r4s9|4.a.2.1.9	37.584	3.87e-28	106	100	CP022722.1 [Clostridium] innocuum strain I46 genome	3290734	3291180
+q1r4t1	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q1r4t1|4.a.2.1.9	44.538	4.94e-88	287	99	CP022722.1 [Clostridium] innocuum strain I46 genome	3291672	3292742
+q2fve9	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|q2fve9|3.a.1.5.43	30.075	2.07e-38	141	94	CP022722.1 [Clostridium] innocuum strain I46 genome	2481505	2480708
+q32ay2	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q32ay2|3.a.1.14.18	37.063	2.69e-36	136	94	CP022722.1 [Clostridium] innocuum strain I46 genome	1006345	1005494
+q32ay2	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q32ay2|3.a.1.14.18	37.063	2.69e-36	136	94	CP022722.1 [Clostridium] innocuum strain I46 genome	1006345	1005494
+q37145	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q37145|3.a.3.2.11	31.409	6.72e-98	338	86	CP022722.1 [Clostridium] innocuum strain I46 genome	1623861	1621480
+q38cw7	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q38cw7|3.a.3.9.7	34.213	5.84e-121	407	87	CP022722.1 [Clostridium] innocuum strain I46 genome	3809621	3812059
+q3jze2	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q3jze2|4.a.2.1.22	62.887	1.84e-28	104	96	CP022722.1 [Clostridium] innocuum strain I46 genome	3291324	3291614
+q3jze3	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q3jze3|4.a.2.1.22	47.651	1.10e-41	144	100	CP022722.1 [Clostridium] innocuum strain I46 genome	3290734	3291180
+q3jze4	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q3jze4|4.a.2.1.22	43.567	7.93e-74	246	96	CP022722.1 [Clostridium] innocuum strain I46 genome	3291648	3292667
+q3mar5	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|q3mar5|3.a.1.11.10	43.636	3.72e-90	294	86	CP022722.1 [Clostridium] innocuum strain I46 genome	258521	259465
+q3mar5	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|q3mar5|3.a.1.11.10	43.636	3.72e-90	294	86	CP022722.1 [Clostridium] innocuum strain I46 genome	258521	259465
+q3mb44	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|q3mb44|3.a.1.2.29	35.329	2.42e-91	303	95	CP022722.1 [Clostridium] innocuum strain I46 genome	1079261	1077774
+q45460	3.a.1	choline		rxn05159,rxn08212	gnl|tc-db|q45460|3.a.1.12.3	47.397	3.61e-106	340	95	CP022722.1 [Clostridium] innocuum strain I46 genome	556307	557392
+q45461	3.a.1	choline		rxn05159,rxn08212	gnl|tc-db|q45461|3.a.1.12.3	43.333	8.54e-39	139	99	CP022722.1 [Clostridium] innocuum strain I46 genome	557437	558066
+q45462	3.a.1	choline		rxn05159,rxn08212	gnl|tc-db|q45462|3.a.1.12.3	31.469	1.74e-42	153	93	CP022722.1 [Clostridium] innocuum strain I46 genome	3268603	3267752
+q46821	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05497	gnl|tc-db|q46821|2.a.40.3.3	33.180	3.44e-57	202	97	CP022722.1 [Clostridium] innocuum strain I46 genome	2690403	2689129
+q46821	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05471	gnl|tc-db|q46821|2.a.40.3.3	33.180	3.44e-57	202	97	CP022722.1 [Clostridium] innocuum strain I46 genome	2690403	2689129
+q46821	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn29869	gnl|tc-db|q46821|2.a.40.3.3	33.180	3.44e-57	202	97	CP022722.1 [Clostridium] innocuum strain I46 genome	2690403	2689129
+q46821	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn38756	gnl|tc-db|q46821|2.a.40.3.3	33.180	3.44e-57	202	97	CP022722.1 [Clostridium] innocuum strain I46 genome	2690403	2689129
+q47538	3.a.1	taurine		rxn05172,rxn09285	gnl|tc-db|q47538|3.a.1.17.1	43.269	1.81e-48	169	98	CP022722.1 [Clostridium] innocuum strain I46 genome	258518	259141
+q47539	3.a.1	taurine		rxn05172,rxn09285	gnl|tc-db|q47539|3.a.1.17.1	24.757	1.65e-19	85.9	78	CP022722.1 [Clostridium] innocuum strain I46 genome	478934	478332
+q52666	3.a.1	asparagine	EX_cpd00132_e0	rxn08160,rxn10144	gnl|tc-db|q52666|3.a.1.3.7	50.633	2.68e-74	243	99	CP022722.1 [Clostridium] innocuum strain I46 genome	282092	282802
+q52666	3.a.1	aspartate	EX_cpd00041_e0,EX_cpd00041_e0	rxn05152,rxn08165	gnl|tc-db|q52666|3.a.1.3.7	50.633	2.68e-74	243	99	CP022722.1 [Clostridium] innocuum strain I46 genome	282092	282802
+q52666	3.a.1	glutamate	EX_cpd00023_e0	rxn05146,rxn08627,rxn11235	gnl|tc-db|q52666|3.a.1.3.7	50.633	2.68e-74	243	99	CP022722.1 [Clostridium] innocuum strain I46 genome	282092	282802
+q52666	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|q52666|3.a.1.3.7	50.633	2.68e-74	243	99	CP022722.1 [Clostridium] innocuum strain I46 genome	282092	282802
+q52716	3.d.6	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q52716|3.d.6.1.1	32.706	2.97e-58	207	82	CP022722.1 [Clostridium] innocuum strain I46 genome	1484182	1482938
+q52716	3.d.6	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q52716|3.d.6.1.1	32.706	2.97e-58	207	82	CP022722.1 [Clostridium] innocuum strain I46 genome	1484182	1482938
+q53vz3	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q53vz3|3.a.1.20.5	21.387	6.85e-07	49.7	90	CP022722.1 [Clostridium] innocuum strain I46 genome	2343776	2342316
+q53vz3	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q53vz3|3.a.1.20.5	21.387	6.85e-07	49.7	90	CP022722.1 [Clostridium] innocuum strain I46 genome	2343776	2342316
+q55281	3.a.1	manganese		rxn05149	gnl|tc-db|q55281|3.a.1.15.1	33.333	1.08e-35	132	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1005453	1004794
+q56953	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q56953|3.a.1.15.4	34.335	2.19e-31	121	98	CP022722.1 [Clostridium] innocuum strain I46 genome	1005483	1004794
+q56953	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q56953|3.a.1.15.4	34.335	2.19e-31	121	98	CP022722.1 [Clostridium] innocuum strain I46 genome	1005483	1004794
+q58762	3.a.1	molybdate		rxn05619,rxn08955	gnl|tc-db|q58762|3.a.1.6.9	42.308	4.88e-48	169	89	CP022722.1 [Clostridium] innocuum strain I46 genome	258515	259216
+q58763	3.a.1	molybdate		rxn05619,rxn08955	gnl|tc-db|q58763|3.a.1.6.9	26.500	1.00e-06	46.6	80	CP022722.1 [Clostridium] innocuum strain I46 genome	1710628	1710044
+q59385	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|q59385|3.a.3.5.5	37.738	5.23e-144	468	99	CP022722.1 [Clostridium] innocuum strain I46 genome	4344672	4347062
+q59465	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q59465|3.a.3.6.3	41.384	3.29e-157	500	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1989184	1987118
+q59465	3.a.3	cobalt		rxn05166,rxn08239	gnl|tc-db|q59465|3.a.3.6.3	41.384	3.29e-157	500	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1989184	1987118
+q59465	3.a.3	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|q59465|3.a.3.6.3	41.384	3.29e-157	500	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1989184	1987118
+q5hgy5	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|q5hgy5|3.a.1.11.8	62.455	1.23e-106	341	76	CP022722.1 [Clostridium] innocuum strain I46 genome	258602	259432
+q5hgy5	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|q5hgy5|3.a.1.11.8	62.455	1.23e-106	341	76	CP022722.1 [Clostridium] innocuum strain I46 genome	258602	259432
+q5ih90	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q5ih90|3.a.3.2.36	34.829	1.49e-142	473	94	CP022722.1 [Clostridium] innocuum strain I46 genome	1623990	1621438
+q5m0a4	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q5m0a4|3.a.3.2.22	27.595	1.33e-76	271	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1828008	1825801
+q5m5w6	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|q5m5w6|4.a.6.1.7	58.537	5.77e-117	369	100	CP022722.1 [Clostridium] innocuum strain I46 genome	433958	434926
+q5m5w7	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|q5m5w7|4.a.6.1.7	56.884	1.19e-54	187	100	CP022722.1 [Clostridium] innocuum strain I46 genome	434955	435770
+q5m5w8	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|q5m5w8|4.a.6.1.7	64.686	8.00e-119	373	100	CP022722.1 [Clostridium] innocuum strain I46 genome	435797	436705
+q5ska0	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q5ska0|3.a.1.14.26	41.441	1.13e-32	123	91	CP022722.1 [Clostridium] innocuum strain I46 genome	1005459	1004794
+q5ska0	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q5ska0|3.a.1.14.26	41.441	1.13e-32	123	91	CP022722.1 [Clostridium] innocuum strain I46 genome	1005459	1004794
+q5ska1	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q5ska1|3.a.1.14.26	32.632	1.46e-04	40.8	83	CP022722.1 [Clostridium] innocuum strain I46 genome	1006348	1005506
+q5ska1	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q5ska1|3.a.1.14.26	32.632	1.46e-04	40.8	83	CP022722.1 [Clostridium] innocuum strain I46 genome	1006348	1005506
+q60048	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q60048|3.a.3.6.8	36.288	6.73e-120	393	99	CP022722.1 [Clostridium] innocuum strain I46 genome	47945	50032
+q63gk8	4.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05226,rxn08612	gnl|tc-db|q63gk8|4.a.1.1.17	30.116	2.57e-56	202	92	CP022722.1 [Clostridium] innocuum strain I46 genome	437529	438968
+q6fbb3	2.a.1	benzoate		rxn12435	gnl|tc-db|q6fbb3|2.a.1.15.7	26.801	2.99e-19	88.6	77	CP022722.1 [Clostridium] innocuum strain I46 genome	481238	482191
+q6lx42	2.a.25	alanine	EX_cpd00035_e0	rxn05215,rxn05496,rxn08101,rxn08102,rxn34464,rxn34465,rxn34485,rxn34486	gnl|tc-db|q6lx42|2.a.25.1.3	39.696	3.65e-74	251	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1993560	1992217
+q6lx42	2.a.25	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q6lx42|2.a.25.1.3	39.696	3.65e-74	251	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1993560	1992217
+q6mi08	3.a.1	manganese		rxn05149	gnl|tc-db|q6mi08|3.a.1.15.17	24.211	8.05e-05	40.0	98	CP022722.1 [Clostridium] innocuum strain I46 genome	4379591	4380148
+q6mi08	3.a.1	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|q6mi08|3.a.1.15.17	24.211	8.05e-05	40.0	98	CP022722.1 [Clostridium] innocuum strain I46 genome	4379591	4380148
+q6n8w8	2.a.56	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|q6n8w8|2.a.56.1.10	28.704	1.43e-40	152	98	CP022722.1 [Clostridium] innocuum strain I46 genome	977308	976016
+q6n8w8	2.a.56	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|q6n8w8|2.a.56.1.10	28.704	1.43e-40	152	98	CP022722.1 [Clostridium] innocuum strain I46 genome	977308	976016
+q6n8w8	2.a.56	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|q6n8w8|2.a.56.1.10	28.704	1.43e-40	152	98	CP022722.1 [Clostridium] innocuum strain I46 genome	977308	976016
+q6n8w8	2.a.56	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|q6n8w8|2.a.56.1.10	28.704	1.43e-40	152	98	CP022722.1 [Clostridium] innocuum strain I46 genome	977308	976016
+q720g7	4.a.1	trehalose	EX_cpd00794_e0	rxn02005,rxn09322	gnl|tc-db|q720g7|4.a.1.2.13	62.076	0.0	578	96	CP022722.1 [Clostridium] innocuum strain I46 genome	2999406	3000815
+q72h66	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q72h66|3.a.1.1.25	29.961	6.74e-09	53.9	89	CP022722.1 [Clostridium] innocuum strain I46 genome	4315293	4316057
+q72h67	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q72h67|3.a.1.1.25	35.950	8.18e-30	116	81	CP022722.1 [Clostridium] innocuum strain I46 genome	4377928	4378644
+q72rn5	3.a.3	magnesium		rxn08924,rxn10571	gnl|tc-db|q72rn5|3.a.3.4.2	29.890	3.09e-90	311	83	CP022722.1 [Clostridium] innocuum strain I46 genome	1623996	1621840
+q72xp9	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|q72xp9|4.a.3.2.8	51.546	2.76e-26	98.2	99	CP022722.1 [Clostridium] innocuum strain I46 genome	4132769	4133053
+q72xq0	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|q72xq0|4.a.3.2.8	38.051	7.89e-71	240	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2739352	2740629
+q72xq1	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|q72xq1|4.a.3.2.8	46.535	2.85e-19	78.6	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2763894	2764196
+q73lw8	2.a.51	chromate	EX_cpd11595_e0	rxn05526,rxn13686	gnl|tc-db|q73lw8|2.a.51.1.6	46.243	5.60e-38	136	98	CP022722.1 [Clostridium] innocuum strain I46 genome	3340276	3339773
+q73lw9	2.a.51	chromate	EX_cpd11595_e0	rxn05526,rxn13686	gnl|tc-db|q73lw9|2.a.51.1.6	36.111	3.12e-23	93.6	96	CP022722.1 [Clostridium] innocuum strain I46 genome	3339707	3339186
+q73re4	3.a.1	thiamine		rxn05177,rxn09297	gnl|tc-db|q73re4|3.a.1.19.2	42.308	7.74e-51	173	100	CP022722.1 [Clostridium] innocuum strain I46 genome	258509	259132
+q79ci9	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|q79ci9|3.a.1.23.1	32.258	6.65e-32	120	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2353102	2352455
+q7a3e6	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|q7a3e6|3.a.3.5.19	46.377	0.0	609	99	CP022722.1 [Clostridium] innocuum strain I46 genome	50150	52402
+q7cq74	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|q7cq74|3.a.1.5.24	30.968	7.44e-34	130	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2087348	2086458
+q7uq83	3.a.1	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|q7uq83|3.a.1.115.2	37.778	3.24e-45	159	99	CP022722.1 [Clostridium] innocuum strain I46 genome	399413	398748
+q7vj33	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|q7vj33|3.a.1.5.40	22.146	5.67e-10	59.3	78	CP022722.1 [Clostridium] innocuum strain I46 genome	2465271	2464027
+q7vj34	3.a.1	nickel		rxn05174,rxn08989,rxn08993	gnl|tc-db|q7vj34|3.a.1.5.40	34.532	1.75e-46	165	94	CP022722.1 [Clostridium] innocuum strain I46 genome	2482435	2481605
+q7z8r3	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05497	gnl|tc-db|q7z8r3|2.a.40.7.1	32.538	5.73e-48	178	82	CP022722.1 [Clostridium] innocuum strain I46 genome	1954822	1953641
+q7z8r3	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05471	gnl|tc-db|q7z8r3|2.a.40.7.1	32.538	5.73e-48	178	82	CP022722.1 [Clostridium] innocuum strain I46 genome	1954822	1953641
+q7z8r3	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn29869	gnl|tc-db|q7z8r3|2.a.40.7.1	32.538	5.73e-48	178	82	CP022722.1 [Clostridium] innocuum strain I46 genome	1954822	1953641
+q7z8r3	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn38756	gnl|tc-db|q7z8r3|2.a.40.7.1	32.538	5.73e-48	178	82	CP022722.1 [Clostridium] innocuum strain I46 genome	1954822	1953641
+q82vn5	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q82vn5|3.a.1.10.4	33.036	9.63e-61	208	93	CP022722.1 [Clostridium] innocuum strain I46 genome	258518	259495
+q82vn5	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q82vn5|3.a.1.10.4	33.036	9.63e-61	208	93	CP022722.1 [Clostridium] innocuum strain I46 genome	258518	259495
+q830z1	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q830z1|3.a.3.25.3	34.552	1.24e-95	319	88	CP022722.1 [Clostridium] innocuum strain I46 genome	48419	50035
+q839d3	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q839d3|3.a.1.26.7	43.137	1.78e-62	209	96	CP022722.1 [Clostridium] innocuum strain I46 genome	2352267	2351503
+q839d4	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q839d4|3.a.1.26.7	52.727	2.45e-92	296	97	CP022722.1 [Clostridium] innocuum strain I46 genome	2353120	2352296
+q839d5	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q839d5|3.a.1.26.7	47.619	2.15e-76	250	97	CP022722.1 [Clostridium] innocuum strain I46 genome	2353914	2353165
+q87wh3	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|q87wh3|3.a.1.12.10	30.216	3.05e-28	112	93	CP022722.1 [Clostridium] innocuum strain I46 genome	558184	558996
+q87wh3	3.a.1	choline		rxn05159,rxn08212	gnl|tc-db|q87wh3|3.a.1.12.10	30.216	3.05e-28	112	93	CP022722.1 [Clostridium] innocuum strain I46 genome	558184	558996
+q87wh3	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|q87wh3|3.a.1.12.10	30.216	3.05e-28	112	93	CP022722.1 [Clostridium] innocuum strain I46 genome	558184	558996
+q87wh4	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|q87wh4|3.a.1.12.10	44.828	4.18e-35	129	94	CP022722.1 [Clostridium] innocuum strain I46 genome	557473	558066
+q87wh4	3.a.1	choline		rxn05159,rxn08212	gnl|tc-db|q87wh4|3.a.1.12.10	44.828	4.18e-35	129	94	CP022722.1 [Clostridium] innocuum strain I46 genome	557473	558066
+q87wh4	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|q87wh4|3.a.1.12.10	44.828	4.18e-35	129	94	CP022722.1 [Clostridium] innocuum strain I46 genome	557473	558066
+q87wh5	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|q87wh5|3.a.1.12.10	39.459	5.53e-83	273	95	CP022722.1 [Clostridium] innocuum strain I46 genome	556307	557404
+q87wh5	3.a.1	choline		rxn05159,rxn08212	gnl|tc-db|q87wh5|3.a.1.12.10	39.459	5.53e-83	273	95	CP022722.1 [Clostridium] innocuum strain I46 genome	556307	557404
+q87wh5	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|q87wh5|3.a.1.12.10	39.459	5.53e-83	273	95	CP022722.1 [Clostridium] innocuum strain I46 genome	556307	557404
+q88cp1	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q88cp1|3.a.3.6.12	39.410	1.09e-106	356	76	CP022722.1 [Clostridium] innocuum strain I46 genome	1988812	1987118
+q88rt8	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q88rt8|3.a.3.6.11	32.846	1.17e-85	292	92	CP022722.1 [Clostridium] innocuum strain I46 genome	1988854	1987103
+q8dqh7	3.a.1	branched chain amino acid		rxn05179,rxn08745	gnl|tc-db|q8dqh7|3.a.1.4.10	64.103	1.87e-94	300	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2483978	2483277
+q8dqh7	3.a.1	branched chain amino acid		rxn05161,rxn08784	gnl|tc-db|q8dqh7|3.a.1.4.10	64.103	1.87e-94	300	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2483978	2483277
+q8dqh7	3.a.1	branched chain amino acid		rxn05168,rxn09373	gnl|tc-db|q8dqh7|3.a.1.4.10	64.103	1.87e-94	300	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2483978	2483277
+q8dqh7	3.a.1	branched chain amino acid		rxn05169,rxn09301,rxn34122	gnl|tc-db|q8dqh7|3.a.1.4.10	64.103	1.87e-94	300	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2483978	2483277
+q8dqh8	3.a.1	branched chain amino acid		rxn05179,rxn08745	gnl|tc-db|q8dqh8|3.a.1.4.10	62.353	1.50e-95	304	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2484756	2483992
+q8dqh8	3.a.1	branched chain amino acid		rxn05161,rxn08784	gnl|tc-db|q8dqh8|3.a.1.4.10	62.353	1.50e-95	304	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2484756	2483992
+q8dqh8	3.a.1	branched chain amino acid		rxn05168,rxn09373	gnl|tc-db|q8dqh8|3.a.1.4.10	62.353	1.50e-95	304	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2484756	2483992
+q8dqh8	3.a.1	branched chain amino acid		rxn05169,rxn09301,rxn34122	gnl|tc-db|q8dqh8|3.a.1.4.10	62.353	1.50e-95	304	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2484756	2483992
+q8dqh9	3.a.1	branched chain amino acid		rxn05179,rxn08745	gnl|tc-db|q8dqh9|3.a.1.4.10	58.730	3.69e-74	245	79	CP022722.1 [Clostridium] innocuum strain I46 genome	2485570	2484818
+q8dqh9	3.a.1	branched chain amino acid		rxn05161,rxn08784	gnl|tc-db|q8dqh9|3.a.1.4.10	58.730	3.69e-74	245	79	CP022722.1 [Clostridium] innocuum strain I46 genome	2485570	2484818
+q8dqh9	3.a.1	branched chain amino acid		rxn05168,rxn09373	gnl|tc-db|q8dqh9|3.a.1.4.10	58.730	3.69e-74	245	79	CP022722.1 [Clostridium] innocuum strain I46 genome	2485570	2484818
+q8dqh9	3.a.1	branched chain amino acid		rxn05169,rxn09301,rxn34122	gnl|tc-db|q8dqh9|3.a.1.4.10	58.730	3.69e-74	245	79	CP022722.1 [Clostridium] innocuum strain I46 genome	2485570	2484818
+q8dqi0	3.a.1	branched chain amino acid		rxn05179,rxn08745	gnl|tc-db|q8dqi0|3.a.1.4.10	60.616	3.24e-78	256	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2486600	2485725
+q8dqi0	3.a.1	branched chain amino acid		rxn05161,rxn08784	gnl|tc-db|q8dqi0|3.a.1.4.10	60.616	3.24e-78	256	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2486600	2485725
+q8dqi0	3.a.1	branched chain amino acid		rxn05168,rxn09373	gnl|tc-db|q8dqi0|3.a.1.4.10	60.616	3.24e-78	256	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2486600	2485725
+q8dqi0	3.a.1	branched chain amino acid		rxn05169,rxn09301,rxn34122	gnl|tc-db|q8dqi0|3.a.1.4.10	60.616	3.24e-78	256	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2486600	2485725
+q8dqi1	3.a.1	branched chain amino acid		rxn05179,rxn08745	gnl|tc-db|q8dqi1|3.a.1.4.10	41.783	6.61e-65	221	90	CP022722.1 [Clostridium] innocuum strain I46 genome	2487749	2486682
+q8dqi1	3.a.1	branched chain amino acid		rxn05161,rxn08784	gnl|tc-db|q8dqi1|3.a.1.4.10	41.783	6.61e-65	221	90	CP022722.1 [Clostridium] innocuum strain I46 genome	2487749	2486682
+q8dqi1	3.a.1	branched chain amino acid		rxn05168,rxn09373	gnl|tc-db|q8dqi1|3.a.1.4.10	41.783	6.61e-65	221	90	CP022722.1 [Clostridium] innocuum strain I46 genome	2487749	2486682
+q8dqi1	3.a.1	branched chain amino acid		rxn05169,rxn09301,rxn34122	gnl|tc-db|q8dqi1|3.a.1.4.10	41.783	6.61e-65	221	90	CP022722.1 [Clostridium] innocuum strain I46 genome	2487749	2486682
+q8ds05	4.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05226,rxn08612	gnl|tc-db|q8ds05|4.a.1.1.11	27.080	4.69e-41	160	76	CP022722.1 [Clostridium] innocuum strain I46 genome	3220488	3222047
+q8dt26	3.a.1	maltodextrin		rxn11140	gnl|tc-db|q8dt26|3.a.1.1.27	28.571	5.43e-26	104	100	CP022722.1 [Clostridium] innocuum strain I46 genome	4378688	4379506
+q8dt26	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q8dt26|3.a.1.1.27	28.571	5.43e-26	104	100	CP022722.1 [Clostridium] innocuum strain I46 genome	4378688	4379506
+q8dvp6	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|q8dvp6|3.a.3.5.40	47.632	0.0	672	100	CP022722.1 [Clostridium] innocuum strain I46 genome	50135	52399
+q8dw86	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q8dw86|3.a.1.15.20	32.068	2.65e-31	119	100	CP022722.1 [Clostridium] innocuum strain I46 genome	1005486	1004782
+q8dw86	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q8dw86|3.a.1.15.20	32.068	2.65e-31	119	100	CP022722.1 [Clostridium] innocuum strain I46 genome	1005486	1004782
+q8dw86	3.a.1	manganese		rxn05149	gnl|tc-db|q8dw86|3.a.1.15.20	32.068	2.65e-31	119	100	CP022722.1 [Clostridium] innocuum strain I46 genome	1005486	1004782
+q8dwe7	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q8dwe7|4.a.2.1.8	32.158	9.99e-52	186	94	CP022722.1 [Clostridium] innocuum strain I46 genome	3445924	3447306
+q8e919	2.a.4	cadmium		rxn08196,rxn13814,rxn08198,rxn29670	gnl|tc-db|q8e919|2.a.4.7.5	25.758	5.80e-13	66.6	88	CP022722.1 [Clostridium] innocuum strain I46 genome	328074	328853
+q8e919	2.a.4	zinc		rxn09389,rxn13919,rxn09391,rxn28559	gnl|tc-db|q8e919|2.a.4.7.5	25.758	5.80e-13	66.6	88	CP022722.1 [Clostridium] innocuum strain I46 genome	328074	328853
+q8e9e5	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q8e9e5|2.a.22.5.5	38.136	1.26e-48	176	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1568727	1567729
+q8eii1	2.a.25	alanine	EX_cpd00035_e0	rxn05215,rxn05496,rxn08101,rxn08102,rxn34464,rxn34465,rxn34485,rxn34486	gnl|tc-db|q8eii1|2.a.25.1.4	38.532	5.47e-77	259	97	CP022722.1 [Clostridium] innocuum strain I46 genome	1993536	1992238
+q8eii1	2.a.25	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q8eii1|2.a.25.1.4	38.532	5.47e-77	259	97	CP022722.1 [Clostridium] innocuum strain I46 genome	1993536	1992238
+q8fa78	2.a.56	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|q8fa78|2.a.56.1.8	28.205	5.20e-26	104	99	CP022722.1 [Clostridium] innocuum strain I46 genome	975801	974992
+q8fa78	2.a.56	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|q8fa78|2.a.56.1.8	28.205	5.20e-26	104	99	CP022722.1 [Clostridium] innocuum strain I46 genome	975801	974992
+q8fa78	2.a.56	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|q8fa78|2.a.56.1.8	28.205	5.20e-26	104	99	CP022722.1 [Clostridium] innocuum strain I46 genome	975801	974992
+q8fa78	2.a.56	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|q8fa78|2.a.56.1.8	28.205	5.20e-26	104	99	CP022722.1 [Clostridium] innocuum strain I46 genome	975801	974992
+q8fc73	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q8fc73|4.a.2.1.9	63.366	1.07e-38	134	97	CP022722.1 [Clostridium] innocuum strain I46 genome	3291324	3291626
+q8k8k8	3.a.1	methionine	EX_cpd00060_e0,EX_cpd00017_e0,EX_cpd11576_e0	rxn05219,rxn08909,rxn11151	gnl|tc-db|q8k8k8|3.a.1.24.3	50.862	3.07e-111	353	98	CP022722.1 [Clostridium] innocuum strain I46 genome	1449958	1448933
+q8l3c4	4.a.3	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05226,rxn08612	gnl|tc-db|q8l3c4|4.a.3.2.5	38.255	5.41e-33	120	88	CP022722.1 [Clostridium] innocuum strain I46 genome	4257798	4257352
+q8nmd6	4.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05226,rxn08612	gnl|tc-db|q8nmd6|4.a.1.2.12	31.731	4.28e-74	258	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2999430	3001214
+q8nmd6	4.a.1	maltose	EX_cpd00179_e0	rxn05607,rxn08872	gnl|tc-db|q8nmd6|4.a.1.2.12	31.731	4.28e-74	258	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2999430	3001214
+q8nsn2	3.a.1	methionine	EX_cpd00060_e0,EX_cpd00017_e0,EX_cpd11576_e0	rxn05219,rxn08909,rxn11151	gnl|tc-db|q8nsn2|3.a.1.24.4	43.865	2.21e-84	276	90	CP022722.1 [Clostridium] innocuum strain I46 genome	1449949	1448975
+q8q040	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|q8q040|3.a.1.12.11	29.900	7.56e-38	140	98	CP022722.1 [Clostridium] innocuum strain I46 genome	558115	558999
+q8q040	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|q8q040|3.a.1.12.11	29.900	7.56e-38	140	98	CP022722.1 [Clostridium] innocuum strain I46 genome	558115	558999
+q8q041	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|q8q041|3.a.1.12.11	27.397	7.39e-17	80.1	77	CP022722.1 [Clostridium] innocuum strain I46 genome	4201512	4200661
+q8q041	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|q8q041|3.a.1.12.11	27.397	7.39e-17	80.1	77	CP022722.1 [Clostridium] innocuum strain I46 genome	4201512	4200661
+q8q042	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|q8q042|3.a.1.12.11	37.981	3.18e-31	117	95	CP022722.1 [Clostridium] innocuum strain I46 genome	557434	558051
+q8q042	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|q8q042|3.a.1.12.11	37.981	3.18e-31	117	95	CP022722.1 [Clostridium] innocuum strain I46 genome	557434	558051
+q8q043	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|q8q043|3.a.1.12.11	39.500	2.06e-35	129	99	CP022722.1 [Clostridium] innocuum strain I46 genome	557467	558066
+q8q043	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|q8q043|3.a.1.12.11	39.500	2.06e-35	129	99	CP022722.1 [Clostridium] innocuum strain I46 genome	557467	558066
+q8r9l9	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q8r9l9|3.a.1.33.1	29.536	3.77e-20	86.7	90	CP022722.1 [Clostridium] innocuum strain I46 genome	2352243	2351533
+q8reb9	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q8reb9|3.a.3.32.4	29.020	1.23e-81	282	95	CP022722.1 [Clostridium] innocuum strain I46 genome	50186	52408
+q8rhm5	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q8rhm5|2.a.22.5.2	31.429	2.80e-49	178	95	CP022722.1 [Clostridium] innocuum strain I46 genome	2158141	2157101
+q8rhm5	2.a.22	tyrosine	EX_cpd00069_e0	rxn05301,rxn09338,rxn09708,rxn09831,rxn12459,rxn13411,rxn13412,rxn34413	gnl|tc-db|q8rhm5|2.a.22.5.2	31.429	2.80e-49	178	95	CP022722.1 [Clostridium] innocuum strain I46 genome	2158141	2157101
+q8thy0	3.a.3	potassium		rxn08762,rxn10168,rxn10558,rxn10578,rxn13842,rxn18910	gnl|tc-db|q8thy0|3.a.3.1.10	34.778	1.52e-142	467	96	CP022722.1 [Clostridium] innocuum strain I46 genome	1623948	1621435
+q8thy0	3.a.3	sodium		rxn05622,rxn34391,rxn34513	gnl|tc-db|q8thy0|3.a.3.1.10	34.778	1.52e-142	467	96	CP022722.1 [Clostridium] innocuum strain I46 genome	1623948	1621435
+q8tjz4	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q8tjz4|3.a.3.6.16	34.888	1.52e-88	300	79	CP022722.1 [Clostridium] innocuum strain I46 genome	50813	52402
+q8u1g8	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05497	gnl|tc-db|q8u1g8|2.a.40.2.3	32.110	1.78e-40	152	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2690388	2689123
+q8u1g8	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn05471	gnl|tc-db|q8u1g8|2.a.40.2.3	32.110	1.78e-40	152	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2690388	2689123
+q8u1g8	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn29869	gnl|tc-db|q8u1g8|2.a.40.2.3	32.110	1.78e-40	152	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2690388	2689123
+q8u1g8	2.a.40	purine	EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0,EX_cpd00018_e0,EX_cpd00126_e0,EX_cpd00114_e0,EX_cpd00497_e0	rxn38756	gnl|tc-db|q8u1g8|2.a.40.2.3	32.110	1.78e-40	152	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2690388	2689123
+q8u4k4	3.a.1	sulfate	EX_cpd00681_e0	rxn05153,rxn09276,rxn29239	gnl|tc-db|q8u4k4|3.a.1.6.5	21.596	2.86e-07	48.5	82	CP022722.1 [Clostridium] innocuum strain I46 genome	261047	261667
+q8u4k4	3.a.1	thiosulfate		rxn05176,rxn09329,rxn34412,rxn34536	gnl|tc-db|q8u4k4|3.a.1.6.5	21.596	2.86e-07	48.5	82	CP022722.1 [Clostridium] innocuum strain I46 genome	261047	261667
+q8u4s5	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|q8u4s5|3.a.1.12.9	37.802	6.27e-68	233	80	CP022722.1 [Clostridium] innocuum strain I46 genome	556355	557437
+q8u4s5	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|q8u4s5|3.a.1.12.9	37.802	6.27e-68	233	80	CP022722.1 [Clostridium] innocuum strain I46 genome	556355	557437
+q8y5w0	2.a.87,3.a.1	riboflavin		rxn05224,rxn05645,rxn09715,rxn33018,rxn34403,rxn38697	gnl|tc-db|q8y5w0|3.a.1.25.8	34.146	1.94e-24	97.8	97	CP022722.1 [Clostridium] innocuum strain I46 genome	246792	246184
+q8yrv8	3.a.1	nitrate		rxn05171	gnl|tc-db|q8yrv8|3.a.1.16.4	43.478	1.37e-50	175	92	CP022722.1 [Clostridium] innocuum strain I46 genome	1711520	1710861
+q8ysa2	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|q8ysa2|3.a.1.3.17	28.998	4.36e-53	191	92	CP022722.1 [Clostridium] innocuum strain I46 genome	3871393	3872706
+q8yzw3	2.a.23	glutamate	EX_cpd00023_e0	rxn05297,rxn05298,rxn08631,rxn08632,rxn09751,rxn09813,rxn12370,rxn13303,rxn29048,rxn29068,rxn34103,rxn34377,rxn34378,rxn34501,rxn10917,rxn11235,rxn13304,rxn29088,rxn31191	gnl|tc-db|q8yzw3|2.a.23.1.12	25.990	1.01e-12	67.8	90	CP022722.1 [Clostridium] innocuum strain I46 genome	2350186	2349056
+q8yzw3	2.a.23	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q8yzw3|2.a.23.1.12	25.990	1.01e-12	67.8	90	CP022722.1 [Clostridium] innocuum strain I46 genome	2350186	2349056
+q8zks0	2.a.56	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|q8zks0|2.a.56.1.5	38.389	5.61e-51	182	95	CP022722.1 [Clostridium] innocuum strain I46 genome	977275	976016
+q8zks0	2.a.56	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|q8zks0|2.a.56.1.5	38.389	5.61e-51	182	95	CP022722.1 [Clostridium] innocuum strain I46 genome	977275	976016
+q8zks0	2.a.56	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|q8zks0|2.a.56.1.5	38.389	5.61e-51	182	95	CP022722.1 [Clostridium] innocuum strain I46 genome	977275	976016
+q8zks0	2.a.56	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|q8zks0|2.a.56.1.5	38.389	5.61e-51	182	95	CP022722.1 [Clostridium] innocuum strain I46 genome	977275	976016
+q8zpk4	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|q8zpk4|3.a.1.12.14	41.667	6.95e-95	308	96	CP022722.1 [Clostridium] innocuum strain I46 genome	556307	557404
+q8zpk4	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|q8zpk4|3.a.1.12.14	41.667	6.95e-95	308	96	CP022722.1 [Clostridium] innocuum strain I46 genome	556307	557404
+q8zpk4	3.a.1	proline	EX_cpd00129_e0	rxn05165,rxn09187	gnl|tc-db|q8zpk4|3.a.1.12.14	41.667	6.95e-95	308	96	CP022722.1 [Clostridium] innocuum strain I46 genome	556307	557404
+q92ll4	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q92ll4|3.a.1.15.9	26.667	6.81e-24	99.8	88	CP022722.1 [Clostridium] innocuum strain I46 genome	1644808	1645554
+q92ll4	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q92ll4|3.a.1.15.9	26.667	6.81e-24	99.8	88	CP022722.1 [Clostridium] innocuum strain I46 genome	1644808	1645554
+q92n35	3.a.1	betaine	EX_cpd08306_e0	rxn05181,rxn08637,rxn11216	gnl|tc-db|q92n35|3.a.1.12.7	27.891	1.04e-23	100	81	CP022722.1 [Clostridium] innocuum strain I46 genome	2084409	2083564
+q92n35	3.a.1	glycine	EX_cpd00033_e0	rxn10862,rxn12799,rxn34108,rxn34109	gnl|tc-db|q92n35|3.a.1.12.7	27.891	1.04e-23	100	81	CP022722.1 [Clostridium] innocuum strain I46 genome	2084409	2083564
+q97jb8	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q97jb8|3.a.1.23.2	40.316	5.50e-51	177	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2353084	2352338
+q97pg9	3.a.1	manganese		rxn05149	gnl|tc-db|q97pg9|3.a.1.15.14	35.021	2.46e-27	107	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1005486	1004782
+q97q42	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|q97q42|3.a.1.11.7	57.929	1.72e-117	373	84	CP022722.1 [Clostridium] innocuum strain I46 genome	258509	259429
+q97q42	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|q97q42|3.a.1.11.7	57.929	1.72e-117	373	84	CP022722.1 [Clostridium] innocuum strain I46 genome	258509	259429
+q97q43	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|q97q43|3.a.1.11.7	36.462	1.27e-48	170	100	CP022722.1 [Clostridium] innocuum strain I46 genome	260055	260876
+q97q43	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|q97q43|3.a.1.11.7	36.462	1.27e-48	170	100	CP022722.1 [Clostridium] innocuum strain I46 genome	260055	260876
+q97q44	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|q97q44|3.a.1.11.7	32.500	7.29e-45	158	93	CP022722.1 [Clostridium] innocuum strain I46 genome	260990	261706
+q97q44	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|q97q44|3.a.1.11.7	32.500	7.29e-45	158	93	CP022722.1 [Clostridium] innocuum strain I46 genome	260990	261706
+q97q45	3.a.1	putrescine		rxn05163,rxn09213,rxn11263	gnl|tc-db|q97q45|3.a.1.11.7	36.957	1.33e-55	193	89	CP022722.1 [Clostridium] innocuum strain I46 genome	261752	262705
+q97q45	3.a.1	spermidine		rxn05175,rxn09263,rxn11262	gnl|tc-db|q97q45|3.a.1.11.7	36.957	1.33e-55	193	89	CP022722.1 [Clostridium] innocuum strain I46 genome	261752	262705
+q97uf2	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn05173,rxn08139,rxn11063	gnl|tc-db|q97uf2|3.a.1.1.14	39.175	1.69e-57	199	77	CP022722.1 [Clostridium] innocuum strain I46 genome	4379522	4380370
+q97uf2	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn10822	gnl|tc-db|q97uf2|3.a.1.1.14	39.175	1.69e-57	199	77	CP022722.1 [Clostridium] innocuum strain I46 genome	4379522	4380370
+q97uf3	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn05173,rxn08139,rxn11063	gnl|tc-db|q97uf3|3.a.1.1.14	28.627	7.90e-23	95.9	86	CP022722.1 [Clostridium] innocuum strain I46 genome	4378745	4379482
+q97uf3	3.a.1	arabinose	EX_cpd00224_e0,EX_cpd00185_e0	rxn10822	gnl|tc-db|q97uf3|3.a.1.1.14	28.627	7.90e-23	95.9	86	CP022722.1 [Clostridium] innocuum strain I46 genome	4378745	4379482
+q97ug3	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q97ug3|3.a.1.5.8	23.701	1.82e-06	47.0	90	CP022722.1 [Clostridium] innocuum strain I46 genome	2086374	2085496
+q97ug4	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q97ug4|3.a.1.5.8	25.078	2.49e-22	95.5	98	CP022722.1 [Clostridium] innocuum strain I46 genome	2482516	2481644
+q97ug5	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q97ug5|3.a.1.5.8	37.340	1.74e-127	412	99	CP022722.1 [Clostridium] innocuum strain I46 genome	2085522	2083717
+q97uu7	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|q97uu7|3.a.3.5.13	29.568	1.50e-70	248	96	CP022722.1 [Clostridium] innocuum strain I46 genome	50150	52279
+q97uy8	3.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05147,rxn08606	gnl|tc-db|q97uy8|3.a.1.1.13	37.671	3.12e-56	195	89	CP022722.1 [Clostridium] innocuum strain I46 genome	4318434	4319291
+q97uy9	3.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05147,rxn08606	gnl|tc-db|q97uy9|3.a.1.1.13	29.371	9.79e-25	101	96	CP022722.1 [Clostridium] innocuum strain I46 genome	4378676	4379488
+q97uz0	3.a.1	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05147,rxn08606	gnl|tc-db|q97uz0|3.a.1.1.13	24.670	4.14e-11	60.8	78	CP022722.1 [Clostridium] innocuum strain I46 genome	4377796	4378476
+q99ya3	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|q99ya3|3.a.1.14.10	30.389	7.03e-23	97.4	84	CP022722.1 [Clostridium] innocuum strain I46 genome	1006348	1005500
+q9a197	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|q9a197|3.a.1.14.14	46.512	1.67e-77	252	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1005489	1004716
+q9a198	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|q9a198|3.a.1.14.14	24.901	1.11e-11	63.2	77	CP022722.1 [Clostridium] innocuum strain I46 genome	1008283	1007549
+q9a199	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|q9a199|3.a.1.14.14	36.194	3.48e-18	82.4	87	CP022722.1 [Clostridium] innocuum strain I46 genome	1006423	1005632
+q9ces4	3.a.1	glutamine	EX_cpd00053_e0	rxn05155,rxn08624,rxn11101	gnl|tc-db|q9ces4|3.a.1.3.25	53.333	2.93e-76	248	100	CP022722.1 [Clostridium] innocuum strain I46 genome	442343	443062
+q9cf78	2.a.40	uracil		rxn05197,rxn09365,rxn12368	gnl|tc-db|q9cf78|2.a.40.1.2	45.012	1.81e-89	294	99	CP022722.1 [Clostridium] innocuum strain I46 genome	1621247	1619991
+q9cie9	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|q9cie9|4.a.3.2.4	39.326	1.52e-09	51.2	78	CP022722.1 [Clostridium] innocuum strain I46 genome	2763930	2764196
+q9cif0	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|q9cif0|4.a.3.2.4	48.039	1.17e-18	77.0	100	CP022722.1 [Clostridium] innocuum strain I46 genome	4132772	4133056
+q9cj32	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|q9cj32|4.a.3.2.4	43.960	4.18e-111	359	99	CP022722.1 [Clostridium] innocuum strain I46 genome	4133158	4134573
+q9hq19	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9hq19|3.a.1.14.9	34.237	1.25e-25	106	78	CP022722.1 [Clostridium] innocuum strain I46 genome	1006375	1005494
+q9hq19	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9hq19|3.a.1.14.9	34.237	1.25e-25	106	78	CP022722.1 [Clostridium] innocuum strain I46 genome	1006375	1005494
+q9ht69	3.a.1	d-methionine		rxn05183,rxn08910	gnl|tc-db|q9ht69|3.a.1.24.5	47.222	4.24e-30	114	80	CP022722.1 [Clostridium] innocuum strain I46 genome	1448873	1448334
+q9ht70	3.a.1	methionine	EX_cpd00060_e0,EX_cpd00017_e0,EX_cpd11576_e0	rxn05219,rxn08909,rxn11151	gnl|tc-db|q9ht70|3.a.1.24.5	47.536	6.42e-95	306	100	CP022722.1 [Clostridium] innocuum strain I46 genome	1449952	1448927
+q9hu29	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|q9hu29|3.a.1.3.23	36.813	1.86e-26	104	78	CP022722.1 [Clostridium] innocuum strain I46 genome	3872200	3872706
+q9hu29	3.a.1	histidine	EX_cpd00119_e0	rxn05164,rxn08718	gnl|tc-db|q9hu29|3.a.1.3.23	36.813	1.86e-26	104	78	CP022722.1 [Clostridium] innocuum strain I46 genome	3872200	3872706
+q9hu29	3.a.1	lysine	EX_cpd00039_e0	rxn05151,rxn08853	gnl|tc-db|q9hu29|3.a.1.3.23	36.813	1.86e-26	104	78	CP022722.1 [Clostridium] innocuum strain I46 genome	3872200	3872706
+q9hu29	3.a.1	ornithine	EX_cpd00064_e0	rxn05156,rxn09046,rxn27636	gnl|tc-db|q9hu29|3.a.1.3.23	36.813	1.86e-26	104	78	CP022722.1 [Clostridium] innocuum strain I46 genome	3872200	3872706
+q9hu31	3.a.1	arginine	EX_cpd00051_e0	rxn05154,rxn08151,rxn11236	gnl|tc-db|q9hu31|3.a.1.3.23	30.088	4.95e-22	92.4	88	CP022722.1 [Clostridium] innocuum strain I46 genome	3871399	3872067
+q9hu31	3.a.1	histidine	EX_cpd00119_e0	rxn05164,rxn08718	gnl|tc-db|q9hu31|3.a.1.3.23	30.088	4.95e-22	92.4	88	CP022722.1 [Clostridium] innocuum strain I46 genome	3871399	3872067
+q9hu31	3.a.1	lysine	EX_cpd00039_e0	rxn05151,rxn08853	gnl|tc-db|q9hu31|3.a.1.3.23	30.088	4.95e-22	92.4	88	CP022722.1 [Clostridium] innocuum strain I46 genome	3871399	3872067
+q9hu31	3.a.1	ornithine	EX_cpd00064_e0	rxn05156,rxn09046,rxn27636	gnl|tc-db|q9hu31|3.a.1.3.23	30.088	4.95e-22	92.4	88	CP022722.1 [Clostridium] innocuum strain I46 genome	3871399	3872067
+q9hy57	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q9hy57|4.a.2.1.17	34.161	1.09e-48	180	76	CP022722.1 [Clostridium] innocuum strain I46 genome	3445915	3447360
+q9klq7	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9klq7|3.a.1.20.2	24.727	4.46e-21	92.0	80	CP022722.1 [Clostridium] innocuum strain I46 genome	1712512	1711700
+q9klq7	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9klq7|3.a.1.20.2	24.727	4.46e-21	92.0	80	CP022722.1 [Clostridium] innocuum strain I46 genome	1712512	1711700
+q9kr64	2.a.56	c4-dicarboxylate		rxn05561,rxn08542,rxn08543,rxn10152,rxn10158,rxn10901,rxn12423	gnl|tc-db|q9kr64|2.a.56.1.6	26.007	2.62e-30	119	84	CP022722.1 [Clostridium] innocuum strain I46 genome	975846	975028
+q9kr64	2.a.56	c4-dicarboxylate		rxn05654,rxn09269,rxn09270,rxn10154,rxn10157,rxn12455,rxn39059	gnl|tc-db|q9kr64|2.a.56.1.6	26.007	2.62e-30	119	84	CP022722.1 [Clostridium] innocuum strain I46 genome	975846	975028
+q9kr64	2.a.56	c4-dicarboxylate		rxn05217,rxn08169,rxn09781,rxn09825,rxn10151,rxn10155,rxn12439,rxn13233,rxn29029,rxn34357,rxn34358,rxn34456,rxn34493,rxn39046,rxn08165	gnl|tc-db|q9kr64|2.a.56.1.6	26.007	2.62e-30	119	84	CP022722.1 [Clostridium] innocuum strain I46 genome	975846	975028
+q9kr64	2.a.56	c4-dicarboxylate		rxn05207,rxn05605,rxn08865,rxn08866,rxn10153,rxn10156,rxn12446,rxn34241,rxn34242	gnl|tc-db|q9kr64|2.a.56.1.6	26.007	2.62e-30	119	84	CP022722.1 [Clostridium] innocuum strain I46 genome	975846	975028
+q9ksh3	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|q9ksh3|4.a.3.2.6	35.000	2.23e-16	70.5	98	CP022722.1 [Clostridium] innocuum strain I46 genome	3282698	3282997
+q9ksh4	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|q9ksh4|4.a.3.2.6	33.803	2.16e-67	231	97	CP022722.1 [Clostridium] innocuum strain I46 genome	4239787	4241055
+q9ksh5	4.a.3	cellobiose	EX_cpd00158_e0	rxn05518,rxn30252	gnl|tc-db|q9ksh5|4.a.3.2.6	52.475	2.74e-25	95.5	100	CP022722.1 [Clostridium] innocuum strain I46 genome	4132763	4133059
+q9kz08	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q9kz08|3.a.1.1.44	24.820	5.24e-27	108	91	CP022722.1 [Clostridium] innocuum strain I46 genome	4378679	4379506
+q9lf79	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q9lf79|3.a.3.2.10	29.504	2.28e-82	293	75	CP022722.1 [Clostridium] innocuum strain I46 genome	1623861	1621612
+q9lu41	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q9lu41|3.a.3.2.14	29.634	8.60e-90	315	84	CP022722.1 [Clostridium] innocuum strain I46 genome	1623984	1621456
+q9ly77	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q9ly77|3.a.3.2.42	31.071	4.27e-101	348	85	CP022722.1 [Clostridium] innocuum strain I46 genome	1827996	1825651
+q9m3h5	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q9m3h5|3.a.3.6.6	27.457	5.93e-57	210	78	CP022722.1 [Clostridium] innocuum strain I46 genome	48260	50023
+q9m3h5	3.a.3	zinc		rxn05150,rxn09388,rxn09392,rxn13918	gnl|tc-db|q9m3h5|3.a.3.6.6	27.457	5.93e-57	210	78	CP022722.1 [Clostridium] innocuum strain I46 genome	48260	50023
+q9rk09	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9rk09|3.a.1.14.13	33.808	2.03e-13	68.9	83	CP022722.1 [Clostridium] innocuum strain I46 genome	1006348	1005506
+q9rk09	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9rk09|3.a.1.14.13	33.808	2.03e-13	68.9	83	CP022722.1 [Clostridium] innocuum strain I46 genome	1006348	1005506
+q9rk10	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9rk10|3.a.1.14.13	31.361	1.39e-18	85.1	90	CP022722.1 [Clostridium] innocuum strain I46 genome	1006489	1005494
+q9rk10	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9rk10|3.a.1.14.13	31.361	1.39e-18	85.1	90	CP022722.1 [Clostridium] innocuum strain I46 genome	1006489	1005494
+q9rk11	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9rk11|3.a.1.14.13	42.578	2.32e-49	172	96	CP022722.1 [Clostridium] innocuum strain I46 genome	1005495	1004728
+q9rk11	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9rk11|3.a.1.14.13	42.578	2.32e-49	172	96	CP022722.1 [Clostridium] innocuum strain I46 genome	1005495	1004728
+q9rk12	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9rk12|3.a.1.14.13	23.221	2.65e-04	40.0	75	CP022722.1 [Clostridium] innocuum strain I46 genome	1008313	1007576
+q9rk12	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9rk12|3.a.1.14.13	23.221	2.65e-04	40.0	75	CP022722.1 [Clostridium] innocuum strain I46 genome	1008313	1007576
+q9rmf5	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q9rmf5|4.a.2.1.16	28.015	3.77e-32	131	76	CP022722.1 [Clostridium] innocuum strain I46 genome	3445924	3447381
+q9rzp7	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|q9rzp7|4.a.2.1.18	37.243	2.06e-55	201	78	CP022722.1 [Clostridium] innocuum strain I46 genome	3445918	3447333
+q9s213	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9s213|3.a.1.14.22	30.233	2.22e-21	93.2	85	CP022722.1 [Clostridium] innocuum strain I46 genome	1007400	1006507
+q9s213	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9s213|3.a.1.14.22	30.233	2.22e-21	93.2	85	CP022722.1 [Clostridium] innocuum strain I46 genome	1007400	1006507
+q9s215	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9s215|3.a.1.14.22	43.077	3.57e-74	244	89	CP022722.1 [Clostridium] innocuum strain I46 genome	1005483	1004704
+q9s215	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9s215|3.a.1.14.22	43.077	3.57e-74	244	89	CP022722.1 [Clostridium] innocuum strain I46 genome	1005483	1004704
+q9s409	3.a.1	cobalt		rxn05166,rxn08239	gnl|tc-db|q9s409|3.a.1.22.1	27.778	4.10e-21	88.2	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2353923	2353333
+q9s5y1	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q9s5y1|3.a.1.1.22	25.000	6.60e-08	52.0	85	CP022722.1 [Clostridium] innocuum strain I46 genome	4376549	4377547
+q9s7j8	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|q9s7j8|3.a.3.5.32	37.060	6.70e-151	494	91	CP022722.1 [Clostridium] innocuum strain I46 genome	50111	52345
+q9sy55	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q9sy55|3.a.3.2.19	34.289	5.36e-144	474	98	CP022722.1 [Clostridium] innocuum strain I46 genome	3809537	3812134
+q9szc9	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|q9szc9|3.a.3.5.11	34.155	2.21e-110	374	83	CP022722.1 [Clostridium] innocuum strain I46 genome	4344873	4347152
+q9u5a9	2.a.22	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|q9u5a9|2.a.22.2.4	25.506	1.59e-25	110	75	CP022722.1 [Clostridium] innocuum strain I46 genome	2947013	2948347
+q9u5a9	2.a.22	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q9u5a9|2.a.22.2.4	25.506	1.59e-25	110	75	CP022722.1 [Clostridium] innocuum strain I46 genome	2947013	2948347
+q9uux9	3.a.3	calcium		rxn05513,rxn10447,rxn27351,rxn27352,rxn27353,rxn27614,rxn27615,rxn29073,rxn29074,rxn35678,rxn37862	gnl|tc-db|q9uux9|3.a.3.2.6	33.824	1.04e-135	451	94	CP022722.1 [Clostridium] innocuum strain I46 genome	1623990	1621447
+q9uvl6	3.a.3	copper		rxn05528,rxn08271,rxn10481,rxn27349,rxn29072,rxn38723,rxn39047	gnl|tc-db|q9uvl6|3.a.3.5.9	28.977	2.45e-99	347	82	CP022722.1 [Clostridium] innocuum strain I46 genome	4344450	4346996
+q9wtw7	2.a.40	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|q9wtw7|2.a.40.6.1	23.992	1.36e-11	65.1	77	CP022722.1 [Clostridium] innocuum strain I46 genome	1621271	1620087
+q9wyq2	3.a.1	glycerol-3-phosphate		rxn05158,rxn08641	gnl|tc-db|q9wyq2|3.a.1.1.38	47.671	2.20e-96	311	100	CP022722.1 [Clostridium] innocuum strain I46 genome	4318446	4319522
+q9x051	3.a.1	ribose	EX_cpd01981_e0	rxn05160,rxn05644,rxn09227	gnl|tc-db|q9x051|3.a.1.2.19	35.318	1.10e-80	272	93	CP022722.1 [Clostridium] innocuum strain I46 genome	1079225	1077777
+q9x0h4	2.a.38	potassium		rxn05595,rxn05596,rxn08769,rxn08770,rxn10820,rxn38724	gnl|tc-db|q9x0h4|2.a.38.1.4	40.041	9.32e-81	271	96	CP022722.1 [Clostridium] innocuum strain I46 genome	1551166	1549736
+q9x0t1	3.a.1	maltose	EX_cpd00179_e0	rxn05170,rxn08867,rxn09673	gnl|tc-db|q9x0t1|3.a.1.1.22	23.988	1.20e-08	54.3	85	CP022722.1 [Clostridium] innocuum strain I46 genome	4376555	4377547
+q9x664	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|q9x664|3.a.1.14.7	37.319	6.30e-29	115	77	CP022722.1 [Clostridium] innocuum strain I46 genome	1006315	1005497
+q9x665	3.a.1	ferrichrome		rxn05188,rxn08493	gnl|tc-db|q9x665|3.a.1.14.7	48.387	2.06e-80	261	100	CP022722.1 [Clostridium] innocuum strain I46 genome	1005459	1004716
+q9x6g0	3.a.3	cadmium		rxn05516,rxn08195,rxn10453,rxn18898	gnl|tc-db|q9x6g0|3.a.3.3.3	25.873	3.18e-47	179	91	CP022722.1 [Clostridium] innocuum strain I46 genome	1623939	1621654
+q9x6g0	3.a.3	manganese		rxn05149	gnl|tc-db|q9x6g0|3.a.3.3.3	25.873	3.18e-47	179	91	CP022722.1 [Clostridium] innocuum strain I46 genome	1623939	1621654
+q9xcs1	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9xcs1|3.a.1.15.7	30.290	5.27e-30	116	96	CP022722.1 [Clostridium] innocuum strain I46 genome	1005453	1004746
+q9xcs1	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9xcs1|3.a.1.15.7	30.290	5.27e-30	116	96	CP022722.1 [Clostridium] innocuum strain I46 genome	1005453	1004746
+q9z4r9	3.a.1	iron	EX_cpd10516_e0	rxn05555,rxn08472	gnl|tc-db|q9z4r9|3.a.1.20.1	22.022	2.62e-10	58.9	81	CP022722.1 [Clostridium] innocuum strain I46 genome	1712506	1711700
+q9z4r9	3.a.1	iron	EX_cpd10516_e0	rxn05195,rxn08477,rxn34370	gnl|tc-db|q9z4r9|3.a.1.20.1	22.022	2.62e-10	58.9	81	CP022722.1 [Clostridium] innocuum strain I46 genome	1712506	1711700
+r4jtf7	2.a.56	dctp	EX_cpd00356_e0	rxn29860	gnl|tc-db|r4jtf7|2.a.56.1.9	28.485	4.35e-45	162	96	CP022722.1 [Clostridium] innocuum strain I46 genome	975993	975010
+s7vjd6	3.a.1	folate		rxn90019	gnl|tc-db|s7vjd6|3.a.1.26.10	43.056	1.24e-21	88.6	79	CP022722.1 [Clostridium] innocuum strain I46 genome	2667216	2667635
+shh76803.1	2.a.129	glucose	EX_cpd00027_e0,EX_cpd00079_e0	rxn05573,rxn08616,rxn09679,rxn09875,rxn08617	gnl|tc-db|shh76803.1|2.a.129.1.8	28.125	3.79e-10	54.3	86	CP022722.1 [Clostridium] innocuum strain I46 genome	3717883	3718254
+t5hn74	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|t5hn74|4.a.2.1.23	33.466	5.97e-68	233	99	CP022722.1 [Clostridium] innocuum strain I46 genome	3445924	3447381
+t5hnp5	4.a.2	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|t5hnp5|4.a.2.1.23	35.766	3.22e-26	100	100	CP022722.1 [Clostridium] innocuum strain I46 genome	3447406	3447813
+u5mfa1	4.a.3	lactose	EX_cpd00208_e0	rxn10865	gnl|tc-db|u5mfa1|4.a.3.2.9	33.047	2.23e-55	196	99	CP022722.1 [Clostridium] innocuum strain I46 genome	4133203	4134597
+u5mie1	4.a.3	lactose	EX_cpd00208_e0	rxn10865	gnl|tc-db|u5mie1|4.a.3.2.9	48.000	7.40e-23	88.6	100	CP022722.1 [Clostridium] innocuum strain I46 genome	4132763	4133056
+u5mlj3	4.a.3	lactose	EX_cpd00208_e0	rxn10865	gnl|tc-db|u5mlj3|4.a.3.2.9	34.343	8.29e-16	68.9	98	CP022722.1 [Clostridium] innocuum strain I46 genome	3282701	3282997
+v7ihl6	4.a.6	fructose	EX_cpd00082_e0	rxn05560,rxn08535,rxn08536,rxn10175	gnl|tc-db|v7ihl6|4.a.6.1.19	39.286	2.21e-34	123	100	CP022722.1 [Clostridium] innocuum strain I46 genome	3653332	3653748
+v7rgm6	4.a.6	mannose	EX_cpd00138_e0,EX_cpd00235_e0	rxn05610,rxn08885	gnl|tc-db|v7rgm6|4.a.6.1.19	51.331	8.13e-88	283	100	CP022722.1 [Clostridium] innocuum strain I46 genome	457328	458116
+w0wfc6	2.a.25	alanine	EX_cpd00035_e0	rxn05215,rxn05496,rxn08101,rxn08102,rxn34464,rxn34465,rxn34485,rxn34486	gnl|tc-db|w0wfc6|2.a.25.1.9	40.667	1.68e-84	281	100	CP022722.1 [Clostridium] innocuum strain I46 genome	1993560	1992220
+w0wfc6	2.a.25	sodium		rxn10576,rxn13753,rxn25832,rxn27363,rxn30509,rxn37569,rxn37570,rxn37571	gnl|tc-db|w0wfc6|2.a.25.1.9	40.667	1.68e-84	281	100	CP022722.1 [Clostridium] innocuum strain I46 genome	1993560	1992220
+wp_022543180.1	3.a.1	glycerol-3-phosphate		rxn05158,rxn08641	gnl|tc-db|wp_022543180.1|3.a.1.1.53	48.677	1.96e-110	352	99	CP022722.1 [Clostridium] innocuum strain I46 genome	4318434	4319510
+wp_089030044.1	2.a.107	manganese		rxn05618,rxn08946,rxn08951,rxn05149,rxn08947	gnl|tc-db|wp_089030044.1|2.a.107.1.5	30.928	2.11e-14	67.8	99	CP022722.1 [Clostridium] innocuum strain I46 genome	3311492	3310911
+wp_100324686.1	2.a.107	manganese		rxn05618,rxn08946,rxn08951,rxn05149,rxn08947	gnl|tc-db|wp_100324686.1|2.a.107.1.4	28.070	1.24e-09	53.9	90	CP022722.1 [Clostridium] innocuum strain I46 genome	3311423	3310911
+o66515|p54146|p69681	alternative	ammonia	cpd00013[e0]	rxn05466,rxn08986,rxn08987,rxn09736,rxn09835,rxn11158,rxn13364,rxn29187,rxn29241,rxn29242	gnl|tc-db|o66515|1.a.11.1.5	33.505	9.80e-47	170	88	CP022722.1 [Clostridium] innocuum strain I46 genome	1122367	1121219
+d4guq1	alternative	arabitol	cpd00417[e0]	rxn05483,rxn12623,rxn29772,rxn38747	gnl|tc-db|d4guq1|4.a.5.1.5	35.052	1.54e-15	67.8	100	CP022722.1 [Clostridium] innocuum strain I46 genome	2188579	2188292
+a2rka5|a2rka6|a2rka7	alternative	cytidine	cpd00367[e0]	rxn05198,rxn08289,rxn08290,rxn10857,rxn10997,rxn12413,rxn13338	gnl|tc-db|a2rka7|3.a.1.2.17	55.110	2.22e-179	556	98	CP022722.1 [Clostridium] innocuum strain I46 genome	1079225	1077729
+q46863	alternative	deoxycholate	cpd02733[e0]	rxn43262	gnl|tc-db|q46863|3.a.1.5.41	26.810	1.27e-41	158	92	CP022722.1 [Clostridium] innocuum strain I46 genome	2465211	2463712
+b8h228|b8h229	alternative	inositol	cpd00121[e0]	rxn05593,rxn08752,rxn08755,rxn29918	gnl|tc-db|b8h229|3.a.1.2.21	35.352	3.94e-82	276	98	CP022722.1 [Clostridium] innocuum strain I46 genome	1079219	1077714
+p0c186|q72gr8	alternative	nad	cpd00003[e0]	rxn13361,rxn24116,rxn30216,rxn33812,rxn33813,rxn33817,rxn33824,rxn33825	gnl|tc-db|p0c186|3.d.2.2.1	30.068	1.53e-15	75.9	76	CP022722.1 [Clostridium] innocuum strain I46 genome	1553836	1553039
+q72gr8	alternative	nadp	cpd00006[e0]	rxn13360,rxn33773,rxn33781,rxn33783,rxn33784,rxn33786,rxn33788	gnl|tc-db|q72gr8|3.d.2.2.2	28.671	1.27e-08	54.3	75	CP022722.1 [Clostridium] innocuum strain I46 genome	1553818	1553024
+q837u1	alternative	nicotinamide	cpd00133[e0]	rxn10867,rxn11334,rxn32452,rxn32456	gnl|tc-db|q837u1|4.b.1.1.6	23.394	1.58e-07	48.9	96	CP022722.1 [Clostridium] innocuum strain I46 genome	4174635	4174003
