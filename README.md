@@ -1,4 +1,4 @@
-<img src="https://github.com/thh32/MiMiC2/images/2024-08-08_Logo.png" alt="MiMiC2-logo" width="555" height="128"/>
+![alt text](https://github.com/thh32/MiMiC2/images/2024-08-08_Logo.png)
 
 ## Installation Instructions
 1. Clone the repository.  
