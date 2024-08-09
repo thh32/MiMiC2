@@ -79,7 +79,8 @@ Options list:
                         sample.
   --group {INPUT}       Name of the group of interest for SynCom creation.
   -p {INPUT}, --pfam {INPUT}
-                        Pfam file e.g. XXXXXXXX.
+                        Pfam file e.g. Pfam-A.clans.csv, provided for Pfam v32
+                        in `datasets/core/`
   -g {INPUT}, --genomes {INPUT}
                         Pfam vector file of genome collection.
   --models {INPUT}      Folder containing metabolic models for each genome.
