@@ -39,7 +39,7 @@ parser.add_argument('-m','--metadata', metavar='{INPUT}', required=False, help='
 parser.add_argument('--group', metavar='{INPUT}', required=False, help='Name of the group of interest for SynCom creation.')
 
 # Option for Function database
-parser.add_argument('-p','--pfam', metavar='{INPUT}',required=True, help='Pfam file e.g. XXXXXXXX.')
+parser.add_argument('-p','--pfam', metavar='{INPUT}',required=True, help='Pfam file e.g. Pfam-A.clans.csv, provided for Pfam v32 in `datasets/core/`')
 
 
 # Options for Genome database
