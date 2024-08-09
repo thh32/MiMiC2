@@ -1,5 +1,9 @@
 <img src="https://github.com/thh32/MiMiC2/blob/main/images/2024-08-08_Logo.png" alt="MiMiC2-logo" width="555" height="150"/>
 
+## What is MiMiC2?
+
+MiMiC2 is a bioinformatic pipeline for the selection of a few microbial genomes that functionally represent an entire ecosystem, termed a synthetic community (SynCom). 
+
 ## Installation Instructions
 1. Clone the repository.  
 ```bash
