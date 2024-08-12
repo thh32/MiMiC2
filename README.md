@@ -11,12 +11,12 @@ MiMiC2 consists of a few major steps, but before that can begin you must prepare
 
 1. You must use the `MiMiC2-BUTLER.py` script to convert a folder containing multiple genomes/samples Pfam annotations into a single Pfam profile file of the entire dataset.
   
-  `MiMiC2-BUTLER.py` needs a few bits of information to run, detailed under the [options list](#mimic2-butlet.py-options:) . We have provided example data to help you understand the process. The example of HiBC can be run using the code below:
+  `MiMiC2-BUTLER.py` needs a few bits of information to run, detailed under the [options list](#mimic2-butlet.py-options) . We have provided example data to help you understand the process. The example of HiBC can be run using the code below:
   ```
   MiMiC2-BUTLER.py -s datasets/isolate_collections/HiBC/Pfams/ -p datasets/core/Pfam-A.clans.tsv -t hmmscan -e .hmmer -o HiBC-0.6-profile.txt
   ```
 
-2. Once you have a Pfam profile of both your environment samples, and your genome collection, you can run MiMiC2. The options for running MiMiC2 are detailed in the [Options list](#mimic2.py-options:) section. But the general process can be seen in the workflow underneath this text:
+2. Once you have a Pfam profile of both your environment samples, and your genome collection, you can run MiMiC2. The options for running MiMiC2 are detailed in the [Options list](#mimic2.py-options) section. But the general process can be seen in the workflow underneath this text:
 
 <p align="center">
 <img src="https://github.com/thh32/MiMiC2/blob/main/images/2024-08-08_MiMiC2-workflow.png" alt="MiMiC2-workflow" width="350" height="750"/>
@@ -89,7 +89,7 @@ MiMiC2.py -g /PATH/TO/GENOME-COLLECTION -t /PATH/TO/TAXONOMIC-FILE --taxonomicle
 
 ## Options
   
-### MiMiC2-BUTLER.py options:
+### MiMiC2-BUTLER.py options
 ```
   -h, --help            show this help message and exit
   -s {INPUT}, --samples {INPUT}
@@ -108,7 +108,7 @@ MiMiC2.py -g /PATH/TO/GENOME-COLLECTION -t /PATH/TO/TAXONOMIC-FILE --taxonomicle
 ```
 
 
-### MiMiC2.py options:
+### MiMiC2.py options
 ```
   -h, --help            show this help message and exit
   -s {INPUT}, --samples {INPUT}
