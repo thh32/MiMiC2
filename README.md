@@ -1,4 +1,4 @@
-<img src="https://github.com/thh32/MiMiC2/blob/main/images/2024-08-08_Logo.png" alt="MiMiC2-logo" width="555" height="150"/>
+<img src="https://github.com/thh32/MiMiC2/blob/main/images/2024-08-08_Logo.png" alt="MiMiC2-logo" width="530" height="150"/>
 
 ## What is MiMiC2?
 
@@ -188,7 +188,7 @@ For each of these, the Pfam profiles and taxonomic assignments files are provide
 | [miBCII](https://www.sciencedirect.com/science/article/pii/S193131282200467X) | Mouse gut | Isolates |
 | [Hungate1000](https://www.nature.com/articles/nbt.4110) | Rumen | Isolates |
 | [GTDB r202](https://academic.oup.com/nar/article/50/D1/D785/6370255) | N/A | Genomes |
-| [Pasolli et al 2016](https://www.sciencedirect.com/science/article/pii/S0092867419300017) | Human microbiome | Genomes |
+| [Pasolli et al, 2019](https://www.sciencedirect.com/science/article/pii/S0092867419300017) | Human microbiome | Genomes |
 
 
 
