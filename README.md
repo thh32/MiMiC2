@@ -188,5 +188,6 @@ In the `Datasets/Environmental` folder we provide Pfam profiles for all samples 
 |Study | Environment | Condition|
 |----------------|-----------|------------|
 |[Shabat et al, 2016.](https://doi.org/10.1038/ismej.2016.62) | Bovine rumen | N/A|
-
+| [Lesker et al, 2020](https://doi.org/10.1016/j.celrep.2020.02.036) | Mouse gut | N/A|
+| [Lloyd-Price et al, 2019](https://doi.org/10.1038/s41586-019-1237-9) | Human gut | Ulcerative colitis Vs nonIBD |
 
