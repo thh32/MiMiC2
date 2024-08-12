@@ -47,8 +47,7 @@ Run the code below, which uses the HiBC collection, along with the IBDMDB sample
 ```bash
 MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC_profile.txt -t /PATH/TO/TAXONOMIC-FILE --taxonomiclevel s -s /PATH/TO/SAMPLES -m /PATH/TO/METADATA --group GROUP --models /PATH/TO/MODELS/FOLDER -c 10 -o Test-IBD-SynCom
 ```
-The  output can be found under `./Test-IBD-SynCom/`. In this folder, the "overview.txt" file contains global prevalence within the metagenomes, disease prevalence statistics, country prevalence statistics, and other demographic factor data (smokers vs. non-smokers, BMI, gender, age by decade of life, and antibiotic usage). The MAG overview data include a list of positive gut bacteria, occurrence of the protein(s) by taxonomic rank, and the cumulative relative abundance of species containing the protein(s) of interest within the two cohorts of the origin data (https://www.nature.com/articles/s41467-022-31502-1). 
-
+The  output can be found under `./Test-IBD-SynCom/`.
 
 
 ## Installation Instructions
@@ -184,4 +183,10 @@ For each of these, the Pfam profiles and taxonomic assignments files are provide
 
 ## Environmental Datasets
 In the `Datasets/Environmental` folder we provide Pfam profiles for all samples studied within the MiMiC2 paper. 
+
+
+|Study | Environment | Condition|
+|----------------|-----------|------------|
+|[Shabat et al, 2016.](https://doi.org/10.1038/ismej.2016.62) | Bovine rumen | N/A|
+
 
