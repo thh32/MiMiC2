@@ -4,6 +4,18 @@
 
 MiMiC2 is a bioinformatic pipeline for the selection of a few microbial genomes that functionally represent an entire ecosystem, termed a synthetic community (SynCom). 
 
+## Running MiMiC2
+MiMiC2 consists of a few major steps, but before that can begin you must prepare your data.
+
+### Data Preparation
+
+
+1. 
+<img src="https://github.com/thh32/MiMiC2/blob/main/images/2024-08-08_MiMiC2-workflow.png" alt="MiMiC2-workflow" width="555" height="150"/>
+
+
+
+
 ## Installation Instructions
 1. Clone the repository.  
 ```bash
@@ -21,8 +33,7 @@ mamba create --no-channel-priority -n mimic2 \
     -c bioconda -c conda-forge \
     "python=3.11" "numpy=1.24.3" "scipy=1.10.1" \
     "conda-forge::matplotlib-base" "seaborn=0.13.0" \
-    "pandas=1.5.3" "statsmodels=0.13.5" "tdqm" \
-    "openpyxl=3.0.10" "bioconda::diamond=2.1.8"
+    "pandas=1.5.3" "tdqm" 
 ```
 
 4. Activate the environment.  
