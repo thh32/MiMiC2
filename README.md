@@ -175,11 +175,22 @@ Basic usage:
 
 # Datasets Provided
 ## Genome Collection Datasets
-In the `datasets/isolate_collections/` folder we already provide preprocessed input files for a publicly available isolate collections from mice (miBCII), ruminants (Hungate1000), pigs (PiBAC), and the human gut (HiBC).  
+In the `datasets/isolate_collections/` folder we provide preprocessed input files for a publicly available isolate collections, allowing construction of any designed SynComs.  
 
 We have also processed two large collections which include MAGs of uncultured taxa in `datasets/mag_collections/`, preventing experimental use of these SynComs. These are provided to allow initial study of SynComs prior to isolation, allowing researchers to target the isolation towards microbes of particular interest.
 
 For each of these, the Pfam profiles and taxonomic assignments files are provided, allowing the direct use without further processing.
+
+|Collection name | Environment | Isolates or Genomes|
+|----------------|-----------|------------|
+| [PiBAC](https://www.nature.com/articles/s41467-020-19929-w) | Pig gut | Isolates |
+| [HiBC](https://www.biorxiv.org/content/10.1101/2024.06.20.599854v1) | Human gut | Isolates |
+| [miBCII](https://www.sciencedirect.com/science/article/pii/S193131282200467X) | Mouse gut | Isolates |
+| [Hungate1000](https://www.nature.com/articles/nbt.4110) | Rumen | Isolates |
+| [GTDB r202](https://academic.oup.com/nar/article/50/D1/D785/6370255) | N/A | Genomes |
+| [Pasolli et al 2016](https://www.sciencedirect.com/science/article/pii/S0092867419300017) | Human microbiome | Genomes |
+
+
 
 ## Environmental Datasets
 In the `Datasets/Environmental` folder we provide Pfam profiles for all samples studied within the MiMiC2 paper. 
