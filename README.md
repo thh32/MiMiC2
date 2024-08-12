@@ -11,7 +11,7 @@ MiMiC2 consists of a few major steps, but before that can begin you must prepare
 
 
 1. 
-<img src="https://github.com/thh32/MiMiC2/blob/main/images/2024-08-08_MiMiC2-workflow.png" alt="MiMiC2-workflow" width="555" height="150"/>
+<img src="https://github.com/thh32/MiMiC2/blob/main/images/2024-08-08_MiMiC2-workflow.png" alt="MiMiC2-workflow" width="250" height="750"/>
 
 
 
