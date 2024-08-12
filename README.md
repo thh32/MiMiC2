@@ -9,10 +9,13 @@ MiMiC2 consists of a few major steps, but before that can begin you must prepare
 
 ### Data Preparation
 
+1. You must use the `MiMiC2-BUTLER.py` script to convert a folder containing multiple genomes/samples Pfam annotations into a single Pfam profile file of the entire dataset.
 
-1. 
+2. Once you have a Pfam profile of both your environment samples, and your genome collection, you can run MiMiC2. The options for running MiMiC2 are detailed in the Options list below. But the general process can be seen in the workflow underneath this text:
+
+<p align="center">
 <img src="https://github.com/thh32/MiMiC2/blob/main/images/2024-08-08_MiMiC2-workflow.png" alt="MiMiC2-workflow" width="350" height="750"/>
-
+</p>
 
 
 
