@@ -181,14 +181,14 @@ We have also processed two large collections which include MAGs of uncultured ta
 
 For each of these, the Pfam profiles and taxonomic assignments files are provided, allowing the direct use without further processing.
 
-|Collection name | Environment | Isolates or Genomes|
-|----------------|-----------|------------|
-| [PiBAC](https://www.nature.com/articles/s41467-020-19929-w) | Pig gut | Isolates |
-| [HiBC](https://www.biorxiv.org/content/10.1101/2024.06.20.599854v1) | Human gut | Isolates |
-| [miBCII](https://www.sciencedirect.com/science/article/pii/S193131282200467X) | Mouse gut | Isolates |
-| [Hungate1000](https://www.nature.com/articles/nbt.4110) | Rumen | Isolates |
-| [GTDB r202](https://academic.oup.com/nar/article/50/D1/D785/6370255) | N/A | Genomes |
-| [Pasolli et al, 2019](https://www.sciencedirect.com/science/article/pii/S0092867419300017) | Human microbiome | Genomes |
+|Collection Name | Environment | Number of Genomes | Isolates or Genomes|
+|----------------|---------|--|------------|
+| [PiBAC](https://www.nature.com/articles/s41467-020-19929-w) | Pig gut | | Isolates |
+| [HiBC](https://www.biorxiv.org/content/10.1101/2024.06.20.599854v1) | Human gut | 229 | Isolates |
+| [miBCII](https://www.sciencedirect.com/science/article/pii/S193131282200467X) | Mouse gut | 211 | Isolates |
+| [Hungate1000](https://www.nature.com/articles/nbt.4110) | Rumen | 410 | Isolates |
+| [GTDB r202](https://academic.oup.com/nar/article/50/D1/D785/6370255) | N/A | 47,893 | Genomes |
+| [Pasolli et al, 2019](https://www.sciencedirect.com/science/article/pii/S0092867419300017) | Human microbiome | 4,930 | Genomes |
 
 
 
