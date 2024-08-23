@@ -183,7 +183,7 @@ For each of these, the Pfam profiles and taxonomic assignments files are provide
 
 |Collection Name | Environment | Number of Genomes | Isolates or Genomes|
 |----------------|---------|--|------------|
-| [PiBAC](https://www.nature.com/articles/s41467-020-19929-w) | Pig gut | | Isolates |
+| [PiBAC](https://www.nature.com/articles/s41467-020-19929-w) | Pig gut | 117 | Isolates |
 | [HiBC](https://www.biorxiv.org/content/10.1101/2024.06.20.599854v1) | Human gut | 229 | Isolates |
 | [miBCII](https://www.sciencedirect.com/science/article/pii/S193131282200467X) | Mouse gut | 211 | Isolates |
 | [Hungate1000](https://www.nature.com/articles/nbt.4110) | Rumen | 410 | Isolates |
@@ -199,6 +199,7 @@ In the `Datasets/Environmental` folder we provide Pfam profiles for all samples 
 |Study | Environment | Condition|
 |----------------|-----------|------------|
 |[Shabat et al, 2016.](https://doi.org/10.1038/ismej.2016.62) | Bovine rumen | N/A|
+|[Wylensek et al, 2020.](https://www.nature.com/articles/s41467-020-19929-w) | Pig gut | N/A|
 | [Lesker et al, 2020](https://doi.org/10.1016/j.celrep.2020.02.036) | Mouse gut | N/A|
 | [Lloyd-Price et al, 2019](https://doi.org/10.1038/s41586-019-1237-9) | Human gut | Ulcerative colitis Vs nonIBD |
 
