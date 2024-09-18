@@ -926,7 +926,7 @@ outputting_all_Scores = open(location_of_call + '/'+ output_prefix + '-Consortia
 
 outputting_all_Scores.write('SynCom members\tGroup score\n')
 for k,v in consortia_mean_Scores.items():
-	outputting_all_Scores(str(k) + '\t' + str(v) + '\n')
+	outputting_all_Scores.write(str(k) + '\t' + str(v) + '\n')
 
 outputting_all_Scores.close()
 
