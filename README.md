@@ -4,6 +4,8 @@
 
 MiMiC2 is a bioinformatic pipeline for the selection of a few microbial genomes that functionally represent an entire ecosystem, termed a synthetic community (SynCom). 
 
+
+
 If you want to install MiMiC2, go to the [intallation instructions](#installation-instructions).
 
 If you want help running MiMiC2, go to the [running MiMiC2 guide](#running-mimic2).

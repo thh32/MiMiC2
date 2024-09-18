@@ -74,23 +74,23 @@ args, unknown = parser.parse_known_args()
 
 
 
-consortia_size_wanted = args.c
+consortia_size_wanted = args.consortiasize
 
 reduce_genome_list_number = args.iterations
 
-pfam_file = args.p
+pfam_file = args.pfam
 
-sample_file = args.s
+sample_file = args.samples
 
-genome_file = args.g
+genome_file = args.genomes
 
-grouping_file = args.m
+grouping_file = args.metadata
 
 models_folder = args.models
 
 if args.t is not None:
 	taxonomic_filtering = True
-	taxonomic_file = args.t
+	taxonomic_file = args.taxonomy
 	taxonomic_level = args.taxonomiclevel
 
 core_bias = args.corebias
@@ -101,7 +101,7 @@ prevalence_for_shortlisting = args.prevfilt
 
 group_to_be_studied = args.group # Defines the group we predict for ##### Optional
 
-output_prefix = args.o
+output_prefix = args.output
 
 
 # Give an option that people can state species to be ignored, but names must be the same as those in the file
