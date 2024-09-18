@@ -88,7 +88,7 @@ grouping_file = args.metadata
 
 models_folder = args.models
 
-if args.t is not None:
+if args.taxonomy is not None:
 	taxonomic_filtering = True
 	taxonomic_file = args.taxonomy
 	taxonomic_level = args.taxonomiclevel
