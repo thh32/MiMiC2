@@ -74,9 +74,9 @@ args, unknown = parser.parse_known_args()
 
 
 
-consortia_size_wanted = args.consortiasize
+consortia_size_wanted = int(args.consortiasize)
 
-reduce_genome_list_number = args.iterations
+reduce_genome_list_number = int(args.iterations)
 
 pfam_file = args.pfam
 
@@ -93,7 +93,7 @@ if args.taxonomy is not None:
 	taxonomic_file = args.taxonomy
 	taxonomic_level = args.taxonomiclevel
 
-core_bias = args.corebias
+core_bias = float(args.corebias)
 
 pfam_bias = args.groupbias
 
