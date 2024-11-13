@@ -69,7 +69,7 @@ mamba create --no-channel-priority -n mimic2 \
     -c bioconda -c conda-forge \
     "python=3.11" "numpy=1.24.3" "scipy=1.10.1" \
     "conda-forge::matplotlib-base" "seaborn=0.13.0" \
-    "pandas=1.5.3" "tdqm" 
+    "pandas=1.5.3" "tqdm" 
 ```
 
 4. Activate the environment.  
