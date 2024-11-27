@@ -11,14 +11,17 @@ import subprocess
 import random
 from tqdm import tqdm
 import pandas
+import matplotlib
 from matplotlib import rc
 import seaborn as sns
-import matplotlib
 sns.set_palette("hls",15)
 matplotlib.rcParams['pdf.fonttype'] = 42
 from statistics import mean
 import os
 import argparse
+import warnings
+
+warnings.filterwarnings("ignore")
 
 
 location_of_file = os.path.dirname(os.path.realpath(__file__))
@@ -108,7 +111,7 @@ output_prefix = args.output
 pathogens = []
 if args.exclusion is not None:
 	for line in open(args.exclusion,'r'):
-		for i in line.split(','):
+		for i in line.replace('\\n','').replace('\n','').split(','):
 			pathogens.append(i)
 
 
@@ -709,14 +712,9 @@ print ('Total space of seleted species;' + str(len(genome_prev)))
 
 
 if samples_to_be_studied == g1_samples:
-    p = lambda x : x/100
-    p20 = p(prevalence_for_shortlisting)
-    samples_needed_in = len(g1_samples)*p20
+    samples_needed_in = float(float(prevalence_for_shortlisting)/100)*len(g1_samples)
 elif samples_to_be_studied == g2_samples:
-    p = lambda x : x/100
-    p20 = p(prevalence_for_shortlisting)
-    samples_needed_in = len(g2_samples)*p20
-
+    samples_needed_in = float(float(prevalence_for_shortlisting)/100)*len(g2_samples)
 
 wanted_prev = []
 
@@ -735,8 +733,11 @@ wanted = list((set(wanted_prev))-set(pathogens))
 wanted_prev = wanted
 
 
+outputting_filt = open(location_of_call + '/'+ output_prefix + '-Studied_strains.tab','w')
 
-
+for species in wanted_prev:
+    outputting_filt.write(species + '\n')
+outputting_filt.close()
 
 
 consortia_size = consortia_size_wanted
@@ -1168,7 +1169,7 @@ while passed_phase_two_stability == False:
         name1 = models[0].split('/')[-1:][0].split('.RDS')[0]
         name2 = models[1].split('/')[-1:][0].split('.RDS')[0]
         try:
-            subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+            subprocess.run(['rm', location_of_call + '/' + 'statistics.csv'])
         except FileNotFoundError:
             lol = 0
 
@@ -1367,7 +1368,7 @@ while passed_phase_two_stability == False:
         name2 = models[1].split('/')[-1:][0].split('.RDS')[0]
         name3 = models[2].split('/')[-1:][0].split('.RDS')[0]
         try:
-            subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+            subprocess.run(['rm', location_of_call + '/' + 'statistics.csv'])
         except FileNotFoundError:
             lol = 0
 
@@ -1571,7 +1572,7 @@ while passed_phase_two_stability == False:
         name3 = models[2].split('/')[-1:][0].split('.RDS')[0]
         name4 = models[3].split('/')[-1:][0].split('.RDS')[0]
         try:
-            subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+            subprocess.run(['rm', location_of_call + '/' + 'statistics.csv'])
         except FileNotFoundError:
             lol = 0
 
@@ -1780,7 +1781,7 @@ while passed_phase_two_stability == False:
         name4 = models[3].split('/')[-1:][0].split('.RDS')[0]
         name5 = models[4].split('/')[-1:][0].split('.RDS')[0]
         try:
-            subprocess.run(['rm '+location_of_call + '/' + 'statistics.csv'])
+            subprocess.run(['rm', location_of_call + '/' + 'statistics.csv'])
         except FileNotFoundError:
             lol = 0
 
@@ -1994,7 +1995,7 @@ while passed_phase_two_stability == False:
         name5 = models[4].split('/')[-1:][0].split('.RDS')[0]
         name6 = models[5].split('/')[-1:][0].split('.RDS')[0]
         try:
-            subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+            subprocess.run(['rm', location_of_call + '/' + 'statistics.csv'])
         except FileNotFoundError:
             lol = 0
 
@@ -2213,7 +2214,7 @@ while passed_phase_two_stability == False:
         name6 = models[5].split('/')[-1:][0].split('.RDS')[0]
         name7 = models[6].split('/')[-1:][0].split('.RDS')[0]
         try:
-            subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+            subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
         except FileNotFoundError:
             lol = 0
 
@@ -2437,7 +2438,7 @@ while passed_phase_two_stability == False:
         name7 = models[6].split('/')[-1:][0].split('.RDS')[0]
         name8 = models[7].split('/')[-1:][0].split('.RDS')[0]
         try:
-            subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+            subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
         except FileNotFoundError:
             lol = 0
 
@@ -2536,7 +2537,7 @@ while passed_phase_two_stability == False:
                     growth_curve.append(int(line.replace('\n','').split(',')[3]))
             individual_growths[name1] = growth_curve
 
-        subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+        subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
 
         print ('Individual growth curves generated for ;' + str(len(individual_growths)))
 
@@ -2576,7 +2577,7 @@ while passed_phase_two_stability == False:
                     growth_info[species].append(growth) 
             Paired_growths[comb] = growth_info
 
-        subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+        subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
 
         ### Identify paired interactions
         outputting = open(location_of_call + '/'+ output_prefix +'-Paired_Interactions.txt','w')
@@ -2666,7 +2667,7 @@ while passed_phase_two_stability == False:
         name8 = models[7].split('/')[-1:][0].split('.RDS')[0]
         name9 = models[8].split('/')[-1:][0].split('.RDS')[0]
         try:
-            subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+            subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
         except FileNotFoundError:
             lol = 0
 
@@ -2772,7 +2773,7 @@ while passed_phase_two_stability == False:
                     growth_curve.append(int(line.replace('\n','').split(',')[3]))
             individual_growths[name1] = growth_curve
 
-        subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+        subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
 
         print ('Individual growth curves generated for ;' + str(len(individual_growths)))
 
@@ -2813,7 +2814,7 @@ while passed_phase_two_stability == False:
                     growth_info[species].append(growth) 
             Paired_growths[comb] = growth_info
 
-        subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+        subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
 
         ### Identify paired interactions
         outputting = open(location_of_call + '/'+ output_prefix +'-Paired_Interactions.txt','w')
@@ -2904,7 +2905,7 @@ while passed_phase_two_stability == False:
         name9 = models[8].split('/')[-1:][0].split('.RDS')[0]
         name10 = models[9].split('/')[-1:][0].split('.RDS')[0]
         try:
-            subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+            subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
         except FileNotFoundError:
             lol = 0
 
@@ -3013,7 +3014,7 @@ while passed_phase_two_stability == False:
                     growth_curve.append(int(line.replace('\n','').split(',')[3]))
             individual_growths[name1] = growth_curve
 
-        subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+        subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
 
         print ('Individual growth curves generated for ;' + str(len(individual_growths)))
 
@@ -3055,7 +3056,7 @@ while passed_phase_two_stability == False:
                     growth_info[species].append(growth) 
             Paired_growths[comb] = growth_info
 
-        subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+        subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
 
         ### Identify paired interactions
         outputting = open(location_of_call + '/'+ output_prefix +'-Paired_Interactions.txt','w')
@@ -3147,7 +3148,7 @@ while passed_phase_two_stability == False:
         name10 = models[9].split('/')[-1:][0].split('.RDS')[0]
         name11 = models[10].split('/')[-1:][0].split('.RDS')[0]
         try:
-            subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+            subprocess.run(['rm', location_of_call + '/' + 'statistics.csv'])
         except FileNotFoundError:
             lol = 0
 
@@ -3259,7 +3260,7 @@ while passed_phase_two_stability == False:
                     growth_curve.append(int(line.replace('\n','').split(',')[3]))
             individual_growths[name1] = growth_curve
 
-        subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+        subprocess.run(['rm', location_of_call + '/' + 'statistics.csv'])
 
         print ('Individual growth curves generated for ;' + str(len(individual_growths)))
 
@@ -3302,7 +3303,7 @@ while passed_phase_two_stability == False:
                     growth_info[species].append(growth) 
             Paired_growths[comb] = growth_info
 
-        subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+        subprocess.run(['rm', location_of_call + '/' + 'statistics.csv'])
 
         ### Identify paired interactions
         outputting = open(location_of_call + '/'+ output_prefix +'-Paired_Interactions.txt','w')
@@ -3395,7 +3396,7 @@ while passed_phase_two_stability == False:
         name11 = models[10].split('/')[-1:][0].split('.RDS')[0]
         name12 = models[11].split('/')[-1:][0].split('.RDS')[0]
         try:
-            subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+            subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
         except FileNotFoundError:
             lol = 0
 
@@ -3510,7 +3511,7 @@ while passed_phase_two_stability == False:
                     growth_curve.append(int(line.replace('\n','').split(',')[3]))
             individual_growths[name1] = growth_curve
 
-        subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+        subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
 
         print ('Individual growth curves generated for ;' + str(len(individual_growths)))
 
@@ -3554,7 +3555,7 @@ while passed_phase_two_stability == False:
                     growth_info[species].append(growth) 
             Paired_growths[comb] = growth_info
 
-        subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+        subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
 
         ### Identify paired interactions
         outputting = open(location_of_call + '/'+ output_prefix +'-Paired_Interactions.txt','w')
@@ -3648,7 +3649,7 @@ while passed_phase_two_stability == False:
         name12 = models[11].split('/')[-1:][0].split('.RDS')[0]
         name13 = models[12].split('/')[-1:][0].split('.RDS')[0]
         try:
-            subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+            subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
         except FileNotFoundError:
             lol = 0
 
@@ -3766,7 +3767,7 @@ while passed_phase_two_stability == False:
                     growth_curve.append(int(line.replace('\n','').split(',')[3]))
             individual_growths[name1] = growth_curve
 
-        subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+        subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
 
         print ('Individual growth curves generated for ;' + str(len(individual_growths)))
 
@@ -3811,7 +3812,7 @@ while passed_phase_two_stability == False:
                     growth_info[species].append(growth) 
             Paired_growths[comb] = growth_info
 
-        subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+        subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
 
         ### Identify paired interactions
         outputting = open(location_of_call + '/'+ output_prefix +'-Paired_Interactions.txt','w')
@@ -3906,7 +3907,7 @@ while passed_phase_two_stability == False:
         name13 = models[12].split('/')[-1:][0].split('.RDS')[0]
         name14 = models[13].split('/')[-1:][0].split('.RDS')[0]
         try:
-            subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+            subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
         except FileNotFoundError:
             lol = 0
 
@@ -4027,7 +4028,7 @@ while passed_phase_two_stability == False:
                     growth_curve.append(int(line.replace('\n','').split(',')[3]))
             individual_growths[name1] = growth_curve
 
-        subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+        subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
 
         print ('Individual growth curves generated for ;' + str(len(individual_growths)))
 
@@ -4073,7 +4074,7 @@ while passed_phase_two_stability == False:
                     growth_info[species].append(growth) 
             Paired_growths[comb] = growth_info
 
-        subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+        subprocess.run(['rm', location_of_call + '/' + 'statistics.csv'])
 
         ### Identify paired interactions
         outputting = open(location_of_call + '/'+ output_prefix +'-Paired_Interactions.txt','w')
@@ -4169,7 +4170,7 @@ while passed_phase_two_stability == False:
         name14 = models[13].split('/')[-1:][0].split('.RDS')[0]
         name15 = models[14].split('/')[-1:][0].split('.RDS')[0]
         try:
-            subprocess.run(['rm ' + location_of_call + '/' + 'statistics.csv'])
+            subprocess.run(['rm',  location_of_call + '/' + 'statistics.csv'])
         except FileNotFoundError:
             lol = 0
 
@@ -4487,15 +4488,13 @@ for column, v in Stored_first_round_consortia.items():
     
 plotting_data = pd.DataFrame.from_dict(pairwise_sample_accounted, orient='index', columns=['Sample specific (size = 20)', 'Sample specific (size =' + str(consortia_size_wanted) + ')', 'Group-wide selection'])
 
-import matplotlib
-matplotlib.rcParams['pdf.fonttype'] = 42
 
-import seaborn as sns
+
 plt.figure(figsize=(8, 5))
 # Create violin plots without mini-boxplots inside.
 ax = sns.violinplot( data=plotting_data,
                     palette=['#d7eaf3', '#77b5d9', '#14397d'], 
-                    cut=0, inner=None, linewidthfloat=0.03,color='k')
+                    cut=0, inner=None, linewidth=0.03,color='k')
 # Clip the right half of each violin.
 for item in ax.collections:
     x0, y0, width, height = item.get_paths()[0].get_extents().bounds
@@ -4524,7 +4523,8 @@ sns.boxplot( data=plotting_data, width=0.25,
 ax.set( ylabel='Accounted Pfams (%)')
 #plt.show()
 plt.savefig(location_of_call + '/'+ output_prefix + '-Accounted_Pfams_across_consortia.pdf', bbox_inches='tight')
-
+plt.close()
+plt.figure().clear()
 
 
 
@@ -4538,15 +4538,12 @@ plotting_data = pd.DataFrame.from_dict(pairwise_sample_mismatches, orient='index
 
 
 
-import matplotlib
-matplotlib.rcParams['pdf.fonttype'] = 42
 
-import seaborn as sns
 plt.figure(figsize=(8, 5))
 # Create violin plots without mini-boxplots inside.
 ax = sns.violinplot( data=plotting_data,
                     palette=['#d7eaf3', '#77b5d9', '#14397d'], 
-                    cut=0, inner=None, linewidthfloat=0.03,color='k')
+                    cut=0, inner=None, linewidth=0.03,color='k')
 # Clip the right half of each violin.
 for item in ax.collections:
     x0, y0, width, height = item.get_paths()[0].get_extents().bounds
@@ -4576,7 +4573,8 @@ ax.set( ylabel='Mismatching Pfams')
 #plt.show()
 
 plt.savefig(location_of_call + '/'+ output_prefix + '-Mismatches_across_consortia.pdf', bbox_inches='tight')
-
+plt.close()
+plt.figure().clear()
 
 
 
@@ -4664,7 +4662,8 @@ if consortia_size_wanted == 2:
 
     # Show graphic
     plt.savefig(location_of_call + '/'+ output_prefix + '-Relative_Abundance_growth.pdf', bbox_inches='tight')
-    
+    plt.close()
+    plt.figure().clear()
     
     
 if consortia_size_wanted == 3:
@@ -4692,7 +4691,8 @@ if consortia_size_wanted == 3:
 
     # Show graphic
     plt.savefig(location_of_call + '/'+ output_prefix + '-Relative_Abundance_growth.pdf', bbox_inches='tight')
-
+    plt.close()
+    plt.figure().clear()
 
 if consortia_size_wanted == 4:
     # From raw value to percentage
@@ -4722,7 +4722,8 @@ if consortia_size_wanted == 4:
 
     # Show graphic
     plt.savefig(location_of_call + '/'+ output_prefix + '-Relative_Abundance_growth.pdf', bbox_inches='tight')
-    
+    plt.close()
+    plt.figure().clear()
     
     
 if consortia_size_wanted == 5:
@@ -4756,7 +4757,8 @@ if consortia_size_wanted == 5:
 
     # Show graphic
     plt.savefig(location_of_call + '/'+ output_prefix + '-Relative_Abundance_growth.pdf', bbox_inches='tight')
-    
+    plt.close()
+    plt.figure().clear()
     
     
 if consortia_size_wanted == 6:
@@ -4793,7 +4795,8 @@ if consortia_size_wanted == 6:
 
     # Show graphic
     plt.savefig(location_of_call + '/'+ output_prefix + '-Relative_Abundance_growth.pdf', bbox_inches='tight')
-    
+    plt.close()
+    plt.figure().clear()
     
 if consortia_size_wanted == 7:
     # From raw value to percentage
@@ -4832,7 +4835,8 @@ if consortia_size_wanted == 7:
 
     # Show graphic
     plt.savefig(location_of_call + '/'+ output_prefix + '-Relative_Abundance_growth.pdf', bbox_inches='tight')
-    
+    plt.close()
+    plt.figure().clear()
     
     
     
@@ -4876,7 +4880,8 @@ if consortia_size_wanted == 8:
 
     # Show graphic
     plt.savefig(location_of_call + '/'+ output_prefix + '-Relative_Abundance_growth.pdf', bbox_inches='tight')
-    
+    plt.close()
+    plt.figure().clear()
     
 
 if consortia_size_wanted == 9:
@@ -4922,7 +4927,8 @@ if consortia_size_wanted == 9:
 
     # Show graphic
     plt.savefig(location_of_call + '/'+ output_prefix + '-Relative_Abundance_growth.pdf', bbox_inches='tight')
-    
+    plt.close()
+    plt.figure().clear()
 
 
     
@@ -4974,7 +4980,8 @@ if consortia_size_wanted == 10:
 
     # Show graphic
     plt.savefig(location_of_call + '/'+ output_prefix + '-Relative_Abundance_growth.pdf', bbox_inches='tight')
-    
+    plt.close()
+    plt.figure().clear()
     
     
 if consortia_size_wanted == 11:
@@ -5026,7 +5033,8 @@ if consortia_size_wanted == 11:
 
     # Show graphic
     plt.savefig(location_of_call + '/'+ output_prefix + '-Relative_Abundance_growth.pdf', bbox_inches='tight')
-    
+    plt.close()
+    plt.figure().clear()
     
     
     
@@ -5086,7 +5094,8 @@ if consortia_size_wanted == 12:
 
     # Show graphic
     plt.savefig(location_of_call + '/'+ output_prefix + '-Relative_Abundance_growth.pdf', bbox_inches='tight')
-    
+    plt.close()
+    plt.figure().clear()
     
     
     
@@ -5149,7 +5158,8 @@ if consortia_size_wanted == 13:
 
     # Show graphic
     plt.savefig(location_of_call + '/'+ output_prefix + '-Relative_Abundance_growth.pdf', bbox_inches='tight')
-    
+    plt.close()
+    plt.figure().clear()
     
     
     
@@ -5214,6 +5224,8 @@ if consortia_size_wanted == 14:
 
     # Show graphic
     plt.savefig(location_of_call + '/'+ output_prefix + '-Relative_Abundance_growth.pdf', bbox_inches='tight')
+    plt.close()
+    plt.figure().clear()
        
 
         
@@ -5281,6 +5293,9 @@ if consortia_size_wanted == 15:
 
     # Show graphic
     plt.savefig(location_of_call + '/'+ output_prefix + '-Relative_Abundance_growth.pdf', bbox_inches='tight')
+    plt.close()
+    plt.figure().clear()
+
        
     
     
@@ -5345,7 +5360,6 @@ if consortia_size_wanted == 15:
 
 
 
-from statistics import mean
 
 raw_comparison_values = {} # Bacteria; [number of times selected, [list of positions when selected]]
 
@@ -5390,12 +5404,9 @@ for sp, information in raw_comparison_values.items():
 plotting_data = pd.DataFrame.from_dict(converted_comparison_values, orient='index', columns=['Selection prevalence (n = ' + str(len(samples[samples_to_be_studied].columns)) + ')', 'Average selection position','Final consortium','Average matching Pfams (%)'])
 
 
-import matplotlib
-
-matplotlib.rcParams['pdf.fonttype'] = 42
 
 
-import seaborn as sns
+
 plt.figure(figsize=(8, 5))
 
 ax = sns.scatterplot(data=plotting_data, y='Selection prevalence (n = ' + str(len(samples[samples_to_be_studied].columns)) + ')', x="Average selection position", hue="Final consortium",palette=['#14397d','#D3D3D3'], alpha=0.5, size='Average matching Pfams (%)')
@@ -5406,7 +5417,8 @@ ax.legend(loc="upper left", edgecolor="black", bbox_to_anchor=(1,1), ncol=1)
 
 
 plt.savefig(location_of_call + '/'+ output_prefix + '-Consortium_selection_prevalence.pdf', bbox_inches='tight')
-
+plt.close()
+plt.figure().clear()
 
 
 
@@ -5463,6 +5475,7 @@ for k,v in sorted_consortia.items():
         
 consortia_selected_key = [k for k, v in renamed_sorted.items() if v == consortia_mean_Scores[consortia_selected]]
 
+plt.figure(figsize=(8, 5))
 
 plt.plot(renamed_sorted.keys(), renamed_sorted.values(), 'g-',linewidth=2, color='#D3D3D3')
 plt.plot(consortia_selected_key, consortia_mean_Scores[consortia_selected], 'bo',linewidth=5, color='#14397d')
@@ -5471,7 +5484,8 @@ plt.xlabel('Iteration')
 plt.ylabel('MiMiC group-wide score')
 
 plt.savefig(location_of_call + '/'+ output_prefix + '-Consortium_scores.pdf', bbox_inches='tight')
-
+plt.close()
+plt.figure().clear()
 
 print (':::::::: Finished outputting analysis to user.')
 
