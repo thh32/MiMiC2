@@ -1,4 +1,4 @@
-<img src="https://github.com/thh32/MiMiC2/blob/main/images/2024-08-08_Logo.png" alt="MiMiC2-logo" width="530" height="150"/>
+<img src="https://github.com/thh32/MiMiC2/blob/main/images/2024-12-16_Logo.png" alt="MiMiC2-logo" width="530" height="150"/>
 
 ## What is MiMiC2?
 
