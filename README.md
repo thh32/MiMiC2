@@ -14,6 +14,8 @@ If you want to understand all the options, go to the [options list](#options).
 
 If you want premade datasets, look at our [datasets provided](#datasets-provided) section.
 
+Examples of how to run MiMiC2 using the premade datasets is also provided in the [example analysis](#example-analysis) section.
+
 ## MiMiC2 workflow
 The general process can be seen in the workflow:
 
@@ -40,16 +42,6 @@ Once you have a Pfam profile of both your environment samples, and your genome c
 ```bash
 MiMiC2.py -g /PATH/TO/GENOME-COLLECTION -t /PATH/TO/TAXONOMIC-FILE --taxonomiclevel s -s /PATH/TO/SAMPLES -m /PATH/TO/METADATA --group GROUP --models /PATH/TO/MODELS/FOLDER -c 10 -o OUTPUT-PREFIX
 ```
-
-
-### Example Run of MiMiC2
-As an example of how MiMiC2 can be used, we will repeat the creation of the IBD SynCom from the MiMiC2 paper.
-
-Run the code below, which uses the HiBC collection, along with the IBDMDB sample collection, with GEMs made with GapSeq:
-```bash
-MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC_profile.txt -t /PATH/TO/TAXONOMIC-FILE --taxonomiclevel s -s /PATH/TO/SAMPLES -m /PATH/TO/METADATA --group GROUP --models /PATH/TO/MODELS/FOLDER -c 10 -o Test-IBD-SynCom
-```
-The  output can be found under `./Test-IBD-SynCom/`.
 
 
 ## Installation Instructions
@@ -204,4 +196,26 @@ In the `Datasets/Environmental` folder we provide Pfam profiles for all samples 
 |[Wylensek et al, 2020.](https://www.nature.com/articles/s41467-020-19929-w) | Pig gut | N/A|
 | [Lesker et al, 2020](https://doi.org/10.1016/j.celrep.2020.02.036) | Mouse gut | N/A|
 | [Lloyd-Price et al, 2019](https://doi.org/10.1038/s41586-019-1237-9) | Human gut | Ulcerative colitis Vs nonIBD |
+
+
+
+
+# Example Analysis
+## Single dataset mode
+To create a single SynCom for a collection of metagenomes you can use the 'single' mode. This involves providing a dataset, an isolate collection, the taxonomic information of the isolates, and the metabolic models.
+
+In the example below we use the provided premade data. The HiBC collection is the isolate collection, and Lloy-Price et al (2019) is the collection of samples.
+
+```bash
+MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC_profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt --models datasets/isolate_collections/HiBC/GEMs/ -c 10 -o Single-SynCom
+```
+## Group specific mode
+To create a SynCom that is distinct to another group i.e. IBD Vs non-IBS, you can use the 'group' settings. In addition to the input needed for the single mode, you must provide a grouping file and identify the group of interest to you. 
+
+In the example below we use the provided premade data to select the IBD-SynCom from our manuscript. The HiBC collection is the isolate collection, and Lloy-Price et al (2019) is the collection of samples.
+
+```bash
+MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC_profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt -m datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-groups.csv --group IBD --models datasets/isolate_collections/HiBC/GEMs/ -c 10 -o IBD-SynCom
+```
+
 
