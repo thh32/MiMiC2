@@ -1,4 +1,5 @@
 #!/usr/bin/env python3.6
+import sys
 import glob
 import pandas as pd
 import operator
@@ -180,7 +181,8 @@ samples = pd.read_csv(sample_file, sep='\t', index_col='PfamID')
 genomes = pd.read_csv(genome_file, sep='\t', index_col='PfamID')
 genomes = genomes.drop(pathogens, axis=1)
 
-if grouping_file != '':
+
+if grouping_file is not None:
     groups = pd.read_csv(grouping_file, sep='\t', index_col='SampleID')
     samples_to_be_studied = list(groups.loc[groups['Group'] == group_to_be_studied].index)
 
@@ -743,6 +745,10 @@ outputting_filt.close()
 consortia_size = consortia_size_wanted
 
 
+if len(wanted_prev) < consortia_size:
+    print ('ERROR: Insufficient strains have passed filtering, change the prevalence filter to retain sufficient diversity for consortia creation.')
+    sys.exit()
+
 all_consortia_combinations = itertools.combinations(genomes[wanted_prev].keys(), consortia_size)    ###############
 
 
@@ -1041,7 +1047,7 @@ while passed_phase_two_stability == False:
 
 
             # !!!!!!!!!!!!! Here, the species being studied is given first, then the other ones, then all the names
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size2/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0], name1,name2])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size2/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0], name1,name2])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             growth_curve = []
             ln_num = 0
@@ -1071,7 +1077,7 @@ while passed_phase_two_stability == False:
             name2 = list(comb)[1].split('/')[-1:][0].split('.RDS')[0]
             print ('Strains being grown together;')
             print( list(comb)[0].replace('"','').split('/')[-1:][0].split('.RDS')[0], list(comb)[1].replace('"','').split('/')[-1:][0].split('.RDS')[0], '; names=(', name1,',',name2,')') # Only highlighting those species being paired
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size2/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1], name1,name2])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size2/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1], name1,name2])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             ln_num = 0
             growth_info = {}
@@ -1174,7 +1180,7 @@ while passed_phase_two_stability == False:
             lol = 0
 
         #print( list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1], name1,name2,name3,name4)
-        subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size2/Combined_Growth.R', location_of_call + '/' , models[0], models[1], name1,name2])
+        subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size2/Combined_Growth.R', location_of_call + '/' , models[0], models[1], name1,name2])
         # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
 
         ln_num = 0
@@ -1238,7 +1244,7 @@ while passed_phase_two_stability == False:
 
 
             # !!!!!!!!!!!!! Here, the species being studied is given first, then the other ones, then all the names
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size3/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1], name1,name2,name3])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size3/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1], name1,name2,name3])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             growth_curve = []
             ln_num = 0
@@ -1269,7 +1275,7 @@ while passed_phase_two_stability == False:
             name3 = tmp_models[0].split('/')[-1:][0].split('.RDS')[0]
             print ('Strains being grown together;')
             print( list(comb)[0].replace('"','').split('/')[-1:][0].split('.RDS')[0], list(comb)[1].replace('"','').split('/')[-1:][0].split('.RDS')[0], '; names=(', name1,',',name2,')') # Only highlighting those species being paired
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size3/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0], name1,name2,name3])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size3/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0], name1,name2,name3])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             ln_num = 0
             growth_info = {}
@@ -1373,7 +1379,7 @@ while passed_phase_two_stability == False:
             lol = 0
 
         #print( list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1], name1,name2,name3,name4)
-        subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size3/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2], name1,name2,name3])
+        subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size3/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2], name1,name2,name3])
         # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
 
         ln_num = 0
@@ -1440,7 +1446,7 @@ while passed_phase_two_stability == False:
 
 
             # !!!!!!!!!!!!! Here, the species being studied is given first, then the other ones, then all the names
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size4/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2], name1,name2,name3,name4])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size4/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2], name1,name2,name3,name4])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             growth_curve = []
             ln_num = 0
@@ -1472,7 +1478,7 @@ while passed_phase_two_stability == False:
             name4 = tmp_models[1].split('/')[-1:][0].split('.RDS')[0]
             print ('Strains being grown together;')
             print( list(comb)[0].replace('"','').split('/')[-1:][0].split('.RDS')[0], list(comb)[1].replace('"','').split('/')[-1:][0].split('.RDS')[0], '; names=(', name1,',',name2,')') # Only highlighting those species being paired
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size4/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1], name1,name2,name3,name4])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size4/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1], name1,name2,name3,name4])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             ln_num = 0
             growth_info = {}
@@ -1577,7 +1583,7 @@ while passed_phase_two_stability == False:
             lol = 0
 
         #print( list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1], name1,name2,name3,name4)
-        subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size4/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3], name1,name2,name3,name4])
+        subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size4/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3], name1,name2,name3,name4])
         # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
 
         ln_num = 0
@@ -1647,7 +1653,7 @@ while passed_phase_two_stability == False:
 
 
             # !!!!!!!!!!!!! Here, the species being studied is given first, then the other ones, then all the names
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size5/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3], name1,name2,name3,name4,name5])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size5/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3], name1,name2,name3,name4,name5])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             growth_curve = []
             ln_num = 0
@@ -1680,7 +1686,7 @@ while passed_phase_two_stability == False:
             name5 = tmp_models[2].split('/')[-1:][0].split('.RDS')[0]
             print ('Strains being grown together;')
             print( list(comb)[0].replace('"','').split('/')[-1:][0].split('.RDS')[0], list(comb)[1].replace('"','').split('/')[-1:][0].split('.RDS')[0], '; names=(', name1,',',name2,')') # Only highlighting those species being paired
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size5/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2], name1,name2,name3,name4,name5])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size5/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2], name1,name2,name3,name4,name5])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             ln_num = 0
             growth_info = {}
@@ -1786,7 +1792,7 @@ while passed_phase_two_stability == False:
             lol = 0
 
         #print( list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1], name1,name2,name3,name4)
-        subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size5/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4], name1,name2,name3,name4,name5])
+        subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size5/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4], name1,name2,name3,name4,name5])
         # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
 
         ln_num = 0
@@ -1859,7 +1865,7 @@ while passed_phase_two_stability == False:
 
 
             # !!!!!!!!!!!!! Here, the species being studied is given first, then the other ones, then all the names
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size6/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4], name1,name2,name3,name4,name5,name6])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size6/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4], name1,name2,name3,name4,name5,name6])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             growth_curve = []
             ln_num = 0
@@ -1893,7 +1899,7 @@ while passed_phase_two_stability == False:
             name6 = tmp_models[3].split('/')[-1:][0].split('.RDS')[0]
             print ('Strains being grown together;')
             print( list(comb)[0].replace('"','').split('/')[-1:][0].split('.RDS')[0], list(comb)[1].replace('"','').split('/')[-1:][0].split('.RDS')[0], '; names=(', name1,',',name2,')') # Only highlighting those species being paired
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size6/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3], name1,name2,name3,name4,name5,name6])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size6/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3], name1,name2,name3,name4,name5,name6])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             ln_num = 0
             growth_info = {}
@@ -2000,7 +2006,7 @@ while passed_phase_two_stability == False:
             lol = 0
 
         #print( list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1], name1,name2,name3,name4)
-        subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size6/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5], name1,name2,name3,name4,name5,name6])
+        subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size6/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5], name1,name2,name3,name4,name5,name6])
         # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
 
         ln_num = 0
@@ -2076,7 +2082,7 @@ while passed_phase_two_stability == False:
 
 
             # !!!!!!!!!!!!! Here, the species being studied is given first, then the other ones, then all the names
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size7/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5], name1,name2,name3,name4,name5,name6,name7])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size7/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5], name1,name2,name3,name4,name5,name6,name7])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             growth_curve = []
             ln_num = 0
@@ -2111,7 +2117,7 @@ while passed_phase_two_stability == False:
             name7 = tmp_models[4].split('/')[-1:][0].split('.RDS')[0]
             print ('Strains being grown together;')
             print( list(comb)[0].replace('"','').split('/')[-1:][0].split('.RDS')[0], list(comb)[1].replace('"','').split('/')[-1:][0].split('.RDS')[0], '; names=(', name1,',',name2,')') # Only highlighting those species being paired
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size7/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4], name1,name2,name3,name4,name5,name6,name7])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size7/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4], name1,name2,name3,name4,name5,name6,name7])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             ln_num = 0
             growth_info = {}
@@ -2219,7 +2225,7 @@ while passed_phase_two_stability == False:
             lol = 0
 
         #print( list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1], name1,name2,name3,name4)
-        subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size7/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6], name1,name2,name3,name4,name5,name6,name7])
+        subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size7/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6], name1,name2,name3,name4,name5,name6,name7])
         # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
 
         ln_num = 0
@@ -2298,7 +2304,7 @@ while passed_phase_two_stability == False:
 
 
             # !!!!!!!!!!!!! Here, the species being studied is given first, then the other ones, then all the names
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size8/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6], name1,name2,name3,name4,name5,name6,name7,name8])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size8/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6], name1,name2,name3,name4,name5,name6,name7,name8])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             growth_curve = []
             ln_num = 0
@@ -2334,7 +2340,7 @@ while passed_phase_two_stability == False:
             name8 = tmp_models[5].split('/')[-1:][0].split('.RDS')[0]
             print ('Strains being grown together;')
             print( list(comb)[0].replace('"','').split('/')[-1:][0].split('.RDS')[0], list(comb)[1].replace('"','').split('/')[-1:][0].split('.RDS')[0], '; names=(', name1,',',name2,')') # Only highlighting those species being paired
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size8/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5], name1,name2,name3,name4,name5,name6,name7,name8])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size8/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5], name1,name2,name3,name4,name5,name6,name7,name8])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             ln_num = 0
             growth_info = {}
@@ -2443,7 +2449,7 @@ while passed_phase_two_stability == False:
             lol = 0
 
         #print( list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1], name1,name2,name3,name4)
-        subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size8/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6],models[7], name1,name2,name3,name4,name5,name6,name7,name8])
+        subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size8/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6],models[7], name1,name2,name3,name4,name5,name6,name7,name8])
         # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
 
         ln_num = 0
@@ -2525,7 +2531,7 @@ while passed_phase_two_stability == False:
 
 
             # !!!!!!!!!!!!! Here, the species being studied is given first, then the other ones, then all the names
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size9/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7], name1,name2,name3,name4,name5,name6,name7,name8,name9])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size9/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7], name1,name2,name3,name4,name5,name6,name7,name8,name9])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             growth_curve = []
             ln_num = 0
@@ -2562,7 +2568,7 @@ while passed_phase_two_stability == False:
             name9 = tmp_models[6].split('/')[-1:][0].split('.RDS')[0]
             print ('Strains being grown together;')
             print( list(comb)[0].replace('"','').split('/')[-1:][0].split('.RDS')[0], list(comb)[1].replace('"','').split('/')[-1:][0].split('.RDS')[0], '; names=(', name1,',',name2,')') # Only highlighting those species being paired
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size9/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6], name1,name2,name3,name4,name5,name6,name7,name8,name9])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size9/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6], name1,name2,name3,name4,name5,name6,name7,name8,name9])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             ln_num = 0
             growth_info = {}
@@ -2672,7 +2678,7 @@ while passed_phase_two_stability == False:
             lol = 0
 
         #print( list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1], name1,name2,name3,name4)
-        subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size9/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6],models[7],models[8], name1,name2,name3,name4,name5,name6,name7,name8,name9])
+        subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size9/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6],models[7],models[8], name1,name2,name3,name4,name5,name6,name7,name8,name9])
         # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
 
         ln_num = 0
@@ -2761,7 +2767,7 @@ while passed_phase_two_stability == False:
 
 
             # !!!!!!!!!!!!! Here, the species being studied is given first, then the other ones, then all the names
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size10/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size10/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             growth_curve = []
             ln_num = 0
@@ -2799,7 +2805,7 @@ while passed_phase_two_stability == False:
             name10 = tmp_models[7].split('/')[-1:][0].split('.RDS')[0]
             print ('Strains being grown together;')
             print( list(comb)[0].replace('"','').split('/')[-1:][0].split('.RDS')[0], list(comb)[1].replace('"','').split('/')[-1:][0].split('.RDS')[0], '; names=(', name1,',',name2,')') # Only highlighting those species being paired
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size10/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size10/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             ln_num = 0
             growth_info = {}
@@ -2910,7 +2916,7 @@ while passed_phase_two_stability == False:
             lol = 0
 
         #print( list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1], name1,name2,name3,name4)
-        subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size10/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6],models[7],models[8],models[9], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10])
+        subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size10/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6],models[7],models[8],models[9], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10])
         # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
 
         ln_num = 0
@@ -3002,7 +3008,7 @@ while passed_phase_two_stability == False:
 
 
             # !!!!!!!!!!!!! Here, the species being studied is given first, then the other ones, then all the names
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size11/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size11/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             growth_curve = []
             ln_num = 0
@@ -3041,7 +3047,7 @@ while passed_phase_two_stability == False:
             name11 = tmp_models[8].split('/')[-1:][0].split('.RDS')[0]
             print ('Strains being grown together;')
             print( list(comb)[0].replace('"','').split('/')[-1:][0].split('.RDS')[0], list(comb)[1].replace('"','').split('/')[-1:][0].split('.RDS')[0], '; names=(', name1,',',name2,')') # Only highlighting those species being paired
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size11/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size11/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             ln_num = 0
             growth_info = {}
@@ -3153,7 +3159,7 @@ while passed_phase_two_stability == False:
             lol = 0
 
         #print( list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1], name1,name2,name3,name4)
-        subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size11/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6],models[7],models[8],models[9],models[10], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11])
+        subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size11/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6],models[7],models[8],models[9],models[10], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11])
         # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
 
         ln_num = 0
@@ -3248,7 +3254,7 @@ while passed_phase_two_stability == False:
 
 
             # !!!!!!!!!!!!! Here, the species being studied is given first, then the other ones, then all the names
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size11/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9],tmp_models[10], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size11/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9],tmp_models[10], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             growth_curve = []
             ln_num = 0
@@ -3288,7 +3294,7 @@ while passed_phase_two_stability == False:
             name12 = tmp_models[9].split('/')[-1:][0].split('.RDS')[0]
             print ('Strains being grown together;')
             print( list(comb)[0].replace('"','').split('/')[-1:][0].split('.RDS')[0], list(comb)[1].replace('"','').split('/')[-1:][0].split('.RDS')[0], '; names=(', name1,',',name2,')') # Only highlighting those species being paired
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size12/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size12/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             ln_num = 0
             growth_info = {}
@@ -3401,7 +3407,7 @@ while passed_phase_two_stability == False:
             lol = 0
 
         #print( list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1], name1,name2,name3,name4)
-        subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size12/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6],models[7],models[8],models[9],models[10],models[11], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12])
+        subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size12/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6],models[7],models[8],models[9],models[10],models[11], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12])
         # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
 
         ln_num = 0
@@ -3499,7 +3505,7 @@ while passed_phase_two_stability == False:
 
 
             # !!!!!!!!!!!!! Here, the species being studied is given first, then the other ones, then all the names
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size13/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9],tmp_models[10],tmp_models[11], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size13/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9],tmp_models[10],tmp_models[11], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             growth_curve = []
             ln_num = 0
@@ -3540,7 +3546,7 @@ while passed_phase_two_stability == False:
             name13 = tmp_models[10].split('/')[-1:][0].split('.RDS')[0]
             print ('Strains being grown together;')
             print( list(comb)[0].replace('"','').split('/')[-1:][0].split('.RDS')[0], list(comb)[1].replace('"','').split('/')[-1:][0].split('.RDS')[0], '; names=(', name1,',',name2,')') # Only highlighting those species being paired
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size13/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9],tmp_models[10], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size13/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9],tmp_models[10], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             ln_num = 0
             growth_info = {}
@@ -3654,7 +3660,7 @@ while passed_phase_two_stability == False:
             lol = 0
 
         #print( list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1], name1,name2,name3,name4)
-        subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size13/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6],models[7],models[8],models[9],models[10],models[11],models[12], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13])
+        subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size13/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6],models[7],models[8],models[9],models[10],models[11],models[12], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13])
         # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
 
         ln_num = 0
@@ -3755,7 +3761,7 @@ while passed_phase_two_stability == False:
 
 
             # !!!!!!!!!!!!! Here, the species being studied is given first, then the other ones, then all the names
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size14/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9],tmp_models[10],tmp_models[11],tmp_models[12], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13,name14])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size14/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9],tmp_models[10],tmp_models[11],tmp_models[12], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13,name14])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             growth_curve = []
             ln_num = 0
@@ -3797,7 +3803,7 @@ while passed_phase_two_stability == False:
             name14 = tmp_models[11].split('/')[-1:][0].split('.RDS')[0]
             print ('Strains being grown together;')
             print( list(comb)[0].replace('"','').split('/')[-1:][0].split('.RDS')[0], list(comb)[1].replace('"','').split('/')[-1:][0].split('.RDS')[0], '; names=(', name1,',',name2,')') # Only highlighting those species being paired
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size14/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9],tmp_models[10],tmp_models[11], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13,name14])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size14/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9],tmp_models[10],tmp_models[11], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13,name14])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             ln_num = 0
             growth_info = {}
@@ -3912,7 +3918,7 @@ while passed_phase_two_stability == False:
             lol = 0
 
         #print( list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1], name1,name2,name3,name4)
-        subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size14/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6],models[7],models[8],models[9],models[10],models[11],models[12],models[13], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13,name14])
+        subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size14/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6],models[7],models[8],models[9],models[10],models[11],models[12],models[13], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13,name14])
         # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
 
         ln_num = 0
@@ -4016,7 +4022,7 @@ while passed_phase_two_stability == False:
 
 
             # !!!!!!!!!!!!! Here, the species being studied is given first, then the other ones, then all the names
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size15/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9],tmp_models[10],tmp_models[11],tmp_models[12],tmp_models[13], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13,name14,name15])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size15/Single_Growth.R', location_of_call + '/' , models[listi], tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9],tmp_models[10],tmp_models[11],tmp_models[12],tmp_models[13], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13,name14,name15])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             growth_curve = []
             ln_num = 0
@@ -4059,7 +4065,7 @@ while passed_phase_two_stability == False:
             name15 = tmp_models[12].split('/')[-1:][0].split('.RDS')[0]
             print ('Strains being grown together;')
             print( list(comb)[0].replace('"','').split('/')[-1:][0].split('.RDS')[0], list(comb)[1].replace('"','').split('/')[-1:][0].split('.RDS')[0], '; names=(', name1,',',name2,')') # Only highlighting those species being paired
-            subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size15/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9],tmp_models[10],tmp_models[11],tmp_models[12], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13,name14,name15])
+            subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size15/Paired_Growth.R', location_of_call + '/' , list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1],tmp_models[2],tmp_models[3],tmp_models[4],tmp_models[5],tmp_models[6],tmp_models[7],tmp_models[8],tmp_models[9],tmp_models[10],tmp_models[11],tmp_models[12], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13,name14,name15])
             # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
             ln_num = 0
             growth_info = {}
@@ -4175,7 +4181,7 @@ while passed_phase_two_stability == False:
             lol = 0
 
         #print( list(comb)[0], list(comb)[1],tmp_models[0],tmp_models[1], name1,name2,name3,name4)
-        subprocess.run(['Rscript', location_of_file + '/' + 'Modelling/Size15/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6],models[7],models[8],models[9],models[10],models[11],models[12],models[13],models[14], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13,name14,name15])
+        subprocess.run(['Rscript', location_of_file + '/' + 'scripts/Modelling/Size15/Combined_Growth.R', location_of_call + '/' , models[0], models[1],models[2],models[3],models[4],models[5],models[6],models[7],models[8],models[9],models[10],models[11],models[12],models[13],models[14], name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13,name14,name15])
         # Commands must be Rscript Single_Growth.R working_directory model1 model2 model3 model4 Name1 Name2 Name3 Name4
 
         ln_num = 0
