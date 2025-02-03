@@ -207,7 +207,7 @@ To create a single SynCom for a collection of metagenomes you can use the 'singl
 In the example below we use the provided premade data. The HiBC collection is the isolate collection, and Lloy-Price et al (2019) is the collection of samples.
 
 ```bash
-MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC_profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt --models datasets/isolate_collections/HiBC/GEMs/ -c 10 -o Single-SynCom
+MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC-0.6-profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt --models datasets/isolate_collections/HiBC/GEMs/ -c 10 -o Single-SynCom
 ```
 ## Group specific mode
 To create a SynCom that is distinct to another group i.e. IBD Vs non-IBS, you can use the 'group' settings. In addition to the input needed for the single mode, you must provide a grouping file and identify the group of interest to you. 
@@ -215,7 +215,7 @@ To create a SynCom that is distinct to another group i.e. IBD Vs non-IBS, you ca
 In the example below we use the provided premade data to select the IBD-SynCom from our manuscript. The HiBC collection is the isolate collection, and Lloy-Price et al (2019) is the collection of samples.
 
 ```bash
-MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC_profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt -m datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-groups.csv --group IBD --models datasets/isolate_collections/HiBC/GEMs/ -c 10 -o IBD-SynCom
+MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC-0.6-profile.tx -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt -m datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-groups.csv --group IBD --models datasets/isolate_collections/HiBC/GEMs/ -c 10 -o IBD-SynCom
 ```
 
 
