@@ -30,7 +30,7 @@ location_of_file = os.path.dirname(os.path.realpath(__file__))
 
 location_of_call = os.getcwd()
 
-version = '2024-08-01'
+version = '2025-02-04'
 
 
 # User input
