@@ -187,7 +187,7 @@ For each of these, the Pfam profiles and taxonomic assignments files are provide
 
 
 ## Environmental Datasets
-In the `Datasets/Environmental` folder we provide Pfam profiles for all samples studied within the MiMiC2 paper. 
+In the `datasets/environmental_datasets` folder we provide Pfam profiles for all samples studied within the MiMiC2 paper. 
 
 
 |Study | Environment | Condition|
