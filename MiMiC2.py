@@ -118,7 +118,10 @@ else:
 
 # if grouping file is assigned
 if grouping_file is not None:
-    groups = pd.read_csv(grouping_file, sep='\t', index_col='SampleID')
+    if grouping_file endswith("tsv"):
+        groups = pd.read_csv(grouping_file, sep='\t', index_col='SampleID')
+    else:
+        groups = pd.read_csv(grouping_file, sep=',', index_col='SampleID')
     samples_to_be_studied = list(groups.loc[groups['Group'] == group_to_be_studied].index)
 else:
     groups = ''
