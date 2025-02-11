@@ -232,7 +232,7 @@ In the example below we use the provided premade data. The HiBC collection is th
 
 ```bash
 # Example 1 (using mamba environment):
-python MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC-0.6-profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt -p datasets/core/Pfam-A.clans.tsv --models datasets/isolate_collections/HiBC/GEMs/ -c 10 -o Single-SynCom
+python MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC-0.6-profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt -p datasets/core/Pfam-A.clans.tsv --models datasets/isolate_collections/HiBC/GEMs/ -c 10 -o results/Single-SynCom
 
 # Example 2 (using docker image): run mimic using docker image and store the results from /MiMiC2/results to $(pwd)/results (on the host machine).
 docker run  -v $(pwd)/results:/MiMiC2/results mimic2 MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC-0.6-profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt -c 10 -o results/Single-SynCom -p datasets/core/Pfam-A.clans.tsv --models datasets/isolate_collections/HiBC/GEMs/
@@ -245,10 +245,10 @@ In the example below we use the provided premade data to select the IBD-SynCom f
 
 ```bash
 #Mamba environment
-python MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC-0.6-profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt -m datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-groups.csv -p datasets/core/Pfam-A.clans.tsv --group IBD --models datasets/isolate_collections/HiBC/GEMs/ -c 10 -o IBD-SynCom
+python MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC-0.6-profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt -m datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-groups.csv -p datasets/core/Pfam-A.clans.tsv --group IBD --models datasets/isolate_collections/HiBC/GEMs/ -c 10 -o results/IBD-SynCom
 
 # Docker image
-docker run  -v $(pwd)/results:/MiMiC2/results mimic2 MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC-0.6-profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv -m datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-groups.csv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt -o results/Single-SynCom -p datasets/core/Pfam-A.clans.tsv -c 10 -o IBD-SynCom --group IBD
+docker run  -v $(pwd)/results:/MiMiC2/results mimic2 MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC-0.6-profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv -m datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-groups.csv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt -o results/IBD-SynCom -p datasets/core/Pfam-A.clans.tsv -c 10 --group IBD
 
 ```
 

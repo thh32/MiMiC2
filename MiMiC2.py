@@ -118,7 +118,7 @@ else:
 
 # if grouping file is assigned
 if grouping_file is not None:
-    if grouping_file endswith("tsv"):
+    if grouping_file.endswith("tsv"):
         groups = pd.read_csv(grouping_file, sep='\t', index_col='SampleID')
     else:
         groups = pd.read_csv(grouping_file, sep=',', index_col='SampleID')
