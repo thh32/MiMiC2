@@ -45,11 +45,14 @@ MiMiC2.py -g /PATH/TO/GENOME-COLLECTION -t /PATH/TO/TAXONOMIC-FILE --taxonomicle
 
 
 ## Installation Instructions
+To install MiMiC2, need to clone the repository as outlined below, then either create an environment (Mamba) and install the listed packages, or create a Docker environment using the attached Dockerfile.
+
 1. Clone the repository.  
 ```bash
 git clone https://github.com/thh32/MiMiC2.git
 ```
 
+### Using Mamba 
 2. Enter the MiMiC2 folder.  
 ```bash
 cd MiMiC2
@@ -102,10 +105,31 @@ mamba activate mimic2
 7. Run MiMiC2 on your chosen genome collection and metagenomic samples:  
 Basic usage:
 
+### Using Dockerfile
+
+2. Build a Docker image
+```bash
+cd MiMiC2
+docker system prune #clear docker cache
+docker build -t mimic2 .  #creates an image with everything you will need to run mimic2
+```
+
+3. Save docker image (optional)
+Once the image is created, and you are happy everything, you can save the image for later use.
+```bash
+# save image for later use
+docker save -o mimic2.img mimic2  
+```
+
+Running scripts from docker image:
+```bash
+docker run mimic2 MiMiC2.py -h
+docker run mimic2 MiMiC2-BUTLER.py -h
+
+```
 
 
 ## Options
-  
 ### MiMiC2-BUTLER.py options
 ```
   -h, --help            show this help message and exit
@@ -162,7 +186,7 @@ Basic usage:
                         Prefix for all output files e.g. HuSynCom.
   --iterations {INT}    Change the number of iterations to select sample
                         specific strains in step 1.
-  --exclusion {INPUT}   Provide file which includes a csv list of genome names
+  --exclusion {INPUT}   Provide file which includes a tsv list of genome names
                         to be excluded during SynCom selection.
 ```
 
@@ -207,7 +231,12 @@ To create a single SynCom for a collection of metagenomes you can use the 'singl
 In the example below we use the provided premade data. The HiBC collection is the isolate collection, and Lloy-Price et al (2019) is the collection of samples.
 
 ```bash
-MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC-0.6-profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt -p datasets/core/Pfam-A.clans.tsv --models datasets/isolate_collections/HiBC/GEMs/ -c 10 -o Single-SynCom
+# Example 1 (using mamba environment):
+python MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC-0.6-profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt -p datasets/core/Pfam-A.clans.tsv --models datasets/isolate_collections/HiBC/GEMs/ -c 10 -o results/Single-SynCom
+
+# Example 2 (using docker image): run mimic using docker image and store the results from /MiMiC2/results to $(pwd)/results (on the host machine).
+docker run  -v $(pwd)/results:/MiMiC2/results mimic2 MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC-0.6-profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt -c 10 -o results/Single-SynCom -p datasets/core/Pfam-A.clans.tsv --models datasets/isolate_collections/HiBC/GEMs/
+
 ```
 ## Group specific mode
 To create a SynCom that is distinct to another group i.e. IBD Vs non-IBS, you can use the 'group' settings. In addition to the input needed for the single mode, you must provide a grouping file and identify the group of interest to you. 
@@ -215,7 +244,13 @@ To create a SynCom that is distinct to another group i.e. IBD Vs non-IBS, you ca
 In the example below we use the provided premade data to select the IBD-SynCom from our manuscript. The HiBC collection is the isolate collection, and Lloy-Price et al (2019) is the collection of samples.
 
 ```bash
-MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC-0.6-profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt -m datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-groups.csv -p datasets/core/Pfam-A.clans.tsv --group IBD --models datasets/isolate_collections/HiBC/GEMs/ -c 10 -o IBD-SynCom
+#Mamba environment
+python MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC-0.6-profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt -m datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-groups.csv -p datasets/core/Pfam-A.clans.tsv --group IBD --models datasets/isolate_collections/HiBC/GEMs/ -c 10 -o results/IBD-SynCom
+
+# Docker image
+docker run  -v $(pwd)/results:/MiMiC2/results mimic2 MiMiC2.py -g datasets/isolate_collections/HiBC/HiBC-0.6-profile.txt -t datasets/isolate_collections/HiBC/gtdbtk.bac120.summary.tsv -m datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-groups.csv --taxonomiclevel s -s datasets/environmental_datasets/lloyd-price_2019/lloyd-price_2016-profiles.txt -o results/IBD-SynCom -p datasets/core/Pfam-A.clans.tsv -c 10 --group IBD
+
 ```
+
 
 
