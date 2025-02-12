@@ -84,6 +84,9 @@ if args.taxonomy is not None:
 	taxonomic_filtering = True
 	taxonomic_file = args.taxonomy
 	taxonomic_level = args.taxonomiclevel
+else:
+    taxonomic_filtering = False
+
 	
 core_bias = float(args.corebias)
 pfam_bias = args.groupbias
