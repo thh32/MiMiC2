@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.6
+#!/usr/bin/env python3.11
 import glob
 import pandas as pd
 import operator
