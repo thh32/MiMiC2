@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.6
+#!/usr/bin/env python3.11
 import sys
 import glob
 import pandas as pd
@@ -31,7 +31,7 @@ location_of_file = os.path.dirname(os.path.realpath(__file__))
 
 location_of_call = os.getcwd()
 
-version = '2025-02-07 (JL)'
+version = '2025-02-20'
 
 # User input
 parser = argparse.ArgumentParser(description='MiMiC2 v' + version)
@@ -3910,7 +3910,7 @@ for column, v in Stored_first_round_consortia.items():
     pairwise_sample_mismatches[column] = [cul_mismatches[-1:][0], reduced_mimatch, final_mimatch]
 
     
-plotting_data = pd.DataFrame.from_dict(pairwise_sample_accounted, orient='index', columns=['Sample specific (size = 20)', 'Sample specific (size =' + str(consortia_size_wanted) + ')', 'Group-wide selection'])
+plotting_data = pd.DataFrame.from_dict(pairwise_sample_accounted, orient='index', columns=['Sample specific (size = 20)', 'Sample specific (size =' + str(consortia_size_wanted) + ')', 'Final SynCom selection'])
 
 
 plt.figure(figsize=(8, 5))
@@ -3949,7 +3949,7 @@ plt.savefig(location_of_call + '/'+ output_prefix + '-Accounted_Pfams_across_con
 plt.close()
 plt.figure().clear()
 
-plotting_data = pd.DataFrame.from_dict(pairwise_sample_mismatches, orient='index', columns=['Sample specific (size = 20)', 'Sample specific (size =' + str(consortia_size_wanted) + ')', 'Group-wide selection'])
+plotting_data = pd.DataFrame.from_dict(pairwise_sample_mismatches, orient='index', columns=['Sample specific (size = 20)', 'Sample specific (size =' + str(consortia_size_wanted) + ')', 'Final SynCom selection'])
 
 plt.figure(figsize=(8, 5))
 # Create violin plots without mini-boxplots inside.
@@ -4739,8 +4739,8 @@ plt.figure(figsize=(8, 5))
 plt.plot(renamed_sorted.keys(), renamed_sorted.values(), 'g-',linewidth=2, color='#D3D3D3')
 plt.plot(consortia_selected_key, consortia_mean_Scores[consortia_selected], 'bo',linewidth=5, color='#14397d')
 
-plt.xlabel('Iteration')
-plt.ylabel('MiMiC group-wide score')
+plt.xlabel('Consortia studied (ordered by score)')
+plt.ylabel('Group score')
 
 plt.savefig(location_of_call + '/'+ output_prefix + '-Consortium_scores.pdf', bbox_inches='tight')
 plt.close()
