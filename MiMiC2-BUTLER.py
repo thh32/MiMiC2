@@ -4,18 +4,13 @@ import pandas as pd
 import operator
 import collections
 import numpy as np
-import matplotlib.pyplot as plt
+import sys
 import scipy.stats as stats
 import itertools
 import subprocess
 import random
 from tqdm import tqdm
 import pandas
-from matplotlib import rc
-import seaborn as sns
-import matplotlib
-sns.set_palette("hls",15)
-matplotlib.rcParams['pdf.fonttype'] = 42
 from statistics import mean
 import os
 import argparse
@@ -37,15 +32,17 @@ parser.add_argument('-s','--samples', metavar='{INPUT}', required=True, help='Pr
 # Option for Function database
 parser.add_argument('-p','--pfam', metavar='{INPUT}',required=True, help='Pfam file e.g. Pfam-A.clans.csv, provided for Pfam v32 in `datasets/core/`')
 
-
 # State tool used  
-parser.add_argument('-t','--tool', metavar='{TEXT}', required=True, help='State the tool used to annotate the geomes against the Pfam database: `hmmsearch` or `hmmscan`')
+parser.add_argument('-t','--tool', metavar='{TEXT}', help='State the tool used to annotate the geomes against the Pfam database: `hmmsearch` or `hmmscan`')
 
 # Options for output
 parser.add_argument('-o','--output', metavar='{OUTPUT}', required=True, help='Prefix for all the Pfam-profile file e.g. HuSynCom.')
 
 # Remove file ending
 parser.add_argument('-e','--extension', metavar='{TEXT}', default='.hmmer', required=True, help='Provide the extension for your Pfam annotation files.')
+
+# Remove file ending
+parser.add_argument('-m','--merge', default=False, action=argparse.BooleanOptionalAction, help='Option to merge premade vector files within a folder, define -e as "profile.txt""')
 
 
 args, unknown = parser.parse_known_args()
@@ -54,14 +51,15 @@ args, unknown = parser.parse_known_args()
 
 print (': Reading in the users options.')
 
+print (args.merge)
 
-pfam_file = args.p
+pfam_file = args.pfam
 
-genome_folder = args.s
+genome_folder = args.samples
 
-file_ending = args.e
+file_ending = args.extension
 
-output_file = args.o + '-profile.txt'
+output_file = args.output + '-profile.txt'
 
 
 
@@ -76,14 +74,36 @@ print (': The number of pfams studied are: ' + str(len(pfams)))
 
 print (': Users options accepted.')
 
+counting = 0
+for cfile in tqdm(glob.glob(genome_folder + '/*' + file_ending)):
+	counting +=1
 
-if args.t == 'hmmscan':
+print (': Files meeting criteria in folder:' + str(counting))
+
+
+if args.merge == True:
+	print (':: Merging your profiles.')
+	combined = ''
+	file_num = 0
+	for cfile in tqdm(glob.glob(genome_folder + '/*' + file_ending)):
+		df = pd.read_csv(cfile,sep='\t')
+		file_num +=1
+		if file_num == 1:
+			combined = df
+		else:
+			combined = pd.merge(combined, df, on='PfamID')
+	combined.to_csv(location_of_call + '/' + output_file, sep='\t', index=False, header=True)
+	sys.exit()
+
+
+
+if args.tool == 'hmmscan':
 	print (':: Handling your files and cataloging their Pfam presence/absence.')
 
 	samples_data = {}
 
-	for cfile in tqdm(glob.glob(genome_folder)):
-	    print (cfile)
+	for cfile in tqdm(glob.glob(genome_folder + '/*' + file_ending)):
+	    #print (cfile)
 	    indiv_pfam = []
 	    for line in open(cfile):
 	        if line.startswith('#'):
@@ -135,13 +155,13 @@ if args.t == 'hmmscan':
 	outputting.close()
 
 
-elif args.t == 'hmmsearch':
+elif args.tool == 'hmmsearch':
 	print (':: Handling your files and cataloging their Pfam presence/absence.')
 
 	samples_data = {}
 
-	for cfile in tqdm(glob.glob(genome_folder)):
-	    print (cfile)
+	for cfile in tqdm(glob.glob(genome_folder + '/*' + file_ending)):
+	    #print (cfile)
 	    indiv_pfam = []
 	    for line in open(cfile):
 	        if line.startswith('#'):
