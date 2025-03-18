@@ -65,6 +65,7 @@ parser.add_argument('-o','--output', metavar='{OUTPUT}', required=True, help='Pr
 # Advanced user options
 parser.add_argument('--iterations', metavar='{INT}',required=False,default=20, help='Change the number of iterations to select sample specific strains in step 1.')
 parser.add_argument('--exclusion', metavar='{INPUT}', required=False, help='Provide a list of genome names to be excluded during SynCom selection (in tsv format). Genome names must be the same as the ones included in the genome collection vector file (--genome).')
+parser.add_argument('--forced', metavar='{INPUT}', required=False, help='Provide a list of genome names to be forced into consideration during SynCom selection (in tsv format). Genome names must be the same as the ones included in the genome collection vector file (--genome).')
 
 args, unknown = parser.parse_known_args()
 
@@ -118,6 +119,14 @@ if args.exclusion is not None:
 else:
     pathogens = []
 
+# Give an option that people can state species to be forced into inclusion, but names must be the same as those in the file
+if args.forced is not None:
+    with open(args.forced,'r') as file:
+        forced_inclusion = [line.rstrip() for line in file]
+    genomes = genomes.drop(pathogens, axis=1)
+    print ("The following genomes will be forced into consideration during SynCom selection:", ", ".join(pathogens))
+else:
+    forced_inclusion = []
 
 # if grouping file is assigned
 if grouping_file is not None:
@@ -349,9 +358,10 @@ for column in tqdm(samples[samples_to_be_studied].columns): # For each sample   
                 score = (match/ (match+mismatch)) + bias_core_score + bias_spef_score
                 genome_scores[genome] = [score, match, mismatch]
             except:
-                print ("FAILED to be studied.")
-                print (column, len(accouted_pfams), len(samples_remaining_pfams))
-                print (genome, len(genome_pfams),match, mismatch)
+                #print ("FAILED to be studied.")
+                #print (column, len(accouted_pfams), len(samples_remaining_pfams))
+                #print (genome, len(genome_pfams),match, mismatch)
+                failed_genome_analysis = True
 
         #print ('Genome selection ended; ', datetime.now())
         max_match = max(genome_scores, key=genome_scores.get) # Identify the best consortia member this round
@@ -459,15 +469,17 @@ for k,v in genome_prev.items():
         
 print ('Prevalence filtered species;' + str(len(wanted_prev)))
 wanted = list((set(wanted_prev))-set(pathogens))
-wanted_prev = wanted
+have_to_be_forced = set(forced_inclusion) - set(wanted)
+wanted_inclusion = wanted + list(have_to_be_forced)
+wanted_prev = wanted_inclusion
+print ('Strains to be considered after force inclusion / exclusion; ' + str(len(wanted_prev)))
 
 
 outputting_filt = location_of_call + '/'+ output_prefix + '-Studied_strains.tsv'
 
 with open(outputting_filt, 'w') as file:
-    file.write("Species\n")
-#    for species in wanted_prev:
-#        file.write(species + '\n')
+    for species in wanted_prev:
+        file.write(species + '\n')
 
 consortia_size = consortia_size_wanted
 
