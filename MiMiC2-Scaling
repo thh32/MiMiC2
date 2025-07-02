@@ -1,0 +1,906 @@
+#!/usr/bin/env python3.11
+import sys
+import glob
+import pandas as pd
+import operator
+import collections
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy.stats as stats
+import itertools
+import subprocess
+import random
+from tqdm import tqdm
+import pandas
+import matplotlib
+from matplotlib import rc
+import seaborn as sns
+import matplotlib
+sns.set_palette("colorblind",3)
+matplotlib.rcParams['pdf.fonttype'] = 42
+from statistics import mean
+import os
+import argparse
+import warnings
+from time import process_time
+
+warnings.filterwarnings("ignore")
+
+
+location_of_file = os.path.dirname(os.path.realpath(__file__))
+
+
+location_of_call = os.getcwd()
+
+version = '2025-02-20'
+
+# User input
+parser = argparse.ArgumentParser(description='MiMiC2 v' + version)
+
+# Options for Sample data
+parser.add_argument('-s','--samples', metavar='{INPUT}', required=True, help='Pfam vector file of all metagenomic samples to be studied.')
+parser.add_argument('-m','--metadata', metavar='{INPUT}', required=False, help='Metadata file detailing the group assignment of each sample.')
+
+# Option for Function database
+parser.add_argument('-p','--pfam', metavar='{INPUT}',required=True, help='Pfam file e.g. Pfam-A.clans.csv, provided for Pfam v32 in `datasets/core/`')
+
+
+# Options for Genome database
+parser.add_argument('-g','--genomes', metavar='{INPUT}',required=True, help='Pfam vector file of genome collection.')
+
+
+# Options for SynCom design
+parser.add_argument('-c','--consortiasize', metavar='{INT}',required=True,default=10, help='Define the SynCom size the user is after.')
+
+parser.add_argument('--corebias_min', metavar='{FLOAT}', required=False,default=0.0, help='The minimal weighting provided to Pfams core to the studied group.')
+parser.add_argument('--corebias_max', metavar='{FLOAT}', required=False,default=1.0, help='The maximum weighting provided to Pfams core to the studied group.')
+parser.add_argument('--corebias_step', metavar='{FLOAT}', required=False,default=1.0, help='The incremental stepwise increase in weighting provided to Pfams core to the studied group.')
+
+parser.add_argument('--groupbias_min', metavar='{FLOAT}', required=False,default=0.0, help='The minimal weighting provided to Pfams significantly enriched in the studied group.')
+parser.add_argument('--groupbias_max', metavar='{FLOAT}', required=False,default=1.0, help='The maximum weighting provided to Pfams significantly enriched in the studied group.')
+parser.add_argument('--groupbias_step', metavar='{FLOAT}', required=False,default=1.0, help='The incremental stepwise increase in  weighting provided to Pfams significantly enriched in the studied group.')
+
+
+# Options for output
+parser.add_argument('-o','--output', metavar='{OUTPUT}', required=True, help='Name of the folder you want all the scaling files stored within.')
+
+# Advanced user options
+parser.add_argument('--exclusion', metavar='{INPUT}', required=False, help='Provide a list of genome names to be excluded during SynCom selection (in tsv format). Genome names must be the same as the ones included in the genome collection vector file (--genome).')
+
+args, unknown = parser.parse_known_args()
+
+start_time = process_time()
+
+#Variable assignments
+consortia_size_wanted = int(args.consortiasize)
+pfam_file = args.pfam
+sample_file = args.samples
+genome_file = args.genomes
+grouping_file = args.metadata
+
+
+if args.taxonomy is not None:
+	taxonomic_filtering = True
+	taxonomic_file = args.taxonomy
+	taxonomic_level = args.taxonomiclevel
+else:
+    taxonomic_filtering = False
+
+
+core_bias_min = float(args.corebias_min)
+core_bias_max = float(args.corebias_max)
+core_bias_step = float(args.corebias_step)
+pfam_bias_min = float(args.groupbias_min)
+pfam_bias_max = float(args.groupbias_max)
+pfam_bias_step = float(args.groupbias_step)
+
+output_prefix = args.output
+
+
+# Check if output directory exists
+
+output_folder = location_of_call + '/' + output_prefix
+
+if os.path.isdir(output_folder) == True:
+    print ('ERROR: Output directory already exists.')
+    sys.exit()
+else:
+    os.mkdir(output_folder)
+    
+
+print ("Reading in pfam vector files. ")
+## Read in files
+pfams = []
+for line in open(pfam_file,'r'):
+    timber = line.split('\t')
+    pfams.append(timber[0])
+print ('Number of pfams studied; ' + str(len(pfams))) #number of pfams in the pfam-clans file used
+
+
+samples = pd.read_csv(sample_file, sep='\t', index_col='PfamID')
+
+#if exclusion list is provided, genomes (of pathogens) will be exluded from the final vector here.
+genomes = pd.read_csv(genome_file, sep='\t', index_col='PfamID')
+
+# Give an option that people can state species to be ignored, but names must be the same as those in the file
+if args.exclusion is not None:
+	with open(args.exclusion,'r') as file:
+		pathogens = [line.rstrip() for line in file]
+	genomes = genomes.drop(pathogens, axis=1)
+	print ("The following genomes will be excluded from the analysis:", ", ".join(pathogens))
+else:
+    pathogens = []
+
+
+
+# if grouping file is assigned
+if grouping_file is not None:
+    if grouping_file.endswith("tsv"):
+        groups = pd.read_csv(grouping_file, sep='\t', index_col='SampleID')
+    else:
+        groups = pd.read_csv(grouping_file, sep=',', index_col='SampleID')
+    samples_to_be_studied = list(groups.loc[groups['Group'] == group_to_be_studied].index)
+else:
+    groups = ''
+    samples_to_be_studied = list(samples.columns)
+
+print ('Number of genomes studied; ' + str(len(genomes.keys())))
+
+find_models = {}
+if models_folder is not None and models_folder != " ":
+    for cfile in glob.glob(models_folder + '*.RDS'):
+        model_name = cfile.split('/')[-1]
+        find_models[model_name] = cfile
+    
+    print ('Number of GEMs; ' + str(len(find_models.keys())))
+else:
+      print ('Number of GEMs; ' + str(len(find_models.keys())))
+      print (':: Metabolic modelling not assigned. Terminating at Step 4 ::')
+
+
+print (':: Reading in pfam and vector files')
+
+## Determine sample groups
+
+
+if isinstance(groups, str):
+    print ('Total samples = ', str(len(samples.columns)))           
+    print ('All samples will be studied as a single group, without comparative weighting.')
+    group_to_be_studied = list(samples.columns) 
+    g1_samples = list(samples.columns) 
+    g1_bias = []
+else:
+    g1_bias = []
+
+    g2_bias = []
+
+    g1_samples = []
+
+    g2_samples = []
+
+    group1_is = list(groups['Group'].unique())[0]
+    group2_is = list(groups['Group'].unique())[1]
+    for SampleID, info in groups.iterrows():
+        grouping = info['Group']
+        if grouping == group1_is:
+            g1_samples.append(SampleID)
+        if grouping == group2_is:
+            g2_samples.append(SampleID)
+
+
+    print ('Total samples = ', str(len(samples.columns)))           
+    print ('Group 1 = ', group1_is)           
+    print ('Number of samples = ', str(len(g1_samples)) + '\n')           
+
+    print ('Group 2 = ', group2_is)           
+    print ('Number of samples = ', str(len(g2_samples)))    
+
+    # Set the group to be studied and a consortia predicted for
+    group_to_be_used = ''
+
+    if group1_is == group_to_be_studied:
+        group_to_be_studied == g1_samples
+
+    if group2_is == group_to_be_studied:
+        group_to_be_studied == g2_samples
+
+    for i, j in samples.iterrows():
+        g1_pres = 0
+        g1_abs = 0
+        g2_pres = 0
+        g2_abs = 0    
+
+        for sample in g1_samples:
+            if j[sample] == 1:
+                g1_pres +=1
+            else:
+                g1_abs +=1
+
+        for sample in g2_samples:
+            if j[sample] == 1:
+                g2_pres +=1
+            else:
+                g2_abs +=1
+
+        oddsratio, pvalue = stats.fisher_exact([[g1_pres, g1_abs], [g2_pres, g2_abs]])
+        #print ([g1_pres, g1_abs], [g2_pres, g2_abs])
+        #print (pvalue)
+        if pvalue <0.05:
+            g1_ratio = g1_pres / (g1_pres+g1_abs)
+            g2_ratio = g2_pres / (g2_pres+g2_abs)
+            if g1_ratio > g2_ratio:
+                g1_bias.append(j.name)
+            else:
+                g2_bias.append(j.name)
+
+
+    print ('Number of Group 1 enriched Pfams; ', len(g1_bias))
+    print ('Number of Group 2 enriched Pfams; ',len(g2_bias))
+
+if isinstance(groups, str):
+    g1_core_bias = []
+
+    for pfam, samples_info in samples.iterrows():
+        g1_pres = 0
+        g1_abs = 0
+
+
+        for sample in g1_samples: # only show info for this group
+            if samples_info[sample] == 1:  # If Pfam present in sample
+                g1_pres +=1
+            else:
+                g1_abs +=1
+
+        g1_ratio = g1_pres / (g1_pres+g1_abs)
+
+        if g1_ratio > 0.5:
+            g1_core_bias.append(pfam)
+
+    print ('Core proteins in Group 1 = ' , len(g1_core_bias))
+    
+    
+else:    
+    g1_core_bias = []
+
+    for pfam, samples_info in samples.iterrows():
+        g1_pres = 0
+        g1_abs = 0
+
+
+        for sample in g1_samples: # only show info for this group
+            if samples_info[sample] == 1:  # If Pfam present in sample
+                g1_pres +=1
+            else:
+                g1_abs +=1
+
+        g1_ratio = g1_pres / (g1_pres+g1_abs)
+
+        if g1_ratio > 0.5:
+            g1_core_bias.append(pfam)
+
+    print ('Core proteins in Group 1 = ' , len(g1_core_bias))
+
+    g2_core_bias = []
+
+    if len (g2_samples) > 0:
+        for pfam, samples_info in samples.iterrows():
+            g2_pres = 0
+            g2_abs = 0
+
+
+            for sample in g2_samples: # only show info for this group
+                if samples_info[sample] == 1:  # If Pfam present in sample
+                    g2_pres +=1
+                else:
+                    g2_abs +=1
+
+            g2_ratio = g2_pres / (g2_pres+g2_abs)
+
+            if g2_ratio > 0.5:
+                g2_core_bias.append(pfam)
+
+        print ('Core proteins in Group 2 = ' , len(g2_core_bias))
+print ('::: Determined functions weight.')
+
+def basic_comparison(original_file,consortia_file):
+    samples = pd.read_csv(original_file, sep='\t', index_col='PfamID')
+    consortia = pd.read_csv(consortia_file, sep='\t', index_col='PfamID')   
+    matches = []
+    mismatches = []
+    matches_perc = []
+    mismatches_perc = []
+    scores = []
+    for sample in samples.columns:
+        original_data = samples[sample]
+        original_pfams = list(original_data.loc[original_data == 1].index)
+        consortia_data = consortia[sample]
+        consortia_pfams = list(consortia_data.loc[consortia_data == 1].index)
+        match = len(list(set(original_pfams).intersection(consortia_pfams))) # Identifies the common 
+        mismatch = len(consortia_pfams)-match
+        match_perc = (match/len(original_pfams))*100
+        mismatch_perc = (mismatch/len(original_pfams))*100
+        score = (match/ (match+mismatch))
+        matches.append(match)
+        mismatches.append(mismatch)
+        matches_perc.append(match_perc)
+        mismatches_perc.append(mismatch_perc)
+        scores.append(score)
+    return matches, mismatches, matches_perc, mismatches_perc, scores
+
+
+
+
+def distance_cal(original_file,consortia_file):
+    samples = pd.read_csv(original_file, sep='\t', index_col='PfamID')
+    consortia = pd.read_csv(consortia_file, sep='\t', index_col='PfamID')
+    
+    consortia = consortia.add_prefix('Consortia_')
+    samples = samples.add_prefix('Sample_')
+    
+    merged_inner = pd.merge(left=consortia, right=samples, left_on='PfamID', right_on='PfamID')
+    
+    merged_inner.to_csv(output_folder + '/temp-distance_dataset.tsv', index=True, sep='\t')
+    
+    bashCommand = 'Rscript ' + location_of_file + '/scripts/2025-07-01_Distances-calc.R ' + output_folder + '/temp-distance_dataset.tsv'
+    process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
+    output, error = process.communicate()
+    
+    distances = pd.read_csv(output_folder + '/temp-sample-Consortia-distances.tsv', sep=',', index_col = 'Unnamed: 0')
+    
+    wanted_distances = []
+    for sample, data in distances.items():
+        #print (sample, data)
+        if 'Sample_' in sample:
+            other = sample.replace('Sample_','Consortia_')
+            distance = data[other]
+            wanted_distances.append(distance)
+            
+            
+    os.remove(output_folder + '/temp-distance_dataset.tsv')
+    os.remove(output_folder + '/temp-sample-Consortia-distances.tsv')
+            
+    return wanted_distances
+
+
+
+
+## Step 1
+print (':::: Step 1: Create continuum of weights. ::::')
+
+core_bias_min = 0
+core_bias_max = 1
+core_bias_step = 0.0025
+
+pfam_bias_min = 0
+pfam_bias_max = 1
+pfam_bias_step = 0.0025
+
+
+bias_factor = 'NA'
+core_biased_weights = []
+for i_factor in range(int(core_bias_min),int(core_bias_max*10000+int(core_bias_step*10000)),int(core_bias_step*10000)):
+    bias_factor = (i_factor/10000)
+    #print (bias_factor)
+    core_biased_weights.append(bias_factor)
+     
+    
+bias_factor = 'NA'
+pfam_biased_weights = []
+for i_factor in range(int(pfam_bias_min),int(pfam_bias_max*10000+int(pfam_bias_step*10000)),int(pfam_bias_step*10000)):
+    bias_factor = (i_factor/10000)
+    #print (bias_factor)
+    pfam_biased_weights.append(bias_factor)
+    
+print ('Weights in each strategy generated: ' + str(len(core_biased_weights)))
+
+print (':::: Step 1 complete: Continuum of weights generated. ::::')
+
+
+
+
+
+## Step 1
+print ('::::: Step 2: Iteration over core function weightings. :::::')
+
+
+for bias_factor in pfam_biased_weights:
+    wanted_pfams = []
+
+    iterations_wanted = consortia_size_wanted
+
+    # Only incrmeentally increase the core bias factor, while the discriminatory factor is left alone.
+    core_bias = bias_factor
+    pfam_bias = 0
+    
+
+
+
+    Third_method_all_data = {}
+    for column in samples: # For each sample
+        sample_data = samples[column]
+        sample_specific_genomes = genomes
+        consortia = []
+        consortia_matches = []
+        consortia_mismatches = []
+        cul_accounted = []
+        accouted_pfams = []
+        accouted_pfams_percentage = 0.0
+        samples_pfams = list(sample_data.loc[sample_data > 0].index)
+        samples_remaining_pfams = samples_pfams
+
+        #print ('Minimal consortia for sample; ', column)
+        #print ('Sample contains this many pfams; ', str(len(samples_pfams)) )
+
+
+        for iteration in range(0,iterations_wanted): # Create an initial list of 50 consortia members
+            genome_scores = {}
+            #print ('Genome selection started; ', datetime.now())
+            #print ('Number of genomes;', str(len(sample_specific_genomes.columns)))
+            for genome in sample_specific_genomes: # Iterate over the remaining genomes each time
+
+                genome_data = sample_specific_genomes[genome] # This section creates the single genome file
+
+
+                # This is the key difference, here we select to study only those present in the genome
+                genome_pfams = list(genome_data.loc[genome_data == 1].index)
+
+                #!!!!!!!!!!!!!!!! This is the time intensive step
+                #t1 = [x for x in genome_pfams if x not in accouted_pfams] # Removes those pfams already accounted for
+                #genome_pfams = t1
+
+                match_list = list(set(samples_remaining_pfams).intersection(genome_pfams))
+                match = 0.0
+
+                # Bias based on core sample functions
+                if column in g1_samples:
+                    bias_core_score = len(list(set(g1_core_bias).intersection(genome_pfams))) * core_bias
+                    bias_spef_score = len(list(set(g1_bias).intersection(genome_pfams))) * pfam_bias
+                elif column in g2_samples:
+                    bias_core_score = len(list(set(g2_core_bias).intersection(genome_pfams))) * core_bias
+                    bias_spef_score = len(list(set(g2_bias).intersection(genome_pfams))) * pfam_bias
+                # Bias based on core genome functions
+                for i in match_list:
+                    #match += pfams_prev[i]
+                    match +=1
+                #print (match)
+                mismatch = len(list(genome_data.loc[genome_data == 1].index))-len(match_list)
+                #print (mismatch)
+
+                try:
+                    score = (match/ (match+mismatch)) + bias_core_score + bias_spef_score
+                    genome_scores[genome] = [score, match, mismatch]
+                except:
+                    #print ("FAILED to be studied.")
+                    #print (column, len(accouted_pfams), len(samples_remaining_pfams))
+                    #print (genome, len(genome_pfams),match, mismatch)
+                    failed_genome_analysis = True
+
+                    
+
+
+            #print ('Genome selection ended; ', datetime.now())
+            max_match = max(genome_scores, key=genome_scores.get) # Identify the best consortia member this round
+            consortia.append(max_match) # Add to list
+            #print ('Added consortia member; ', max_match)
+
+
+            # At this point we have selected the consortia member so the remainder readies the datasets for the next round
+
+            # Obtain best matches data
+            genome_data = sample_specific_genomes[max_match] # This section creates the single genome file
+            genome_pfams = list(genome_data.loc[genome_data == 1].index)
+            score, match, mismatch = genome_scores[max_match]
+            #print (match, mismatch, score)
+
+            # Calculate cul. accounted pfams %
+            for i in list(set(samples_remaining_pfams).intersection(genome_pfams)):
+                accouted_pfams.append(i)
+            accouted_pfams_percentage = (len(accouted_pfams)/ float(len(samples_pfams)))*100
+            #print ('Culumalative pfams accounted for; ', str(accouted_pfams_percentage))
+
+            # Remove included genome from genome list
+            t1 = sample_specific_genomes.drop(list(set(samples_remaining_pfams).intersection(genome_pfams)))
+            t2 = t1.drop(columns=[max_match])
+            sample_specific_genomes = t2
+
+            # This section removes pfams already counted for and the selected taxa
+            s1 = [x for x in samples_remaining_pfams if x not in list(set(samples_pfams).intersection(genome_pfams))]
+            samples_remaining_pfams = s1
+            #print ("Unaccounted for pfams; ", str(len(samples_remaining_pfams)))
+
+
+
+
+            # Store statistics
+            consortia_matches.append(match)
+            consortia_mismatches.append(mismatch)
+            cul_accounted.append(accouted_pfams_percentage)
+            #print ('Selection made for round; ', str(iteration))
+
+
+        cul_mismatches = []
+        tot_mismatch = 0
+        for i in consortia_mismatches:
+            tot_mismatch += i
+            cul_mismatches.append(tot_mismatch)
+
+        kneedle = KneeLocator(range(0,iterations_wanted), cul_accounted, S=1.0, curve="concave", direction="increasing")
+
+        #print(round(kneedle.knee, 3))
+        #print(round(kneedle.elbow, 3))
+        #kneedle.plot_knee_normalized()
+        #kneedle.plot_knee()
+        Third_method_all_data[column] = [consortia_matches, consortia_mismatches, cul_accounted,cul_mismatches, consortia]
+
+
+
+        #fig = plt.figure()
+        #ax = plt.axes()
+        #ax.plot(consortia_mismatches)
+
+
+        #fig = plt.figure()
+        #ax = plt.axes()
+        #ax.plot(cul_mismatches)
+
+
+
+    # Extract pfams of minimal consortia for each sample BUT of defined size
+
+    sample_consortia_pfams = {}
+    for sample, data in Third_method_all_data.items():
+        sample_Db = []
+        #print (line.split('\t'))
+        min_size = data[4]
+        numbs = 0
+        for gen in data[4]:
+            if numbs < 10: 
+                genome_pfams = list(genomes[gen].loc[genomes[gen] == 1].index)
+                for i in genome_pfams:
+                    if i not in sample_Db:
+                        sample_Db.append(i)
+                numbs +=1
+
+        if len(sample_Db) > 0:
+            sample_consortia_pfams[sample] = sample_Db
+            #print (sample, len(sample_Db))
+        else:
+            aok = 0
+            #print ('REMOVE; ', sample)
+
+
+    pfams = []
+    for line in open('../Pfam-A.clans.tsv','r'):
+        timber = line.split('\t')
+        pfams.append(timber[0])
+
+
+
+
+
+
+
+    outputting_biased_consortia = open(output_folder + '/MiMiC2-Scaling-core-' + str(bias_factor) +'-PFAMs-ConsortiaOf' + str(iterations_wanted)  +'.tsv','w')
+
+
+    pfam_lines = {}
+
+    header = 'PfamID'
+
+    for pfam in pfams: # Provide an entry for every pfam so each will be accounted for
+        pfam_lines[pfam] = pfam
+
+    for sample, data in sample_consortia_pfams.items():
+        theader = header + '\t' + sample # add sample name to header
+        header = theader
+
+        tpfam_lines = {}
+        for pfam, existingline in pfam_lines.items(): # Loop over every pfam so all are accounted for
+            if pfam in data: # if the pfam is in the sample add a 1 
+                tpfam_lines[pfam] = existingline + '\t1'
+            else: # if the pfam is not in the sample add a 0
+                tpfam_lines[pfam] = existingline + '\t0'
+        pfam_lines = tpfam_lines
+
+    outputting_biased_consortia.write(header + '\n')
+
+    for k, v in pfam_lines.items():
+        outputting_biased_consortia.write(v + '\n')
+
+    outputting_biased_consortia.close()
+
+print ('::::: Step 2 complete: Iterated over core function weights. ::::::')
+
+
+
+
+
+## Step 1
+print (':::::: Step 3: Iteration over discriminatory function weightings. ::::::')
+
+
+for bias_factor in pfam_biased_weights:
+    wanted_pfams = []
+
+    iterations_wanted = consortia_size_wanted
+
+    # Only incrmeentally increase the core bias factor, while the discriminatory factor is left alone.
+    core_bias = 0  
+    pfam_bias = bias_factor
+    
+
+
+
+    Third_method_all_data = {}
+    for column in samples: # For each sample
+        sample_data = samples[column]
+        sample_specific_genomes = genomes
+        consortia = []
+        consortia_matches = []
+        consortia_mismatches = []
+        cul_accounted = []
+        accouted_pfams = []
+        accouted_pfams_percentage = 0.0
+        samples_pfams = list(sample_data.loc[sample_data > 0].index)
+        samples_remaining_pfams = samples_pfams
+
+        #print ('Minimal consortia for sample; ', column)
+        #print ('Sample contains this many pfams; ', str(len(samples_pfams)) )
+
+
+        for iteration in range(0,iterations_wanted): # Create an initial list of 50 consortia members
+            genome_scores = {}
+            #print ('Genome selection started; ', datetime.now())
+            #print ('Number of genomes;', str(len(sample_specific_genomes.columns)))
+            for genome in sample_specific_genomes: # Iterate over the remaining genomes each time
+
+                genome_data = sample_specific_genomes[genome] # This section creates the single genome file
+
+
+                # This is the key difference, here we select to study only those present in the genome
+                genome_pfams = list(genome_data.loc[genome_data == 1].index)
+
+                #!!!!!!!!!!!!!!!! This is the time intensive step
+                #t1 = [x for x in genome_pfams if x not in accouted_pfams] # Removes those pfams already accounted for
+                #genome_pfams = t1
+
+                match_list = list(set(samples_remaining_pfams).intersection(genome_pfams))
+                match = 0.0
+
+                # Bias based on core sample functions
+                if column in g1_samples:
+                    bias_core_score = len(list(set(g1_core_bias).intersection(genome_pfams))) * core_bias
+                    bias_spef_score = len(list(set(g1_bias).intersection(genome_pfams))) * pfam_bias
+                elif column in g2_samples:
+                    bias_core_score = len(list(set(g2_core_bias).intersection(genome_pfams))) * core_bias
+                    bias_spef_score = len(list(set(g2_bias).intersection(genome_pfams))) * pfam_bias
+                # Bias based on core genome functions
+                for i in match_list:
+                    #match += pfams_prev[i]
+                    match +=1
+                #print (match)
+                mismatch = len(list(genome_data.loc[genome_data == 1].index))-len(match_list)
+                #print (mismatch)
+
+                try:
+                    score = (match/ (match+mismatch)) + bias_core_score + bias_spef_score
+                    genome_scores[genome] = [score, match, mismatch]
+                except:
+                    #print ("FAILED to be studied.")
+                    #print (column, len(accouted_pfams), len(samples_remaining_pfams))
+                    #print (genome, len(genome_pfams),match, mismatch)
+                    failed_genome_analysis = True
+
+                    
+
+
+            #print ('Genome selection ended; ', datetime.now())
+            max_match = max(genome_scores, key=genome_scores.get) # Identify the best consortia member this round
+            consortia.append(max_match) # Add to list
+            #print ('Added consortia member; ', max_match)
+
+
+            # At this point we have selected the consortia member so the remainder readies the datasets for the next round
+
+            # Obtain best matches data
+            genome_data = sample_specific_genomes[max_match] # This section creates the single genome file
+            genome_pfams = list(genome_data.loc[genome_data == 1].index)
+            score, match, mismatch = genome_scores[max_match]
+            #print (match, mismatch, score)
+
+            # Calculate cul. accounted pfams %
+            for i in list(set(samples_remaining_pfams).intersection(genome_pfams)):
+                accouted_pfams.append(i)
+            accouted_pfams_percentage = (len(accouted_pfams)/ float(len(samples_pfams)))*100
+            #print ('Culumalative pfams accounted for; ', str(accouted_pfams_percentage))
+
+            # Remove included genome from genome list
+            t1 = sample_specific_genomes.drop(list(set(samples_remaining_pfams).intersection(genome_pfams)))
+            t2 = t1.drop(columns=[max_match])
+            sample_specific_genomes = t2
+
+            # This section removes pfams already counted for and the selected taxa
+            s1 = [x for x in samples_remaining_pfams if x not in list(set(samples_pfams).intersection(genome_pfams))]
+            samples_remaining_pfams = s1
+            #print ("Unaccounted for pfams; ", str(len(samples_remaining_pfams)))
+
+
+
+
+            # Store statistics
+            consortia_matches.append(match)
+            consortia_mismatches.append(mismatch)
+            cul_accounted.append(accouted_pfams_percentage)
+            #print ('Selection made for round; ', str(iteration))
+
+
+        cul_mismatches = []
+        tot_mismatch = 0
+        for i in consortia_mismatches:
+            tot_mismatch += i
+            cul_mismatches.append(tot_mismatch)
+
+        kneedle = KneeLocator(range(0,iterations_wanted), cul_accounted, S=1.0, curve="concave", direction="increasing")
+
+        #print(round(kneedle.knee, 3))
+        #print(round(kneedle.elbow, 3))
+        #kneedle.plot_knee_normalized()
+        #kneedle.plot_knee()
+        Third_method_all_data[column] = [consortia_matches, consortia_mismatches, cul_accounted,cul_mismatches, consortia]
+
+
+
+        #fig = plt.figure()
+        #ax = plt.axes()
+        #ax.plot(consortia_mismatches)
+
+
+        #fig = plt.figure()
+        #ax = plt.axes()
+        #ax.plot(cul_mismatches)
+
+
+
+    # Extract pfams of minimal consortia for each sample BUT of defined size
+
+    sample_consortia_pfams = {}
+    for sample, data in Third_method_all_data.items():
+        sample_Db = []
+        #print (line.split('\t'))
+        min_size = data[4]
+        numbs = 0
+        for gen in data[4]:
+            if numbs < 10: 
+                genome_pfams = list(genomes[gen].loc[genomes[gen] == 1].index)
+                for i in genome_pfams:
+                    if i not in sample_Db:
+                        sample_Db.append(i)
+                numbs +=1
+
+        if len(sample_Db) > 0:
+            sample_consortia_pfams[sample] = sample_Db
+            #print (sample, len(sample_Db))
+        else:
+            aok = 0
+            #print ('REMOVE; ', sample)
+
+
+    pfams = []
+    for line in open('../Pfam-A.clans.tsv','r'):
+        timber = line.split('\t')
+        pfams.append(timber[0])
+
+
+
+
+
+
+
+    outputting_biased_consortia = open(output_folder + '/MiMiC2-Scaling-discriminatory-' + str(bias_factor) +'-PFAMs-ConsortiaOf' + str(iterations_wanted)  +'.tsv','w')
+
+
+    pfam_lines = {}
+
+    header = 'PfamID'
+
+    for pfam in pfams: # Provide an entry for every pfam so each will be accounted for
+        pfam_lines[pfam] = pfam
+
+    for sample, data in sample_consortia_pfams.items():
+        theader = header + '\t' + sample # add sample name to header
+        header = theader
+
+        tpfam_lines = {}
+        for pfam, existingline in pfam_lines.items(): # Loop over every pfam so all are accounted for
+            if pfam in data: # if the pfam is in the sample add a 1 
+                tpfam_lines[pfam] = existingline + '\t1'
+            else: # if the pfam is not in the sample add a 0
+                tpfam_lines[pfam] = existingline + '\t0'
+        pfam_lines = tpfam_lines
+
+    outputting_biased_consortia.write(header + '\n')
+
+    for k, v in pfam_lines.items():
+        outputting_biased_consortia.write(v + '\n')
+
+    outputting_biased_consortia.close()
+
+print (':::::: Step 3 complete: Iterated over discriminatory function weights. ::::::')
+
+
+
+
+
+
+
+
+
+
+print ('::::::: Step 4: Comparison of weighted SynComs. :::::::')
+
+
+samples = '../Comparison_Dataset_PFAMs.txt'
+
+comparison_stats ={}
+
+
+
+outputting_weighted_results = open(output_folder + '/Weighted_comparison-ConsortiaOf' + str(iterations_wanted)  +'.tsv','w')
+
+
+outputting_weighted_results.write('Method\tWeight\tDistance\tMatches\tMismatches\tMatch_percentage\tMismatch_percentage\tRatio\n')
+#outputting.write('Method,Weight,Matches,Mismatches,Match_percentage,Mismatch_percentage,Ratio\n')
+
+for bias_factor in pfam_biased_weights:
+    discriminatory_bias_file = output_folder + '/MiMiC2-Scaling-discriminatory-' + str(bias_factor) +'-PFAMs-ConsortiaOf' + str(iterations_wanted)
+    dist = distance_cal(original_samples,discriminatory_bias_file)
+    match, mismatch, match_perc, mismatch_perc, score = basic_comparison(original_samples,discriminatory_bias_file)
+    for i in range(0,len(dist)):
+        outputting_weighted_results.write ('Discriminatory weighting\t' + str(bias_factor) + '\t' + str(dist[i]) + '\t' + str(match[i]) + '\t' + str(mismatch[i]) + '\t' + str(match_perc[i]) + '\t' + str(mismatch_perc[i]) + '\t' + str(score[i]) + '\n')
+
+    core_bias_file = output_folder + '/MiMiC2-Scaling-core-' + str(bias_factor) +'-PFAMs-ConsortiaOf' + str(iterations_wanted)
+
+    dist = distance_cal(original_samples,core_bias_file)
+    match, mismatch, match_perc, mismatch_perc, score = basic_comparison(original_samples,core_bias_file)
+    for i in range(0,len(dist)):
+        outputting_weighted_results.write ('Core group weighting\t' + str(bias_factor) + '\t' + str(dist[i]) + '\t' + str(match[i]) + '\t' + str(mismatch[i]) + '\t' + str(match_perc[i]) + '\t' + str(mismatch_perc[i]) + '\t' + str(score[i]) + '\n')
+
+
+outputting_weighted_results.close()
+
+print ('::::::: Step 4 complete: Completed comparison of weighted SynComs. :::::::')
+
+
+
+
+
+print (':::::::: Step 5: Visualisation of scaling. ::::::::')
+
+
+inform = pd.read_csv(output_folder + '/Weighted_comparison-ConsortiaOf' + str(iterations_wanted)  +'.tsv',sep='\t', header=0, index_col=False) 
+
+ax = sns.lineplot(data=inform, x="Weight", y="Match_percentage", hue="Method")
+sns.move_legend(ax, "lower right")
+ax.set(ylabel='Matches (%)')
+plt.savefig(output_folder + '/MiMiC2-Matches.pdf')
+
+ax = sns.lineplot(data=inform, x="Weight", y="Mismatch_percentage", hue="Method")
+sns.move_legend(ax, "lower right")
+ax.set(ylabel='Mismatches (%)')
+plt.savefig(output_folder + '/MiMiC2-Mismatches.pdf')
+
+ax = sns.lineplot(data=inform, x="Weight", y="Ratio", hue="Method")
+sns.move_legend(ax, "lower right")
+plt.savefig(output_folder + '/MiMiC2-Ratio.pdf')
+
+ax = sns.lineplot(data=inform, x="Weight", y="Distance", hue="Method")
+sns.move_legend(ax, "lower right")
+plt.savefig(output_folder + '/MiMiC2-Distance.pdf')
+
+
+print (':::::::: Step 5 complete: Completed visualisation. ::::::::')
+
+print ('::::::::: MiMiC2-Scaling complete. :::::::::')
+
+sys.exit()
+
