@@ -84,6 +84,10 @@ sudo apt-get -y install libglpk-dev
 ```
 
 Next, install the R packages required for metabolic modelling:
+
+```
+conda install conda-forge::r-vegan
+```
 ```
 Rscript -e 'remotes::install_github("SysBioChalmers/sybil")'
 ```
