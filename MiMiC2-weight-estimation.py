@@ -79,12 +79,7 @@ genome_file = args.genomes
 grouping_file = args.metadata
 
 
-if args.taxonomy is not None:
-	taxonomic_filtering = True
-	taxonomic_file = args.taxonomy
-	taxonomic_level = args.taxonomiclevel
-else:
-    taxonomic_filtering = False
+
 
 
 core_bias_min = float(args.corebias_min)
@@ -135,27 +130,16 @@ else:
 
 # if grouping file is assigned
 if grouping_file is not None:
+    #print (grouping_file)
+    #print (pd.read_csv(grouping_file, sep=','))
     if grouping_file.endswith("tsv"):
         groups = pd.read_csv(grouping_file, sep='\t', index_col='SampleID')
     else:
         groups = pd.read_csv(grouping_file, sep=',', index_col='SampleID')
-    samples_to_be_studied = list(groups.loc[groups['Group'] == group_to_be_studied].index)
-else:
-    groups = ''
-    samples_to_be_studied = list(samples.columns)
+
 
 print ('Number of genomes studied; ' + str(len(genomes.keys())))
 
-find_models = {}
-if models_folder is not None and models_folder != " ":
-    for cfile in glob.glob(models_folder + '*.RDS'):
-        model_name = cfile.split('/')[-1]
-        find_models[model_name] = cfile
-    
-    print ('Number of GEMs; ' + str(len(find_models.keys())))
-else:
-      print ('Number of GEMs; ' + str(len(find_models.keys())))
-      print (':: Metabolic modelling not assigned. Terminating at Step 4 ::')
 
 
 print (':: Reading in pfam and vector files')
@@ -166,7 +150,6 @@ print (':: Reading in pfam and vector files')
 if isinstance(groups, str):
     print ('Total samples = ', str(len(samples.columns)))           
     print ('All samples will be studied as a single group, without comparative weighting.')
-    group_to_be_studied = list(samples.columns) 
     g1_samples = list(samples.columns) 
     g1_bias = []
 else:
@@ -198,11 +181,6 @@ else:
     # Set the group to be studied and a consortia predicted for
     group_to_be_used = ''
 
-    if group1_is == group_to_be_studied:
-        group_to_be_studied == g1_samples
-
-    if group2_is == group_to_be_studied:
-        group_to_be_studied == g2_samples
 
     for i, j in samples.iterrows():
         g1_pres = 0
@@ -345,7 +323,7 @@ def distance_cal(original_file,consortia_file):
     process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
     output, error = process.communicate()
     
-    distances = pd.read_csv(output_folder + '/temp-sample-Consortia-distances.tsv', sep=',', index_col = 'Unnamed: 0')
+    distances = pd.read_csv(location_of_call + '/Sample-Consortia-distances.tsv', sep='\t')
     
     wanted_distances = []
     for sample, data in distances.items():
@@ -357,7 +335,7 @@ def distance_cal(original_file,consortia_file):
             
             
     os.remove(output_folder + '/temp-distance_dataset.tsv')
-    os.remove(output_folder + '/temp-sample-Consortia-distances.tsv')
+    os.remove(location_of_call + '/Sample-Consortia-distances.tsv')
             
     return wanted_distances
 
@@ -367,13 +345,13 @@ def distance_cal(original_file,consortia_file):
 ## Step 1
 print (':::: Step 1: Create continuum of weights. ::::')
 
-core_bias_min = 0
-core_bias_max = 1
-core_bias_step = 0.0025
+#core_bias_min = 0
+#core_bias_max = 1
+#core_bias_step = 0.0025
 
-pfam_bias_min = 0
-pfam_bias_max = 1
-pfam_bias_step = 0.0025
+#pfam_bias_min = 0
+#pfam_bias_max = 1
+#pfam_bias_step = 0.0025
 
 
 bias_factor = 'NA'
@@ -392,21 +370,21 @@ for i_factor in range(int(pfam_bias_min),int(pfam_bias_max*10000+int(pfam_bias_s
     pfam_biased_weights.append(bias_factor)
     
 print ('Weights in each strategy generated: ' + str(len(core_biased_weights)))
+#print (core_biased_weights)
 
 print (':::: Step 1 complete: Continuum of weights generated. ::::')
 
 
-
+iterations_wanted = consortia_size_wanted
 
 
 ## Step 1
 print ('::::: Step 2: Iteration over core function weightings. :::::')
 
-
-for bias_factor in pfam_biased_weights:
+for bias_factor in tqdm(pfam_biased_weights):
     wanted_pfams = []
 
-    iterations_wanted = consortia_size_wanted
+
 
     # Only incrmeentally increase the core bias factor, while the discriminatory factor is left alone.
     core_bias = bias_factor
@@ -524,12 +502,7 @@ for bias_factor in pfam_biased_weights:
             tot_mismatch += i
             cul_mismatches.append(tot_mismatch)
 
-        kneedle = KneeLocator(range(0,iterations_wanted), cul_accounted, S=1.0, curve="concave", direction="increasing")
 
-        #print(round(kneedle.knee, 3))
-        #print(round(kneedle.elbow, 3))
-        #kneedle.plot_knee_normalized()
-        #kneedle.plot_knee()
         Third_method_all_data[column] = [consortia_matches, consortia_mismatches, cul_accounted,cul_mismatches, consortia]
 
 
@@ -570,7 +543,7 @@ for bias_factor in pfam_biased_weights:
 
 
     pfams = []
-    for line in open('../Pfam-A.clans.tsv','r'):
+    for line in open(pfam_file,'r'):
         timber = line.split('\t')
         pfams.append(timber[0])
 
@@ -619,7 +592,7 @@ print ('::::: Step 2 complete: Iterated over core function weights. ::::::')
 print (':::::: Step 3: Iteration over discriminatory function weightings. ::::::')
 
 
-for bias_factor in pfam_biased_weights:
+for bias_factor in tqdm(pfam_biased_weights):
     wanted_pfams = []
 
     iterations_wanted = consortia_size_wanted
@@ -740,12 +713,6 @@ for bias_factor in pfam_biased_weights:
             tot_mismatch += i
             cul_mismatches.append(tot_mismatch)
 
-        kneedle = KneeLocator(range(0,iterations_wanted), cul_accounted, S=1.0, curve="concave", direction="increasing")
-
-        #print(round(kneedle.knee, 3))
-        #print(round(kneedle.elbow, 3))
-        #kneedle.plot_knee_normalized()
-        #kneedle.plot_knee()
         Third_method_all_data[column] = [consortia_matches, consortia_mismatches, cul_accounted,cul_mismatches, consortia]
 
 
@@ -786,7 +753,7 @@ for bias_factor in pfam_biased_weights:
 
 
     pfams = []
-    for line in open('../Pfam-A.clans.tsv','r'):
+    for line in open(pfam_file,'r'):
         timber = line.split('\t')
         pfams.append(timber[0])
 
@@ -852,13 +819,14 @@ outputting_weighted_results.write('Method\tWeight\tDistance\tMatches\tMismatches
 #outputting.write('Method,Weight,Matches,Mismatches,Match_percentage,Mismatch_percentage,Ratio\n')
 
 for bias_factor in pfam_biased_weights:
-    discriminatory_bias_file = output_folder + '/MiMiC2-Scaling-discriminatory-' + str(bias_factor) +'-PFAMs-ConsortiaOf' + str(iterations_wanted)
+    discriminatory_bias_file = output_folder + '/MiMiC2-Scaling-discriminatory-' + str(bias_factor) +'-PFAMs-ConsortiaOf' + str(iterations_wanted) + '.tsv'
+    original_samples = sample_file
     dist = distance_cal(original_samples,discriminatory_bias_file)
     match, mismatch, match_perc, mismatch_perc, score = basic_comparison(original_samples,discriminatory_bias_file)
     for i in range(0,len(dist)):
         outputting_weighted_results.write ('Discriminatory weighting\t' + str(bias_factor) + '\t' + str(dist[i]) + '\t' + str(match[i]) + '\t' + str(mismatch[i]) + '\t' + str(match_perc[i]) + '\t' + str(mismatch_perc[i]) + '\t' + str(score[i]) + '\n')
 
-    core_bias_file = output_folder + '/MiMiC2-Scaling-core-' + str(bias_factor) +'-PFAMs-ConsortiaOf' + str(iterations_wanted)
+    core_bias_file = output_folder + '/MiMiC2-Scaling-core-' + str(bias_factor) +'-PFAMs-ConsortiaOf' + str(iterations_wanted) + '.tsv'
 
     dist = distance_cal(original_samples,core_bias_file)
     match, mismatch, match_perc, mismatch_perc, score = basic_comparison(original_samples,core_bias_file)
@@ -883,19 +851,23 @@ ax = sns.lineplot(data=inform, x="Weight", y="Match_percentage", hue="Method")
 sns.move_legend(ax, "lower right")
 ax.set(ylabel='Matches (%)')
 plt.savefig(output_folder + '/MiMiC2-Matches.pdf')
+plt.close()
 
 ax = sns.lineplot(data=inform, x="Weight", y="Mismatch_percentage", hue="Method")
 sns.move_legend(ax, "lower right")
 ax.set(ylabel='Mismatches (%)')
 plt.savefig(output_folder + '/MiMiC2-Mismatches.pdf')
+plt.close()
 
 ax = sns.lineplot(data=inform, x="Weight", y="Ratio", hue="Method")
 sns.move_legend(ax, "lower right")
 plt.savefig(output_folder + '/MiMiC2-Ratio.pdf')
+plt.close()
 
 ax = sns.lineplot(data=inform, x="Weight", y="Distance", hue="Method")
 sns.move_legend(ax, "lower right")
 plt.savefig(output_folder + '/MiMiC2-Distance.pdf')
+plt.close()
 
 
 print (':::::::: Step 5 complete: Completed visualisation. ::::::::')
