@@ -89,6 +89,9 @@ Next, install the R packages required for metabolic modelling:
 conda install conda-forge::r-vegan
 ```
 ```
+conda install conda-forge::r-remotes
+```
+```
 Rscript -e 'remotes::install_github("SysBioChalmers/sybil")'
 ```
 ```
