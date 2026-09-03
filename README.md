@@ -82,6 +82,10 @@ Install glpk-dev:
 ```
 sudo apt-get -y install libglpk-dev
 ```
+Or for redhat/rpm:
+```
+sudo yum install -y glpk-devel
+```
 
 Next, install the R packages required for metabolic modelling:
 
